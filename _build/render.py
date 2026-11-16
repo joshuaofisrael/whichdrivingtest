@@ -6,18 +6,20 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from config import CF_BEACON_TOKEN, CHECKED_LABEL, DOMAIN, NOINDEX, PUBLISHED, SITE
+from config import CF_BEACON_TOKEN, CHECKED_LABEL, DOMAIN, GA4_ID, NOINDEX, PUBLISHED, SITE
 from geo import REGIONS, region_groups
 
 BANNER = (
     '<p class="banner"><strong>Not a government site.</strong> '
+    "Not affiliated with any DMV. "
     "This is general information, not legal advice. Rules and fees change. "
     'Check your state licensing agency before you apply. <a href="/disclaimer/">Read the disclaimer</a>.</p>'
 )
 
 FOOTER_BLURB = (
     f"<strong>{SITE}</strong> explains driving test and license rules from official state agency pages. "
-    "We are not a government site. This is general information, not legal advice. "
+    "We are not a government site and we are not affiliated with any DMV. "
+    "This is general information, not legal advice. "
     "The state agency page controls, and rules and fees change."
 )
 
@@ -226,37 +228,81 @@ def byline():
     return f'<p class="byline">By {esc(SITE)}. Last checked {esc(CHECKED_LABEL)}.</p>'
 
 
-def page(title, description, path, body, schemas, nav=None, picker=""):
+def analytics_html():
+    """Launch-only analytics. GA4 is consent-gated. The Cloudflare beacon is not."""
+    if NOINDEX:
+        return "<!-- analytics: omitted while NOINDEX is true -->"
+    beacon = "<!-- cf-beacon: token missing -->"
+    if CF_BEACON_TOKEN:
+        beacon = (
+            '<script defer src="https://static.cloudflareinsights.com/beacon.min.js" '
+            f"data-cf-beacon='{{\"token\": \"{CF_BEACON_TOKEN}\"}}'></script>"
+        )
+    ga_id = esc(GA4_ID or "")
+    consent = f"""<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){{dataLayer.push(arguments);}}
+gtag('consent','default',{{
+  ad_storage:'denied',
+  ad_user_data:'denied',
+  ad_personalization:'denied',
+  analytics_storage:'denied',
+  functionality_storage:'denied',
+  personalization_storage:'denied',
+  security_storage:'granted',
+  wait_for_update:500
+}});
+gtag('set','ads_data_redaction',true);
+gtag('set','url_passthrough',true);
+</script>
+<script src="/assets/consent.js" defer data-ga4-id="{ga_id}" data-ga4-loader="https://www.googletagmanager.com/gtag/js"></script>"""
+    return consent + beacon
+
+
+def consent_banner():
+    if NOINDEX:
+        return ""
+    return (
+        '<div id="consent-banner" class="consent" role="region" aria-label="Cookie settings" hidden>'
+        '<p id="consent-title"><strong>Cookie settings</strong></p>'
+        "<p>Cloudflare Web Analytics loads without cookies. Google Analytics 4 stays off unless you accept. "
+        '<a href="/privacy/#cookies">Privacy</a></p>'
+        '<p class="consent-actions"><button type="button" id="consent-accept">Accept</button> '
+        '<button type="button" id="consent-reject">Reject</button></p>'
+        "</div>"
+    )
+
+
+def page(title, description, path, body, schemas, nav=None, picker="", uncovered=""):
     canon = canonical(path)
     robots = "noindex, follow" if (NOINDEX or path == "404.html") else "index, follow"
+    og_type = "website" if path in ("", "/", "404.html", "contact/") else "article"
     nav_html = []
     for key, href, label in NAV:
         current = ' aria-current="page"' if key == nav else ""
         nav_html.append(f'<a href="{esc(href)}"{current}>{esc(label)}</a>')
-    footer_links = " | ".join(internal(href, label) for href, label in FOOTER_LINKS)
+    footer_bits = [internal(href, label) for href, label in FOOTER_LINKS]
+    if not NOINDEX:
+        footer_bits.append('<a href="/privacy/#cookies" id="cookie-settings">Cookie settings</a>')
+    footer_links = " | ".join(footer_bits)
     schema_html = "".join(jsonld(s) for s in schemas)
-    beacon = ""
-    if (not NOINDEX) and CF_BEACON_TOKEN and path != "404.html":
-        beacon = (
-            '<script defer src="https://static.cloudflareinsights.com/beacon.min.js" '
-            f'data-cf-beacon="{esc(json.dumps({"token": CF_BEACON_TOKEN}))}"></script>'
-        )
-    else:
-        beacon = "<!-- cf-beacon: added when NOINDEX is false and a token is set -->"
-    # Picker is filled later by build via placeholder so every page shares one list.
+    uncovered_html = f'<p class="uncovered">{esc(uncovered)}</p>' if uncovered else ""
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title><meta name="description" content="{esc(description)}"><link rel="canonical" href="{esc(canon)}">
 <meta name="robots" content="{robots}">
 <meta name="theme-color" content="#0b3954">
-<meta property="og:type" content="website"><meta property="og:site_name" content="{esc(SITE)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canon)}"><meta property="og:image" content="{DOMAIN}/og.png"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css?v=1">{schema_html}
+<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="{esc(SITE)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canon)}"><meta property="og:image" content="{DOMAIN}/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css?v=2">{schema_html}
+{analytics_html()}
 </head><body><a class="skip" href="#main">Skip to content</a>
 <header class="site"><div class="wrap"><a class="brand" href="/">{LOGO}<span>{esc(SITE)}</span></a><nav class="main" aria-label="Main">{''.join(nav_html)}</nav>{picker}</div></header>
 <main id="main" class="wrap">{body}</main>
 <footer class="site"><div class="wrap"><p class="fbrand">{FOOTER_BLURB}</p>
+{uncovered_html}
 <p class="flinks">{footer_links}</p>
 </div></footer>
-<script src="/assets/site.js?v=1" defer></script>{beacon}
+{consent_banner()}
+<script src="/assets/site.js?v=2" defer></script>
 </body></html>
 """

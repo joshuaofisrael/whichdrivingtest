@@ -207,7 +207,10 @@ def write_llms(pages, states):
     for slug, name, _region in sorted(STATES, key=lambda s: s[1]):
         st = by_slug.get(slug)
         if not st:
-            lines.append(f"- {name}: guide not published. Official figures were not confirmed.")
+            if name in {"Massachusetts", "Illinois", "Colorado"}:
+                lines.append(f"- {name}: not yet covered because the official site could not be quoted.")
+            else:
+                lines.append(f"- {name}: guide not published. Official figures were not confirmed.")
             continue
         age = f" Learner permit age published: {st['permit_age']}." if st.get("permit_age") else ""
         lines.append(f"- [{name}]({DOMAIN}/{slug}/).{age}")
@@ -242,11 +245,19 @@ def write_indexnow():
         fh.write(INDEXNOW_KEY)
 
 
+def uncovered_sentence(names):
+    wanted = {"Massachusetts", "Illinois", "Colorado"}
+    if wanted.issubset(set(names)):
+        return "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted."
+    return ""
+
+
 def main():
     states = load_states()
     pages, report, published = all_pages(states)
     clean_output()
     picker = picker_html(published)
+    note = uncovered_sentence(report["missing_states"])
     for item in pages:
         html = page(
             item["title"],
@@ -256,6 +267,7 @@ def main():
             item["schemas"],
             nav=item.get("nav"),
             picker=picker,
+            uncovered=note,
         )
         dest = html_path(item["path"])
         os.makedirs(os.path.dirname(dest), exist_ok=True)

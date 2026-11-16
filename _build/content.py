@@ -69,9 +69,54 @@ def clean_desc(text):
 
 def clean_title(text):
     text = re.sub(r"\s+", " ", text).strip()
-    if len(text) > 70:
-        raise SystemExit(f"title {len(text)} > 70: {text}")
+    if len(text) >= 60:
+        raise SystemExit(f"title {len(text)} >= 60: {text}")
     return text
+
+
+def which_title(name, tail):
+    text = f"Which {name} {tail}"
+    if len(text) >= 60:
+        text = f"{name}: {tail}"
+    return clean_title(text)
+
+
+def missing_html(published_states):
+    have = {st["slug"] for st in published_states}
+    named = (
+        ("massachusetts", "Massachusetts"),
+        ("illinois", "Illinois"),
+        ("colorado", "Colorado"),
+    )
+    missing = [name for slug, name in named if slug not in have]
+    if not missing:
+        return ""
+    if len(missing) == 3:
+        text = "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted."
+    elif len(missing) == 2:
+        text = f"{missing[0]} and {missing[1]} are not yet covered because the official sites could not be quoted."
+    else:
+        text = f"{missing[0]} is not yet covered because the official site could not be quoted."
+    return f'<p class="note">{esc(text)}</p>'
+
+
+def uncovered_sentence(published_states):
+    raw = missing_html(published_states)
+    if not raw:
+        return ""
+    match = re.search(r"<p[^>]*>(.*?)</p>", raw)
+    return match.group(1) if match else ""
+
+
+def collect_sources(states, keys):
+    items = []
+    for st in states:
+        agency = st.get("agency") or "State licensing agency"
+        for key in keys:
+            url = st.get(key)
+            if url:
+                items.append({"title": f"{st['name']} official page", "url": url, "publisher": agency})
+    return items
 
 
 def agency_of(st):
@@ -189,6 +234,7 @@ def related_for(st, topics, published, skip=None):
         links.append(("/guides/learner-permit-ages/", "Permit ages by state"))
     if skip in (None, "teen"):
         links.append(("/guides/teen-licensing/", "Teen licensing by state"))
+    links.append(("/states/", "All states"))
     _heading, slugs = nearby(st["slug"], published)
     for slug in slugs[:3]:
         links.append((f"/{slug}/", name_of(slug)))
@@ -356,8 +402,8 @@ def state_page(st, topics, published):
     agency = agency_of(st)
     path = f"{st['slug']}/"
     h1 = f"{name} driving test requirements and DMV guide"
-    title = h1
-    description = f"{name}: permit and license ages, written and road tests, REAL ID, and official DMV links."
+    title = which_title(name, "driving test to take")
+    description = f"{name}: which permit, written test, road test, and REAL ID rules the official page states."
     crumbs = [("Home", "/"), (name, "/" + path)]
     quick = []
     if st.get("permit_age"):
@@ -487,7 +533,7 @@ def permit_page(st, topics, published):
         ),
     ]
     body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "permit"))
-    return pack(path, h1, description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} learner permit"))
+    return pack(path, which_title(name, "learner permit to get"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} learner permit"))
 
 
 def written_page(st, topics, published):
@@ -529,7 +575,7 @@ def written_page(st, topics, published):
         ),
     ]
     body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "written-test"))
-    return pack(path, h1, description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} written test"))
+    return pack(path, which_title(name, "written test to take"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} written test"))
 
 
 def road_page(st, topics, published):
@@ -572,7 +618,7 @@ def road_page(st, topics, published):
         ),
     ]
     body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "road-test"))
-    return pack(path, h1, description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} road test"))
+    return pack(path, which_title(name, "road test to schedule"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} road test"))
 
 
 def realid_page(st, topics, published):
@@ -612,7 +658,7 @@ def realid_page(st, topics, published):
         ),
     ]
     body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "real-id"))
-    return pack(path, h1, description, "realid", body, content_schemas(h1, path, crumbs, faqs, f"{name} REAL ID"))
+    return pack(path, which_title(name, "REAL ID to request"), description, "realid", body, content_schemas(h1, path, crumbs, faqs, f"{name} REAL ID"))
 
 
 def fees_page(st, topics, published):
@@ -639,7 +685,7 @@ def fees_page(st, topics, published):
         ),
     ]
     body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "fees"))
-    return pack(path, h1, description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} license fees"))
+    return pack(path, which_title(name, "license fee to pay"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} license fees"))
 
 
 def transfer_page(st, topics, published):
@@ -673,7 +719,7 @@ def transfer_page(st, topics, published):
         ),
     ]
     body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "transfer"))
-    return pack(path, h1, description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} license transfer"))
+    return pack(path, which_title(name, "license to transfer"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} license transfer"))
 
 
 def teen_page(st, topics, published):
@@ -731,7 +777,7 @@ def teen_page(st, topics, published):
         ),
     ]
     body = frame(h1, crumbs, "".join(x for x in inner if x), faqs, sources_for(st), related_for(st, topics, published, "teen"))
-    return pack(path, h1, description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} teen licensing"))
+    return pack(path, which_title(name, "teen license to get"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} teen licensing"))
 
 
 TOPIC_BUILDERS = {
@@ -748,11 +794,9 @@ TOPIC_BUILDERS = {
 def home_page(states):
     complete = len(states) == 51
     h1 = "Driving test requirements for every state" if complete else "Driving test requirements by state"
-    title = "Which Driving Test: driving test rules by state"
+    title = "Which driving test should I take?"
     description = (
-        "Driving test, learner permit, REAL ID, and DMV fee guides for every state and D.C., from official pages."
-        if complete
-        else "Driving test, learner permit, REAL ID, and DMV fee guides from official state agency pages."
+        "Which state driving test to take: learner permit, road test, REAL ID, and fees from official agency pages."
     )
     groups = region_groups()
     by_slug = {st["slug"]: st for st in states}
@@ -762,7 +806,10 @@ def home_page(states):
         for slug, name in groups[region]:
             st = by_slug.get(slug)
             if not st:
-                items.append(f'<li class="card" data-state="{esc(name)}"><h3>{esc(name)}</h3><p>Guide not published yet. The official rules were not confirmed.</p></li>')
+                items.append(
+                    f'<li class="card" data-state="{esc(name)}"><h3>{esc(name)}</h3>'
+                    "<p>Not yet covered. The official site could not be quoted.</p></li>"
+                )
                 continue
             age = f"Permit: {esc(st['permit_age'])}" if st.get("permit_age") else "Official guide"
             items.append(
@@ -779,8 +826,9 @@ def home_page(states):
             "No. A dollar amount appears only when the official agency page prints it. Missing fees are left blank on purpose.",
         ),
         (
-            "Which state guide should I read?",
-            "Read the state where you will apply. For a move, that is your new state. Then open the official link and confirm the figure.",
+            "Which state driving test should I pick?",
+            "Pick the state that will issue the permit or license. For a move, that is the new state. Then confirm the figure on the official agency page. "
+            "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted.",
         ),
     ]
     inner = f"""
@@ -790,6 +838,7 @@ def home_page(states):
 <div class="answer"><p><strong>How to use this guide</strong></p>
 <p>Pick the state where you will apply. Each published guide covers the learner permit, the written test, the road test, REAL ID documents, published fees, a license from another state, and teen graduated licensing. Then confirm the figure on the official agency page. Checked {esc(CHECKED_LABEL)}.</p></div>
 <p class="btnrow"><a class="btn" href="/states/">Browse all states</a> <a class="btn alt" href="/guides/how-to-use/">How to use this guide</a></p>
+{missing_html(states)}
 </section>
 <label for="state-filter">Filter states</label>
 <input id="state-filter" class="filter" type="search" placeholder="Type a state name" autocomplete="off">
@@ -831,8 +880,8 @@ def home_page(states):
 
 def states_index(states):
     h1 = "All state driving test guides"
-    title = "All state driving test and DMV guides"
-    description = "Every state and the District of Columbia. Open a guide, then confirm the rule on the official agency page."
+    title = "Which state driving test to pick"
+    description = "Which state driving test to pick. Open a guide, then confirm the rule on the official agency page."
     path = "states/"
     crumbs = [("Home", "/"), ("States", "/states/")]
     by_slug = {st["slug"]: st for st in states}
@@ -846,24 +895,34 @@ def states_index(states):
                 note = f" Permit: {esc(age)}." if age else ""
                 lis.append(f'<li data-state="{esc(name)}"><a href="/{esc(slug)}/">{esc(name)}</a>.{note}</li>')
             else:
-                lis.append(f'<li data-state="{esc(name)}">{esc(name)}. Guide not published yet.</li>')
+                lis.append(f'<li data-state="{esc(name)}">{esc(name)}. Not yet covered. The official site could not be quoted.</li>')
         blocks.append(f'<h2 id="{region.lower()}">{esc(region)}</h2><ul class="cols">{"".join(lis)}</ul>')
     inner_core = (
         "<p>Choose the state where you will apply. Each link opens a guide built from that state's licensing agency. "
         f"Checked {esc(CHECKED_LABEL)}.</p>"
-        '<label for="state-filter">Filter states</label>'
+        + missing_html(states)
+        + '<label for="state-filter">Filter states</label>'
         '<input id="state-filter" class="filter" type="search" placeholder="Type a state name" autocomplete="off">'
         + "".join(blocks)
     )
-    faqs = []
-    body = frame(h1, crumbs, inner_core, faqs, [], [( "/guides/how-to-use/", "How to use these guides"), ("/guides/learner-permit-ages/", "Permit ages by state")])
+    faqs = [
+        (
+            "Which state driving test should I pick?",
+            "Pick the state that will issue the permit or license. For a move, that is the new state, then open the official agency page.",
+        ),
+        (
+            "Why are some states missing?",
+            "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted. No ages or fees are shown for them.",
+        ),
+    ]
+    body = frame(h1, crumbs, inner_core, faqs, [], [("/guides/how-to-use/", "How to use these guides"), ("/guides/learner-permit-ages/", "Permit ages by state"), ("/", "Home")])
     return pack(path, title, description, "states", body, content_schemas(h1, path, crumbs, faqs, "US state driving tests"))
 
 
-def guide_how():
+def guide_how(states):
     h1 = "How to use these driving test guides"
-    title = h1
-    description = "How to read these state driving test guides, what we leave out, and how to confirm a rule."
+    title = "Which driving test guide to use"
+    description = "Which driving test guide to use, what we leave out, and how to confirm a rule on the official page."
     path = "guides/how-to-use/"
     crumbs = [("Home", "/"), ("Guides", "/guides/"), ("How to use", "/" + path)]
     inner = """
@@ -877,7 +936,7 @@ def guide_how():
 <p>REAL ID is a federal card standard. Teen graduated licensing is the state path for young drivers. Both are linked from the state page. The <a href="/guides/real-id/">federal REAL ID guide</a> explains the federal part. The state page lists that state's documents.</p>
 <h2>What we do not do</h2>
 <p>We do not sell appointments, driving lessons, or insurance. We do not copy a whole handbook. We do not use test prep sites as sources. If a number is not on the official page we opened, it is not on this site.</p>
-"""
+""" + missing_html(states)
     faqs = [
         (
             "Can I use this site instead of the state DMV?",
@@ -890,6 +949,10 @@ def guide_how():
         (
             "How do I report a wrong figure?",
             "Email the address on the contact page with the page address and a link to the official agency page that shows the current rule.",
+        ),
+        (
+            "Why are Massachusetts, Illinois, and Colorado missing?",
+            "Those states are not yet covered because the official sites could not be quoted. No ages or fees are shown for them.",
         ),
     ]
     links = [
@@ -906,8 +969,8 @@ def guide_how():
 def guide_realid():
     fed = load_federal()
     h1 = "REAL ID rules for driver licenses"
-    title = "REAL ID rules for state driver licenses"
-    description = "REAL ID enforcement, the federal purpose, and links to each state's official document list."
+    title = "Which REAL ID card should I get"
+    description = "Which REAL ID card to request: federal purpose, and links to each state's official document list."
     path = "guides/real-id/"
     crumbs = [("Home", "/"), ("Guides", "/guides/"), ("REAL ID", "/" + path)]
     purposes = "".join(f"<li>{esc(p)}</li>" for p in fed["purposes"])
@@ -953,8 +1016,8 @@ def guide_realid():
 
 def guide_ages(states):
     h1 = "Learner permit age by state"
-    title = "Learner permit age by state"
-    description = "Learner permit and first license ages by state, each one taken from that state's official page."
+    title = "Which learner permit age applies"
+    description = "Which learner permit age applies in each state, taken only from that state's official page."
     path = "guides/learner-permit-ages/"
     crumbs = [("Home", "/"), ("Guides", "/guides/"), ("Permit ages", "/" + path)]
     rows = []
@@ -964,9 +1027,10 @@ def guide_ages(states):
         href = f"/{st['slug']}/permit/" if st.get("_topics", {}).get("permit") else f"/{st['slug']}/"
         rows.append(f"<tr><td>{internal(href, st['name'])}</td><td>{permit}</td><td>{first}</td></tr>")
     inner = (
-        "<p>This table lists a minimum age only when that state's licensing agency publishes it. "
+        missing_html(states)
+        + "<p>This table lists a minimum age only when that state's licensing agency publishes it. "
         "A cell that says the age was not clearly published is not a guess and it is not zero.</p>"
-        '<div class="tablewrap"><table class="list"><thead><tr><th>State</th><th>Learner permit</th><th>First license</th></tr></thead>'
+        + '<div class="tablewrap"><table class="list"><thead><tr><th>State</th><th>Learner permit</th><th>First license</th></tr></thead>'
         f"<tbody>{''.join(rows)}</tbody></table></div>"
         f"<p>Checked {esc(CHECKED_LABEL)}. Open the state guide for the official link.</p>"
     )
@@ -980,14 +1044,21 @@ def guide_ages(states):
             "Often no. The permit column is the learner stage. The first license column is the next stage the state publishes, which may be provisional.",
         ),
     ]
-    body = frame(h1, crumbs, inner, faqs, [], [("/states/", "All states"), ("/guides/teen-licensing/", "Teen licensing by state")])
+    body = frame(
+        h1,
+        crumbs,
+        inner,
+        faqs,
+        collect_sources(states, ["permit_age_url", "license_age_url"]),
+        [("/states/", "All states"), ("/guides/teen-licensing/", "Teen licensing by state"), ("/", "Home")],
+    )
     return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, faqs, "Learner permit ages"))
 
 
 def guide_teen(states):
     h1 = "Teen driver licensing by state"
-    title = "Teen driver licensing by state"
-    description = "Teen practice hours, night rules, and passenger limits by state, when the agency publishes them."
+    title = "Which teen license rules apply"
+    description = "Which teen license rules apply: practice hours, night rules, and passenger limits the agency publishes."
     path = "guides/teen-licensing/"
     crumbs = [("Home", "/"), ("Guides", "/guides/"), ("Teen licensing", "/" + path)]
     rows = []
@@ -1001,8 +1072,9 @@ def guide_teen(states):
             f"<tr><td>{internal(href, st['name'])}</td><td>{cell('supervised_hours')}</td><td>{cell('curfew')}</td><td>{cell('passengers')}</td></tr>"
         )
     inner = (
-        "<p>Graduated licensing rules for teens differ by state. This table shows practice hours, night rules, and passenger limits only when the state agency publishes them.</p>"
-        '<div class="tablewrap"><table class="list"><thead><tr><th>State</th><th>Practice hours</th><th>Night rule</th><th>Passengers</th></tr></thead>'
+        missing_html(states)
+        + "<p>Graduated licensing rules for teens differ by state. This table shows practice hours, night rules, and passenger limits only when the state agency publishes them.</p>"
+        + '<div class="tablewrap"><table class="list"><thead><tr><th>State</th><th>Practice hours</th><th>Night rule</th><th>Passengers</th></tr></thead>'
         f"<tbody>{''.join(rows)}</tbody></table></div>"
         f"<p>Checked {esc(CHECKED_LABEL)}. Adult applicants should use the state overview, not this teen table.</p>"
     )
@@ -1021,16 +1093,16 @@ def guide_teen(states):
         crumbs,
         inner,
         faqs,
-        [],
-        [("/guides/learner-permit-ages/", "Permit ages by state"), ("/states/", "All states")],
+        collect_sources(states, ["supervised_url", "curfew_url", "passengers_url", "teen_url"]),
+        [("/guides/learner-permit-ages/", "Permit ages by state"), ("/states/", "All states"), ("/", "Home")],
     )
     return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, faqs, "Teen driver licensing"))
 
 
-def guides_index():
+def guides_index(states):
     h1 = "Driving test guides"
-    title = "Driving test guides"
-    description = "How to use the state guides, REAL ID, permit ages, and teen licensing, with official sources."
+    title = "Which driving test guide to read"
+    description = "Which driving test guide to read: how to use the state pages, REAL ID, permit ages, and teen licensing."
     path = "guides/"
     crumbs = [("Home", "/"), ("Guides", "/guides/")]
     inner = """
@@ -1041,22 +1113,38 @@ def guides_index():
 <li><a href="/guides/teen-licensing/">Teen licensing by state</a></li>
 </ul>
 <p>State pages are the place to confirm a figure. These guides compare them or explain the federal REAL ID rule.</p>
-"""
-    body = frame(h1, crumbs, inner, [], [], [("/states/", "All states"), ("/methodology/", "Sources and methods")])
-    return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, [], "Driving test guides"))
+""" + missing_html(states)
+    faqs = [
+        (
+            "Which guide should I read first?",
+            "Open the state that will issue the permit or license. Use the other guides to compare ages or to read the federal REAL ID rule.",
+        ),
+        (
+            "Which states are not covered yet?",
+            "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted.",
+        ),
+    ]
+    body = frame(
+        h1,
+        crumbs,
+        inner,
+        faqs,
+        [],
+        [("/states/", "All states"), ("/methodology/", "Sources and methods"), ("/", "Home")],
+    )
+    return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, faqs, "Driving test guides"))
 
 
 def legal_page(path, nav, h1, title, description, inner, legal=True):
     crumbs = [("Home", "/"), (h1, "/" + path)]
     lead = f"<p>Last updated {esc(CHECKED_LABEL)}.</p>" if legal else ""
     body = frame(h1, crumbs, lead + inner, [], [], [], legal=legal)
-    schemas = [breadcrumb_schema(crumbs)]
-    if not legal:
-        schemas.append(article_schema(h1, path, h1))
+    schemas = [breadcrumb_schema(crumbs), article_schema(h1, path, h1)]
     return pack(path, title, description, nav, body, schemas)
 
 
-def static_pages():
+def static_pages(published_states):
+    note = missing_html(published_states)
     pages = []
     pages.append(
         legal_page(
@@ -1067,7 +1155,10 @@ def static_pages():
             "What Which Driving Test is, which states it covers, and how to send a correction.",
             """
 <h2>What this site is</h2>
-<p>Which Driving Test is an independent guide to state driving tests and license rules. It explains the learner permit, the written test, the road test, REAL ID documents, published fees, moving a license from another state, and teen graduated licensing. A state guide is published when that state's own licensing page can be checked. States still waiting on that check are listed without a guide.</p>
+<p>Which Driving Test is an independent guide to state driving tests and license rules. It explains the learner permit, the written test, the road test, REAL ID documents, published fees, moving a license from another state, and teen graduated licensing. A state guide is published only when that state's own licensing page can be quoted. It is not affiliated with any DMV.</p>
+"""
+            + note
+            + """
 <h2>What this site is not</h2>
 <p>It is not a state DMV, BMV, MVD, RMV, or secretary of state. It does not issue permits, book road tests, or take payment. It is not legal advice.</p>
 <h2>How the pages are written</h2>
@@ -1087,6 +1178,9 @@ def static_pages():
             """
 <h2>Sources we use</h2>
 <p>State pages use that state's official licensing agency only. The name differs. It may be a DMV, BMV, MVD, RMV, Department of Public Safety, Department of Driver Services, or a secretary of state. The federal REAL ID guide uses the Department of Homeland Security and TSA only for the federal rule, not for a state's filing steps.</p>
+"""
+            + note
+            + """
 <h2>Sources we do not use</h2>
 <p>Test prep sites, driving schools, insurance sites, and "we will file your DMV paperwork" businesses are not sources. If a figure is not on the official page, we leave it out.</p>
 <h2>Fees, ages, and documents</h2>
@@ -1106,7 +1200,8 @@ def static_pages():
             "How Which Driving Test handles logos, graphics, and photos.",
             """
 <h2>Graphics</h2>
-<p>The logo and the social image are original graphics drawn for this site. They are not a state seal, a DMV badge, or a photo of a person.</p>
+<p><a href="/image-policy/"><img src="/logo.png" width="128" height="128" alt="Which Driving Test logo"></a></p>
+<p>The logo and the social image are original graphics drawn for this site. They are not a state seal, a DMV badge, or a photo of a person. The logo above links to this image policy. Every photo on the site links here too.</p>
 <h2>Photos</h2>
 <p>This version uses no photographs and no agency logos.</p>
 <h2>AI generated images</h2>
@@ -1176,13 +1271,15 @@ def static_pages():
             """
 <p>This policy explains how Which Driving Test (whichdrivingtest.com), a trade name of Joshua Israel Ventures LLC, a Florida limited liability company, handles information.</p>
 <h2>Analytics</h2>
-<p>This build does not load an analytics beacon. When the public domain is live, the site is set up to use Cloudflare Web Analytics. That tool does not use cookies or local storage and does not track you across sites. It records aggregate details such as the page, referrer, browser, and country.</p>
+<p>Published pages load two measurement tools. Neither one is a state DMV.</p>
+<p><strong>Cloudflare Web Analytics</strong> is Cloudflare's cookieless beacon. The page loads <code>https://static.cloudflareinsights.com/beacon.min.js</code> with a public site token. It does not use cookies and does not track you across sites. It records aggregate details such as the page, referrer, browser, and country.</p>
+<p><strong>Google Analytics 4</strong> (GA4) is Google's measurement product. It stays off until you choose Accept on the consent banner. Before that choice, the page sets Google Consent Mode v2 defaults to denied for ad storage, ad user data, ad personalization, and analytics storage. After you accept, the site loads the GA4 loader at <code>https://www.googletagmanager.com/gtag/js</code> and Google may set cookies. Reject keeps analytics storage denied. Cookie settings in the footer reopens the choice. The measurement id is a G- id the site owner adds in the build config. Until that id is filled in, accepting does not send a hit.</p>
 <h2>Email</h2>
 <p>If you email the address on the <a href="/contact/">contact page</a>, we use your message and your address to reply. We do not sell that information. We keep it only as long as needed to handle the message.</p>
 <h2>Advertising</h2>
 <p>The site shows no ads today. If we add ads later, for example through Google AdSense, third party vendors including Google may use cookies to serve ads based on prior visits. You would be able to opt out of personalized advertising at <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">Google Ads Settings</a> and <a href="https://www.aboutads.info/choices/" rel="nofollow noopener" target="_blank">aboutads.info/choices</a>. Where the law requires it, we will ask for consent before advertising cookies are set. We will update this policy before any ads go live.</p>
-<h2>Cookies</h2>
-<p>Which Driving Test itself sets no cookies. The site works if your browser blocks cookies.</p>
+<h2 id="cookies">Cookies</h2>
+<p>Which Driving Test stores your analytics choice in local storage in this browser so the banner does not ask on every page. That choice is not an account. Cloudflare Web Analytics does not set a cookie. Google Analytics 4 may set cookies only after you accept. The site still works if you reject, or if your browser blocks cookies.</p>
 <h2>Hosting</h2>
 <p>The site is hosted on GitHub Pages, which may log IP addresses for security and operations.</p>
 <h2>Your rights</h2>
@@ -1246,6 +1343,7 @@ def static_pages():
             contact_body,
             [
                 breadcrumb_schema(contact_crumbs),
+                article_schema("Contact", contact_path, "Contact"),
                 {
                     "@context": "https://schema.org",
                     "@type": "ContactPage",
@@ -1306,8 +1404,16 @@ def all_pages(states):
     for slug, name, _region in STATES:
         if slug not in published:
             report["missing_states"].append(name)
-    pages = [home_page(published_states), states_index(published_states), guides_index(), guide_how(), guide_realid(), guide_ages(published_states), guide_teen(published_states)]
-    pages.extend(static_pages())
+    pages = [
+        home_page(published_states),
+        states_index(published_states),
+        guides_index(published_states),
+        guide_how(published_states),
+        guide_realid(),
+        guide_ages(published_states),
+        guide_teen(published_states),
+    ]
+    pages.extend(static_pages(published_states))
     pages.append(not_found_page())
     for st in published_states:
         topics = st["_topics"]

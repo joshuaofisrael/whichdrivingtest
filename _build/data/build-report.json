@@ -30,6 +30,6 @@
       "reason": "not enough confirmed official facts"
     }
   ],
-  "noindex": true,
+  "noindex": false,
   "checked": "16 Nov 2026"
 }
