@@ -202,7 +202,9 @@ def choose_text(key, value, quote):
     shown = clean_display(quote)
     count = len(shown.split())
     # Keep the official sentence. A short age clip can hide a condition.
-    if key in AGE_KEYS and 4 <= count <= 42 and "$" not in shown:
+    # A complete sentence can run a little longer than a clipped quote.
+    complete = shown.endswith((".", "!", "?")) and "year" in shown.lower()
+    if key in AGE_KEYS and "$" not in shown and 4 <= count <= (60 if complete else 42):
         low = shown.lower()
         # Drop a statute fragment that is an exception, not the permit rule.
         if "unless" in low and "under" in low and not any(w in low for w in ("permit", "learner", "instruction", "license")):

@@ -1,6 +1,6 @@
 {
-  "pages": 362,
-  "html_without_404": 361,
+  "pages": 363,
+  "html_without_404": 362,
   "states": 48,
   "missing_states": [
     "Massachusetts",
@@ -8,7 +8,7 @@
     "Colorado"
   ],
   "topics": {
-    "permit": 46,
+    "permit": 47,
     "written-test": 42,
     "road-test": 43,
     "real-id": 44,
