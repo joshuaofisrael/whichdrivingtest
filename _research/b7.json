@@ -1,0 +1,1246 @@
+[
+  {
+    "slug": "montana",
+    "name": "Montana",
+    "agency": "Montana Department of Justice, Motor Vehicle Division",
+    "agency_short": "MVD",
+    "agency_home": "https://dojmt.gov/driving/",
+    "permit_age": "15",
+    "permit_age_quote": "who is under 15 years of age unless the person is at least 13 years of age",
+    "permit_age_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0050/0610-0050-0010-0050.html",
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": "1 year after issuance or age 18, whichever is first",
+    "full_license_age_quote": "for 1 year from the date of issuance of the license or until the person is 18 years of age, whichever occurs first",
+    "full_license_age_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0330/0610-0050-0010-0330.html",
+    "written_required": true,
+    "written_quote": "a knowledge test examining the applicant's ability to read and understand highway signs",
+    "written_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0100/0610-0050-0010-0100.html",
+    "written_detail": "A license examination includes a knowledge test on signs and traffic laws, plus an eyesight test.",
+    "road_required": true,
+    "road_quote": "a road test or a skills test demonstrating the applicant's ability to exercise ordinary and reasonable control",
+    "road_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0100/0610-0050-0010-0100.html",
+    "road_detail": "The examination also includes a road test or skills test, unless a listed waiver applies.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": "50 hours, including 10 at night, after a traditional traffic education course",
+    "supervised_quote": "at least 50 hours of driving experience, 10 of which were at night",
+    "supervised_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html",
+    "holding_period": "at least 6 months",
+    "holding_quote": "has held a learner license or traffic education permit for a period of not less than 6 months",
+    "holding_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html",
+    "fees": [
+      {
+        "item": "Driver license, except a commercial driver license",
+        "amount": "$5 a year",
+        "quote": "driver's license, except a commercial driver's license -- $5 a year or fraction of a year",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0110/0610-0050-0010-0110.html"
+      },
+      {
+        "item": "Motorcycle endorsement",
+        "amount": "50 cents a year",
+        "quote": "motorcycle endorsement -- 50 cents a year or fraction of a year",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0110/0610-0050-0010-0110.html"
+      },
+      {
+        "item": "Commercial driver license, interstate",
+        "amount": "$10 a year",
+        "quote": "interstate -- $10 a year or fraction of a year",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0110/0610-0050-0010-0110.html"
+      },
+      {
+        "item": "Commercial driver license, intrastate",
+        "amount": "$8.50 a year",
+        "quote": "intrastate -- $8.50 a year or fraction of a year",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0110/0610-0050-0010-0110.html"
+      }
+    ],
+    "fee_page_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0110/0610-0050-0010-0110.html",
+    "documents": [],
+    "real_id_summary": "A driver may choose a standard card or a REAL ID-compliant card, and cannot hold both at the same time.",
+    "real_id_quote": "a person may choose to apply for either a standard driver's license or identification card, or for a REAL ID-compliant driver's license",
+    "real_id_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0290/0610-0050-0010-0290.html",
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "A learner license follows the age rule that bars licensing under 15, except a hardship restricted license that can be considered at 13. A driver under 18 needs a learner license or traffic education permit held at least 6 months, a road or skills test, traffic education, and supervised practice. The first year of that license, or until age 18 if sooner, carries night and passenger limits.",
+    "teen_points": [
+      {
+        "text": "Hardship restricted licensing can be considered at age 13; otherwise the department may not license someone under 15.",
+        "quote": "who is under 15 years of age unless the person is at least 13 years of age",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0050/0610-0050-0010-0050.html"
+      },
+      {
+        "text": "An alternative traffic education course requires 75 supervised hours, including 15 at night, instead of 50.",
+        "quote": "at least 75 hours of driving experience, 15 of which were at night",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html"
+      },
+      {
+        "text": "For the second 6 months, a restricted minor may not carry more than three passengers under 18, with supervision and family exceptions.",
+        "quote": "may not operate a motor vehicle with more than three passengers who are under 18 years of age",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0330/0610-0050-0010-0330.html"
+      },
+      {
+        "text": "A learner license is issued after the knowledge test and vision examination.",
+        "quote": "after the applicant has successfully passed the knowledge test and the vision examination",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0060/0610-0050-0010-0060.html"
+      }
+    ],
+    "teen_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "11 p.m. to 5 a.m. during the restricted first year",
+    "curfew_quote": "may not operate a motor vehicle between the hours of 11 p.m. and 5 a.m.",
+    "curfew_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0330/0610-0050-0010-0330.html",
+    "passengers": "For the first 6 months, no more than one passenger under 18 unless supervised or family",
+    "passengers_quote": "may not operate a motor vehicle with more than one passenger who is under 18 years of age",
+    "passengers_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0330/0610-0050-0010-0330.html",
+    "sources": [
+      {
+        "title": "Montana Code Annotated 2025, 61-5-105",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0050/0610-0050-0010-0050.html",
+        "publisher": "Montana Legislative Services Division"
+      },
+      {
+        "title": "Montana Code Annotated 2025, 61-5-106",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0060/0610-0050-0010-0060.html",
+        "publisher": "Montana Legislative Services Division"
+      },
+      {
+        "title": "Montana Code Annotated 2025, 61-5-110",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0100/0610-0050-0010-0100.html",
+        "publisher": "Montana Legislative Services Division"
+      },
+      {
+        "title": "Montana Code Annotated 2025, 61-5-111",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0110/0610-0050-0010-0110.html",
+        "publisher": "Montana Legislative Services Division"
+      },
+      {
+        "title": "Montana Code Annotated 2025, 61-5-132",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html",
+        "publisher": "Montana Legislative Services Division"
+      },
+      {
+        "title": "Montana Code Annotated 2025, 61-5-133",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0330/0610-0050-0010-0330.html",
+        "publisher": "Montana Legislative Services Division"
+      },
+      {
+        "title": "Montana Code Annotated 2025, 61-5-129",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0290/0610-0050-0010-0290.html",
+        "publisher": "Montana Legislative Services Division"
+      }
+    ],
+    "gaps": [
+      "dojmt.gov HTML and PDF requests returned HTTP 403 to curl, so Motor Vehicle Division web pages and the driver manual could not be quote-checked.",
+      "61-5-132 does not print a single minimum age for the first minor license; it requires a learner license or traffic education permit held at least 6 months plus the other prerequisites.",
+      "No document checklist or appointment URL was opened on an official page that curl could download.",
+      "No out-of-state learner-permit rule was found in the Title 61 sections that were opened."
+    ]
+  },
+  {
+    "slug": "rhode-island",
+    "name": "Rhode Island",
+    "agency": "Rhode Island Division of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://dmv.ri.gov/",
+    "permit_age": "16",
+    "permit_age_quote": "you cannot obtain a Limited Instructional Permit from the DMV until you are sixteen (16)",
+    "permit_age_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": "17 years and 6 months",
+    "full_license_age_quote": "Be at least seventeen (17) years, six (6) months old.",
+    "full_license_age_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "written_required": true,
+    "written_quote": "you must pass a computerized test administered by the Division of Motor Vehicles",
+    "written_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "written_detail": "Applicants under 18 complete a 33-hour driver education class and a computerized test. Applicants over 18 take the computerized test without that class.",
+    "road_required": true,
+    "road_quote": "An applicant for a Limited Provisional License or a first license must pass a driving test administered by a DMV examiner.",
+    "road_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "road_detail": "A limited provisional license or a first license requires a DMV driving test in a registered, inspected, and insured vehicle.",
+    "scheduled_url": null,
+    "handbook_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "supervised_hours": "50 hours, including 10 at night",
+    "supervised_quote": "completed a minimum of fifty (50) hours of driving experience with a supervising driver with ten (10) of those hours at night",
+    "supervised_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "holding_period": "at least 6 months",
+    "holding_quote": "You must hold a Limited Instructional Permit for at least six (6) months before you can take a Rhode Island DMV road test.",
+    "holding_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "fees": [
+      {
+        "item": "Limited instructional permit",
+        "amount": "$12.50",
+        "quote": "$12.50 cash, check (no third party checks accepted), or money order",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      },
+      {
+        "item": "First license, under 18, valid until the second birthday",
+        "amount": "$27.50",
+        "quote": "at a fee of $27.50 (if under 18) or $39.50 (if over 18.)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      },
+      {
+        "item": "First license, over 18, valid until the second birthday",
+        "amount": "$39.50",
+        "quote": "at a fee of $27.50 (if under 18) or $39.50 (if over 18.)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      },
+      {
+        "item": "Five-year renewal after the two-birthday license",
+        "amount": "$62.50",
+        "quote": "renew your license for five years at a cost of $62.50",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      }
+    ],
+    "fee_page_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "documents": [
+      {
+        "item": "Identity document",
+        "summary": "One original identity document such as a certified birth certificate, active passport, government ID, certified baptismal certificate, or resident alien card.",
+        "quote": "A certified birth certificate, an active passport, Rhode Island/government identification card, certified baptismal certificate, or a resident alien card",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      },
+      {
+        "item": "Social Security card",
+        "summary": "The original Social Security card is required, and laminated cards are not accepted.",
+        "quote": "Original social security card (not a copy); no laminated cards",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      },
+      {
+        "item": "Rhode Island residency and permit application",
+        "summary": "Proof of residency and the instructional permit application are required.",
+        "quote": "Proof of Rhode Island residency; Application for Instructional Permit",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": "A new resident with a valid out-of-state license, or one expired for no more than one year, can transfer it without the computerized test or road test.",
+    "transfer_quote": "If your out-of-state license is currently valid or has not been expired for more than one (1) year, you will not be required to take a computerized test",
+    "transfer_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "teen_summary": "Under 18, the manual describes a limited instructional permit at 16, a limited provisional license after that permit is held six months, and a full operator license at 17 years and 6 months. The provisional stage has a late-night limit and a passenger limit for the first year.",
+    "teen_points": [
+      {
+        "text": "Driver education is a 33-hour classroom course before the limited instructional permit.",
+        "quote": "You must pass an accredited thirty-three (33) hour classroom driver education class.",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      },
+      {
+        "text": "A supervising driver for a limited instructional permit must be over 21 and licensed at least five years.",
+        "quote": "a properly licensed driver who has held a license for at least five (5) years and is over twenty-one (21) years old",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      },
+      {
+        "text": "Without supervision, a limited provisional license may be used from 5:00 a.m. to 1:00 a.m., and for work or listed volunteer emergency trips.",
+        "quote": "from 5:00 AM to 1:00 AM, when driving to or from work, or when driving to or from a",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      },
+      {
+        "text": "The limited provisional license expires on the 18th birthday.",
+        "quote": "This license expires on your eighteenth (18th) birthday.",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf"
+      }
+    ],
+    "teen_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "1:00 a.m. to 5:00 a.m. alone on a limited provisional license",
+    "curfew_quote": "A PERSON WITH A LIMITED PROVISIONAL LICENSE CANNOT DRIVE BY THEMSELVES BETWEEN THE HOURS OF 1:00AM AND 5:00AM.",
+    "curfew_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "passengers": "For the first 12 months of a limited provisional license, no more than one passenger under 21, with family and household exceptions",
+    "passengers_quote": "During the first twelve (12) months of a limited provisional license no more than one (1) passenger younger than twenty-one (21) years of age is allowed in the vehicle.",
+    "passengers_url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+    "sources": [
+      {
+        "title": "Rhode Island Driver's Manual (English PDF)",
+        "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/2021-08/Rhode%20Island%20Driver%27s%20Manual%20%28English%29.pdf",
+        "publisher": "Rhode Island Division of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "dmv.ri.gov HTML pages returned HTTP 403, so the current permit, road-test, and knowledge-exam pages could not be compared with the manual.",
+      "The manual PDF URL path is dated 2015-08-17. It is the official file that curl could download.",
+      "The manual does not print a separate minimum age for the limited provisional license; it requires six months on the limited instructional permit.",
+      "REAL ID requirements were not found in the downloaded manual.",
+      "The driver-education class fee is printed with a footnote marker that collides with the dollar amount in extracted text, so that fee was not recorded.",
+      "No out-of-state learner-permit rule was found; the manual covers transfer of an out-of-state license."
+    ]
+  },
+  {
+    "slug": "delaware",
+    "name": "Delaware",
+    "agency": "Delaware Division of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://dmv.de.gov/",
+    "permit_age": null,
+    "permit_age_quote": null,
+    "permit_age_url": null,
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": null,
+    "written_quote": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": null,
+    "road_quote": null,
+    "road_url": null,
+    "road_detail": null,
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": null,
+    "holding_quote": null,
+    "holding_url": null,
+    "fees": [],
+    "fee_page_url": null,
+    "documents": [],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "The Delaware DMV pages for ages, graduated licensing, documents, and fees returned a request-rejected page to the verification download, so those rules are not reported.",
+    "teen_points": [],
+    "teen_url": "https://dmv.de.gov/DriverServices/drivers_license/index.shtml?dc=dr_lic_grad_dl",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [
+      {
+        "title": "Delaware Division of Motor Vehicles",
+        "url": "https://dmv.de.gov/",
+        "publisher": "Delaware Division of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "dmv.de.gov and citizen.dmv.de.gov returned a Request Rejected page to curl -fsSL -L -A Mozilla/5.0, so learner-permit age, Class D age, supervised hours, fees, documents, curfew, and passenger rules could not be quote-checked.",
+      "A longer browser user agent received the graduated-license pages, but those downloads do not satisfy the required verification command, so the fields are left empty."
+    ]
+  },
+  {
+    "slug": "south-dakota",
+    "name": "South Dakota",
+    "agency": "South Dakota Department of Public Safety",
+    "agency_short": "DPS",
+    "agency_home": "https://dps.sd.gov/",
+    "permit_age": "14",
+    "permit_age_quote": "To be eligible to get your instruction permit, you must be 14 years of age.",
+    "permit_age_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "license_age": "14, after the instruction-permit holding period",
+    "license_age_quote": "You must be 14 years old and have met the conditions of an Instruction Permit",
+    "license_age_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "full_license_age": "16",
+    "full_license_age_quote": "To get your full operator’s license, you must: Be at least 16 years old",
+    "full_license_age_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "written_required": true,
+    "written_quote": "You will then need to take a knowledge test or have successfully completed a state-approved driver education course",
+    "written_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "written_detail": "An instruction permit requires a knowledge test unless a state-approved driver education certificate waives testing for one year from course completion.",
+    "road_required": true,
+    "road_quote": "You must pass a drive test at a driver exam station (unless you have successfully completed a state-approved driver education course).",
+    "road_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "road_detail": "A drive test is required to move on from the instruction permit unless a state-approved driver education course was completed.",
+    "scheduled_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "handbook_url": "https://www.sd.gov/sys_attachment.do?sys_id=5b52dd3647806e10237fbd51026d43b6",
+    "supervised_hours": "50 hours, including 10 at night and 10 in inclement weather",
+    "supervised_quote": "a minimum of 50 hours of parent/guardian supervised driving (including 10 hours at night and 10 hours in inclement weather)",
+    "supervised_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "holding_period": "275 days without driver education, or 180 days with an approved course",
+    "holding_quote": "The permit must be held for 275 days if you have not completed driver education or 180 days if you have successfully completed an approved driver education course.",
+    "holding_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "fees": [
+      {
+        "item": "Regular driver license or instruction permit, new, renewal, upgrade, or out-of-state transfer",
+        "amount": "$28.00",
+        "quote": "Regular Driver License or Instruction Permit (upgrade, new, renewal, or transfer from out-of-state) ........... $28.00",
+        "url": "https://www.sd.gov/sys_attachment.do?sys_id=5b52dd3647806e10237fbd51026d43b6"
+      },
+      {
+        "item": "Address change, name change, or replacement driver license or identification card",
+        "amount": "$15.00",
+        "quote": "Address change, Name change, or a Replacement Driver License or Identification Card ................................ $15.00",
+        "url": "https://www.sd.gov/sys_attachment.do?sys_id=5b52dd3647806e10237fbd51026d43b6"
+      }
+    ],
+    "fee_page_url": "https://www.sd.gov/sys_attachment.do?sys_id=5b52dd3647806e10237fbd51026d43b6",
+    "documents": [
+      {
+        "item": "Birth certificate",
+        "summary": "A certified copy of the applicant's birth certificate is listed for teen permit documents.",
+        "quote": "a certified copy of the applicant's birth certificate, applicant's original social security card",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      },
+      {
+        "item": "Social Security card",
+        "summary": "The applicant's original Social Security card is required.",
+        "quote": "applicant's original social security card, and two pieces of mail proving the applicant's physical address",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      },
+      {
+        "item": "Address mail",
+        "summary": "Two pieces of mail must prove the physical address.",
+        "quote": "two pieces of mail proving the applicant's physical address",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "Instruction permits start at 14. The permit is held 180 days with approved driver education or 275 days without it, with 50 supervised hours. A restricted minor permit can follow at 14 after those conditions, and a full operator license is available at 16 after at least six months on the restricted permit.",
+    "teen_points": [
+      {
+        "text": "Under 18, the restricted permit must be held six months before a full operator license.",
+        "quote": "Anyone under 18 years of age must hold a Restricted Permit for 6 months and meet all other requirements before upgrading to a full Operator's License.",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      },
+      {
+        "text": "Alone driving on a restricted permit is allowed from 6 a.m. to 10 p.m. with a parent or guardian's permission.",
+        "quote": "You may drive alone (with a parent/guardian's permission) between the hours of 6AM to 10PM.",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      },
+      {
+        "text": "After six months on a restricted permit, only one passenger outside the immediate family or household is allowed.",
+        "quote": "Anyone who has driven on a Restricted Permit for 6 months or more may have only ONE passenger outside their immediate family or household.",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      },
+      {
+        "text": "The supervising adult on an instruction permit must have a valid license and at least one year of driving experience and sit beside the permit holder.",
+        "quote": "The adult must be a parent/guardian or other adult with a valid driver license and at least one year of driving experience.",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      }
+    ],
+    "teen_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "On a restricted permit, alone from 6 a.m. to 10 p.m.; a parent or guardian must ride along from 10 p.m. to 6 a.m. except listed trips",
+    "curfew_quote": "Between 10PM and 6AM, you must have a parent/legal guardian seated next to you",
+    "curfew_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "passengers": "No passengers outside immediate family or household for the first 6 months of a restricted permit; then only one such passenger",
+    "passengers_quote": "Anyone driving on a Restricted Permit cannot have any passengers outside their immediate family or household for 6 months",
+    "passengers_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "sources": [
+      {
+        "title": "Driver Licensing Information for Teen Drivers and Parents, KB0043735",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+        "publisher": "South Dakota Department of Public Safety"
+      },
+      {
+        "title": "South Dakota driver manual, revised November 2024",
+        "url": "https://www.sd.gov/sys_attachment.do?sys_id=5b52dd3647806e10237fbd51026d43b6",
+        "publisher": "South Dakota Department of Public Safety"
+      }
+    ],
+    "gaps": [
+      "The appointment link on the DPS article points to 432201.waitwell.us, which is not a .gov domain, so scheduled_url is the official article rather than that scheduler.",
+      "REAL ID rules were not found in the teen article or the downloaded driver manual.",
+      "The $28 and $15 fees are from the driver manual revised November 2024. The June 2026 teen article does not print those dollar amounts.",
+      "No separate out-of-state learner-permit rule was found. The manual fee line mentions transfer of a license or instruction permit from out of state but does not describe the process."
+    ]
+  },
+  {
+    "slug": "north-dakota",
+    "name": "North Dakota",
+    "agency": "North Dakota Department of Transportation",
+    "agency_short": "NDDOT",
+    "agency_home": "https://www.dot.nd.gov/",
+    "permit_age": "14",
+    "permit_age_quote": "All applicants must be at least 14 years of age.",
+    "permit_age_url": "https://www.dot.nd.gov/sites/www/files/documents/Drivers%20-%20documents/noncommercial-manual.pdf",
+    "license_age": "15 for a restricted license",
+    "license_age_quote": "a North Dakota resident can obtain a restricted license at the age of 15.",
+    "license_age_url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements",
+    "full_license_age": "16",
+    "full_license_age_quote": "The minimum driving age in North Dakota is 16.",
+    "full_license_age_url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements",
+    "written_required": true,
+    "written_quote": "Successfully complete the Rules of the Road knowledge test.",
+    "written_url": "https://www.dot.nd.gov/driver/how-apply-learners-permit",
+    "written_detail": "A learner permit requires the Rules of the Road knowledge test and a vision screening. The test can be taken online or at a driver license site.",
+    "road_required": true,
+    "road_quote": "Must successfully complete a road test through the state to become fully licensed.",
+    "road_url": "https://www.dot.nd.gov/driver/how-apply-learners-permit",
+    "road_detail": "Ages 14–15 and 16–17 both need a state road test before a license. The under-16 path also requires driver education.",
+    "scheduled_url": "https://eservices.dot.nd.gov/web/?Link=Appointment",
+    "handbook_url": "https://www.dot.nd.gov/sites/www/files/documents/Drivers%20-%20documents/noncommercial-manual.pdf",
+    "supervised_hours": "50 hours of practice in variable conditions for ages 14–15",
+    "supervised_quote": "Must complete 50 hours of practice driving in variable conditions.",
+    "supervised_url": "https://www.dot.nd.gov/driver/how-apply-learners-permit",
+    "holding_period": "12 months if under 16, or 6 months if under 18",
+    "holding_quote": "hold the permit at least 12 months if you are under the age of 16 or at least 6 months if you are under the age of 18",
+    "holding_url": "https://www.dot.nd.gov/driver/driver-license",
+    "fees": [
+      {
+        "item": "Written test",
+        "amount": "$5.00",
+        "quote": "Written test: $5.00 Road test: $5.00",
+        "url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements"
+      },
+      {
+        "item": "Road test",
+        "amount": "$5.00",
+        "quote": "Road test: $5.00 Duplicate license or permit: $8.00",
+        "url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements"
+      },
+      {
+        "item": "Non-commercial permit or license",
+        "amount": "$15.00",
+        "quote": "Non-commercial permit or license: $15.00 Commercial permit or license: $15.00",
+        "url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements"
+      },
+      {
+        "item": "Duplicate license or permit",
+        "amount": "$8.00",
+        "quote": "Duplicate license or permit: $8.00 (or $3.00 for name or address change only)",
+        "url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements"
+      }
+    ],
+    "fee_page_url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements",
+    "documents": [
+      {
+        "item": "Identity, date of birth, and legal presence",
+        "summary": "Every permit, license, or ID applicant must present an original or certified document from the published list.",
+        "quote": "All individuals applying for a permit, license, or identification card must show proof of identity, date of birth, and legal presence",
+        "url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements"
+      },
+      {
+        "item": "U.S. birth certificate",
+        "summary": "A state-certified, government-issued U.S. birth certificate is an accepted identity document.",
+        "quote": "U.S. Birth Certificate (state certified; government issued)",
+        "url": "https://www.dot.nd.gov/driver/requirements-transferring-license"
+      },
+      {
+        "item": "Social Security number",
+        "summary": "Applications for permits, licenses, and identification cards must contain a Social Security number.",
+        "quote": "All applications for permits, licenses, or identification cards must contain a Social Security number",
+        "url": "https://www.dot.nd.gov/driver/how-apply-learners-permit"
+      },
+      {
+        "item": "North Dakota residence",
+        "summary": "Two residence documents are required, or one if the applicant is not getting a REAL ID.",
+        "quote": "For applicants who chose not to obtain REAL ID, only one document is required.",
+        "url": "https://www.dot.nd.gov/driver/requirements-transferring-license"
+      }
+    ],
+    "real_id_summary": "A North Dakota license or ID is REAL ID-compliant when it has a gold star. A card without the star can be replaced in person.",
+    "real_id_quote": "Your current North Dakota driver license or ID is REAL ID-compliant if it has a gold star in the top right corner.",
+    "real_id_url": "https://www.dot.nd.gov/driver/real-id-information",
+    "transfer_summary": "Transferring an out-of-state license requires an appointment, identity and residency proof, and the current license, which cannot be expired more than one year.",
+    "transfer_quote": "it can’t be suspended, cancelled, revoked, or expired for more than one year",
+    "transfer_url": "https://www.dot.nd.gov/driver/requirements-transferring-license",
+    "teen_summary": "The noncommercial manual sets the learner permit at 14. A resident can get a restricted license at 15, and the minimum age to drive is 16. Under 16, the permit is held 12 months with driver education and 50 practice hours; at 16 or 17 the permit hold is six months.",
+    "teen_points": [
+      {
+        "text": "Ages 14–15 must hold the learner permit at least one year, with a shorter rule only for permits issued before 2012.",
+        "quote": "Must hold a valid learner’s permit for at least one year (six months if you received a permit prior to January 1, 2012).",
+        "url": "https://www.dot.nd.gov/driver/how-apply-learners-permit"
+      },
+      {
+        "text": "Ages 16–17 must hold the learner permit at least six months.",
+        "quote": "Must hold a valid learner’s permit for at least six months.",
+        "url": "https://www.dot.nd.gov/driver/how-apply-learners-permit"
+      },
+      {
+        "text": "A parent or legal guardian must sign for a minor under 18.",
+        "quote": "A parent or legal guardian must sign for a minor under the age of 18 to be issued a permit or license.",
+        "url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements"
+      },
+      {
+        "text": "People under 16 cannot be licensed unless they are eligible for a restricted license.",
+        "quote": "Those under 16 years of age unless eligible for a restricted license.",
+        "url": "https://www.dot.nd.gov/sites/www/files/documents/Drivers%20-%20documents/noncommercial-manual.pdf"
+      }
+    ],
+    "teen_url": "https://www.dot.nd.gov/driver/how-apply-learners-permit",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "On a restricted Class D license, no driving from sunset or 9 p.m., whichever is later, until 5 a.m. unless an exception applies",
+    "curfew_quote": "May not operate a motor vehicle between sunset or 9 p.m. (whichever is later) and 5 a.m. unless a licensed driver is in the front seat",
+    "curfew_url": "https://www.dot.nd.gov/driver/how-apply-learners-permit",
+    "passengers": "On a learner permit at ages 14–15, no more passengers than the vehicle is designed to carry",
+    "passengers_quote": "May not have more passengers than the motor vehicle is designed to carry.",
+    "passengers_url": "https://www.dot.nd.gov/driver/how-apply-learners-permit",
+    "sources": [
+      {
+        "title": "How to apply for a learner's permit",
+        "url": "https://www.dot.nd.gov/driver/how-apply-learners-permit",
+        "publisher": "North Dakota Department of Transportation"
+      },
+      {
+        "title": "Driver license requirements",
+        "url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements",
+        "publisher": "North Dakota Department of Transportation"
+      },
+      {
+        "title": "Driver license",
+        "url": "https://www.dot.nd.gov/driver/driver-license",
+        "publisher": "North Dakota Department of Transportation"
+      },
+      {
+        "title": "REAL ID information",
+        "url": "https://www.dot.nd.gov/driver/real-id-information",
+        "publisher": "North Dakota Department of Transportation"
+      },
+      {
+        "title": "Requirements for transferring a license",
+        "url": "https://www.dot.nd.gov/driver/requirements-transferring-license",
+        "publisher": "North Dakota Department of Transportation"
+      },
+      {
+        "title": "Noncommercial driver license manual",
+        "url": "https://www.dot.nd.gov/sites/www/files/documents/Drivers%20-%20documents/noncommercial-manual.pdf",
+        "publisher": "North Dakota Department of Transportation"
+      }
+    ],
+    "gaps": [
+      "The permit age of 14 is printed in the noncommercial manual. The requirements page states the minimum driving age of 16 and a restricted license at 15, and it uses age 14 in an organ-donor sentence rather than as the permit age.",
+      "No separate out-of-state learner-permit rule was found. The transfer page covers an out-of-state driver license.",
+      "The passenger rule found for ages 14–15 is a vehicle-capacity limit, not a peer-passenger cap."
+    ]
+  },
+  {
+    "slug": "alaska",
+    "name": "Alaska",
+    "agency": "Alaska Department of Administration, Division of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://dmv.alaska.gov/",
+    "permit_age": "14",
+    "permit_age_quote": "When you turn 14, you are eligible for an instruction permit to begin to practice how to drive.",
+    "permit_age_url": "https://dmv.alaska.gov/credential-services/instruction-permit/",
+    "license_age": "16",
+    "license_age_quote": "You must be at least 16 years old or older.",
+    "license_age_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "full_license_age": "18",
+    "full_license_age_quote": "If you're 18 or older, you're eligible to apply for your first Alaska Driver License.",
+    "full_license_age_url": "https://dmv.alaska.gov/credential-services/your-first-alaska-drivers-license/",
+    "written_required": true,
+    "written_quote": "Pass the written knowledge test ( Practice for your test here )",
+    "written_url": "https://dmv.alaska.gov/credential-services/instruction-permit/",
+    "written_detail": "An instruction permit requires the written knowledge test, which can be practiced and then taken online, plus a vision test.",
+    "road_required": true,
+    "road_quote": "To obtain your provisional license, you are required to complete a road test.",
+    "road_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "road_detail": "A provisional license at 16 or 17 requires a road test. A non-commercial road test can be scheduled online or through a business partner.",
+    "scheduled_url": "https://online.dmv.alaska.gov/starii/index.aspx",
+    "handbook_url": "https://dmv.alaska.gov/media/t5ef5vi2/dlman.pdf",
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": "6 months",
+    "holding_quote": "You must have held a learner's permit for a minimum of six (6) months",
+    "holding_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "fees": [
+      {
+        "item": "Instruction permit, commercial or non-commercial",
+        "amount": "$15",
+        "quote": "Instruction Permit (Commercial and Non-Commercial) No Real ID compliant version $15",
+        "url": "https://dmv.alaska.gov/credential-services/license-fees/"
+      },
+      {
+        "item": "Instruction permit renewal",
+        "amount": "$5",
+        "quote": "Instruction Permit Renewal $5 Class: IA, IB, IC, IE, IM, IP",
+        "url": "https://dmv.alaska.gov/credential-services/license-fees/"
+      },
+      {
+        "item": "Non-commercial driver or motorcycle license, standard",
+        "amount": "$20",
+        "quote": "Driver or Motorcycle License (Non-Commercial) $20 $40",
+        "url": "https://dmv.alaska.gov/credential-services/license-fees/"
+      },
+      {
+        "item": "Non-commercial driver or motorcycle license, REAL ID",
+        "amount": "$40",
+        "quote": "Driver or Motorcycle License (Non-Commercial) $20 $40",
+        "url": "https://dmv.alaska.gov/credential-services/license-fees/"
+      },
+      {
+        "item": "Non-commercial road test",
+        "amount": "$15",
+        "quote": "Road Test (Non-Commercial) $15 Vehicle and motorcycle",
+        "url": "https://dmv.alaska.gov/credential-services/license-fees/"
+      }
+    ],
+    "fee_page_url": "https://dmv.alaska.gov/credential-services/license-fees/",
+    "documents": [
+      {
+        "item": "Parental consent and relationship proof",
+        "summary": "A minor needs parental consent and proof of relationship, such as a birth certificate, adoption papers, or guardianship papers.",
+        "quote": "Birth Certificate (with parental name change documents, as applicable) Adoption documents Guardianship documents",
+        "url": "https://dmv.alaska.gov/credential-services/instruction-permit/"
+      },
+      {
+        "item": "Application",
+        "summary": "Form D1 is the driver license, permit, or identification card application.",
+        "quote": "Bring a completed Application ( form D1 )",
+        "url": "https://dmv.alaska.gov/credential-services/instruction-permit/"
+      },
+      {
+        "item": "REAL ID source documents",
+        "summary": "A REAL ID application is in person and needs lawful status, name-change proof if any, two residency documents, and a Social Security number.",
+        "quote": "Proof of U.S. Citizenship, Permanent Residency, or other Lawful Status",
+        "url": "https://dmv.alaska.gov/credential-services/realidupdate/"
+      }
+    ],
+    "real_id_summary": "REAL ID is optional for a non-commercial license. Commercial licenses must be federally compliant.",
+    "real_id_quote": "The Alaska Real ID is not mandatory for Alaskans with a non-commercial license.",
+    "real_id_url": "https://dmv.alaska.gov/credential-services/realidupdate/",
+    "transfer_summary": "A new resident must transfer an out-of-state driver license within 90 days, or 30 days for a commercial driver, and must pass a written test and a vision test.",
+    "transfer_quote": "you must transfer your out-of-state driver license within 90 days (or 30 days if you're a commercial driver).",
+    "transfer_url": "https://dmv.alaska.gov/general-information/visiting-or-new-to-alaska/",
+    "teen_summary": "An instruction permit is available at 14. At 16 or 17, a provisional license requires six months on that permit, a clean recent record, and a road test. At 18 a person applies for a first driver license. Provisional driving has a 1 a.m. to 5 a.m. limit and a passenger limit.",
+    "teen_points": [
+      {
+        "text": "The permit practice supervisor must be at least 21, licensed at least one year for that vehicle type, and seated beside the driver.",
+        "quote": "accompanied by a licensed driver at least 21 years old with at least one year of driving experience",
+        "url": "https://dmv.alaska.gov/credential-services/instruction-permit/"
+      },
+      {
+        "text": "A provisional applicant cannot have a traffic conviction or a suspension or revocation in the previous six months.",
+        "quote": "You cannot have been convicted of a traffic violation or had your license suspended or revoked in the previous six months",
+        "url": "https://dmv.alaska.gov/credential-services/provisional-license/"
+      },
+      {
+        "text": "Parental consent is required on every driving credential for anyone under 18.",
+        "quote": "Parental Consent is required on every driving credential application for anyone under the age of 18.",
+        "url": "https://dmv.alaska.gov/credential-services/provisional-license/"
+      },
+      {
+        "text": "Ages 16 and 17 are the provisional-license ages described on the first-license page.",
+        "quote": "If you are between 16 and 18, you may apply for a provisional license",
+        "url": "https://dmv.alaska.gov/credential-services/your-first-alaska-drivers-license/"
+      }
+    ],
+    "teen_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "1:00 a.m. to 5:00 a.m. on a provisional license, with work and accompanied-driver exceptions",
+    "curfew_quote": "You may not drive between 1:00 & 5:00 a.m.",
+    "curfew_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "passengers": "No passengers under 21 except siblings, unless an exception applies",
+    "passengers_quote": "You may not carry passengers under the age of 21, except siblings.",
+    "passengers_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "sources": [
+      {
+        "title": "Instruction permit",
+        "url": "https://dmv.alaska.gov/credential-services/instruction-permit/",
+        "publisher": "Alaska Division of Motor Vehicles"
+      },
+      {
+        "title": "Provisional license",
+        "url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+        "publisher": "Alaska Division of Motor Vehicles"
+      },
+      {
+        "title": "Your first Alaska driver's license",
+        "url": "https://dmv.alaska.gov/credential-services/your-first-alaska-drivers-license/",
+        "publisher": "Alaska Division of Motor Vehicles"
+      },
+      {
+        "title": "License fees",
+        "url": "https://dmv.alaska.gov/credential-services/license-fees/",
+        "publisher": "Alaska Division of Motor Vehicles"
+      },
+      {
+        "title": "REAL ID update",
+        "url": "https://dmv.alaska.gov/credential-services/realidupdate/",
+        "publisher": "Alaska Division of Motor Vehicles"
+      },
+      {
+        "title": "Visiting or new to Alaska",
+        "url": "https://dmv.alaska.gov/general-information/visiting-or-new-to-alaska/",
+        "publisher": "Alaska Division of Motor Vehicles"
+      },
+      {
+        "title": "Alaska driver manual",
+        "url": "https://dmv.alaska.gov/media/t5ef5vi2/dlman.pdf",
+        "publisher": "Alaska Division of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The DMV homepage returned HTTP 403. Credential pages on dmv.alaska.gov opened.",
+      "No required number of supervised practice hours was found on the instruction-permit or provisional-license pages.",
+      "The standard and REAL ID license amounts share one table row. The page header labels the columns STANDARD and REAL-ID, so $20 is the standard fee and $40 is the REAL ID fee.",
+      "No out-of-state learner-permit rule was found. The new-resident page covers an out-of-state driver license."
+    ]
+  },
+  {
+    "slug": "vermont",
+    "name": "Vermont",
+    "agency": "Vermont Department of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://dmv.vermont.gov/",
+    "permit_age": "15",
+    "permit_age_quote": "You must be at least 15 years old to take the test.",
+    "permit_age_url": "https://dmv.vermont.gov/licenses/new/learners-permit",
+    "license_age": "16 or 17",
+    "license_age_quote": "A Junior Driver’s License is issued to persons 16 or 17 years old who pass the required examination.",
+    "license_age_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license",
+    "full_license_age": "18",
+    "full_license_age_quote": "An individual must be 18 years of age to obtain a Driver's License",
+    "full_license_age_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws",
+    "written_required": true,
+    "written_quote": "Your permit will be issued after you pass the online permit test and pay the required fees",
+    "written_url": "https://dmv.vermont.gov/licenses/new/learners-permit",
+    "written_detail": "The learner permit is issued after the online permit test and payment. A parent or guardian must give permission at ages 15, 16, and 17.",
+    "road_required": true,
+    "road_quote": "A person may take a road test if their Learner’s Permit has not been expired more than 3 years",
+    "road_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license",
+    "road_detail": "A junior license requires the required examination, including a road test while the learner permit is valid or not expired more than three years.",
+    "scheduled_url": "http://mydmv.vermont.gov",
+    "handbook_url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf",
+    "supervised_hours": "40 additional hours, including 10 at night, beyond driver education",
+    "supervised_quote": "you must complete 40 hours of driving practice, with at least 10 hours being nighttime driving.",
+    "supervised_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license",
+    "holding_period": "at least 1 year",
+    "holding_quote": "An individual must possess a Learner’s Permit for at least one year prior to obtaining a Junior Driver’s License.",
+    "holding_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license",
+    "fees": [
+      {
+        "item": "Learner permit, 2 years, new",
+        "amount": "$24.00",
+        "quote": "Learner’s Permit 2 Years $24.00 N/A $24.00",
+        "url": "https://dmv.vermont.gov/licenses/fees"
+      },
+      {
+        "item": "Junior license, 2 years, new",
+        "amount": "$39.00",
+        "quote": "Junior License 2 Years $39.00 $47.00 $24.00",
+        "url": "https://dmv.vermont.gov/licenses/fees"
+      },
+      {
+        "item": "Real ID, 4 years, new",
+        "amount": "$62.00",
+        "quote": "Real ID 2 Years $39.00 $47.00 $24.00 4 Years $62.00",
+        "url": "https://dmv.vermont.gov/licenses/fees"
+      }
+    ],
+    "fee_page_url": "https://dmv.vermont.gov/licenses/fees",
+    "documents": [
+      {
+        "item": "Identity documents",
+        "summary": "Applicants need accepted identity documents before a license or permit is issued.",
+        "quote": "You will need documentation to establish your identity.",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license"
+      },
+      {
+        "item": "Lawful status for REAL ID or EDL",
+        "summary": "Proof of lawful status is required for a Real ID or enhanced driver license.",
+        "quote": "Lawful Status in the United States (Required for Real ID & EDL)",
+        "url": "https://dmv.vermont.gov/licenses/identity-documents"
+      },
+      {
+        "item": "Parent or guardian permission",
+        "summary": "Ages 15, 16, and 17 need a parent or legal guardian's permission unless emancipated.",
+        "quote": "If you are 15, 16, or 17 years old, you need your parent's or legal guardian's permission",
+        "url": "https://dmv.vermont.gov/licenses/new/learners-permit"
+      }
+    ],
+    "real_id_summary": "REAL ID and enhanced licenses require proof of lawful status. The fee table lists separate Real ID and non-Real ID prices.",
+    "real_id_quote": "Lawful Status in the United States (Required for Real ID & EDL)",
+    "real_id_url": "https://dmv.vermont.gov/licenses/identity-documents",
+    "transfer_summary": "An out-of-state license expired for three years or more requires retesting for a Vermont license.",
+    "transfer_quote": "If your out-of-state license has been expired for 3 years or more , you must retest",
+    "transfer_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/drivers-license",
+    "teen_summary": "A learner permit test starts at 15. A junior license is for ages 16 and 17 after one year on the permit, driver education, 40 practice hours with 10 at night, and a clean record. A driver license is available at 18. Passenger limits apply during the first months of the junior license.",
+    "teen_points": [
+      {
+        "text": "Driver education for 16- and 17-year-olds is 30 classroom hours, 6 hours behind the wheel, and 6 hours of observation.",
+        "quote": "30 hours of classroom study, 6 hours behind-the-wheel training, and 6 hours of observation.",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license"
+      },
+      {
+        "text": "The learner permit supervisor must be a parent or guardian, a driver education instructor, or a licensed person at least 25.",
+        "quote": "a licensed and unimpaired individual 25 years of age or older riding in the front seat.",
+        "url": "https://dmv.vermont.gov/licenses/new/learners-permit"
+      },
+      {
+        "text": "After six months on a junior license there is no passenger restriction.",
+        "quote": "After holding a Junior Driver's License for six months there are no passenger restrictions.",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws"
+      },
+      {
+        "text": "A junior license requires six months without a learner-permit recall, suspension, or revocation.",
+        "quote": "without any Learner’s Permit recalls, suspensions, or revocations for a six-month period prior to obtaining a Junior Driver’s License.",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license"
+      }
+    ],
+    "teen_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": "For the first three months of a junior license, the driver may drive alone or with a listed supervisor",
+    "passengers_quote": "During the first three months of operation under a Junior Driver's License, the individual is restricted to driving alone",
+    "passengers_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws",
+    "sources": [
+      {
+        "title": "Learner's permit",
+        "url": "https://dmv.vermont.gov/licenses/new/learners-permit",
+        "publisher": "Vermont Department of Motor Vehicles"
+      },
+      {
+        "title": "Junior driver's license",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license",
+        "publisher": "Vermont Department of Motor Vehicles"
+      },
+      {
+        "title": "Graduated license laws",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws",
+        "publisher": "Vermont Department of Motor Vehicles"
+      },
+      {
+        "title": "Driver's license",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/drivers-license",
+        "publisher": "Vermont Department of Motor Vehicles"
+      },
+      {
+        "title": "License fees",
+        "url": "https://dmv.vermont.gov/licenses/fees",
+        "publisher": "Vermont Department of Motor Vehicles"
+      },
+      {
+        "title": "Identity documents",
+        "url": "https://dmv.vermont.gov/licenses/identity-documents",
+        "publisher": "Vermont Department of Motor Vehicles"
+      },
+      {
+        "title": "Vermont driver's manual, VN-007",
+        "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf",
+        "publisher": "Vermont Department of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The graduated-license page does not state a nighttime curfew for a junior license.",
+      "Fee rows are printed as new/renew, with motorcycle, and replacement, in that order. The junior new amount is the first dollar figure, $39.00, and the learner-permit new amount is $24.00.",
+      "No out-of-state learner-permit rule was found. The driver-license page addresses an expired out-of-state license."
+    ]
+  },
+  {
+    "slug": "wyoming",
+    "name": "Wyoming",
+    "agency": "Wyoming Department of Transportation",
+    "agency_short": "WYDOT",
+    "agency_home": "https://www.dot.state.wy.us/home.html",
+    "permit_age": "15",
+    "permit_age_quote": "An instruction permit may be obtained at 15.",
+    "permit_age_url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf",
+    "license_age": "16",
+    "license_age_quote": "You are 16 years old; You have held a learner's permit for at least 10 days",
+    "license_age_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "full_license_age": "17, or 16 1/2 with driver education and six months on an intermediate license",
+    "full_license_age_quote": "For full driving privileges, an applicant must be at least 17, or be 16-1/2",
+    "full_license_age_url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf",
+    "written_required": true,
+    "written_quote": "You are required to take and pass a written test when you have never been licensed",
+    "written_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/testing.html",
+    "written_detail": "A written test is required for someone who has never been licensed in Wyoming or another state, and when a license has been expired for two years or more. A learner permit also requires the written exam and a vision screening.",
+    "road_required": true,
+    "road_quote": "You are required to pass a driving skills test, a vision screening",
+    "road_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "road_detail": "An intermediate permit requires a driving skills test and vision screening. The skills test may be waived for an approved driver education program.",
+    "scheduled_url": "https://onewyoprodweb.mvds.onewyo.gov/home",
+    "handbook_url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf",
+    "supervised_hours": "50 hours, including 10 at night",
+    "supervised_quote": "You have completed 50 actual driving hours behind the wheel of a vehicle, including 10 hours of night driving.",
+    "supervised_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "holding_period": "Intermediate permit at least 6 months, or until age 17",
+    "holding_quote": "The intermediate permit must be held for a minimum period of six months or until you turn 17 years of age.",
+    "holding_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "fees": [
+      {
+        "item": "Original Wyoming non-commercial license",
+        "amount": "$40",
+        "quote": "Non-commercial licenses Original Wyoming License $40 Restricted License $20",
+        "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf"
+      },
+      {
+        "item": "Instruction permit",
+        "amount": "$40",
+        "quote": "Instruction Permit $40 Restricted Instruction Permit $20 Intermediate License $30",
+        "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf"
+      },
+      {
+        "item": "Intermediate license",
+        "amount": "$30",
+        "quote": "Instruction Permit $40 Restricted Instruction Permit $20 Intermediate License $30",
+        "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf"
+      },
+      {
+        "item": "Technology fee on driver licenses",
+        "amount": "$5",
+        "quote": "An additional technology fee of $5 will be imposed on all classes of driver licenses",
+        "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf"
+      }
+    ],
+    "fee_page_url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf",
+    "documents": [
+      {
+        "item": "Legal identification",
+        "summary": "A first license or ID needs a state-certified birth certificate, a valid U.S. passport, or immigration documents.",
+        "quote": "must provide a state-certified birth certificate, a valid U.S. passport or immigration documents.",
+        "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf"
+      },
+      {
+        "item": "Social Security number",
+        "summary": "The Social Security number is verified with a card, W-2, or a financial statement that shows the number.",
+        "quote": "Applicants also must be able to verify their Social Security number by presenting a Social Security card",
+        "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf"
+      },
+      {
+        "item": "Wyoming residency",
+        "summary": "Two documents from the residency list are required, and they must show a residential address.",
+        "quote": "Any two of the following are acceptable documents that must be provided as proof that you are a Wyoming resident",
+        "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf"
+      }
+    ],
+    "real_id_summary": "An intermediate permit applicant must present the appropriate Real ID documents along with the 50-hour driving proof.",
+    "real_id_quote": "present the appropriate Real ID documents , and proof that you have completed the requirement of 50 hours",
+    "real_id_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "An instruction permit is available at 15. At 16, an intermediate permit requires at least 10 days on the learner permit, 50 driving hours including 10 at night, and a skills test. Full privileges are at 17, or at 16 1/2 when driver education is completed and the intermediate license has been held six months.",
+    "teen_points": [
+      {
+        "text": "The learner permit for an intermediate permit must have been held at least 10 days.",
+        "quote": "You have held a learner's permit for at least 10 days",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html"
+      },
+      {
+        "text": "Full privileges can be requested after six months on the intermediate permit if an approved driver education course is completed.",
+        "quote": "If you have held an intermediate permit for six months and have completed an approved driver education course , then you may apply for full driving privileges.",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html"
+      },
+      {
+        "text": "A regular learner permit requires a licensed adult over 18 in the front seat.",
+        "quote": "The permit restricts the driver to operating a motor vehicle only when a person over the age of 18 who holds a valid license",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html"
+      },
+      {
+        "text": "A separate restricted hardship permit exists for some 14- and 15-year-olds.",
+        "quote": "A Restricted Learner's Permit (ages 14-15 years) is also known as a \"hardship permit\".",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html"
+      }
+    ],
+    "teen_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "5 a.m. to 11 p.m. on an intermediate permit, unless an exception form applies",
+    "curfew_quote": "You can only legally drive between the hours of 5 a.m. and 11 p.m.",
+    "curfew_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "passengers": "No more than one passenger under 18 who is not immediate family",
+    "passengers_quote": "You are not allowed to drive with more than one passenger under the age of 18 years who is not a member of your immediate family",
+    "passengers_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "sources": [
+      {
+        "title": "Learner permits",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+        "publisher": "Wyoming Department of Transportation"
+      },
+      {
+        "title": "Driver license testing",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/testing.html",
+        "publisher": "Wyoming Department of Transportation"
+      },
+      {
+        "title": "Wyoming driver license manual, Class C",
+        "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/2021_DriverManual_web_ClassC_w%20cover.pdf",
+        "publisher": "Wyoming Department of Transportation"
+      },
+      {
+        "title": "WYDOT home",
+        "url": "https://www.dot.state.wy.us/home.html",
+        "publisher": "Wyoming Department of Transportation"
+      }
+    ],
+    "gaps": [
+      "A dedicated REAL ID explainer page was not found. The learner-permit page says intermediate applicants present Real ID documents but does not list them.",
+      "No out-of-state learner-permit transfer rule was opened. The intermediate section mentions surrendering a current Wyoming or out-of-state driver permit.",
+      "The Class C manual fee table is the source for dollar amounts. The technology fee is additional.",
+      "Instruction permit, original license, and intermediate license dollar amounts are on the same printed fee-table rows in the Class C manual. Reading-order extraction lists every label before the amounts, so those quotes were checked against the layout text of the downloaded PDF."
+    ]
+  },
+  {
+    "slug": "district-of-columbia",
+    "name": "District of Columbia",
+    "agency": "District of Columbia Department of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://dmv.dc.gov/",
+    "permit_age": "16",
+    "permit_age_quote": "must be at least 16 years old to get a DC DMV learner permit",
+    "permit_age_url": "https://dmv.dc.gov/service/learner-permits-and-provisional-licenses",
+    "license_age": "16 years and 6 months",
+    "license_age_quote": "I hereby certify that I am at least 16 years and 6 months old",
+    "license_age_url": "https://dmv.dc.gov/sites/default/files/dc/sites/dmv/publication/attachments/form_40_hours.pdf",
+    "full_license_age": "17",
+    "full_license_age_quote": "You must be at least 17 years old.",
+    "full_license_age_url": "https://dmv.dc.gov/service/full-license-conditions",
+    "written_required": true,
+    "written_quote": "you must pass vision screening and knowledge tests",
+    "written_url": "https://dmv.dc.gov/service/learner-permits-and-provisional-licenses",
+    "written_detail": "A learner permit requires vision screening and knowledge tests, plus identity, residency, and eligibility documents.",
+    "road_required": true,
+    "road_quote": "If you are age 16 to 20, you must take the road skills test to qualify for a provisional license.",
+    "road_url": "https://dmv.dc.gov/page/road-skills-tests",
+    "road_detail": "Ages 16 to 20 take a road skills test for a provisional license and bring the 40-hour certification if under 21.",
+    "scheduled_url": "https://artsprod1.mvis.dmv.washingtondc.gov/scheduler/customer/web/",
+    "handbook_url": null,
+    "supervised_hours": "40 hours with a tutor who is at least 21",
+    "supervised_quote": "practiced driving skills for at least 40 hours accompanied by a driver/tutor(s) who is 21 years or older",
+    "supervised_url": "https://dmv.dc.gov/sites/default/files/dc/sites/dmv/publication/attachments/form_40_hours.pdf",
+    "holding_period": "at least 6 months",
+    "holding_quote": "you must have held a valid learner permit for at least 6 months",
+    "holding_url": "https://dmv.dc.gov/sites/default/files/dc/sites/dmv/publication/attachments/form_40_hours.pdf",
+    "fees": [
+      {
+        "item": "Driver license fee for online conversion from a provisional license to a full license with conditions",
+        "amount": "$47",
+        "quote": "pay the $47 driver license fee",
+        "url": "https://dmv.dc.gov/service/provisional-license"
+      }
+    ],
+    "fee_page_url": "https://dmv.dc.gov/service/provisional-license",
+    "documents": [
+      {
+        "item": "U.S. passport",
+        "summary": "An unexpired U.S. passport or passport card is an accepted REAL ID identity document.",
+        "quote": "Unexpired US Passport or Passport Card",
+        "url": "https://dmv.dc.gov/proofofidentity"
+      },
+      {
+        "item": "Birth certificate",
+        "summary": "A U.S. birth certificate filed with a state vital-statistics office is an accepted identity document.",
+        "quote": "US Birth Certificate or Birth Certification Card filed with a state office of vital statistics",
+        "url": "https://dmv.dc.gov/proofofidentity"
+      },
+      {
+        "item": "40-hour certification",
+        "summary": "The tutor's signed certification and a photocopy of the tutor's license are brought to the road test.",
+        "quote": "a photocopy of their driver license must be submitted with this form",
+        "url": "https://dmv.dc.gov/sites/default/files/dc/sites/dmv/publication/attachments/form_40_hours.pdf"
+      }
+    ],
+    "real_id_summary": "A REAL ID learner permit is one option. A REAL ID license or ID requires one original source document from DC DMV's identity list.",
+    "real_id_quote": "To apply for a REAL ID driver license or REAL ID identification card, you must provide one source document from the list below.",
+    "real_id_url": "https://dmv.dc.gov/proofofidentity",
+    "transfer_summary": "A new resident surrenders the current out-of-state driver license or provisional license, or a certified driving record from the last 30 days if the card is unavailable.",
+    "transfer_quote": "You will have to surrender your current driver license or provisional license to DC DMV",
+    "transfer_url": "https://dmv.dc.gov/service/convert-out-state-driver-licenses",
+    "teen_summary": "A learner permit starts at 16 and may be used from 6:00 a.m. to 9:00 p.m. The provisional certification form requires age 16 years and 6 months, six months on the permit, and 40 supervised hours. A full license with conditions is available at 17 after six months on the provisional license, with a night-driving certification.",
+    "teen_points": [
+      {
+        "text": "Ten hours of night practice are required before a full license with conditions.",
+        "quote": "you have practiced night driving skills for at least 10 hours, accompanied by a driver who is 21 years old or older",
+        "url": "https://dmv.dc.gov/service/full-license-conditions"
+      },
+      {
+        "text": "The provisional license must be held at least six months before the full license with conditions.",
+        "quote": "You must have held a valid provisional license for at least 6 months.",
+        "url": "https://dmv.dc.gov/service/full-license-conditions"
+      },
+      {
+        "text": "GRAD learner-permit hours are 6 a.m. to 9 p.m.",
+        "quote": "Learner Permit 6 am – 9 pm",
+        "url": "https://dmv.dc.gov/service/graduated-license-program"
+      },
+      {
+        "text": "At 21, a learner-permit holder can schedule a road test without the six-month wait or the driving certification.",
+        "quote": "If you turn 21 when you have a learner permit , you may immediately schedule a road test appointment.",
+        "url": "https://dmv.dc.gov/service/graduated-license-program"
+      }
+    ],
+    "teen_url": "https://dmv.dc.gov/service/graduated-license-program",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "Learner permit driving is limited to 6:00 a.m. to 9:00 p.m.",
+    "curfew_quote": "You may only drive between 6:00 am and 9:00 pm when you drive with a DC DMV learner permit.",
+    "curfew_url": "https://dmv.dc.gov/service/learner-permits-and-provisional-licenses",
+    "passengers": "Under 18 with a full license with conditions, no more than two passengers under 21, except siblings",
+    "passengers_quote": "If you are under 18 years old, you can drive with no more than 2 passengers under age 21.",
+    "passengers_url": "https://dmv.dc.gov/service/full-license-conditions",
+    "sources": [
+      {
+        "title": "Learner permits and provisional licenses",
+        "url": "https://dmv.dc.gov/service/learner-permits-and-provisional-licenses",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "Certification of eligibility for a provisional license",
+        "url": "https://dmv.dc.gov/sites/default/files/dc/sites/dmv/publication/attachments/form_40_hours.pdf",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "Full license with conditions",
+        "url": "https://dmv.dc.gov/service/full-license-conditions",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "GRAD license program",
+        "url": "https://dmv.dc.gov/service/graduated-license-program",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "Road skills tests",
+        "url": "https://dmv.dc.gov/page/road-skills-tests",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "Proof of identity",
+        "url": "https://dmv.dc.gov/proofofidentity",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "Convert out-of-state driver licenses",
+        "url": "https://dmv.dc.gov/service/convert-out-state-driver-licenses",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "Provisional license online conversion",
+        "url": "https://dmv.dc.gov/service/provisional-license",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "Knowledge tests",
+        "url": "https://dmv.dc.gov/service/knowledge-tests",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The provisional age, six-month hold, and 40-hour practice rule are printed on DC DMV form DMV-GRAD-HR40, revision date 08/24/09, which is the form still posted for the road test.",
+      "The fee book page did not print a license fee table in the downloaded text. The only dollar amount recorded is the $47 fee on the provisional-conversion page.",
+      "No District driver handbook PDF was located.",
+      "No rule for using another jurisdiction's learner permit was found. The conversion page covers an out-of-state driver license."
+    ]
+  }
+]
