@@ -211,7 +211,7 @@
       {
         "item": "New driver license, age 18 to 84",
         "amount": "$33",
-        "quote": "Age 18 to 84: new $33 Expires after eight years (on your birthday",
+        "quote": "Age 18 to 84: new $33 Expires after eight years (on your birthday)",
         "url": "https://www.dps.texas.gov/section/driver-license/driver-license-fees"
       }
     ],
@@ -506,7 +506,7 @@
     "full_license_age_quote": "If you are 17, you are eligible for a senior driver license (Class D or M) if you have a junior driver license or limited junior driver license and have completed a state-approved high school or college driver education course.",
     "full_license_age_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
     "written_required": true,
-    "written_quote": "passing the written permit test and getting your New York State Learner Permit",
+    "written_quote": "Before you take your road test, you will need to prepare by passing the written permit test and getting your New York State Learner Permit",
     "written_url": "https://dmv.ny.gov/driver-license/schedule-and-take-a-road-test",
     "written_detail": "The road-test instructions say an applicant prepares by passing the written permit test and getting a learner permit. Permit tests for a Class D permit are offered in 20 languages.",
     "road_required": true,
@@ -609,16 +609,16 @@
         "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law"
       },
       {
-        "text": "Upstate junior license at night: 9 p.m. to 5 a.m. only for listed trips or with a supervising driver.",
-        "quote": "Between the hours of 9 PM and 5 AM , you may drive without a supervising driver only directly between your home and",
+        "text": "Upstate junior license at night: 9 p.m. to 5 a.m. only for a direct trip home and work, unless a supervising driver is along.",
+        "quote": "Between the hours of 9 PM and 5 AM , you may drive without a supervising driver only directly between your home and your employment (you must carry appropriate proof of employment):",
         "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law"
       }
     ],
     "out_of_state_permit": true,
-    "out_of_state_permit_quote": "If you are age 16 or older and hold a junior driver license from outside New York State, you must obey any restrictions imposed by the state that issued your permit or driver license, and",
+    "out_of_state_permit_quote": "If you are age 16 or older and hold a junior driver license from outside New York State, you must obey any restrictions imposed by the state that issued your permit or driver license, and the New York State general learner permit restrictions and, if you are under age 18, the regional junior learner permit and junior driver license restrictions explained on these pages",
     "out_of_state_permit_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
     "curfew": "Upstate, a junior license may be used from 9 p.m. to 5 a.m. without a supervising driver only for a direct trip between home and work or a school course. New York City and Long Island use different junior-license limits.",
-    "curfew_quote": "Between the hours of 9 PM and 5 AM , you may drive without a supervising driver only directly between your home and",
+    "curfew_quote": "Between the hours of 9 PM and 5 AM , you may drive without a supervising driver only directly between your home and your employment (you must carry appropriate proof of employment):",
     "curfew_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
     "passengers": "Upstate, a junior license may have no more than one passenger under 21 unless the passengers are immediate family, or the supervising driver is a parent, guardian, or other listed instructor.",
     "passengers_quote": "there may be no more than one passenger under the age of 21 unless the passengers are members of your immediate family.",
@@ -687,11 +687,11 @@
     "full_license_age_quote": "Your junior driver’s license will automatically become a regular driver’s license when you turn 18 years of age.",
     "full_license_age_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
     "written_required": true,
-    "written_quote": "You will need to take and pass the Vision, Knowledge and Road tests to get your driver",
+    "written_quote": "You will need to take and pass the Vision, Knowledge and Road tests to get your driver's license.",
     "written_url": "https://www.pa.gov/services/dmv/get-a-learners-permit",
     "written_detail": "PennDOT says a driver's license requires the vision, knowledge, and road tests. The knowledge test is taken at a driver license center after the learner's permit application is completed.",
     "road_required": true,
-    "road_quote": "You will need to take and pass the Vision, Knowledge and Road tests to get your driver",
+    "road_quote": "You will need to take and pass the Vision, Knowledge and Road tests to get your driver's license.",
     "road_url": "https://www.pa.gov/services/dmv/get-a-learners-permit",
     "road_detail": "The same sentence requires the road test. Under 18, the manual says the road test cannot be taken until six months after the learner's permit is received, and the 65 hours must be finished.",
     "scheduled_url": "https://www.pa.gov/agencies/dmv/find-a-location",
@@ -700,7 +700,7 @@
     "supervised_quote": "If you are under the age of 18, you are required to complete at least 65 hours of behind-the-wheel skill-building including no less than 10 hours of nighttime driving and five (5) hours of bad weather driving before taking your Road Test.",
     "supervised_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
     "holding_period": "six months after the learner's permit",
-    "holding_quote": "you may not take your Road Test for six (6) months after you have received your learner",
+    "holding_quote": "you may not take your Road Test for six (6) months after you have received your learner’s permit and you must have completed the 65 hours of behind-the-wheel skill-building requirements.",
     "holding_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
     "fees": [
       {
@@ -747,7 +747,7 @@
     "real_id_quote": "Starting May 7, 2025, a federally accepted form of identification — such as a REAL ID, U.S. passport, or military ID — will be required to board domestic flights and enter certain federal facilities.",
     "real_id_url": "https://www.pa.gov/agencies/dmv/driver-services/real-id",
     "transfer_summary": "A person who holds a valid license from another state or Canada must get a Pennsylvania license within 60 days of moving and surrender the out-of-state license. The manual sentence does not say the knowledge or road test is waived.",
-    "transfer_quote": "if you hold a valid driver’s license from another state or Canada, you must get a Pennsylvania driver’s license within 60 days after moving to Pennsylvania and surrender your out-of-state driver",
+    "transfer_quote": "if you hold a valid driver’s license from another state or Canada, you must get a Pennsylvania driver’s license within 60 days after moving to Pennsylvania and surrender your out-of-state driver’s license.",
     "transfer_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
     "teen_summary": "A non-commercial learner's permit cannot be requested before the 16th birthday. Under 18, the road test waits six months and requires 65 hours of practice, including 10 at night and 5 in bad weather. The junior license cannot be used from 11 p.m. to 5 a.m. without a listed adult, and it starts with a one-passenger limit for people under 18 who are not immediate family. The junior license becomes a regular license at 18.",
     "teen_quote": "You cannot apply for your permit before your 16th birthday.",
@@ -764,8 +764,8 @@
         "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf"
       },
       {
-        "text": "No road test for six months after the learner's permit.",
-        "quote": "you may not take your Road Test for six (6) months after you have received your learner",
+        "text": "No road test for six months after the learner's permit, and the 65 hours must be done.",
+        "quote": "you may not take your Road Test for six (6) months after you have received your learner’s permit and you must have completed the 65 hours of behind-the-wheel skill-building requirements.",
         "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf"
       },
       {
