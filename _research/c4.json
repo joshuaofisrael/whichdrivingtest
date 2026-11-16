@@ -1416,7 +1416,7 @@
     "name": "Alaska",
     "agency": "Alaska Division of Motor Vehicles",
     "agency_short": "DMV",
-    "agency_home": "https://dmv.alaska.gov/",
+    "agency_home": null,
     "permit_age": 14,
     "permit_age_quote": "When you turn 14, you are eligible for an instruction permit to begin to practice how to drive.",
     "permit_age_url": "https://dmv.alaska.gov/credential-services/instruction-permit/",
@@ -1518,7 +1518,8 @@
       "The instruction-permit page says 'Pay $15' and the fee table shows $15 in a separate cell. Neither presentation is a six-word sentence containing the amount, so no fee was stored.",
       "The parental consent form mentions 40 hours of driving experience, including inclement weather, but that form PDF was not used as a quote source.",
       "The written-test step is a short list item and may be dropped by the six-word check.",
-      "No out-of-state learner-permit rule was quoted."
+      "No out-of-state learner-permit rule was quoted.",
+      "The DMV home page returned HTTP 403. Credential pages on dmv.alaska.gov opened and were used."
     ]
   },
   {

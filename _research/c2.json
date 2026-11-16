@@ -1010,8 +1010,8 @@
   {
     "slug": "arizona",
     "name": "Arizona",
-    "agency": "Arizona Department of Transportation",
-    "agency_short": "ADOT",
+    "agency": "Arizona Revised Statutes",
+    "agency_short": "Arizona Legislature",
     "agency_home": null,
     "permit_age": 15.5,
     "permit_age_quote": "A person who is at least fifteen years and six months of age may apply to the department for an instruction permit for a class D or G license.",

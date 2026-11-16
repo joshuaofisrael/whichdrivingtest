@@ -133,7 +133,7 @@ def fetch_one(url):
                 "--max-time",
                 "45",
                 "-A",
-                "Mozilla/5.0 (compatible; WhichDrivingTest/1.0; +https://whichdrivingtest.com/)",
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
                 "-o",
                 bin_path,
                 "-w",
@@ -231,6 +231,16 @@ def fee_ok(fee, page):
     if words and not any(w in q for w in words):
         return False
     return True
+
+
+def score_state(st):
+    score = 0
+    for key, _quote, _url in PAIRS:
+        if st.get(key):
+            score += 2
+    score += len(st.get("fees") or [])
+    score += len(st.get("documents") or [])
+    return score
 
 
 def collect_urls(raw):
@@ -356,12 +366,16 @@ def main():
             url, text = fut.result()
             pages[url] = text
     cleaned = []
-    seen = set()
+    by_slug = {}
     for raw in raw_states:
-        if not isinstance(raw, dict) or not raw.get("slug") or raw["slug"] in seen:
+        if not isinstance(raw, dict) or not raw.get("slug"):
             continue
-        seen.add(raw["slug"])
-        cleaned.append(clean_state(raw, pages))
+        state = clean_state(raw, pages)
+        slug = state["slug"]
+        old = by_slug.get(slug)
+        if old is None or score_state(state) > score_state(old):
+            by_slug[slug] = state
+    cleaned = list(by_slug.values())
     # Keep a previously verified state when this run has no fresh file for it.
     if os.path.isfile(OUT):
         with open(OUT, encoding="utf-8") as fh:

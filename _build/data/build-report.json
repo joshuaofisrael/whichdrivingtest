@@ -1,28 +1,22 @@
 {
-  "pages": 343,
-  "html_without_404": 342,
-  "states": 46,
+  "pages": 362,
+  "html_without_404": 361,
+  "states": 48,
   "missing_states": [
     "Massachusetts",
     "Illinois",
-    "Michigan",
-    "Arizona",
     "Colorado"
   ],
   "topics": {
-    "permit": 45,
-    "written-test": 39,
-    "road-test": 41,
-    "real-id": 42,
-    "fees": 35,
-    "transfer": 32,
-    "teen": 46
+    "permit": 46,
+    "written-test": 42,
+    "road-test": 43,
+    "real-id": 44,
+    "fees": 38,
+    "transfer": 36,
+    "teen": 48
   },
   "skipped": [
-    {
-      "slug": "arizona",
-      "reason": "not enough confirmed official facts"
-    },
     {
       "slug": "colorado",
       "reason": "not enough confirmed official facts"
@@ -33,10 +27,6 @@
     },
     {
       "slug": "massachusetts",
-      "reason": "not enough confirmed official facts"
-    },
-    {
-      "slug": "michigan",
       "reason": "not enough confirmed official facts"
     }
   ],
