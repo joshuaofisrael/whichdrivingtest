@@ -1,14 +1,30 @@
 {
   "states": 51,
   "urls": 312,
-  "pages_with_text": 305,
+  "pages_with_text": 289,
   "empty_pages": [
-    "https://azdot.gov/mvd",
-    "https://dmv.ny.gov/driver-license/get-learner-permit",
+    "https://dmv.ny.gov/driver-license/schedule-and-take-a-road-test",
+    "https://dmv.ny.gov/driver-license/fees-refunds",
+    "https://dmv.ny.gov/driver-license/complete-pre-licensing-requirements",
+    "https://dmv.ny.gov/driver-license/learner-permit-restrictions",
+    "https://dmv.ny.gov/learner-permit",
+    "https://dmv.ny.gov/driver-license/prepare-for-and-take-your-permit-test",
+    "https://dmv.ny.gov/brochure/mv21.pdf",
+    "https://dmv.ny.gov/",
+    "https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license",
+    "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
+    "https://dmv.ny.gov/driver-license/enhanced-or-real-id",
     "https://www.ilsos.gov/",
+    "https://publicsafety.ohio.gov/who-we-are/resources/digest-of-motor-vehicle-laws",
+    "https://dds.drives.ga.gov/_/?link=RoadTest",
+    "https://azdot.gov/mvd",
     "https://www.dmv.nh.gov/",
     "https://dmv.ny.gov/node/941",
+    "https://dmv.ny.gov/driver-license/get-learner-permit",
     "https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests",
-    "https://dds.drives.ga.gov/_/?link=RoadTest"
+    "https://www.tn.gov/safety/driver-services.html",
+    "https://www.tn.gov/safety/driver-services/helpful-information/fees.html",
+    "https://dlguides.wi.gov/",
+    "https://www.lrl.mn.gov/docs/2026/other/261376.pdf"
   ]
 }

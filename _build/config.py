@@ -15,7 +15,7 @@ CF_BEACON_TOKEN = "eac63f2b5dbc4539a2d95249baab6472"
 
 # Owner fills a GA4 measurement id (G-XXXXXXXXXX) before ./deploy.sh --launch can pass.
 # Leave this empty until then. Do not invent an id.
-GA4_ID = ""
+GA4_ID = "G-CZDQRN3V8F"
 
 # First verification day for v1. Do not bump on a rebuild that does not change facts.
 PUBLISHED = "2026-11-16"

@@ -2508,7 +2508,7 @@
     ],
     "agency_home": "https://dps.mn.gov/",
     "scheduled_url": null,
-    "handbook_url": "https://www.lrl.mn.gov/docs/2026/other/261376.pdf",
+    "handbook_url": null,
     "fee_page_url": "https://www.revisor.mn.gov/statutes/cite/171.06",
     "permit_age": "The department may issue an instruction permit to an applicant who is 15, 16, or 17 years of age and who:",
     "permit_age_url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05",
@@ -3497,113 +3497,42 @@
     "name": "New York",
     "agency": "New York State Department of Motor Vehicles",
     "agency_short": "DMV",
-    "sources": [
-      {
-        "title": "Learner Permits",
-        "url": "https://dmv.ny.gov/learner-permit",
-        "publisher": "New York State Department of Motor Vehicles"
-      },
-      {
-        "title": "Prepare for and take your permit test",
-        "url": "https://dmv.ny.gov/driver-license/prepare-for-and-take-your-permit-test",
-        "publisher": "New York State Department of Motor Vehicles"
-      },
-      {
-        "title": "Complete pre-licensing requirements",
-        "url": "https://dmv.ny.gov/driver-license/complete-pre-licensing-requirements",
-        "publisher": "New York State Department of Motor Vehicles"
-      },
-      {
-        "title": "Schedule and take a road test",
-        "url": "https://dmv.ny.gov/driver-license/schedule-and-take-a-road-test",
-        "publisher": "New York State Department of Motor Vehicles"
-      },
-      {
-        "title": "The Graduated License Law",
-        "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
-        "publisher": "New York State Department of Motor Vehicles"
-      },
-      {
-        "title": "Learner permit restrictions",
-        "url": "https://dmv.ny.gov/driver-license/learner-permit-restrictions",
-        "publisher": "New York State Department of Motor Vehicles"
-      },
-      {
-        "title": "Driver license and learner permit fees",
-        "url": "https://dmv.ny.gov/driver-license/fees-refunds",
-        "publisher": "New York State Department of Motor Vehicles"
-      },
-      {
-        "title": "Enhanced or REAL ID",
-        "url": "https://dmv.ny.gov/driver-license/enhanced-or-real-id",
-        "publisher": "New York State Department of Motor Vehicles"
-      },
-      {
-        "title": "Exchange an out-of-state driver license",
-        "url": "https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license",
-        "publisher": "New York State Department of Motor Vehicles"
-      }
-    ],
-    "agency_home": "https://dmv.ny.gov/",
+    "sources": [],
+    "agency_home": null,
     "scheduled_url": null,
-    "handbook_url": "https://dmv.ny.gov/brochure/mv21.pdf",
-    "fee_page_url": "https://dmv.ny.gov/driver-license/fees-refunds",
-    "permit_age": "You must be 16 years or older to apply.",
-    "permit_age_url": "https://dmv.ny.gov/learner-permit",
+    "handbook_url": null,
+    "fee_page_url": null,
+    "permit_age": null,
+    "permit_age_url": null,
     "license_age": null,
     "license_age_url": null,
-    "full_license_age": "you are subject to the restrictions for junior drivers until you are age 18, even if you carry the completion certificate with you.",
-    "full_license_age_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
-    "written_required": "passing the written permit test and getting your New York State Learner Permit",
-    "written_url": "https://dmv.ny.gov/driver-license/schedule-and-take-a-road-test",
-    "written_detail": "passing the written permit test and getting your New York State Learner Permit",
-    "road_required": "Before you take your road test, you will need to prepare by passing the written permit test",
-    "road_url": "https://dmv.ny.gov/driver-license/schedule-and-take-a-road-test",
-    "road_detail": "The test vehicle must have valid registration, insurance, and inspection, operate properly, and be clean.",
-    "supervised_hours": "50 hours, including 15 after sunset, for a junior learner permit",
-    "supervised_url": "https://dmv.ny.gov/driver-license/complete-pre-licensing-requirements",
-    "holding_period": "If you are under the age of 18, you must wait at least six months from the date you received your learner permit to schedule your road test.",
-    "holding_url": "https://dmv.ny.gov/driver-license/complete-pre-licensing-requirements",
-    "real_id_summary": "A New York REAL ID is a federally compliant license, permit, or non-driver ID.",
-    "real_id_url": "https://dmv.ny.gov/driver-license/enhanced-or-real-id",
-    "transfer_summary": "Exchanging an out-of-state license includes passing a vision test at a DMV office or bringing a completed eye test report.",
-    "transfer_url": "https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license",
+    "full_license_age": null,
+    "full_license_age_url": null,
+    "written_required": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": null,
+    "road_url": null,
+    "road_detail": null,
+    "supervised_hours": null,
+    "supervised_url": null,
+    "holding_period": null,
+    "holding_url": null,
+    "real_id_summary": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_url": null,
     "teen_summary": null,
-    "teen_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
-    "out_of_state_permit": "A learner permit from another state cannot be used to drive in New York if the holder is under 16. At 16 or older, an out-of-state junior permit or permit must follow both the issuing state's restrictions and New York's permit rules.",
-    "out_of_state_permit_url": "https://dmv.ny.gov/driver-license/learner-permit-restrictions",
-    "curfew": "Upstate junior license: unsupervised driving from 5 a.m. to 9 p.m.",
-    "curfew_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
-    "passengers": "Upstate junior license: no more than one passenger under 21 unless they are immediate family",
-    "passengers_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
-    "fees": [
-      {
-        "item": "Replace a driver license or learner permit",
-        "amount": "$17.50",
-        "url": "https://dmv.ny.gov/driver-license/fees-refunds"
-      }
-    ],
-    "documents": [
-      {
-        "item": "Age, identity, and residence",
-        "summary": "When you apply, you will need to provide proof of age, identification, and residence.",
-        "url": "https://dmv.ny.gov/driver-license/prepare-for-and-take-your-permit-test"
-      }
-    ],
-    "teen_points": [
-      {
-        "text": "At 17, a junior driver who finished an approved high school or college driver education course can get a senior Class D or M license.",
-        "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law"
-      },
-      {
-        "text": "Upstate, a junior license allows unsupervised driving from 5 a.m. to 9 p.m.",
-        "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law"
-      },
-      {
-        "text": "Upstate junior licenses allow no more than one passenger under 21 unless the passengers are immediate family.",
-        "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law"
-      }
-    ]
+    "teen_url": null,
+    "out_of_state_permit": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_url": null,
+    "passengers": null,
+    "passengers_url": null,
+    "fees": [],
+    "documents": [],
+    "teen_points": []
   },
   {
     "slug": "north-carolina",
@@ -3612,67 +3541,87 @@
     "agency_short": "NCDMV",
     "sources": [
       {
-        "title": "North Carolina Driver Handbook",
-        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-        "publisher": "North Carolina Division of Motor Vehicles"
-      },
-      {
-        "title": "Get a Level 1 Limited Learner Permit",
+        "title": "Level 1 limited learner permit",
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx",
-        "publisher": "North Carolina Division of Motor Vehicles"
+        "publisher": "N.C. Division of Motor Vehicles"
       },
       {
-        "title": "Get a Level 2 Limited Provisional License",
+        "title": "Level 2 limited provisional license",
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx",
-        "publisher": "North Carolina Division of Motor Vehicles"
+        "publisher": "N.C. Division of Motor Vehicles"
       },
       {
-        "title": "Get a Level 3 Full Provisional License",
+        "title": "Level 3 full provisional license",
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level3.aspx",
-        "publisher": "North Carolina Division of Motor Vehicles"
+        "publisher": "N.C. Division of Motor Vehicles"
       },
       {
-        "title": "Teen Drivers",
+        "title": "Teen drivers",
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/teen-drivers.aspx",
-        "publisher": "North Carolina Division of Motor Vehicles"
+        "publisher": "N.C. Division of Motor Vehicles"
       },
       {
-        "title": "N.C. REAL ID Requirements",
-        "url": "https://www.ncdot.gov/dmv/license-id/nc-real-id/Pages/requirements.aspx",
-        "publisher": "North Carolina Division of Motor Vehicles"
+        "title": "North Carolina driver handbook",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+        "publisher": "N.C. Division of Motor Vehicles"
+      },
+      {
+        "title": "Driver license tests",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-license-tests.aspx",
+        "publisher": "N.C. Division of Motor Vehicles"
+      },
+      {
+        "title": "N.C. REAL ID",
+        "url": "https://www.ncdot.gov/dmv/license-id/nc-real-id/Pages/default.aspx",
+        "publisher": "N.C. Division of Motor Vehicles"
+      },
+      {
+        "title": "Moving to North Carolina",
+        "url": "https://www.ncdot.gov/dmv/help/moving/Pages/new-residents.aspx",
+        "publisher": "N.C. Division of Motor Vehicles"
+      },
+      {
+        "title": "Proving age and identity",
+        "url": "https://www.ncdot.gov/dmv/help/Pages/proving-identity.aspx",
+        "publisher": "N.C. Division of Motor Vehicles"
+      },
+      {
+        "title": "Driver license office appointments",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-license-appointments/Pages/default.aspx",
+        "publisher": "N.C. Division of Motor Vehicles"
       }
     ],
-    "agency_home": "https://www.ncdot.gov/dmv/",
+    "agency_home": "https://www.ncdot.gov/dmv/Pages/default.aspx",
     "scheduled_url": "https://www.ncdot.gov/dmv/license-id/driver-license-appointments/Pages/default.aspx",
     "handbook_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-    "fee_page_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-    "permit_age": "If you are at least 15 years of age and have completed an approved driver education course that meets North Carolina requirements, you may apply for a Level One Limited Learner Permit to operate vehicles requiring a Class C License.",
-    "permit_age_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "fee_page_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx",
+    "permit_age": "you must be at least 15 years old and have received a Driver's Education Certificate from an approved driver education course.",
+    "permit_age_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/teen-drivers.aspx",
     "license_age": "Drivers must be at least 16 years old, but less than 18.",
     "license_age_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-    "full_license_age": "At age 18, eligible drivers may upgrade to a regular Class C license online.",
-    "full_license_age_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-    "written_required": "You must pass written, sign and vision tests.",
-    "written_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-    "written_detail": "You must pass written, sign and vision tests.",
-    "road_required": "Once you have completed the above, you can take a road test to get your Level 2 Limited Provisional License.",
+    "full_license_age": "once you turn 18, you can upgrade a Level 2 Limited Provisional License directly to a Class C license",
+    "full_license_age_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx",
+    "written_required": "You will need to pass written, sign and vision tests",
+    "written_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx",
+    "written_detail": "It is offered in multiple languages and oral tests are available upon request.",
+    "road_required": "you can take a road test to get your Level 2 Limited Provisional License.",
     "road_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx",
-    "road_detail": "Once you have completed the above, you can take a road test to get your Level 2 Limited Provisional License.",
-    "supervised_hours": "You will be given a Driving Log to be completed detailing a minimum of 60 hours of operation. At least 10 hours must occur during nighttime hours.",
+    "road_detail": "you can take a road test to get your Level 2 Limited Provisional License.",
+    "supervised_hours": "60 hours, including 10 at night",
     "supervised_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-    "holding_period": "nine months",
+    "holding_period": "You must hold this permit for nine months prior to applying for a Limited Provisional License.",
     "holding_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-    "real_id_summary": "A North Carolina REAL ID is a driver license, learner permit, or ID card with a star. The handbook says there is no additional fee for REAL ID. Non-REAL ID cards are marked not for federal identification.",
-    "real_id_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-    "transfer_summary": "A new resident has 60 days after establishing residence to get a North Carolina license or learner permit. A new resident applying for a Class C license may have to take knowledge, vision, signs, and, if the examiner requires it, a driving skills test.",
-    "transfer_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-    "teen_summary": "To be eligible, you must be at least 15 years old and have received a Driver's Education Certificate from an approved driver education course.",
+    "real_id_summary": "A North Carolina REAL ID costs the same as a standard license. The first one is issued only in a driver license office, and two residency documents are required.",
+    "real_id_url": "https://www.ncdot.gov/dmv/license-id/nc-real-id/Pages/default.aspx",
+    "transfer_summary": "New residents who will drive must get a North Carolina license within 60 days. A valid out-of-state license can waive the written and road tests.",
+    "transfer_url": "https://www.ncdot.gov/dmv/help/moving/Pages/new-residents.aspx",
+    "teen_summary": null,
     "teen_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/teen-drivers.aspx",
-    "out_of_state_permit": "A new resident who is at least 15 and under 18 and already has a learner permit, restricted license, or unrestricted license is told to contact a local office to learn which North Carolina credential they may apply for. The handbook does not state that the other state's permit is accepted as a North Carolina permit.",
-    "out_of_state_permit_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
-    "curfew": "With a Limited Provisional License, you can drive unsupervised from 5 a.m. to 9 p.m. and to/from work or any volunteer fire, rescue or emergency medical service.",
+    "out_of_state_permit": null,
+    "out_of_state_permit_url": null,
+    "curfew": "After 9 p.m. until 5 a.m., a supervising driver is required.",
     "curfew_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx",
-    "passengers": "When driving unsupervised, there may be one passenger that is under 21 that is not a member of the same household as the driver.",
+    "passengers": "there may be one passenger that is under 21 that is not a member of the same household",
     "passengers_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx",
     "fees": [
       {
@@ -3681,57 +3630,68 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
       },
       {
-        "item": "Class C license",
-        "amount": "$6.50/year",
-        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+        "item": "Level 2 limited provisional license",
+        "amount": "$25.50",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx"
+      },
+      {
+        "item": "Level 3 full provisional license at age 16",
+        "amount": "$32.50",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level3.aspx"
+      },
+      {
+        "item": "REAL ID replacement outside the renewal window",
+        "amount": "$16.75",
+        "url": "https://www.ncdot.gov/dmv/license-id/nc-real-id/Pages/default.aspx"
       }
     ],
     "documents": [
       {
         "item": "Identity and date of birth",
-        "summary": "Bring one document that verifies identity and date of birth.",
+        "summary": "One document that shows identity and date of birth.",
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
       },
       {
         "item": "Social Security",
-        "summary": "Bring a Social Security card or another document proving a Social Security number.",
+        "summary": "A Social Security card or another document showing the number.",
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
       },
       {
         "item": "North Carolina residency",
-        "summary": "Bring one document proving North Carolina residency.",
+        "summary": "One residency document for a standard credential.",
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
       },
       {
         "item": "Driver education certificate",
-        "summary": "A driver education certificate is required before the limited learner permit.",
-        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
+        "summary": "A certificate from an approved driver education course is required before the learner permit.",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/teen-drivers.aspx"
+      },
+      {
+        "item": "Certified birth certificate",
+        "summary": "An original or certified birth certificate is an accepted identity document.",
+        "url": "https://www.ncdot.gov/dmv/help/Pages/proving-identity.aspx"
       }
     ],
     "teen_points": [
       {
-        "text": "If you are at least 15 years of age and have completed an approved driver education course that meets North Carolina requirements, you may apply for a Level One Limited Learner Permit to operate vehicles requiring a Class C License.",
-        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+        "text": "you can drive 5 a.m. to 9 p.m. while supervised for the first six months.",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
       },
       {
-        "text": "You must hold this permit for nine months prior to applying for a Limited Provisional License.",
-        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+        "text": "you can drive unsupervised from 5 a.m. to 9 p.m.",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx"
       },
       {
-        "text": "Log 60 hours, including 10 at night.",
-        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+        "text": "there may be one passenger that is under 21 that is not a member of the same household",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx"
       },
       {
-        "text": "Drivers must be at least 16 years old, but less than 18.",
-        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+        "text": "Be 16 to 17 years old Maintained a Limited Provisional License for at least six months",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level3.aspx"
       },
       {
-        "text": "The restrictions on level one and level two concerning time of driving, supervision and passenger limitations do not apply to a Full Provisional License.",
-        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
-      },
-      {
-        "text": "A regular Class C license is available at age 18.",
-        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+        "text": "A classroom portion, which involves 30 hours of instruction",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
       }
     ]
   },
@@ -4529,11 +4489,6 @@
         "publisher": "Tennessee Department of Safety and Homeland Security"
       },
       {
-        "title": "Driver License Fees",
-        "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html",
-        "publisher": "Tennessee Department of Safety and Homeland Security"
-      },
-      {
         "title": "REAL ID",
         "url": "https://www.tn.gov/safety/driver-services/helpful-information/real-id.html",
         "publisher": "Tennessee Department of Safety and Homeland Security"
@@ -4542,17 +4497,12 @@
         "title": "New Residents",
         "url": "https://www.tn.gov/safety/driver-services/classd/dlnew.html",
         "publisher": "Tennessee Department of Safety and Homeland Security"
-      },
-      {
-        "title": "Driver Services",
-        "url": "https://www.tn.gov/safety/driver-services.html",
-        "publisher": "Tennessee Department of Safety and Homeland Security"
       }
     ],
-    "agency_home": "https://www.tn.gov/safety/driver-services.html",
+    "agency_home": null,
     "scheduled_url": "https://dl.safety.tn.gov/?Link=NCLRoadTest",
     "handbook_url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
-    "fee_page_url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html",
+    "fee_page_url": null,
     "permit_age": "You must be 15 years old and pass the standard written exams and vision screening.",
     "permit_age_url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html",
     "license_age": "To earn the GDL Level 2 - Intermediate Restricted License, drivers must be 16 years old and pass the road skills test.",
@@ -4581,28 +4531,7 @@
     "curfew_url": "https://www.tn.gov/safety/driver-services/helpful-information/dlinfo.html",
     "passengers": "An intermediate restricted license holder may have only one passenger.",
     "passengers_url": "https://www.tn.gov/safety/driver-services/helpful-information/dlinfo.html",
-    "fees": [
-      {
-        "item": "Learner permit under 18",
-        "amount": "$10.50",
-        "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html"
-      },
-      {
-        "item": "Learner permit 18 and over",
-        "amount": "$5.50",
-        "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html"
-      },
-      {
-        "item": "Class D operator license",
-        "amount": "$28.00",
-        "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html"
-      },
-      {
-        "item": "County clerk administrative fee",
-        "amount": "$4.00",
-        "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html"
-      }
-    ],
+    "fees": [],
     "documents": [
       {
         "item": "U.S. citizenship or legal presence",
@@ -5428,7 +5357,7 @@
       }
     ],
     "agency_home": "https://wisconsindot.gov/Pages/online-srvcs/external/dmv.aspx",
-    "scheduled_url": "https://dlguides.wi.gov/",
+    "scheduled_url": null,
     "handbook_url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
     "fee_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/dmv-fees.aspx",
     "permit_age": "You are eligible for an instruction permit when you are 15 years old or older.",
