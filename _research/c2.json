@@ -1,0 +1,1181 @@
+[
+  {
+    "slug": "georgia",
+    "name": "Georgia",
+    "agency": "Georgia Department of Driver Services",
+    "agency_short": "DDS",
+    "agency_home": "https://dds.georgia.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "Applicants must be at least 15 years of age to apply for a Learner’s Permit.",
+    "permit_age_url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-learners-permit",
+    "license_age": 16,
+    "license_age_quote": "Applicants must be at least 16 years of age to apply for a Class D License.",
+    "license_age_url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-class-d",
+    "full_license_age": 18,
+    "full_license_age_quote": "A Class D license holder may apply for a Class C license upon reaching the age of 18.",
+    "full_license_age_url": "https://dds.georgia.gov/section-2-continued-class-c-license",
+    "written_required": true,
+    "written_quote": "You must pass a vision exam and a knowledge exam.",
+    "written_url": "https://dds.georgia.gov/introduction-0",
+    "written_detail": "An instructional permit requires a vision exam and a knowledge exam. The permit fee is paid before testing.",
+    "road_required": true,
+    "road_quote": "You must pass a vision exam and road skills test.",
+    "road_url": "https://dds.georgia.gov/introduction-0",
+    "road_detail": "A Class D provisional license requires a vision exam and a road skills test. A first Class C license at 18 also requires a road test unless the applicant is exchanging a Class D license.",
+    "scheduled_url": "https://dds.georgia.gov/locations",
+    "handbook_url": "https://dds.georgia.gov/document/document/ga-drivers-manual-2023-2024/download",
+    "supervised_hours": 40,
+    "supervised_quote": "You must have completed a minimum of 40 hours of supervised driving experience, 6 hours of which must be at night.",
+    "supervised_url": "https://dds.georgia.gov/introduction-0",
+    "holding_period": "one year and a day",
+    "holding_quote": "You must have held an Instructional Permit (Class CP) for a minimum of one year and a day.",
+    "holding_url": "https://dds.georgia.gov/introduction-0",
+    "fees": [
+      {
+        "item": "Learner's permit (Class CP)",
+        "amount": "$10",
+        "quote": "The $10 permit fee is paid before the test begins. If you fail any part of the test, you will not receive a refund.",
+        "url": "https://dds.georgia.gov/fees-and-terms"
+      },
+      {
+        "item": "Provisional Class D license",
+        "amount": "$10.00",
+        "quote": "Class D license fee – $10.00 Payable in cash, money order or credit card.",
+        "url": "https://dds.georgia.gov/introduction-0"
+      },
+      {
+        "item": "Class C license, 8-year",
+        "amount": "$32",
+        "quote": "the applicant will be issued a Class C license at the cost of $32 for an 8 year license.",
+        "url": "https://dds.georgia.gov/section-2-continued-class-c-license"
+      }
+    ],
+    "fee_page_url": "https://dds.georgia.gov/fees-and-terms",
+    "documents": [
+      {
+        "item": "Identity",
+        "summary": "A U.S. birth certificate used for a REAL ID credential must be an original or certified copy with a raised seal.",
+        "quote": "Must have a raised seal and be issued by the Bureau of Vital Statistics or State Board of Health.",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-learners-permit"
+      },
+      {
+        "item": "Parent or responsible adult",
+        "summary": "Applicants under 18 must bring a parent, guardian, responsible adult, or authorized driving instructor to sign the form.",
+        "quote": "Applicants under age 18 must bring a Parent/Guardian, Responsible Adult, or Authorized Driver Training Instructor with them to sign the License/ID/Permit Form.",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-learners-permit"
+      },
+      {
+        "item": "School enrollment",
+        "summary": "Applicants under 18 must show proof of school enrollment.",
+        "quote": "If you are under the age of 18, you must provide proof of school enrollment.",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-class-d"
+      },
+      {
+        "item": "Out-of-state credential",
+        "summary": "Any out-of-state license, permit, or ID card must be surrendered.",
+        "quote": "You must surrender any out-of-state driver's license, permit, or ID Card.",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-learners-permit"
+      }
+    ],
+    "real_id_summary": "Georgia driver's licenses and IDs issued after 2012 are REAL ID-compliant and show a gold or black star. Only one physical Georgia card can carry the star.",
+    "real_id_quote": "All Georgia driver’s licenses and IDs issued after 2012 are REAL ID-compliant and feature a gold or black star in the upper right-hand corner",
+    "real_id_url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/real-id",
+    "transfer_summary": "A new resident must apply for a Georgia driver's license within 30 days. Customer service centers transfer an out-of-state license. Any out-of-state license, permit, or ID is surrendered.",
+    "transfer_quote": "You must apply for a Georgia Driver's License within 30 days of becoming a Georgia resident.",
+    "transfer_url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/new-georgia-residents-and-out-state",
+    "teen_summary": "Georgia's graduated steps are a Class CP learner's permit at 15, a Class D provisional license at 16 after one year and one day and Joshua's Law training, and a Class C license at 18. Class D drivers cannot drive from midnight to 5 a.m., and passenger limits change after six months and again after a year.",
+    "teen_quote": "a Georgia Learner’s Permit is granted to applicants that are at least 15 years old and have successfully passed a knowledge test consisting of road rules and road signs.",
+    "teen_url": "https://dds.georgia.gov/teen-driving-laws-faqs",
+    "teen_points": [
+      {
+        "text": "Learner's permit at age 15 after a knowledge test.",
+        "quote": "a Georgia Learner’s Permit is granted to applicants that are at least 15 years old and have successfully passed a knowledge test consisting of road rules and road signs.",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs"
+      },
+      {
+        "text": "Class D provisional license at age 16.",
+        "quote": "Applicants must be at least 16 years of age to apply for a Class D License.",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-class-d"
+      },
+      {
+        "text": "Hold the learner's permit for 1 year and 1 day.",
+        "quote": "All teens must hold a learner's permit for 1 year and 1 day before being issued a Class D license.",
+        "url": "https://dds.georgia.gov/joshuas-law-requirements"
+      },
+      {
+        "text": "Complete 40 supervised hours, including 6 at night.",
+        "quote": "You must have completed a minimum of 40 hours of supervised driving experience, 6 hours of which must be at night.",
+        "url": "https://dds.georgia.gov/introduction-0"
+      },
+      {
+        "text": "No driving from midnight to 5 a.m. on a Class D license.",
+        "quote": "You may not drive between the hours of 12:00 midnight and 5:00 a.m. — no exceptions.",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-class-d"
+      },
+      {
+        "text": "For the first 6 months, only immediate family may ride along.",
+        "quote": "For the first 6 months, only immediate family members may ride in the vehicle.",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-class-d"
+      },
+      {
+        "text": "Class C license is available at age 18.",
+        "quote": "A Class D license holder may apply for a Class C license upon reaching the age of 18.",
+        "url": "https://dds.georgia.gov/section-2-continued-class-c-license"
+      }
+    ],
+    "out_of_state_permit": "An out-of-state learner's permit must be transferred to Georgia, and the combined time held must still be at least 1 year and 1 day before a Class D license.",
+    "out_of_state_permit_quote": "If you held an out-of-state Learner’s Permit, it must be transferred to Georgia.",
+    "out_of_state_permit_url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-class-d",
+    "curfew": "A Class D driver may not drive between midnight and 5 a.m. DDS states there are no exceptions, and the restriction follows the license class rather than age.",
+    "curfew_quote": "You may not drive between the hours of 12:00 midnight and 5:00 a.m. — no exceptions.",
+    "curfew_url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-class-d",
+    "passengers": "For the first 6 months only immediate family may ride. For the second 6 months, only one passenger under 21 who is not immediate family may ride. After one year, up to three such passengers may ride.",
+    "passengers_quote": "For the second 6 months, only one passenger under 21 years of age who is not an immediate family member may ride in the vehicle.",
+    "passengers_url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-class-d",
+    "sources": [
+      {
+        "title": "Get a Learners Permit (Class CP)",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-learners-permit",
+        "publisher": "Georgia Department of Driver Services"
+      },
+      {
+        "title": "Class D provisional license",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/how-do-i-class-d",
+        "publisher": "Georgia Department of Driver Services"
+      },
+      {
+        "title": "Teen Driving Laws FAQs",
+        "url": "https://dds.georgia.gov/teen-driving-laws-faqs",
+        "publisher": "Georgia Department of Driver Services"
+      },
+      {
+        "title": "Joshua's Law Requirements",
+        "url": "https://dds.georgia.gov/joshuas-law-requirements",
+        "publisher": "Georgia Department of Driver Services"
+      },
+      {
+        "title": "Class C license",
+        "url": "https://dds.georgia.gov/section-2-continued-class-c-license",
+        "publisher": "Georgia Department of Driver Services"
+      },
+      {
+        "title": "Fees and Terms",
+        "url": "https://dds.georgia.gov/fees-and-terms",
+        "publisher": "Georgia Department of Driver Services"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/real-id",
+        "publisher": "Georgia Department of Driver Services"
+      },
+      {
+        "title": "New Georgia residents",
+        "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/new-georgia-residents-and-out-state",
+        "publisher": "Georgia Department of Driver Services"
+      }
+    ],
+    "gaps": [
+      "The DDS online-services address linked from the homepage redirected repeatedly and did not open, so the locations page is the scheduling link used here.",
+      "Joshua's Law page says approved driver-education prices generally start around $250. That figure is a private-school price range, not a DDS fee, so it is not listed as a fee."
+    ]
+  },
+  {
+    "slug": "north-carolina",
+    "name": "North Carolina",
+    "agency": "North Carolina Division of Motor Vehicles",
+    "agency_short": "NCDMV",
+    "agency_home": "https://www.ncdot.gov/dmv/",
+    "permit_age": 15,
+    "permit_age_quote": "If you are at least 15 years of age and have completed an approved driver education course that meets North Carolina requirements, you may apply for a Level One Limited Learner Permit to operate vehicles requiring a Class C License.",
+    "permit_age_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "license_age": 16,
+    "license_age_quote": "Drivers must be at least 16 years old, but less than 18.",
+    "license_age_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "full_license_age": 18,
+    "full_license_age_quote": "At age 18, eligible drivers may upgrade to a regular Class C license online.",
+    "full_license_age_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "written_required": true,
+    "written_quote": "You must pass written, sign and vision tests.",
+    "written_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "written_detail": "A Level 1 limited learner permit requires written, sign, and vision tests. A parent or guardian must be present, or must give written consent for another adult to attend.",
+    "road_required": true,
+    "road_quote": "Once you have completed the above, you can take a road test to get your Level 2 Limited Provisional License.",
+    "road_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx",
+    "road_detail": "The Level 2 limited provisional license requires a road test at a driver license office or a certified driver education school. Level 3 is an upgrade after six months and does not add another road test on the Level 3 page.",
+    "scheduled_url": "https://www.ncdot.gov/dmv/license-id/driver-license-appointments/Pages/default.aspx",
+    "handbook_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "supervised_hours": 60,
+    "supervised_quote": "You will be given a Driving Log to be completed detailing a minimum of 60 hours of operation. At least 10 hours must occur during nighttime hours.",
+    "supervised_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "holding_period": "nine months",
+    "holding_quote": "You must hold this permit for nine months prior to applying for a Limited Provisional License.",
+    "holding_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "fees": [
+      {
+        "item": "Level 1 limited learner permit",
+        "amount": "$25.50",
+        "quote": "What are the fees? Name of Fee Cost Level 1: Limited Learner Permit $25.50",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
+      },
+      {
+        "item": "Level 2 limited provisional license",
+        "amount": "$25.50",
+        "quote": "What are the fees? Name of Fee Cost Level 2: Limited Provisional License $25.50",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx"
+      },
+      {
+        "item": "Level 3 full provisional license at age 16",
+        "amount": "$32.50",
+        "quote": "(license will expire at age 21) Age 16 $32.50 Age 17 $26",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level3.aspx"
+      },
+      {
+        "item": "Level 3 full provisional license at age 17",
+        "amount": "$26",
+        "quote": "(license will expire at age 21) Age 16 $32.50 Age 17 $26",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level3.aspx"
+      },
+      {
+        "item": "Duplicate driver license or ID card",
+        "amount": "$16.75",
+        "quote": "A fee of $16.75 is charged and may be paid with any credit or debit card.",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+      },
+      {
+        "item": "Class C license",
+        "amount": "$6.50/year",
+        "quote": "Issuance and Renewal of Driver Licenses • Class A....................................................................................................$6.50/year • Class B....................................................................................................$6.50/year • Class C....................................................................................................$6.50/year •",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+      }
+    ],
+    "fee_page_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "documents": [
+      {
+        "item": "Identity and date of birth",
+        "summary": "Bring one document that verifies identity and date of birth.",
+        "quote": "One document verifying identity and date of birth",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
+      },
+      {
+        "item": "Social Security",
+        "summary": "Bring a Social Security card or another document proving a Social Security number.",
+        "quote": "A Social Security card or one document proving they have a Social Security number",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
+      },
+      {
+        "item": "North Carolina residency",
+        "summary": "Bring one document proving North Carolina residency.",
+        "quote": "One document proving North Carolina residency",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
+      },
+      {
+        "item": "Driver education certificate",
+        "summary": "A driver education certificate is required before the limited learner permit.",
+        "quote": "Driver's Education Certificate (issued by your driver education school)",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx"
+      }
+    ],
+    "real_id_summary": "A North Carolina REAL ID is a driver license, learner permit, or ID card with a star. The handbook says there is no additional fee for REAL ID. Non-REAL ID cards are marked not for federal identification.",
+    "real_id_quote": "There is no additional cost for a North Carolina REAL ID.",
+    "real_id_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "transfer_summary": "A new resident has 60 days after establishing residence to get a North Carolina license or learner permit. A new resident applying for a Class C license may have to take knowledge, vision, signs, and, if the examiner requires it, a driving skills test.",
+    "transfer_quote": "A new resident has 60 days after establishing residence to obtain a North Carolina license or learner permit.",
+    "transfer_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "teen_summary": "Teens 15 to 17 use three graduated steps: a Level 1 limited learner permit at 15 after driver education, a Level 2 limited provisional license at 16 after nine months and 60 logged hours including 10 at night, and a Level 3 full provisional license after six more months. A regular Class C license is available at 18. Level 2 limits unsupervised driving to 5 a.m. to 9 p.m., with work and emergency-service exceptions, and limits young passengers.",
+    "teen_quote": "To be eligible, you must be at least 15 years old and have received a Driver’s Education Certificate from an approved driver education course.",
+    "teen_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/teen-drivers.aspx",
+    "teen_points": [
+      {
+        "text": "Level 1 limited learner permit at age 15 after driver education.",
+        "quote": "If you are at least 15 years of age and have completed an approved driver education course that meets North Carolina requirements, you may apply for a Level One Limited Learner Permit to operate vehicles requiring a Class C License.",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+      },
+      {
+        "text": "Hold the Level 1 permit for nine months before Level 2.",
+        "quote": "You must hold this permit for nine months prior to applying for a Limited Provisional License.",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+      },
+      {
+        "text": "Log 60 hours, including 10 at night.",
+        "quote": "You will be given a Driving Log to be completed detailing a minimum of 60 hours of operation. At least 10 hours must occur during nighttime hours.",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+      },
+      {
+        "text": "Level 2 limited provisional license from age 16 to under 18.",
+        "quote": "Drivers must be at least 16 years old, but less than 18.",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+      },
+      {
+        "text": "Level 3 removes the Level 1 and Level 2 time, supervision, and passenger limits.",
+        "quote": "The restrictions on level one and level two concerning time of driving, supervision and passenger limitations do not apply to a Full Provisional License.",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+      },
+      {
+        "text": "A regular Class C license is available at age 18.",
+        "quote": "At age 18, eligible drivers may upgrade to a regular Class C license online.",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
+      }
+    ],
+    "out_of_state_permit": "A new resident who is at least 15 and under 18 and already has a learner permit, restricted license, or unrestricted license is told to contact a local office to learn which North Carolina credential they may apply for. The handbook does not state that the other state's permit is accepted as a North Carolina permit.",
+    "out_of_state_permit_quote": "If you are a new resident moving into North Carolina and are 15 but less than 18 years old and have a learner permit, a restricted license or an unrestricted license, you should contact your local driver license office to determine which type of license or learner permit you are eligible to apply for.",
+    "out_of_state_permit_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+    "curfew": "With a Level 2 limited provisional license, unsupervised driving is allowed from 5 a.m. to 9 p.m., and when driving to or from work or volunteer fire, rescue, or emergency medical service. A supervising driver is required from 9 p.m. until 5 a.m.",
+    "curfew_quote": "With a Limited Provisional License, you can drive unsupervised from 5 a.m. to 9 p.m. and to/from work or any volunteer fire, rescue or emergency medical service.",
+    "curfew_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx",
+    "passengers": "When a Level 2 driver is unsupervised, only one passenger under 21 who is not a member of the same household is allowed, with a school-transport exception described on the Level 2 page.",
+    "passengers_quote": "When driving unsupervised, there may be one passenger that is under 21 that is not a member of the same household as the driver.",
+    "passengers_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx",
+    "sources": [
+      {
+        "title": "North Carolina Driver Handbook",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
+        "publisher": "North Carolina Division of Motor Vehicles"
+      },
+      {
+        "title": "Get a Level 1 Limited Learner Permit",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level1.aspx",
+        "publisher": "North Carolina Division of Motor Vehicles"
+      },
+      {
+        "title": "Get a Level 2 Limited Provisional License",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level2.aspx",
+        "publisher": "North Carolina Division of Motor Vehicles"
+      },
+      {
+        "title": "Get a Level 3 Full Provisional License",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/level3.aspx",
+        "publisher": "North Carolina Division of Motor Vehicles"
+      },
+      {
+        "title": "Teen Drivers",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/teen-drivers.aspx",
+        "publisher": "North Carolina Division of Motor Vehicles"
+      },
+      {
+        "title": "N.C. REAL ID Requirements",
+        "url": "https://www.ncdot.gov/dmv/license-id/nc-real-id/Pages/requirements.aspx",
+        "publisher": "North Carolina Division of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The public licenses-and-fees web page did not print dollar amounts in the HTML retrieved here. Dollar amounts are taken from the Level 1, Level 2, and Level 3 pages and the driver handbook.",
+      "The handbook tells new residents ages 15 to under 18 who already have a permit or license to ask a local office which credential they can get. It does not publish a conversion chart.",
+      "Effective Oct. 1, 2026, the teen pages say the Driving Eligibility Certificate is no longer required. That change is noted on the pages opened on Nov. 16, 2026."
+    ]
+  },
+  {
+    "slug": "michigan",
+    "name": "Michigan",
+    "agency": "Michigan Department of State",
+    "agency_short": "Secretary of State",
+    "agency_home": "https://www.michigan.gov/sos",
+    "permit_age": 14.75,
+    "permit_age_quote": "Teens must be at least age 14 years and 9 months to obtain a Level 1 License.",
+    "permit_age_url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18",
+    "license_age": 16,
+    "license_age_quote": "Level 2 License - an intermediate license that limits passengers and the unsupervised nighttime driving for teen drivers at least 16 years old.",
+    "license_age_url": "https://www.michigan.gov/sos/faqs/license-and-id/drivers-under-18",
+    "full_license_age": 17,
+    "full_license_age_quote": "Level 3 License - a full-privilege driver license issued to teen drivers at least 17 years old after they have successfully completed all the previous instructional and driving requirements.",
+    "full_license_age_url": "https://www.michigan.gov/sos/faqs/license-and-id/drivers-under-18",
+    "written_required": true,
+    "written_quote": "Learn about driving in both the classroom (24 hours) and behind-the-wheel (six hours), and pass a written test.",
+    "written_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/WEDMK/WEDMK.pdf",
+    "written_detail": "Segment 1 of driver education includes a written test. The Secretary of State office visit for a Level 1 license is a vision test. Applicants 18 or older who have never been licensed take a driver knowledge exam at the office.",
+    "road_required": true,
+    "road_quote": "Driving skills test must be passed before the Level 2 License can be issued.",
+    "road_url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18",
+    "road_detail": "A driving skills test, given by an approved independent testing business, is required before the Level 2 license. The teen must be 16, have held Level 1 for at least six months, and have a clean record for 90 days.",
+    "scheduled_url": "https://dsvsesvc.sos.state.mi.us/TAP/?Link=APPOINTMENT",
+    "handbook_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/WEDMK/WEDMK.pdf",
+    "supervised_hours": 50,
+    "supervised_quote": "Teens are required to keep a driving log and complete a minimum of 50 hours of supervised driving (10 hours at nighttime) before they can take the driving skills test, which is required for the Level 2 License.",
+    "supervised_url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18",
+    "holding_period": "at least 6 months",
+    "holding_quote": "Have held a Level 1 License for at least 6 months.",
+    "holding_url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18",
+    "fees": [
+      {
+        "item": "Level 1 license application",
+        "amount": "$25",
+        "quote": "A licensing fee of $25 will be due.",
+        "url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18"
+      },
+      {
+        "item": "Standard first-time license",
+        "amount": "$25",
+        "quote": "A standard first-time license is $25.",
+        "url": "https://www.michigan.gov/sos/all-services/first-time-license-or-id"
+      },
+      {
+        "item": "REAL ID correction, license",
+        "amount": "$9",
+        "quote": "Otherwise, there is a correction fee ($9 for license; $10 for ID) to convert to REAL ID.",
+        "url": "https://www.michigan.gov/sos/license-id/real-id"
+      },
+      {
+        "item": "REAL ID correction, state ID",
+        "amount": "$10",
+        "quote": "Otherwise, there is a correction fee ($9 for license; $10 for ID) to convert to REAL ID.",
+        "url": "https://www.michigan.gov/sos/license-id/real-id"
+      }
+    ],
+    "fee_page_url": "https://www.michigan.gov/sos/all-services/first-time-license-or-id",
+    "documents": [
+      {
+        "item": "Social Security number",
+        "summary": "Level 1 applicants present a valid Social Security number or a letter of ineligibility.",
+        "quote": "A valid Social Security number (or a letter of ineligibility)",
+        "url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18"
+      },
+      {
+        "item": "Identity, legal presence, and residency",
+        "summary": "The Level 1 application uses proof of Social Security number, citizenship or legal presence, identity, and at least two Michigan residency documents.",
+        "quote": "at least two documents establishing Michigan residency",
+        "url": "https://www.michigan.gov/sos/faqs/license-and-id/drivers-under-18"
+      },
+      {
+        "item": "Parent or guardian signature",
+        "summary": "A parent or guardian must sign the application.",
+        "quote": "A parent or guardian signature is also required upon application.",
+        "url": "https://www.michigan.gov/sos/faqs/license-and-id/drivers-under-18"
+      }
+    ],
+    "real_id_summary": "A REAL ID-compliant Michigan license or ID is required to fly within the United States or enter certain federal facilities. There is no added charge when REAL ID is added at renewal or replacement. A correction outside that cycle is $9 for a license or $10 for an ID.",
+    "real_id_quote": "Federal law requires Michigan residents to present a REAL ID-compliant document to fly within the United States or enter certain federal facilities.",
+    "real_id_url": "https://www.michigan.gov/sos/license-id/real-id",
+    "transfer_summary": "A new resident with a valid, unexpired license from another U.S. state or territory or Canada can convert it at a Secretary of State office. The new-resident page says a written test is not required; a vision test and photo are.",
+    "transfer_quote": "If you have a valid, unexpired driver's license from another U.S. state or territory or Canada, you can convert it to a Michigan license at a Secretary of State office.",
+    "transfer_url": "https://www.michigan.gov/sos/all-services/first-time-license-or-id",
+    "teen_summary": "Michigan's graduated system has a Level 1 learner license at 14 years and 9 months after Segment 1, a Level 2 intermediate license at 16 after six months and 50 supervised hours including 10 at night, and a Level 3 full license at 17 after six months on Level 2. Level 2 limits driving from 10 p.m. to 5 a.m. and limits passengers under 21.",
+    "teen_quote": "Teens must be at least age 14 years and 9 months to obtain a Level 1 License.",
+    "teen_url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18",
+    "teen_points": [
+      {
+        "text": "Segment 1 starts at 14 years and 8 months and includes a written test.",
+        "quote": "Note: Teens must be at least 14 years and 8 months to enroll in driver education Segment 1.",
+        "url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18"
+      },
+      {
+        "text": "Level 1 learner license at 14 years and 9 months.",
+        "quote": "Teens must be at least age 14 years and 9 months to obtain a Level 1 License.",
+        "url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18"
+      },
+      {
+        "text": "Log 50 hours, including 10 at night, before the skills test.",
+        "quote": "Teens are required to keep a driving log and complete a minimum of 50 hours of supervised driving (10 hours at nighttime) before they can take the driving skills test, which is required for the Level 2 License.",
+        "url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18"
+      },
+      {
+        "text": "Hold Level 1 at least six months before the skills test.",
+        "quote": "Have held a Level 1 License for at least 6 months.",
+        "url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18"
+      },
+      {
+        "text": "Level 2 intermediate license at age 16.",
+        "quote": "Level 2 License - an intermediate license that limits passengers and the unsupervised nighttime driving for teen drivers at least 16 years old.",
+        "url": "https://www.michigan.gov/sos/faqs/license-and-id/drivers-under-18"
+      },
+      {
+        "text": "Level 3 full license at age 17 after the earlier steps.",
+        "quote": "Level 3 License - a full-privilege driver license issued to teen drivers at least 17 years old after they have successfully completed all the previous instructional and driving requirements.",
+        "url": "https://www.michigan.gov/sos/faqs/license-and-id/drivers-under-18"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "A Level 2 driver shall not drive between 10 p.m. and 5 a.m. except for work, an authorized activity, or when a parent, guardian, or designated licensed driver age 21 or older is along.",
+    "curfew_quote": "Shall not operate a motor vehicle between 10 p.m. and 5 a.m. except when:",
+    "curfew_url": "https://www.michigan.gov/sos/faqs/license-and-id/drivers-under-18",
+    "passengers": "A Level 2 driver shall not drive with more than one passenger younger than 21, except for immediate family, work, an authorized activity, or when a parent, guardian, or designated licensed adult age 21 or older is along.",
+    "passengers_quote": "Shall not operate a motor vehicle at any time with more than 1 passenger in the vehicle who is younger than 21 years of age except:",
+    "passengers_url": "https://www.michigan.gov/sos/faqs/license-and-id/drivers-under-18",
+    "sources": [
+      {
+        "title": "New drivers (under 18)",
+        "url": "https://www.michigan.gov/sos/license-id/new-drivers-under-18",
+        "publisher": "Michigan Department of State"
+      },
+      {
+        "title": "Drivers under 18 FAQ",
+        "url": "https://www.michigan.gov/sos/faqs/license-and-id/drivers-under-18",
+        "publisher": "Michigan Department of State"
+      },
+      {
+        "title": "First-time license or ID",
+        "url": "https://www.michigan.gov/sos/all-services/first-time-license-or-id",
+        "publisher": "Michigan Department of State"
+      },
+      {
+        "title": "New Michigan residents",
+        "url": "https://www.michigan.gov/sos/faqs/resources/new-michigan-residents",
+        "publisher": "Michigan Department of State"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://www.michigan.gov/sos/license-id/real-id",
+        "publisher": "Michigan Department of State"
+      },
+      {
+        "title": "What Every Driver Must Know",
+        "url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/WEDMK/WEDMK.pdf",
+        "publisher": "Michigan Department of State"
+      }
+    ],
+    "gaps": [
+      "No page opened here states whether time on another state's learner permit counts toward the Michigan Level 1 holding period.",
+      "Driver-education school prices are set by providers. The under-18 FAQ mentions a typical range, but that is not a state fee and is not listed here.",
+      "The appointment site opened only far enough to say cookies are required, so the scheduler URL is recorded without restating licensing rules from that page."
+    ]
+  },
+  {
+    "slug": "new-jersey",
+    "name": "New Jersey",
+    "agency": "New Jersey Motor Vehicle Commission",
+    "agency_short": "MVC",
+    "agency_home": "https://www.nj.gov/mvc/",
+    "permit_age": 16,
+    "permit_age_quote": "If you are enrolled in a behind the wheel driver training course at either of the above you can obtain a special learner’s permit at age 16.",
+    "permit_age_url": "https://www.nj.gov/mvc/license/youngadult.htm",
+    "license_age": 17,
+    "license_age_quote": "You cannot get your license until you are 17 years of age.",
+    "license_age_url": "https://www.nj.gov/mvc/license/youngadult.htm",
+    "full_license_age": 18,
+    "full_license_age_quote": "when you turn 18 years old, you should upgrade your probationary license to a basic license online.",
+    "full_license_age_url": "https://www.nj.gov/mvc/license/youngadult.htm",
+    "written_required": true,
+    "written_quote": "You will take your knowledge test at the school. You will also be required to take a vision test.",
+    "written_url": "https://www.nj.gov/mvc/license/youngadult.htm",
+    "written_detail": "A special learner permit applicant takes the knowledge test at the driving school and also takes a vision test. The 2026 driver manual says the early-path permit requires the MVC knowledge and vision tests.",
+    "road_required": true,
+    "road_quote": "Make an appointment for your road test for 6 months after you pass your knowledge test.",
+    "road_url": "https://www.nj.gov/mvc/license/youngadult.htm",
+    "road_detail": "The early path schedules a road test six months after the knowledge test, and the probationary license cannot be issued before age 17. A valid non-probationary out-of-state license can waive knowledge and road tests.",
+    "scheduled_url": null,
+    "handbook_url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+    "supervised_hours": 50,
+    "supervised_quote": "Supervised driving must include a minimum of 50 practice hours including 10 hours during darkness.",
+    "supervised_url": "https://www.nj.gov/mvc/license/youngadult.htm",
+    "holding_period": "6 months",
+    "holding_quote": "Make an appointment for your road test for 6 months after you pass your knowledge test.",
+    "holding_url": "https://www.nj.gov/mvc/license/youngadult.htm",
+    "fees": [
+      {
+        "item": "Basic automobile permit",
+        "amount": "$10",
+        "quote": "Minimum Age: 18 (Permit: 16) Permit Fee: $10 License Fee(s): $24/$35",
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+      },
+      {
+        "item": "Basic automobile license",
+        "amount": "$24/$35",
+        "quote": "Minimum Age: 18 (Permit: 16) Permit Fee: $10 License Fee(s): $24/$35",
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+      },
+      {
+        "item": "Probationary automobile permit and decals",
+        "amount": "$10 + $4",
+        "quote": "Minimum Age: 17 (Permit: 16) Permit Fee: $10 + $4 Red reflectorized decals License Fee: $63",
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+      },
+      {
+        "item": "Probationary automobile license",
+        "amount": "$63",
+        "quote": "Minimum Age: 17 (Permit: 16) Permit Fee: $10 + $4 Red reflectorized decals License Fee: $63",
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+      },
+      {
+        "item": "Probationary-to-basic upgrade, usual prorated fee",
+        "amount": "$19.50",
+        "quote": "Fee is prorated, and usually is $19.50 for standard or $29.00 for REAL ID.",
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+      },
+      {
+        "item": "Out-of-state transfer permit",
+        "amount": "$10",
+        "quote": "Purchase a transfer permit ($10 for motorcycle, auto or CDL; $5 additional for motorcycle endorsement on auto license).",
+        "url": "https://www.nj.gov/mvc/drivertopics/movetonj.htm"
+      }
+    ],
+    "fee_page_url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+    "documents": [
+      {
+        "item": "Six points of identification",
+        "summary": "Standard license applicants present documents worth 6 points that prove age and identity.",
+        "quote": "All Standard New Jersey driver license applicants must provide 6 points of ID Verification by presenting documents that prove their age and identity.",
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+      },
+      {
+        "item": "Address and Social Security number",
+        "summary": "The special-learner permit purchase also uses proof of residential address and a Social Security number.",
+        "quote": "provides 6 Points of ID Verification, proof of residential address, and proof of Social Security number",
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+      }
+    ],
+    "real_id_summary": "A New Jersey REAL ID is optional. As of May 7, 2025, a driver who uses a license instead of a passport for domestic flights will want a REAL ID. A standard license can still be used for driving.",
+    "real_id_quote": "You are not required to get a REAL ID; however, as of May 7, 2025, if you typically use your driver license or non-driver ID (instead of a passport or other form of ID) to fly within the U.S., you probably want a REAL ID.",
+    "real_id_url": "https://www.nj.gov/mvc/realid/",
+    "transfer_summary": "New residents must transfer an out-of-state license within 60 days or before it expires, whichever comes first. Knowledge and road tests are waived for a current, valid, non-probationary license from a U.S. state, D.C., or listed U.S. territory. The license is surrendered when New Jersey issues its license.",
+    "transfer_quote": "If you have recently moved to New Jersey, you must transfer your out-of-state license and vehicle title/registration within 60 days of your move or before your current license and vehicle registration expires, whichever occurs first.",
+    "transfer_url": "https://www.nj.gov/mvc/drivertopics/movetonj.htm",
+    "teen_summary": "The early graduated path is a special learner permit at 16 while enrolled in behind-the-wheel training, a probationary license at 17 after six months and 50 practice hours including 10 in darkness, and a basic license at 18 after one unsupervised year. GDL drivers may not drive from 11:01 p.m. to 5 a.m., and passenger limits apply unless the driver is over 21.",
+    "teen_quote": "If you are enrolled in a behind the wheel driver training course at either of the above you can obtain a special learner’s permit at age 16.",
+    "teen_url": "https://www.nj.gov/mvc/license/youngadult.htm",
+    "teen_points": [
+      {
+        "text": "Special learner permit at age 16 during driver training.",
+        "quote": "If you are enrolled in a behind the wheel driver training course at either of the above you can obtain a special learner’s permit at age 16.",
+        "url": "https://www.nj.gov/mvc/license/youngadult.htm"
+      },
+      {
+        "text": "Practice six months and log 50 hours, including 10 in darkness.",
+        "quote": "Supervised driving must include a minimum of 50 practice hours including 10 hours during darkness.",
+        "url": "https://www.nj.gov/mvc/license/youngadult.htm"
+      },
+      {
+        "text": "Probationary license no earlier than age 17.",
+        "quote": "You cannot get your license until you are 17 years of age.",
+        "url": "https://www.nj.gov/mvc/license/youngadult.htm"
+      },
+      {
+        "text": "Basic license at age 18 after one year of unsupervised driving.",
+        "quote": "when you turn 18 years old, you should upgrade your probationary license to a basic license online.",
+        "url": "https://www.nj.gov/mvc/license/youngadult.htm"
+      },
+      {
+        "text": "No driving from 11:01 p.m. to 5:00 a.m.",
+        "quote": "May not operate a motor vehicle after 11:01 p.m. and before 5:00 a.m.",
+        "url": "https://www.nj.gov/mvc/about/gdlsafety.htm"
+      }
+    ],
+    "out_of_state_permit": "Drivers under 18 who move to New Jersey are subject to the GDL program and follow the special or examination permit steps. The manual does not say another state's learner permit replaces a New Jersey permit.",
+    "out_of_state_permit_quote": "Out-of-state drivers who are under 18 years of age and move to New Jersey are subject to this state’s GDL Program.",
+    "out_of_state_permit_url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+    "curfew": "GDL drivers may not drive after 11:01 p.m. and before 5:00 a.m. The manual says hour restrictions do not apply to an examination-permit or probationary-license holder who is 21 or older.",
+    "curfew_quote": "May not operate a motor vehicle after 11:01 p.m. and before 5:00 a.m.",
+    "curfew_url": "https://www.nj.gov/mvc/about/gdlsafety.htm",
+    "passengers": "Unless over 21, a GDL driver is limited to a supervising driver where required, parents, guardians, or dependents, and one additional passenger unless a parent or guardian is along.",
+    "passengers_quote": "One additional passenger unless accompanied by a parent or guardian.",
+    "passengers_url": "https://www.nj.gov/mvc/about/gdlsafety.htm",
+    "sources": [
+      {
+        "title": "First Driver License",
+        "url": "https://www.nj.gov/mvc/license/youngadult.htm",
+        "publisher": "New Jersey Motor Vehicle Commission"
+      },
+      {
+        "title": "2026 New Jersey Driver Manual",
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "publisher": "New Jersey Motor Vehicle Commission"
+      },
+      {
+        "title": "Moving to New Jersey",
+        "url": "https://www.nj.gov/mvc/drivertopics/movetonj.htm",
+        "publisher": "New Jersey Motor Vehicle Commission"
+      },
+      {
+        "title": "Graduated Driver License",
+        "url": "https://www.nj.gov/mvc/about/gdlsafety.htm",
+        "publisher": "New Jersey Motor Vehicle Commission"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://www.nj.gov/mvc/realid/",
+        "publisher": "New Jersey Motor Vehicle Commission"
+      },
+      {
+        "title": "License and Permit Fees",
+        "url": "https://www.nj.gov/mvc/license/licfees.htm",
+        "publisher": "New Jersey Motor Vehicle Commission"
+      }
+    ],
+    "gaps": [
+      "The MVC fee table prints permit and license amounts as bare numbers without a dollar sign or the word dollars, so those table cells were not used. Dollar amounts are from the 2026 driver manual and the moving page.",
+      "The manual's probationary license fee is $63, while the fee table's auto initial cell shows 24 without a dollar sign. Both pages were opened. The recorded fees are the ones printed with dollar signs.",
+      "The appointment link on the MVC homepage points to telegov.njportal.com, which is not a .gov or .us page, and the state.nj.us knowledge-test scheduler returned 403."
+    ]
+  },
+  {
+    "slug": "virginia",
+    "name": "Virginia",
+    "agency": "Virginia Department of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://www.dmv.virginia.gov/",
+    "permit_age": 15.5,
+    "permit_age_quote": "You must be at least 15 years and six months old to apply.",
+    "permit_age_url": "https://www.dmv.virginia.gov/licenses-ids/learners/apply",
+    "license_age": 16.25,
+    "license_age_quote": "You must be at least 16 years and three months old to apply for a driver's license.",
+    "license_age_url": "https://www.dmv.virginia.gov/licenses-ids/license/applying",
+    "full_license_age": 18,
+    "full_license_age_quote": "If you are under age 18, Virginia law prohibits you from driving midnight to 4 a.m. except when driving",
+    "full_license_age_url": "https://www.dmv.virginia.gov/licenses-ids/learners/restrictions",
+    "written_required": true,
+    "written_quote": "you will need to take a vision screening and pass a two-part knowledge exam.",
+    "written_url": "https://www.dmv.virginia.gov/licenses-ids/learners/apply",
+    "written_detail": "A learner's permit requires a vision screening and a two-part knowledge exam. Applicants under 18 also take that knowledge exam before the license.",
+    "road_required": true,
+    "road_quote": "you must take the two-part knowledge exam and you must complete the road skills test through your driver’s education program.",
+    "road_url": "https://www.dmv.virginia.gov/licenses-ids/license/applying",
+    "road_detail": "Applicants under 18 complete the road skills test through a driver education program. Adults who hold a learner's permit for 60 days instead of completing driver education take the DMV road skills test.",
+    "scheduled_url": "https://www.dmv.virginia.gov/appointments",
+    "handbook_url": null,
+    "supervised_hours": 45,
+    "supervised_quote": "you have driven at least 45 hours, 15 of which occurred after sunset",
+    "supervised_url": "https://www.dmv.virginia.gov/licenses-ids/license/applying",
+    "holding_period": "at least nine months",
+    "holding_quote": "Hold a learner's permit for at least nine months before you can receive a driver's license",
+    "holding_url": "https://www.dmv.virginia.gov/licenses-ids/license/applying",
+    "fees": [
+      {
+        "item": "Learner's permit plus yearly license cost",
+        "amount": "$3",
+        "quote": "$3 learner’s permit fee plus the yearly cost of a driver’s license.",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/learners/apply"
+      },
+      {
+        "item": "Standard eight-year driver's license",
+        "amount": "$32",
+        "quote": "($32 for a standard eight-year license)",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/license/applying"
+      },
+      {
+        "item": "REAL ID, one-time, plus the credential cost",
+        "amount": "$10",
+        "quote": "$10 fee, plus the cost of the driver’s license or ID card you’re applying for.",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/real-id"
+      }
+    ],
+    "fee_page_url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv201.pdf",
+    "documents": [
+      {
+        "item": "Social Security number",
+        "summary": "Bring proof of a Social Security number if one has been issued. DMV can verify a known number electronically.",
+        "quote": "One proof of your Social Security number (SSN), if you have been issued one.",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/license/applying"
+      },
+      {
+        "item": "Virginia residency",
+        "summary": "Two proofs of Virginia residency are required.",
+        "quote": "Two proofs of Virginia residency Note: If you don't want your residence address to appear on your license or ID",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/license/applying"
+      },
+      {
+        "item": "Parent consent",
+        "summary": "A parent or legal guardian signs the application for an applicant under 18, unless a court order shows emancipation.",
+        "quote": "If you are under 18, your parent or legal guardian must provide written consent by signing your application.",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/learners/apply"
+      }
+    ],
+    "real_id_summary": "A Virginia REAL ID is an optional license or ID with a star in the upper right corner. It is required for domestic flights when another federally accepted document is not used. The one-time REAL ID fee is $10 plus the cost of the credential.",
+    "real_id_quote": "A REAL ID is an optional, upgraded version of your driver’s license or ID card that has a star in the upper right corner.",
+    "real_id_url": "https://www.dmv.virginia.gov/licenses-ids/real-id",
+    "transfer_summary": "New residents must get a Virginia driver's license within 60 days. An applicant 18 or older with a license from another state that has not been expired for more than one year completes the document step and does not repeat training or tests. Under 18, DMV may exchange an out-of-state license when age and driver-education conditions are met.",
+    "transfer_quote": "Within 60 days of moving to Virginia, you must obtain a Virginia driver's license.",
+    "transfer_url": "https://www.dmv.virginia.gov/licenses-ids/license/applying/eligibility",
+    "teen_summary": "A learner's permit is available at 15 years and six months. A driver's license is available at 16 years and three months after nine months on the permit, driver education, and 45 hours of practice including 15 after sunset. Drivers under 18 cannot drive from midnight to 4 a.m. except for listed reasons, and passenger limits apply.",
+    "teen_quote": "You must be at least 15 years and six months old to apply.",
+    "teen_url": "https://www.dmv.virginia.gov/licenses-ids/learners/apply",
+    "teen_points": [
+      {
+        "text": "Learner's permit at 15 years and six months.",
+        "quote": "You must be at least 15 years and six months old to apply.",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/learners/apply"
+      },
+      {
+        "text": "Driver's license at 16 years and three months.",
+        "quote": "You must be at least 16 years and three months old to apply for a driver's license.",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/license/applying"
+      },
+      {
+        "text": "Hold the permit at least nine months.",
+        "quote": "Hold a learner's permit for at least nine months before you can receive a driver's license",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/license/applying"
+      },
+      {
+        "text": "Certify 45 hours of driving, 15 after sunset.",
+        "quote": "you have driven at least 45 hours, 15 of which occurred after sunset",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/license/applying"
+      },
+      {
+        "text": "Under 18, no driving from midnight to 4 a.m. except listed trips.",
+        "quote": "If you are under age 18, Virginia law prohibits you from driving midnight to 4 a.m. except when driving",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/learners/restrictions"
+      },
+      {
+        "text": "Time on an out-of-state learner's permit counts toward the Virginia holding period.",
+        "quote": "If you are a Virginia resident UNDER 18 years old and you move to Virginia from another U.S. state or territory with a valid learner’s permit, the time you held your learner's permit will be counted toward the Virginia minimum holding period.",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/learners/ed-reqs"
+      }
+    ],
+    "out_of_state_permit": "For a Virginia resident under 18 who moves from another U.S. state or territory with a valid learner's permit, the time already held counts toward Virginia's minimum holding period.",
+    "out_of_state_permit_quote": "If you are a Virginia resident UNDER 18 years old and you move to Virginia from another U.S. state or territory with a valid learner’s permit, the time you held your learner's permit will be counted toward the Virginia minimum holding period.",
+    "out_of_state_permit_url": "https://www.dmv.virginia.gov/licenses-ids/learners/ed-reqs",
+    "curfew": "Drivers under 18 may not drive from midnight to 4 a.m. except for work, a supervised school or civic activity, an emergency, or when a licensed spouse 18 or older, parent, or adult acting as a parent is in the front seat.",
+    "curfew_quote": "If you are under age 18, Virginia law prohibits you from driving midnight to 4 a.m. except when driving",
+    "curfew_url": "https://www.dmv.virginia.gov/licenses-ids/learners/restrictions",
+    "passengers": "Drivers under 18 may carry only one passenger under 21 unless a licensed parent or adult acting as a parent is in the front seat. After one year, up to three passengers under 21 are allowed in listed situations. Family members are exempt.",
+    "passengers_quote": "you may carry only one passenger under age 21, unless accompanied by a licensed parent, or other adult acting in place of a parent, in the front passenger seat.",
+    "passengers_url": "https://www.dmv.virginia.gov/licenses-ids/learners/restrictions",
+    "sources": [
+      {
+        "title": "Apply for a Learner's Permit",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/learners/apply",
+        "publisher": "Virginia Department of Motor Vehicles"
+      },
+      {
+        "title": "Apply for a Driver's License",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/license/applying",
+        "publisher": "Virginia Department of Motor Vehicles"
+      },
+      {
+        "title": "Driver License Eligibility Requirements",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/license/applying/eligibility",
+        "publisher": "Virginia Department of Motor Vehicles"
+      },
+      {
+        "title": "Teen Driving Restrictions",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/learners/restrictions",
+        "publisher": "Virginia Department of Motor Vehicles"
+      },
+      {
+        "title": "Driver Education",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/learners/ed-reqs",
+        "publisher": "Virginia Department of Motor Vehicles"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://www.dmv.virginia.gov/licenses-ids/real-id",
+        "publisher": "Virginia Department of Motor Vehicles"
+      },
+      {
+        "title": "DMV Fees",
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv201.pdf",
+        "publisher": "Virginia Department of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "No Virginia driver-handbook URL was confirmed open from the license pages retrieved here.",
+      "The $32 eight-year license fee and the $3 permit fee are printed on the application pages. The fee chart PDF also prints those amounts in a crowded table.",
+      "Restrictions are published for drivers under 18. The pages do not use the phrase unrestricted license at 18, so full_license_age is the age when those published restrictions stop applying."
+    ]
+  },
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "agency": "Washington State Department of Licensing",
+    "agency_short": "DOL",
+    "agency_home": "https://dol.wa.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "You can apply for a permit as soon as you turn 15.",
+    "permit_age_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+    "license_age": 16,
+    "license_age_quote": "Learn how to apply for your first driver license if you're 16 or 17 years old, and read about the rules and restrictions that apply to you until you turn 18.",
+    "license_age_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17",
+    "full_license_age": 18,
+    "full_license_age_quote": "Do I have to get a new license when I turn 18? No, your intermediate driver license automatically converts to a regular driver license.",
+    "full_license_age_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17",
+    "written_required": true,
+    "written_quote": "The knowledge test is a written multiple-choice test.",
+    "written_url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test",
+    "written_detail": "The knowledge test is a written multiple-choice test. A passing score is 32 of 40. Applicants ages 16 and 17 pass the knowledge and drive tests before the first license.",
+    "road_required": true,
+    "road_quote": "You must score at least 80 out of 100 to pass the test.",
+    "road_url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test",
+    "road_detail": "The behind-the-wheel drive test requires a score of at least 80 out of 100. Testing fees vary by location and are not printed as a single statewide dollar amount.",
+    "scheduled_url": "https://fortress.wa.gov/dol/extdriveses/ESP/NoLogon/?Link=ScheduleApptLSO",
+    "handbook_url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides",
+    "supervised_hours": "40 hours of daylight and 10 hours at night",
+    "supervised_quote": "You must complete 40 hours of daylight and 10 hours of night driving with someone who is licensed and has had their license for at least 3 years.",
+    "supervised_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17",
+    "holding_period": "at least 6 months",
+    "holding_quote": "Have your Washington learner permit for at least 6 months (this time can include your out-of-state learner permit)",
+    "holding_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17",
+    "fees": [
+      {
+        "item": "First instruction permit",
+        "amount": "$35",
+        "quote": "Also called Instruction permit $35 for 1 year",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-licensing-fees"
+      },
+      {
+        "item": "First driver license",
+        "amount": "$111 for 6 years or $131 for 8 years",
+        "quote": "Also called First Washington driver license $111 for 6 years or $131 for 8 years",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-licensing-fees"
+      }
+    ],
+    "fee_page_url": "https://dol.wa.gov/driver-licenses-and-permits/driver-licensing-fees",
+    "documents": [
+      {
+        "item": "Parent or guardian for applicants under 18",
+        "summary": "A parent or guardian gives permission and, for a photo permit, brings proof of the relationship such as a birth certificate.",
+        "quote": "If you’re under 18, bring your parent or guardian and documents showing parental or guardian connection like a birth certificate, adoption records, or school records.",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit"
+      }
+    ],
+    "real_id_summary": "Washington describes REAL ID as a federal standard, not a separate card name. As of May 7, 2025, air travel and certain federal facilities require a REAL ID-compliant document. An enhanced driver license meets that standard and is a separate product with its own fee.",
+    "real_id_quote": "As of May 7, 2025, anyone traveling by airplane or visiting certain federal facilities must use a REAL ID-compliant document.",
+    "real_id_url": "https://dol.wa.gov/id-cards/real-id",
+    "transfer_summary": "New residents have 30 days to get a Washington driver license. A valid license from another U.S. state generally requires no tests if the person is 18 or older. The out-of-state license is hole-punched and a temporary license is issued.",
+    "transfer_quote": "You have 30 days after you move to Washington to get your driver license.",
+    "transfer_url": "https://dol.wa.gov/moving-washington/get-driver-license",
+    "teen_summary": "A learner permit is available at 15 for a teen in approved driver training, or at 15 and a half if the teen waits until 18 to be licensed. An intermediate license is issued at 16 after six months on the permit, driver training, and 40 daylight plus 10 night hours. It converts to a regular license at 18. The first six months limit passengers under 20, and nighttime driving is limited from 1 a.m. to 5 a.m.",
+    "teen_quote": "You can apply for a permit as soon as you turn 15.",
+    "teen_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+    "teen_points": [
+      {
+        "text": "Apply for a permit at 15 if getting licensed before 18.",
+        "quote": "You can apply for a permit as soon as you turn 15.",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit"
+      },
+      {
+        "text": "Without driver training, the permit waits until 15 and a half and the license waits until 18.",
+        "quote": "You must also wait until you’re 15 and a half to get your permit.",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit"
+      },
+      {
+        "text": "First license at 16 or 17, with rules until 18.",
+        "quote": "Learn how to apply for your first driver license if you're 16 or 17 years old, and read about the rules and restrictions that apply to you until you turn 18.",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17"
+      },
+      {
+        "text": "Hold a learner permit at least six months. Out-of-state permit time can count.",
+        "quote": "Have your Washington learner permit for at least 6 months (this time can include your out-of-state learner permit)",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17"
+      },
+      {
+        "text": "Complete 40 daylight hours and 10 night hours.",
+        "quote": "You must complete 40 hours of daylight and 10 hours of night driving with someone who is licensed and has had their license for at least 3 years.",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17"
+      },
+      {
+        "text": "The intermediate license converts to a regular license at 18.",
+        "quote": "Do I have to get a new license when I turn 18? No, your intermediate driver license automatically converts to a regular driver license.",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17"
+      }
+    ],
+    "out_of_state_permit": "Time on an out-of-state learner permit can count toward Washington's six-month permit requirement. DOL also says getting a Washington permit when the teen already has one from another state can be complicated and tells the family to call.",
+    "out_of_state_permit_quote": "Have your Washington learner permit for at least 6 months (this time can include your out-of-state learner permit)",
+    "out_of_state_permit_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17",
+    "curfew": "An intermediate driver cannot drive between 1:00 a.m. and 5:00 a.m. unless a licensed driver who is 25 or older is along. After one year of safe driving the nighttime restriction expires, while other penalties can apply until 18.",
+    "curfew_quote": "You can't drive between 1:00 a.m. and 5:00 a.m. unless you're with a licensed driver who's 25 years or older.",
+    "curfew_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17",
+    "passengers": "For the first six months, an intermediate driver may not have any passengers under 20 except immediate family. For the next six months, the limit is three passengers under 20 who are not immediate family.",
+    "passengers_quote": "You may not have any passengers under 20 years old except for immediate family members (spouse, child, stepchild, or siblings by birth or marriage).",
+    "passengers_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17",
+    "sources": [
+      {
+        "title": "Get your learner permit",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+        "publisher": "Washington State Department of Licensing"
+      },
+      {
+        "title": "Driver license application: ages 16 to 17",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/driver-license-application-ages-16-17",
+        "publisher": "Washington State Department of Licensing"
+      },
+      {
+        "title": "Driver licensing fees",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-licensing-fees",
+        "publisher": "Washington State Department of Licensing"
+      },
+      {
+        "title": "Do I need to take a test?",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test",
+        "publisher": "Washington State Department of Licensing"
+      },
+      {
+        "title": "Moving to Washington: Get a driver license",
+        "url": "https://dol.wa.gov/moving-washington/get-driver-license",
+        "publisher": "Washington State Department of Licensing"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://dol.wa.gov/id-cards/real-id",
+        "publisher": "Washington State Department of Licensing"
+      },
+      {
+        "title": "Driver guides",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides",
+        "publisher": "Washington State Department of Licensing"
+      }
+    ],
+    "gaps": [
+      "Knowledge and drive tests are given at training locations, and those testing fees are described as varying by location rather than printed as one statewide dollar amount.",
+      "The permit page says a teen who already has an out-of-state permit should call DOL. It does not publish a full conversion rule beyond counting permit time and checking driver-training equivalency."
+    ]
+  },
+  {
+    "slug": "arizona",
+    "name": "Arizona",
+    "agency": "Arizona Department of Transportation",
+    "agency_short": "ADOT",
+    "agency_home": null,
+    "permit_age": 15.5,
+    "permit_age_quote": "A person who is at least fifteen years and six months of age may apply to the department for an instruction permit for a class D or G license.",
+    "permit_age_url": "https://www.azleg.gov/ars/28/03154.htm",
+    "license_age": 16,
+    "license_age_quote": "The person is at least sixteen years of age.",
+    "license_age_url": "https://www.azleg.gov/ars/28/03174.htm",
+    "full_license_age": 18,
+    "full_license_age_quote": "A person who holds a class G driver license may apply for a class D license on or after the person's eighteenth birthday",
+    "full_license_age_url": "https://www.azleg.gov/ars/28/03174.htm",
+    "written_required": true,
+    "written_quote": "The department may issue an instruction permit to the applicant after the applicant successfully passes all parts of the examination other than the driving test.",
+    "written_url": "https://www.azleg.gov/ars/28/03154.htm",
+    "written_detail": "An instruction permit is issued after the applicant passes every part of the examination except the driving test. The examination includes knowledge of traffic laws and traffic control devices.",
+    "road_required": true,
+    "road_quote": "An actual demonstration of ability to exercise ordinary and reasonable control in the operation of a vehicle or vehicle combination of the type covered by the license classification or endorsement for which the applicant applies.",
+    "road_url": "https://www.azleg.gov/ars/28/03164.htm",
+    "road_detail": "The original-license examination includes a driving demonstration. The department may instead accept documentation of an approved driver training course or lessons from an instructor certified by the superintendent of public instruction.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": "30 hours including 10 at night, or 20 hours including 6 at night with certified school training",
+    "supervised_quote": "the applicant has completed at least thirty hours of supervised driving practice and that at least ten of the required practice hours were at night.",
+    "supervised_url": "https://www.azleg.gov/ars/28/03174.htm",
+    "holding_period": "at least six months",
+    "holding_quote": "the person has held the instruction permit for at least six months",
+    "holding_url": "https://www.azleg.gov/ars/28/03174.htm",
+    "fees": [
+      {
+        "item": "Instruction permit under section 28-3154 or 28-3156",
+        "amount": "seven dollars",
+        "quote": "For each application for an instruction permit under: (a) Section 28-3154 or 28-3156, seven dollars.",
+        "url": "https://www.azleg.gov/ars/28/03002.htm"
+      },
+      {
+        "item": "Class D, G, or M license, age 39 or younger",
+        "amount": "$25.00",
+        "quote": "a class D, G or M license: Age Fee 50 or older $10.00 45-49 $15.00 40-44 $20.00 39 or younger $25.00",
+        "url": "https://www.azleg.gov/ars/28/03002.htm"
+      },
+      {
+        "item": "Duplicate instruction permit",
+        "amount": "two dollars",
+        "quote": "For each application for a duplicate of an instruction permit, two dollars.",
+        "url": "https://www.azleg.gov/ars/28/03002.htm"
+      }
+    ],
+    "fee_page_url": "https://www.azleg.gov/ars/28/03002.htm",
+    "documents": [
+      {
+        "item": "Name, date of birth, sex, and Arizona address",
+        "summary": "The application must include satisfactory proof of full legal name, date of birth, sex, and an Arizona domicile address if the applicant has one.",
+        "quote": "An applicant for an instruction permit or a driver license shall give the department satisfactory proof of the applicant's full legal name, date of birth, sex and domicile residence address in this state",
+        "url": "https://www.azleg.gov/ars/28/03158.htm"
+      },
+      {
+        "item": "Social Security number",
+        "summary": "The application states the applicant's Social Security number.",
+        "quote": "The social security number of the applicant.",
+        "url": "https://www.azleg.gov/ars/28/03158.htm"
+      },
+      {
+        "item": "Lawful presence",
+        "summary": "A license or identification license is not issued or renewed without proof that presence in the United States is authorized under federal law.",
+        "quote": "the department shall not issue to or renew a driver license or nonoperating identification license for a person who does not submit proof satisfactory to the department that the applicant's presence in the United States is authorized under federal law.",
+        "url": "https://www.azleg.gov/ars/28/03153.htm"
+      }
+    ],
+    "real_id_summary": "Arizona statute 28-3175 requires the department, when requested, to issue a driver license or identification license that can be used to board a federally regulated commercial aircraft or enter certain restricted federal areas. A separate statute, 28-336, still says the state shall not participate in implementing the REAL ID Act of 2005. The Motor Vehicle Division website did not open, so the current card process was not confirmed.",
+    "real_id_quote": "if a driver license applicant or nonoperating identification license applicant requests a driver license or nonoperating identification license that allows the applicant to board a federally regulated commercial aircraft",
+    "real_id_url": "https://www.azleg.gov/ars/28/03175.htm",
+    "transfer_summary": "The six-month instruction-permit requirement for a class G license does not apply to a person who already has a currently valid driver license from another jurisdiction. The department examines original applicants and may waive parts of the examination in the cases listed in section 28-3164.",
+    "transfer_quote": "this requirement does not apply to a person who has a currently valid driver license issued by another jurisdiction.",
+    "transfer_url": "https://www.azleg.gov/ars/28/03174.htm",
+    "teen_summary": "Arizona statute allows a class D or G instruction permit at 15 years and six months, and a school-only restricted instruction permit at 15. A class G license is available at 16 after the permit has been held at least six months, with driver education or a parent certification of practice hours. Class G night and passenger limits apply for the first six months. A class D license may be requested on or after the 18th birthday.",
+    "teen_quote": "A person who is at least fifteen years and six months of age may apply to the department for an instruction permit for a class D or G license.",
+    "teen_url": "https://www.azleg.gov/ars/28/03154.htm",
+    "teen_points": [
+      {
+        "text": "Instruction permit at 15 years and six months.",
+        "quote": "A person who is at least fifteen years and six months of age may apply to the department for an instruction permit for a class D or G license.",
+        "url": "https://www.azleg.gov/ars/28/03154.htm"
+      },
+      {
+        "text": "A school restricted instruction permit may be issued at 15.",
+        "quote": "the department may issue a restricted instruction permit for a class D or G license to an applicant who is enrolled in a driver training program approved by the department and who is at least fifteen years of age.",
+        "url": "https://www.azleg.gov/ars/28/03155.htm"
+      },
+      {
+        "text": "Class G license at age 16.",
+        "quote": "The person is at least sixteen years of age.",
+        "url": "https://www.azleg.gov/ars/28/03174.htm"
+      },
+      {
+        "text": "Hold the instruction permit at least six months.",
+        "quote": "the person has held the instruction permit for at least six months",
+        "url": "https://www.azleg.gov/ars/28/03174.htm"
+      },
+      {
+        "text": "Parent certification of 30 hours, including 10 at night, is one statutory path.",
+        "quote": "the applicant has completed at least thirty hours of supervised driving practice and that at least ten of the required practice hours were at night.",
+        "url": "https://www.azleg.gov/ars/28/03174.htm"
+      },
+      {
+        "text": "Class D license on or after the 18th birthday.",
+        "quote": "A person who holds a class G driver license may apply for a class D license on or after the person's eighteenth birthday",
+        "url": "https://www.azleg.gov/ars/28/03174.htm"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "For the first six months, a class G licensee shall not drive from 12:00 a.m. to 5:00 a.m. unless a licensed parent or guardian is in the front seat or the trip is directly to or from school, work, a religious activity, or a family emergency.",
+    "curfew_quote": "for the first six months that a class G licensee holds the license, the licensee shall not drive a motor vehicle on a public highway from 12:00 a.m. to 5:00 a.m.",
+    "curfew_url": "https://www.azleg.gov/ars/28/03174.htm",
+    "passengers": "For the first six months, a class G licensee shall not drive with more than one passenger under 18, unless the passengers are siblings or a licensed parent or guardian is in the front seat.",
+    "passengers_quote": "the licensee shall not drive a motor vehicle on a public highway at any time if the licensee is driving a motor vehicle containing more than one passenger under the age of eighteen.",
+    "passengers_url": "https://www.azleg.gov/ars/28/03174.htm",
+    "sources": [
+      {
+        "title": "ARS 28-3154 Instruction permit for a class D or G license",
+        "url": "https://www.azleg.gov/ars/28/03154.htm",
+        "publisher": "Arizona State Legislature"
+      },
+      {
+        "title": "ARS 28-3155 Restricted instruction permit",
+        "url": "https://www.azleg.gov/ars/28/03155.htm",
+        "publisher": "Arizona State Legislature"
+      },
+      {
+        "title": "ARS 28-3174 Class G driver licenses",
+        "url": "https://www.azleg.gov/ars/28/03174.htm",
+        "publisher": "Arizona State Legislature"
+      },
+      {
+        "title": "ARS 28-3164 Original applicants; examination",
+        "url": "https://www.azleg.gov/ars/28/03164.htm",
+        "publisher": "Arizona State Legislature"
+      },
+      {
+        "title": "ARS 28-3002 Fees; driver licenses",
+        "url": "https://www.azleg.gov/ars/28/03002.htm",
+        "publisher": "Arizona State Legislature"
+      },
+      {
+        "title": "ARS 28-3158 Driver license or instruction permit application",
+        "url": "https://www.azleg.gov/ars/28/03158.htm",
+        "publisher": "Arizona State Legislature"
+      },
+      {
+        "title": "ARS 28-3175 Boarding aircraft",
+        "url": "https://www.azleg.gov/ars/28/03175.htm",
+        "publisher": "Arizona State Legislature"
+      },
+      {
+        "title": "ARS 28-336 REAL ID act; implementation prohibited",
+        "url": "https://www.azleg.gov/ars/28/00336.htm",
+        "publisher": "Arizona State Legislature"
+      }
+    ],
+    "gaps": [
+      "azdot.gov and azmvdnow.gov returned HTTP 403 to curl, including the teen-driver, fee, permit-test, and driver-manual pages. Facts in this record are limited to Arizona Revised Statutes pages that opened.",
+      "The statute gives three class G practice paths: approved driver education, 20 hours with a certified defensive-driving or traffic-survival school, or 30 hours certified by a parent. Only the 30-hour sentence is the supervised-hours quote.",
+      "No opened statute states that another state's instruction permit is accepted in place of an Arizona permit. The six-month exception that did open applies to a currently valid driver license from another jurisdiction.",
+      "ARS 28-336 prohibits REAL ID Act implementation, while ARS 28-3175 requires a credential that can be used to board commercial aircraft. The current Travel ID process was not confirmed because the motor-vehicle site did not open."
+    ]
+  }
+]

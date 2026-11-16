@@ -1,0 +1,925 @@
+[
+  {
+    "slug": "california",
+    "name": "California",
+    "agency": "California Department of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://www.dmv.ca.gov/portal/",
+    "permit_age": "15.5",
+    "permit_age_quote": "You need to be 15 ½ but under 18 years of age to apply for a learner’s permit.",
+    "permit_age_url": "https://www.dmv.ca.gov/portal/teen-drivers/",
+    "license_age": 16,
+    "license_age_quote": "Be at least 16 years old.",
+    "license_age_url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": true,
+    "written_quote": "There are multiple choice questions based on the California Driver’s Handbook, and a passing score is 80%.",
+    "written_url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/learners-permits/",
+    "written_detail": "Multiple-choice questions from the driver handbook; passing score 80%.",
+    "road_required": true,
+    "road_quote": "Once you finish your practice hours and complete the 6-month waiting period, you’ll take your driving test.",
+    "road_url": "https://www.dmv.ca.gov/portal/teen-drivers/",
+    "road_detail": "Schedule a driving test and bring proof of financial responsibility that meets California insurance requirements.",
+    "scheduled_url": "https://www.dmv.ca.gov/portal/appointments/select-appointment-type",
+    "handbook_url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+    "supervised_hours": "50 hours, including 10 at night",
+    "supervised_quote": "Practice driving for at least 50 hours with a California-licensed driver who is at least 25 years old. Ten hours must be at night.",
+    "supervised_url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/",
+    "holding_period": "6 months",
+    "holding_quote": "Have an instruction permit from California or another state for at least 6 months (or turn 18 years old) before scheduling your behind-the-wheel drive test.",
+    "holding_url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/",
+    "fees": [
+      {
+        "item": "Class C original, renewal, or motorcycle add-on",
+        "amount": "$46",
+        "quote": "Class C Application– Original – Renewal – Adding a motorcycle license (Class M1/M2) Fee$46",
+        "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/licensing-fees/"
+      },
+      {
+        "item": "Class C replacement, information change, or firefighter endorsement",
+        "amount": "$37",
+        "quote": "Replacement (lost or stolen) – Change DL/ID Information – Adding a firefighter endorsement Fee$37",
+        "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/licensing-fees/"
+      }
+    ],
+    "fee_page_url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/licensing-fees/",
+    "documents": [
+      {
+        "item": "Identity",
+        "summary": "Bring proof of who you are when you apply for a permit or license.",
+        "quote": "Proof of identity: Proving who you are.",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/"
+      },
+      {
+        "item": "California residency",
+        "summary": "Two documents must show that you live in California, with exceptions.",
+        "quote": "Two proofs of residency: Proving you live in California.",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/"
+      },
+      {
+        "item": "Social Security number",
+        "summary": "A REAL ID application asks for a Social Security number, with exceptions.",
+        "quote": "You will be asked to provide your Social Security number on your REAL ID application (exceptions may apply).",
+        "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/real-id/what-is-real-id/"
+      }
+    ],
+    "real_id_summary": "A California REAL ID license or ID meets federal identification rules and is marked with a golden bear and a star.",
+    "real_id_quote": "A California issued REAL ID driver’s license or identification card meets these new requirements and is marked with a golden bear and star.",
+    "real_id_url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/real-id/what-is-real-id/",
+    "transfer_summary": "Someone who already has a license from another state applies for a California license at a DMV office. The application steps include identity, residency, and a knowledge test.",
+    "transfer_quote": "Here’s how you apply for a California DL if you already have a valid DL that was issued by another state:",
+    "transfer_url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/driver-licenses-dl/",
+    "teen_summary": "A learner permit is available at 15 1/2 and under 18. A provisional license starts at 16 after six months with a permit, driver education and training, and 50 practice hours including 10 at night. While under 18 the card says provisional, and for the first 12 months night driving and young passengers are limited.",
+    "teen_points": [
+      {
+        "text": "The license of a driver under 18 is marked provisional.",
+        "quote": "When you are under 18 years old, your driver’s license will have the word provisional.",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/"
+      },
+      {
+        "text": "For the first 12 months, provisional drivers cannot drive from 11 p.m. to 5 a.m.",
+        "quote": "Between 11 p.m. and 5 a.m. during the first 12 months you have your license.",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/"
+      },
+      {
+        "text": "Passengers under 20 are not allowed unless a parent, guardian, or licensed driver at least 25 rides along.",
+        "quote": "With passengers under 20 years old, unless your parent or guardian or other California-licensed driver (at least 25 years old) rides with you.",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/"
+      }
+    ],
+    "teen_url": "https://www.dmv.ca.gov/portal/teen-drivers/",
+    "out_of_state_permit": "An instruction permit from California or another state counts toward the six-month wait before the behind-the-wheel drive test.",
+    "out_of_state_permit_quote": "Have an instruction permit from California or another state for at least 6 months (or turn 18 years old) before scheduling your behind-the-wheel drive test.",
+    "out_of_state_permit_url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/",
+    "curfew": "11 p.m. to 5 a.m. during the first 12 months of a provisional license",
+    "curfew_quote": "Between 11 p.m. and 5 a.m. during the first 12 months you have your license.",
+    "curfew_url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/",
+    "passengers": "No passengers under 20 unless a parent, guardian, or California-licensed driver at least 25 rides along",
+    "passengers_quote": "With passengers under 20 years old, unless your parent or guardian or other California-licensed driver (at least 25 years old) rides with you.",
+    "passengers_url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/",
+    "sources": [
+      {
+        "title": "Teen Driver Roadmap",
+        "url": "https://www.dmv.ca.gov/portal/teen-drivers/",
+        "publisher": "California Department of Motor Vehicles"
+      },
+      {
+        "title": "Getting an Instruction Permit and Driver’s License",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/getting-an-instruction-permit-and-drivers-license/",
+        "publisher": "California Department of Motor Vehicles"
+      },
+      {
+        "title": "Instruction and Learner's Permits",
+        "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/learners-permits/",
+        "publisher": "California Department of Motor Vehicles"
+      },
+      {
+        "title": "Driver's Licenses",
+        "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/driver-licenses-dl/",
+        "publisher": "California Department of Motor Vehicles"
+      },
+      {
+        "title": "Licensing Fees",
+        "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/licensing-fees/",
+        "publisher": "California Department of Motor Vehicles"
+      },
+      {
+        "title": "What Is REAL ID?",
+        "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/real-id/what-is-real-id/",
+        "publisher": "California Department of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "Behind-the-wheel retest fee is $9 on the teen roadmap and the licensing fees page, and $7 on the driver's licenses page, so no retest fee is listed. URLs: https://www.dmv.ca.gov/portal/teen-drivers/ ; https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/licensing-fees/ ; https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/driver-licenses-dl/",
+      "No single unrestricted-license age is printed. The handbook says the license is marked provisional while the driver is under 18, and night and passenger limits apply during the first 12 months.",
+      "The knowledge-test page prints an 80% passing score but not the number of questions.",
+      "An out-of-state instruction permit is not proof of driver education: An out-of-state driving instruction permit is not acceptable proof of DE/DT."
+    ]
+  },
+  {
+    "slug": "texas",
+    "name": "Texas",
+    "agency": "Texas Department of Public Safety",
+    "agency_short": "DPS",
+    "agency_home": "https://www.dps.texas.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "cannot apply for a learner license until he/she is at least 15.",
+    "permit_age_url": "https://www.dps.texas.gov/section/driver-license/choosing-driver-education-course",
+    "license_age": 16,
+    "license_age_quote": "Be between 16 and 17 years of age",
+    "license_age_url": "https://www.dps.texas.gov/section/driver-license/texas-provisional-license-teen",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": true,
+    "written_quote": "Pass the learner's permit written exam",
+    "written_url": "https://www.dps.texas.gov/section/driver-license/choosing-driver-education-course",
+    "written_detail": null,
+    "road_required": true,
+    "road_quote": "Successfully pass your driving test A Provisional Driver License allows you to drive independently",
+    "road_url": "https://www.dps.texas.gov/section/driver-license/texas-provisional-license-teen",
+    "road_detail": "For a road-skills test at a driver license office, bring current registration and insurance for the test vehicle.",
+    "scheduled_url": "https://www.txdpsscheduler.com",
+    "handbook_url": "https://www.dps.texas.gov/internetforms/Forms/DL-7.pdf",
+    "supervised_hours": "30 hours behind the wheel, including 10 at night",
+    "supervised_quote": "30 hours of behind the wheel driving practice, of which at least 10 hours must be at night",
+    "supervised_url": "https://www.dps.texas.gov/section/driver-license/texas-provisional-license-teen",
+    "holding_period": "6 months, unless the applicant turns 18",
+    "holding_quote": "Applicants under 18 must hold a valid learners license or minor restricted driver license (MRDL) for at least six months to be eligible for a provisional license.",
+    "holding_url": "https://www.dps.texas.gov/section/driver-license/graduated-driver-license-gdl-and-hardship-license",
+    "fees": [
+      {
+        "item": "New driver license under 18",
+        "amount": "$16",
+        "quote": "Under 18: new $16 Expires on your 18th birthday",
+        "url": "https://www.dps.texas.gov/section/driver-license/driver-license-fees"
+      },
+      {
+        "item": "New driver license, ages 18 to 84",
+        "amount": "$33",
+        "quote": "Age 18 to 84: new $33 Expires after eight years (on your birthday)",
+        "url": "https://www.dps.texas.gov/section/driver-license/driver-license-fees"
+      }
+    ],
+    "fee_page_url": "https://www.dps.texas.gov/section/driver-license/driver-license-fees",
+    "documents": [
+      {
+        "item": "Citizenship or lawful presence",
+        "summary": "Applicants show proof of U.S. citizenship or lawful presence if they are not U.S. citizens.",
+        "quote": "Proof of U.S. Citizenship or Lawful Presence (if not a U.S. Citizen)",
+        "url": "https://www.dps.texas.gov/section/driver-license/texas-learners-license-teen"
+      },
+      {
+        "item": "Texas residency and identity",
+        "summary": "The learner-license visit asks for proof of Texas residency and proof of identity.",
+        "quote": "Proof of Texas Residency. Proof of Identity.",
+        "url": "https://www.dps.texas.gov/section/driver-license/texas-learners-license-teen"
+      },
+      {
+        "item": "Social Security number",
+        "summary": "The Social Security number is verified electronically at the learner-license visit.",
+        "quote": "Proof of Identity. Social Security Number (verified electronically)",
+        "url": "https://www.dps.texas.gov/section/driver-license/texas-learners-license-teen"
+      }
+    ],
+    "real_id_summary": "Original, renewal, and replacement Texas driver licenses and ID cards are issued with a star showing Real ID compliance.",
+    "real_id_quote": "All original, renewal or replacement driver license and identification cards issued, will now have a star to indicate they are Real ID compliant.",
+    "real_id_url": "https://www.dps.texas.gov/apps/DriverLicense/RealID/",
+    "transfer_summary": "A valid license from another U.S. state, U.S. territory, or Canada must be surrendered. Those applicants are not required to take the Texas knowledge or skills exams.",
+    "transfer_quote": "you must surrender your out-of-state license and are not required to take the knowledge or skills exams.",
+    "transfer_url": "https://www.dps.texas.gov/section/driver-license/moving-texas-guide-driver-licenses-and-ids",
+    "teen_summary": "Teens cannot apply for a learner license until 15, after classroom driver education. A provisional license is for ages 16 and 17 after a learner license is held six months, with 30 practice hours including 10 at night, and a driving test. Passenger, curfew, and phone limits apply under 18.",
+    "teen_points": [
+      {
+        "text": "A learner license is held at least six months unless the teen turns 18, and it expires on the 18th birthday.",
+        "quote": "A Learner license must be held for at least six months unless you turn 18; it will expire on your 18th birthday.",
+        "url": "https://www.dps.texas.gov/section/driver-license/texas-learners-license-teen"
+      },
+      {
+        "text": "Provisional drivers may have no more than one passenger under 21 who is not a family member.",
+        "quote": "You may not drive with more than one passenger in the vehicle under 21 who is not a family member.",
+        "url": "https://www.dps.texas.gov/section/driver-license/texas-provisional-license-teen"
+      },
+      {
+        "text": "Provisional driving is restricted from midnight to 5 a.m. except for work, school, or emergencies.",
+        "quote": "Driving is restricted between midnight and 5:00 a.m. unless for work, school activities, or emergencies.",
+        "url": "https://www.dps.texas.gov/section/driver-license/texas-provisional-license-teen"
+      }
+    ],
+    "teen_url": "https://www.dps.texas.gov/section/driver-license/texas-learners-license-teen",
+    "out_of_state_permit": "A qualifying out-of-state learner license does not require the Texas knowledge exam. Impact Texas Driver and the skills exam are still required.",
+    "out_of_state_permit_quote": "you do not have to take the knowledge exam. You must still complete the Impact Texas Driver (ITD) course and pass the skills exam",
+    "out_of_state_permit_url": "https://www.dps.texas.gov/section/driver-license/moving-texas-guide-driver-licenses-and-ids",
+    "curfew": "Midnight to 5 a.m., with exceptions for work, school activities, or emergencies",
+    "curfew_quote": "Driving is restricted between midnight and 5:00 a.m. unless for work, school activities, or emergencies.",
+    "curfew_url": "https://www.dps.texas.gov/section/driver-license/texas-provisional-license-teen",
+    "passengers": "No more than one passenger under 21 who is not a family member",
+    "passengers_quote": "You may not drive with more than one passenger in the vehicle under 21 who is not a family member.",
+    "passengers_url": "https://www.dps.texas.gov/section/driver-license/texas-provisional-license-teen",
+    "sources": [
+      {
+        "title": "Texas Learners License as a Teen",
+        "url": "https://www.dps.texas.gov/section/driver-license/texas-learners-license-teen",
+        "publisher": "Texas Department of Public Safety"
+      },
+      {
+        "title": "Texas Provisional License as a Teen",
+        "url": "https://www.dps.texas.gov/section/driver-license/texas-provisional-license-teen",
+        "publisher": "Texas Department of Public Safety"
+      },
+      {
+        "title": "Graduated Driver License (GDL) and Hardship License",
+        "url": "https://www.dps.texas.gov/section/driver-license/graduated-driver-license-gdl-and-hardship-license",
+        "publisher": "Texas Department of Public Safety"
+      },
+      {
+        "title": "Choosing a Driver Education Course",
+        "url": "https://www.dps.texas.gov/section/driver-license/choosing-driver-education-course",
+        "publisher": "Texas Department of Public Safety"
+      },
+      {
+        "title": "Driver License Fees",
+        "url": "https://www.dps.texas.gov/section/driver-license/driver-license-fees",
+        "publisher": "Texas Department of Public Safety"
+      },
+      {
+        "title": "Moving to Texas: A Guide to Driver Licenses and IDs",
+        "url": "https://www.dps.texas.gov/section/driver-license/moving-texas-guide-driver-licenses-and-ids",
+        "publisher": "Texas Department of Public Safety"
+      },
+      {
+        "title": "Driver license services appointments",
+        "url": "https://www.dps.texas.gov/section/driver-license/driver-license-services-appointments",
+        "publisher": "Texas Department of Public Safety"
+      },
+      {
+        "title": "REAL ID checklist",
+        "url": "https://www.dps.texas.gov/apps/DriverLicense/RealID/",
+        "publisher": "Texas Department of Public Safety"
+      }
+    ],
+    "gaps": [
+      "The teen and GDL pages describe an unrestricted license after the provisional phase but do not print a numeric age for that unrestricted license.",
+      "The pages opened do not print the learner written-exam question count or passing score.",
+      "The appointment page tells customers to schedule at https://www.txdpsscheduler.com, which is linked from the DPS site."
+    ]
+  },
+  {
+    "slug": "florida",
+    "name": "Florida",
+    "agency": "Florida Department of Highway Safety and Motor Vehicles",
+    "agency_short": "FLHSMV",
+    "agency_home": "https://www.flhsmv.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "Must be at least 15 years old;",
+    "permit_age_url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/",
+    "license_age": 16,
+    "license_age_quote": "Must be at least 16 years old;",
+    "license_age_url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/",
+    "full_license_age": 18,
+    "full_license_age_quote": "18 years old with a driver license – Driving is allowed at all hours without an adult in the car.",
+    "full_license_age_url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/frequently-asked-questions/",
+    "written_required": true,
+    "written_quote": "To pass, a customer must answer 40 out of 50 questions correctly, or score 80 percent.",
+    "written_url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/",
+    "written_detail": "50 questions; 40 correct, or 80 percent, to pass.",
+    "road_required": true,
+    "road_quote": "Must pass Class E Driving Skills Test;",
+    "road_url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/",
+    "road_detail": "The skills-test vehicle needs valid registration, proof of insurance, and a basic safety inspection by the examiner.",
+    "scheduled_url": "https://www.flhsmv.gov/locations/",
+    "handbook_url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+    "supervised_hours": "50 hours, including 10 at night",
+    "supervised_quote": "certifying the driver has 50 hours of driving experience, of which 10 hours must be at night.",
+    "supervised_url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/",
+    "holding_period": "12 months, or until age 18, whichever comes first",
+    "holding_quote": "Must hold learner’s license for at least one year (12 months) OR reach age 18, whichever comes first;",
+    "holding_url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/",
+    "fees": [
+      {
+        "item": "Original Class E, including a learner license",
+        "amount": "$48.00",
+        "quote": "Original Class E (includes Learner’s license)* $48.00",
+        "url": "https://www.flhsmv.gov/fees/"
+      },
+      {
+        "item": "Knowledge retest",
+        "amount": "$10.00",
+        "quote": "Knowledge retest* $10.00 Skill retest* $20.00",
+        "url": "https://www.flhsmv.gov/fees/"
+      },
+      {
+        "item": "Skill retest",
+        "amount": "$20.00",
+        "quote": "Knowledge retest* $10.00 Skill retest* $20.00",
+        "url": "https://www.flhsmv.gov/fees/"
+      }
+    ],
+    "fee_page_url": "https://www.flhsmv.gov/fees/",
+    "documents": [
+      {
+        "item": "Primary identification",
+        "summary": "U.S. citizens can use a valid U.S. passport or passport card as one primary identification document.",
+        "quote": "Valid U.S. passport or passport card;",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/u-s-citizen/"
+      },
+      {
+        "item": "Social Security number",
+        "summary": "A Social Security card in the customer's current name is one accepted proof of the Social Security number.",
+        "quote": "Social Security card (with the customer’s current name);",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/u-s-citizen/"
+      },
+      {
+        "item": "Residential address",
+        "summary": "Two different documents must show a Florida residential address.",
+        "quote": "Customers must submit two different documents with their Florida residential address",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/u-s-citizen/"
+      }
+    ],
+    "real_id_summary": "Florida licenses and ID cards with a star in the upper right corner are REAL ID-compliant.",
+    "real_id_quote": "New driver licenses and ID cards have a star in the upper right corner of the card, indicating that they are REAL ID-compliant.",
+    "real_id_url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/",
+    "transfer_summary": "A new resident must get a Florida driver license within 30 days of establishing residency in order to drive on Florida roads.",
+    "transfer_quote": "you must obtain a valid Florida driver license within 30 days of establishing residency to drive on Florida roads.",
+    "transfer_url": "https://www.flhsmv.gov/new-resident/",
+    "teen_summary": "A learner license starts at 15. A Class E license starts at 16 after the learner license is held 12 months or until 18, with 50 supervised hours including 10 at night and a skills test. Night limits apply at 16 and 17; at 18 driving is allowed at all hours without an adult.",
+    "teen_points": [
+      {
+        "text": "At 16, driving without an adult is allowed from 6 a.m. to 11 p.m., with work and accompanied exceptions outside those hours.",
+        "quote": "16 years old with a driver license – Driving is allowed between 6 a.m. and 11 p.m.",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/frequently-asked-questions/"
+      },
+      {
+        "text": "At 17, driving without an adult is allowed from 5 a.m. to 1 a.m.",
+        "quote": "Driving is allowed between 5 a.m. and 1 a.m. without a licensed adult",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/frequently-asked-questions/"
+      },
+      {
+        "text": "At 18, a licensed driver may drive at all hours without an adult in the car.",
+        "quote": "18 years old with a driver license – Driving is allowed at all hours without an adult in the car.",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/frequently-asked-questions/"
+      }
+    ],
+    "teen_url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "At age 16, driving without a licensed adult is limited to 6 a.m. to 11 p.m.",
+    "curfew_quote": "16 years old with a driver license – Driving is allowed between 6 a.m. and 11 p.m.",
+    "curfew_url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/frequently-asked-questions/",
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [
+      {
+        "title": "Licensing Requirements for Teens",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/",
+        "publisher": "Florida Department of Highway Safety and Motor Vehicles"
+      },
+      {
+        "title": "Class E Knowledge Exam and Driving Skills Test",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/",
+        "publisher": "Florida Department of Highway Safety and Motor Vehicles"
+      },
+      {
+        "title": "Teen licensing frequently asked questions",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/frequently-asked-questions/",
+        "publisher": "Florida Department of Highway Safety and Motor Vehicles"
+      },
+      {
+        "title": "Fees",
+        "url": "https://www.flhsmv.gov/fees/",
+        "publisher": "Florida Department of Highway Safety and Motor Vehicles"
+      },
+      {
+        "title": "What to Bring",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/",
+        "publisher": "Florida Department of Highway Safety and Motor Vehicles"
+      },
+      {
+        "title": "U.S. Citizen documents",
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/u-s-citizen/",
+        "publisher": "Florida Department of Highway Safety and Motor Vehicles"
+      },
+      {
+        "title": "New Resident",
+        "url": "https://www.flhsmv.gov/new-resident/",
+        "publisher": "Florida Department of Highway Safety and Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The teen GDL pages list night limits but do not print a passenger limit for licensed teens.",
+      "The new-resident page does not say whether another state's learner permit can be used or transferred in Florida.",
+      "A tax collector office may add a $6.25 service fee; that fee is printed on the fees page as an additional charge, not as the base license fee.",
+      "Possible written or road test waiver for a new resident: you may be eligible to receive a license without taking a written or road test."
+    ]
+  },
+  {
+    "slug": "new-york",
+    "name": "New York",
+    "agency": "New York State Department of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://dmv.ny.gov/",
+    "permit_age": 16,
+    "permit_age_quote": "You must be 16 years or older to apply.",
+    "permit_age_url": "https://dmv.ny.gov/learner-permit",
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": 18,
+    "full_license_age_quote": "you are subject to the restrictions for junior drivers until you are age 18, even if you carry the completion certificate with you.",
+    "full_license_age_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
+    "written_required": true,
+    "written_quote": "passing the written permit test and getting your New York State Learner Permit",
+    "written_url": "https://dmv.ny.gov/driver-license/schedule-and-take-a-road-test",
+    "written_detail": null,
+    "road_required": true,
+    "road_quote": "Before you take your road test, you will need to prepare by passing the written permit test",
+    "road_url": "https://dmv.ny.gov/driver-license/schedule-and-take-a-road-test",
+    "road_detail": "The test vehicle must have valid registration, insurance, and inspection, operate properly, and be clean.",
+    "scheduled_url": "https://nyrtsscheduler.com/",
+    "handbook_url": "https://dmv.ny.gov/brochure/mv21.pdf",
+    "supervised_hours": "50 hours, including 15 after sunset, for a junior learner permit",
+    "supervised_quote": "you must have a minimum of 50 hours of supervised practice driving that includes at least 15 hours of driving after sunset before you take a road test.",
+    "supervised_url": "https://dmv.ny.gov/driver-license/complete-pre-licensing-requirements",
+    "holding_period": "6 months if under 18",
+    "holding_quote": "If you are under the age of 18, you must wait at least six months from the date you received your learner permit to schedule your road test.",
+    "holding_url": "https://dmv.ny.gov/driver-license/complete-pre-licensing-requirements",
+    "fees": [
+      {
+        "item": "Class D or DJ, age 16 to 16 1/2 (second amount includes the MCTD fee)",
+        "amount": "$80.00 / $90.00",
+        "quote": "16 to 16½ $80.00 / $90.00*",
+        "url": "https://dmv.ny.gov/driver-license/fees-refunds"
+      },
+      {
+        "item": "Replace a driver license or learner permit",
+        "amount": "$17.50",
+        "quote": "Fee to replace a driver license or learner permit: $17.50",
+        "url": "https://dmv.ny.gov/driver-license/fees-refunds"
+      },
+      {
+        "item": "MCTD fee where it applies",
+        "amount": "$1.00 per 6 months",
+        "quote": "The MCTD fee is $1.00 for every 6 months the permit or driver license will be in effect.",
+        "url": "https://dmv.ny.gov/driver-license/fees-refunds"
+      }
+    ],
+    "fee_page_url": "https://dmv.ny.gov/driver-license/fees-refunds",
+    "documents": [
+      {
+        "item": "Age, identity, and residence",
+        "summary": "A first permit application requires proof of age, identification, and residence. The detailed list is on form ID-44.",
+        "quote": "When you apply, you will need to provide proof of age, identification, and residence.",
+        "url": "https://dmv.ny.gov/driver-license/prepare-for-and-take-your-permit-test"
+      }
+    ],
+    "real_id_summary": "A New York REAL ID is a federally compliant license, permit, or non-driver ID.",
+    "real_id_quote": "A REAL ID is a federally compliant DMV-issued driver license, learner permit, or non-driver ID",
+    "real_id_url": "https://dmv.ny.gov/driver-license/enhanced-or-real-id",
+    "transfer_summary": "Exchanging an out-of-state license includes passing a vision test at a DMV office or bringing a completed eye test report.",
+    "transfer_quote": "pass a vision test at the DMV or bring a completed Eye Test Report",
+    "transfer_url": "https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license",
+    "teen_summary": "A learner permit starts at 16. Drivers under 18 wait six months before scheduling a road test and, with a junior permit, log 50 supervised hours including 15 after sunset. Junior restrictions last until 18 unless a 17-year-old with driver education changes to a senior license. Night and passenger rules differ upstate, in New York City, and on Long Island.",
+    "teen_points": [
+      {
+        "text": "At 17, a junior driver who finished an approved high school or college driver education course can get a senior Class D or M license.",
+        "quote": "If you are 17, you are eligible for a senior driver license (Class D or M)",
+        "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law"
+      },
+      {
+        "text": "Upstate, a junior license allows unsupervised driving from 5 a.m. to 9 p.m.",
+        "quote": "without a supervising driver between the hours of 5 AM and 9 PM",
+        "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law"
+      },
+      {
+        "text": "Upstate junior licenses allow no more than one passenger under 21 unless the passengers are immediate family.",
+        "quote": "there may be no more than one passenger under the age of 21 unless the passengers are members of your immediate family.",
+        "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law"
+      },
+      {
+        "text": "A junior Class DJ or MJ license cannot be used to drive in the five boroughs of New York City.",
+        "quote": "you cannot drive within the five boroughs of New York City under any circumstances.",
+        "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law"
+      }
+    ],
+    "teen_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
+    "out_of_state_permit": "A learner permit from another state cannot be used to drive in New York if the holder is under 16. At 16 or older, an out-of-state junior permit or permit must follow both the issuing state's restrictions and New York's permit rules.",
+    "out_of_state_permit_quote": "If you have a learner permit from another state and are under the age of 16, you cannot drive in New York State.",
+    "out_of_state_permit_url": "https://dmv.ny.gov/driver-license/learner-permit-restrictions",
+    "curfew": "Upstate junior license: unsupervised driving from 5 a.m. to 9 p.m.",
+    "curfew_quote": "without a supervising driver between the hours of 5 AM and 9 PM",
+    "curfew_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
+    "passengers": "Upstate junior license: no more than one passenger under 21 unless they are immediate family",
+    "passengers_quote": "there may be no more than one passenger under the age of 21 unless the passengers are members of your immediate family.",
+    "passengers_url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
+    "sources": [
+      {
+        "title": "Learner Permits",
+        "url": "https://dmv.ny.gov/learner-permit",
+        "publisher": "New York State Department of Motor Vehicles"
+      },
+      {
+        "title": "Prepare for and take your permit test",
+        "url": "https://dmv.ny.gov/driver-license/prepare-for-and-take-your-permit-test",
+        "publisher": "New York State Department of Motor Vehicles"
+      },
+      {
+        "title": "Complete pre-licensing requirements",
+        "url": "https://dmv.ny.gov/driver-license/complete-pre-licensing-requirements",
+        "publisher": "New York State Department of Motor Vehicles"
+      },
+      {
+        "title": "Schedule and take a road test",
+        "url": "https://dmv.ny.gov/driver-license/schedule-and-take-a-road-test",
+        "publisher": "New York State Department of Motor Vehicles"
+      },
+      {
+        "title": "The Graduated License Law",
+        "url": "https://dmv.ny.gov/driver-license/younger-driver/the-graduated-license-law",
+        "publisher": "New York State Department of Motor Vehicles"
+      },
+      {
+        "title": "Learner permit restrictions",
+        "url": "https://dmv.ny.gov/driver-license/learner-permit-restrictions",
+        "publisher": "New York State Department of Motor Vehicles"
+      },
+      {
+        "title": "Driver license and learner permit fees",
+        "url": "https://dmv.ny.gov/driver-license/fees-refunds",
+        "publisher": "New York State Department of Motor Vehicles"
+      },
+      {
+        "title": "Enhanced or REAL ID",
+        "url": "https://dmv.ny.gov/driver-license/enhanced-or-real-id",
+        "publisher": "New York State Department of Motor Vehicles"
+      },
+      {
+        "title": "Exchange an out-of-state driver license",
+        "url": "https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license",
+        "publisher": "New York State Department of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "DMV does not print a separate minimum age for a junior license. A permit requires age 16, and a driver under 18 must wait six months before scheduling the road test.",
+      "The pages opened do not print the written permit test question count or passing score.",
+      "Form ID-44 is linked for the full proof list. Specific identity documents and any Social Security number rule were not copied from that PDF.",
+      "Junior night and passenger rules differ for upstate New York, New York City, and Long Island. The curfew and passenger fields quote the upstate junior-license rules.",
+      "Surrender step for an out-of-state license: bring and surrender your out-of-state license",
+      "Age 16 or older with an out-of-state permit: If you are age 16 or older and hold a junior permit or permit from outside New York State, you must obey",
+      "Road test scheduling on the DMV page links to https://nyrtsscheduler.com/."
+    ]
+  },
+  {
+    "slug": "pennsylvania",
+    "name": "Pennsylvania",
+    "agency": "Pennsylvania Department of Transportation",
+    "agency_short": "PennDOT",
+    "agency_home": "https://www.pa.gov/agencies/dmv",
+    "permit_age": 16,
+    "permit_age_quote": "An initial Learner's Permit is for anyone 16 years of age or older",
+    "permit_age_url": "https://www.pa.gov/services/dmv/get-a-driver-license",
+    "license_age": 16,
+    "license_age_quote": "A Class C driver's license will be issued to persons 16 years of age or older",
+    "license_age_url": "https://www.pa.gov/agencies/dmv/driver-services/licenses-and-photo-ids/license-types-restrictions",
+    "full_license_age": 18,
+    "full_license_age_quote": "A full, unrestricted license — typically issued at age 18 — provides unlimited driving privileges",
+    "full_license_age_url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/young-driver",
+    "written_required": true,
+    "written_quote": "Go to a PennDOT Driver License Center to take your eye screening and Knowledge Test.",
+    "written_url": "https://www.pa.gov/services/dmv/get-a-driver-license",
+    "written_detail": null,
+    "road_required": true,
+    "road_quote": "You can schedule a road test online or by calling 717-412-5300.",
+    "road_url": "https://www.pa.gov/services/dmv/get-a-driver-license",
+    "road_detail": "Bring the learner permit, form DL-180C if under 18, and proof of vehicle insurance.",
+    "scheduled_url": "https://www.dmv.penndot.gov/exam_scheduling/eslogin.jsp?navigation=true",
+    "handbook_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+    "supervised_hours": "65 hours, including 10 at night and 5 in bad weather, if under 18",
+    "supervised_quote": "The 65 must include 10 hours of night driving and five hours of driving in poor weather conditions.",
+    "supervised_url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/young-driver",
+    "holding_period": "6 months before the junior-license road test",
+    "holding_quote": "A six-month skill-building period to practice and gain experience is required before a young driver may take the road test for a junior license.",
+    "holding_url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/young-driver",
+    "fees": [
+      {
+        "item": "Initial permit and four-year license",
+        "amount": "$45.50",
+        "quote": "Initial Permit and Four-Year License: $45.50",
+        "url": "https://www.pa.gov/agencies/dmv/resources/payments-and-fees"
+      },
+      {
+        "item": "One-time REAL ID fee, plus the standard renewal fee",
+        "amount": "$30",
+        "quote": "You’ll pay the one-time $30 REAL ID fee plus your standard renewal fee.",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/real-id"
+      }
+    ],
+    "fee_page_url": "https://www.pa.gov/agencies/dmv/resources/payments-and-fees",
+    "documents": [
+      {
+        "item": "Identity, residency, and Social Security card",
+        "summary": "A new resident surrendering an out-of-state license must show identification, residency, and a Social Security card.",
+        "quote": "you will need to show proof of identification and residency and your Social Security card.",
+        "url": "https://www.pa.gov/agencies/dmv/resources/relocation/moving-to-pennsylvania"
+      }
+    ],
+    "real_id_summary": "A Pennsylvania REAL ID looks like a regular license or ID and has a gold star in the top right corner. It is optional.",
+    "real_id_quote": "A REAL ID looks like a standard driver's license or identification card but includes a gold star in the top right corner.",
+    "real_id_url": "https://www.pa.gov/agencies/dmv/driver-services/real-id",
+    "transfer_summary": "New residents with an out-of-state non-commercial license must get a Pennsylvania license within 60 days of establishing residency.",
+    "transfer_quote": "All new residents with out-of-state non-commercial driver's licenses must obtain a PA Driver's License within 60 days of establishing Pennsylvania residency.",
+    "transfer_url": "https://www.pa.gov/agencies/dmv/resources/relocation/moving-to-pennsylvania",
+    "teen_summary": "A learner permit starts at 16. Under 18, the junior-license road test comes after six months and 65 supervised hours, including 10 at night and 5 in bad weather. Night driving is limited from 11 p.m. to 5 a.m., and young non-family passengers are limited. An unrestricted license is typically issued at 18.",
+    "teen_points": [
+      {
+        "text": "The practice log for drivers under 18 is 65 hours, with 10 at night and 5 in poor weather.",
+        "quote": "The 65 must include 10 hours of night driving and five hours of driving in poor weather conditions.",
+        "url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/young-driver"
+      },
+      {
+        "text": "Night driving for a young driver is not allowed from 11 p.m. to 5 a.m., with work and volunteer exceptions.",
+        "quote": "The young driver may not be behind the wheel between the hours of 11 PM and 5 AM.",
+        "url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/young-driver"
+      },
+      {
+        "text": "Only one non-family passenger under 18 is allowed at first.",
+        "quote": "Young drivers can have only one non-family member under 18 with them in the vehicle.",
+        "url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/young-driver"
+      },
+      {
+        "text": "After six months on a junior license, the limit rises to three passengers under 18.",
+        "quote": "After six months on the junior license, the restriction rises to no more than three passengers under 18.",
+        "url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/young-driver"
+      }
+    ],
+    "teen_url": "https://www.pa.gov/agencies/dmv/driver-services/teen-drivers",
+    "out_of_state_permit": "Out-of-state learner permits cannot be transferred to Pennsylvania.",
+    "out_of_state_permit_quote": "Out-of-state learner's permits cannot be transferred to Pennsylvania.",
+    "out_of_state_permit_url": "https://www.pa.gov/agencies/dmv/resources/relocation/moving-to-pennsylvania",
+    "curfew": "11 p.m. to 5 a.m., with exceptions for work and volunteer or charitable service",
+    "curfew_quote": "The young driver may not be behind the wheel between the hours of 11 PM and 5 AM.",
+    "curfew_url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/young-driver",
+    "passengers": "One non-family passenger under 18",
+    "passengers_quote": "Young drivers can have only one non-family member under 18 with them in the vehicle.",
+    "passengers_url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/young-driver",
+    "sources": [
+      {
+        "title": "Get a Driver's License",
+        "url": "https://www.pa.gov/services/dmv/get-a-driver-license",
+        "publisher": "Pennsylvania Department of Transportation"
+      },
+      {
+        "title": "Young Driver",
+        "url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/young-driver",
+        "publisher": "Pennsylvania Department of Transportation"
+      },
+      {
+        "title": "License types and restrictions",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/licenses-and-photo-ids/license-types-restrictions",
+        "publisher": "Pennsylvania Department of Transportation"
+      },
+      {
+        "title": "Payments and Fees",
+        "url": "https://www.pa.gov/agencies/dmv/resources/payments-and-fees",
+        "publisher": "Pennsylvania Department of Transportation"
+      },
+      {
+        "title": "Moving to Pennsylvania",
+        "url": "https://www.pa.gov/agencies/dmv/resources/relocation/moving-to-pennsylvania",
+        "publisher": "Pennsylvania Department of Transportation"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://www.pa.gov/agencies/dmv/driver-services/real-id",
+        "publisher": "Pennsylvania Department of Transportation"
+      },
+      {
+        "title": "PUB 195US identification requirements",
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-publications/pub%20195us.pdf",
+        "publisher": "Pennsylvania Department of Transportation"
+      }
+    ],
+    "gaps": [
+      "The pages opened do not print the knowledge-test question count or passing score.",
+      "Class C is issued at 16 or older, and the junior road test also requires six months with a permit, so the earliest junior license is later than the printed Class C minimum.",
+      "PUB 195 also states the learner permit age: Individuals applying for a Pennsylvania Learner’s Permit must be at least 16 years of age.",
+      "Knowledge-test waiver for a recent out-of-state license: Although a knowledge test is not required for new residents with out-of-state driver's licenses which are valid or expired six months or less",
+      "Six-month wait also appears on the get-a-license page: There's also a 6-month waiting period.",
+      "Practice-hour total on the get-a-license page: You need to finish 65 hours of driving practice, including:"
+    ]
+  },
+  {
+    "slug": "illinois",
+    "name": "Illinois",
+    "agency": "Illinois Secretary of State",
+    "agency_short": "SOS",
+    "agency_home": "https://www.ilsos.gov/",
+    "permit_age": null,
+    "permit_age_quote": null,
+    "permit_age_url": null,
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": null,
+    "written_quote": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": null,
+    "road_quote": null,
+    "road_url": null,
+    "road_detail": null,
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": null,
+    "holding_quote": null,
+    "holding_url": null,
+    "fees": [],
+    "fee_page_url": null,
+    "documents": [],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": null,
+    "teen_points": [],
+    "teen_url": null,
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [],
+    "gaps": [
+      "Could not open https://www.ilsos.gov/ or https://realid.ilsos.gov/ on 16 Nov 2026. Requests timed out or the HTTP/2 stream closed with no page body, so no Illinois age, hour, fee, document, or transfer fact was verified."
+    ]
+  },
+  {
+    "slug": "ohio",
+    "name": "Ohio",
+    "agency": "Ohio Bureau of Motor Vehicles",
+    "agency_short": "BMV",
+    "agency_home": "https://www.bmv.ohio.gov/",
+    "permit_age": "15 years and 6 months",
+    "permit_age_quote": "At age 15 years and six months, an applicant may complete the knowledge test",
+    "permit_age_url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": true,
+    "written_quote": "The knowledge test is 40 multiple-choice questions about motor vehicle regulations and traffic signs. Applicants must answer 75 percent of the questions correctly to pass.",
+    "written_url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
+    "written_detail": "40 multiple-choice questions; 75 percent correct to pass.",
+    "road_required": true,
+    "road_quote": "Driver must pass the Driving and Skills tests.",
+    "road_url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
+    "road_detail": "Bring the TIPIC, a vehicle in good condition, and the driver education certificate to the driving and skills test.",
+    "scheduled_url": "https://bmvonline.dps.ohio.gov/home/",
+    "handbook_url": "https://publicsafety.ohio.gov/who-we-are/resources/digest-of-motor-vehicle-laws",
+    "supervised_hours": "50 hours, including 10 at night, in addition to driver education",
+    "supervised_quote": "Driver must complete 50 hours of driving, with at least 10 hours of night driving, in addition to the driver education requirements.",
+    "supervised_url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
+    "holding_period": "6 months",
+    "holding_quote": "Driver must hold the TIPIC for at least six months.",
+    "holding_url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
+    "fees": [
+      {
+        "item": "Temporary operator permit",
+        "amount": "$26.50",
+        "quote": "Temporary Permits (DR Fee Included) Operator* $26.50",
+        "url": "https://www.bmv.ohio.gov/doc-fees.aspx"
+      },
+      {
+        "item": "First operator license at age 16",
+        "amount": "$28.75 / (NA)",
+        "quote": "(age 16) $28.75 / (NA) Renewal Operator*",
+        "url": "https://www.bmv.ohio.gov/doc-fees.aspx"
+      }
+    ],
+    "fee_page_url": "https://www.bmv.ohio.gov/doc-fees.aspx",
+    "documents": [
+      {
+        "item": "Legal name, date of birth, legal presence, and Social Security number",
+        "summary": "A compliant card requires proof of full legal name, date of birth, U.S. legal presence, and Social Security number.",
+        "quote": "Full legal name Date of birth Legal presence in the US Social Security number",
+        "url": "https://www.bmv.ohio.gov/dl-identity-documents.aspx"
+      },
+      {
+        "item": "Ohio street address",
+        "summary": "Two documents from different sources must prove an Ohio street address.",
+        "quote": "Ohio street address – TWO documents, from different sources, proving Ohio street address that are listed on the Acceptable Document List are required for proof of Ohio residency.",
+        "url": "https://www.bmv.ohio.gov/dl-identity-documents.aspx"
+      }
+    ],
+    "real_id_summary": "Beginning May 7, 2025, travelers need a REAL ID-compliant credential to board domestic flights and enter certain federal facilities.",
+    "real_id_quote": "Beginning May 7, 2025, U.S. travelers must be REAL ID compliant to board domestic flights and access certain federal facilities.",
+    "real_id_url": "https://www.bmv.ohio.gov/dl-real-id.aspx",
+    "transfer_summary": "Within 30 days of establishing residency, an out-of-state driver license must be transferred to Ohio.",
+    "transfer_quote": "Within 30 days of establishing residency, you are responsible for transferring your out-of-state driver license or ID card, vehicle title, and vehicle registration to Ohio.",
+    "transfer_url": "https://www.bmv.ohio.gov/new-to-ohio.aspx",
+    "teen_summary": "A temporary instruction permit starts at 15 years and 6 months after a knowledge test and vision screening. A minor's probationary license requires driver education, 50 additional practice hours with 10 at night, six months with the permit, and a driving and skills test. Night and passenger limits apply, and a later night limit continues while the driver is under 18.",
+    "teen_points": [
+      {
+        "text": "Driver education for a minor is 24 hours of classroom or online instruction and 8 hours of driving.",
+        "quote": "which includes 24 hours of classroom or online instruction and 8 hours of driving time.",
+        "url": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+      },
+      {
+        "text": "A probationary license has a midnight to 6 a.m. limit, with listed exceptions.",
+        "quote": "You may not operate a vehicle from midnight - 6 a.m. unless:",
+        "url": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+      },
+      {
+        "text": "After the first 12 months, and while still under 18, the night limit is 1 a.m. to 5 a.m.",
+        "quote": "You may not operate a vehicle from 1 - 5 a.m. unless:",
+        "url": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+      },
+      {
+        "text": "Only one non-family passenger is allowed unless a parent or guardian is in the vehicle.",
+        "quote": "You may not operate a vehicle with more than one non-family member as a passenger unless accompanied by a parent or guardian.",
+        "url": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+      }
+    ],
+    "teen_url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "Midnight to 6 a.m., with listed exceptions",
+    "curfew_quote": "You may not operate a vehicle from midnight - 6 a.m. unless:",
+    "curfew_url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
+    "passengers": "No more than one non-family passenger unless a parent or guardian is in the vehicle",
+    "passengers_quote": "You may not operate a vehicle with more than one non-family member as a passenger unless accompanied by a parent or guardian.",
+    "passengers_url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
+    "sources": [
+      {
+        "title": "Temporary Permit and Probationary Driver Licensing",
+        "url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
+        "publisher": "Ohio Bureau of Motor Vehicles"
+      },
+      {
+        "title": "Driver license and identification fees",
+        "url": "https://www.bmv.ohio.gov/doc-fees.aspx",
+        "publisher": "Ohio Bureau of Motor Vehicles"
+      },
+      {
+        "title": "Acceptable documents",
+        "url": "https://www.bmv.ohio.gov/dl-identity-documents.aspx",
+        "publisher": "Ohio Bureau of Motor Vehicles"
+      },
+      {
+        "title": "New to Ohio",
+        "url": "https://www.bmv.ohio.gov/new-to-ohio.aspx",
+        "publisher": "Ohio Bureau of Motor Vehicles"
+      },
+      {
+        "title": "Ohio's Real ID",
+        "url": "https://www.bmv.ohio.gov/dl-real-id.aspx",
+        "publisher": "Ohio Bureau of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The GDL page does not print a numeric minimum age for the probationary license. It starts the temporary permit at 15 years and six months and requires that permit to be held six months.",
+      "The page describes restrictions during the first 12 months and while under 18, but it does not print a separate age when all probationary limits end.",
+      "The new-resident page does not say how another state's learner permit is treated.",
+      "Unexpired out-of-state license exchange: If you are at least 16 years of age and have an unexpired out-of-state driver license (non-CDL), you can apply for an Ohio driver license.",
+      "Road tests are scheduled through BMV Online Services at https://bmvonline.dps.ohio.gov/home/, which the GDL page links."
+    ]
+  }
+]

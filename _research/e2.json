@@ -1,0 +1,158 @@
+[
+  {
+    "slug": "kansas",
+    "name": "Kansas",
+    "agency": "Kansas Department of Revenue Division of Vehicles",
+    "agency_short": "Division of Vehicles",
+    "agency_home": "https://www.ksrevenue.gov/dovindex.html",
+    "permit_age": "Age: Minimum 14 years old",
+    "permit_age_quote": "INSTRUCTION PERMIT - AGES 14, 15 AND 16 Present acceptable proof of identity Age: Minimum 14 years old",
+    "permit_age_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "license_age": "Minimum 15 years old but less than 16",
+    "license_age_quote": "RESTRICTED DRIVER'S LICENSE - AGE 15 Present acceptable proof of identity Age: Minimum 15 years old but less than 16",
+    "license_age_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": "Testing required: Vision. Written - or certificate of completion from driver education.",
+    "written_quote": "Age: Minimum 14 years old Testing required: Vision. Written - or certificate of completion from driver education.",
+    "written_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "written_detail": "Testing required: Vision. Written - or certificate of completion from driver education.",
+    "road_required": null,
+    "road_quote": null,
+    "road_url": null,
+    "road_detail": null,
+    "scheduled_url": null,
+    "handbook_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "supervised_hours": "at 15 must have at least 25 hours; must provide 50 prior to 16 to move to lesser restrictions",
+    "supervised_quote": "50 hour affidavit required: No - at 15 must have at least 25 hours; must provide 50 prior to 16 to move to lesser restrictions",
+    "supervised_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "holding_period": "Time required to be held: 1 year to advance to restricted license",
+    "holding_quote": "Time required to be held: 1 year to advance to restricted license",
+    "holding_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "fees": [],
+    "fee_page_url": null,
+    "documents": [
+      {
+        "item": "Identity",
+        "summary": "The instruction permit section says to present acceptable proof of identity.",
+        "quote": "INSTRUCTION PERMIT - AGES 14, 15 AND 16 Present acceptable proof of identity Age: Minimum 14 years old",
+        "url": "https://www.ksrevenue.gov/dovgdl.html"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "An instruction permit is available at 14, 15, and 16. A restricted license at 15 requires that permit to have been held.",
+    "teen_quote": "INSTRUCTION PERMIT - AGES 14, 15 AND 16 Present acceptable proof of identity Age: Minimum 14 years old",
+    "teen_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "teen_points": [
+      {
+        "text": "A licensed adult at least 21 must be in the front seat at all times on an instruction permit.",
+        "quote": "Licensed adult in front seat at all times - minimum age 21",
+        "url": "https://www.ksrevenue.gov/dovgdl.html"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": "Passenger restriction: No",
+    "passengers_quote": "Passenger restriction: No Time required to be held: 1 year to advance to restricted license",
+    "passengers_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "sources": [
+      {
+        "title": "Graduated Driver License Requirements",
+        "url": "https://www.ksrevenue.gov/dovgdl.html",
+        "publisher": "Kansas Department of Revenue"
+      }
+    ],
+    "gaps": ["The graduated license page does not print dollar fees."]
+  },
+  {
+    "slug": "north-carolina",
+    "name": "North Carolina",
+    "agency": "North Carolina Division of Motor Vehicles",
+    "agency_short": "NCDMV",
+    "agency_home": "https://www.ncdot.gov/dmv/",
+    "permit_age": "Teens 15 to 17 years old must apply for a limited learner permit",
+    "permit_age_quote": "Teens 15 to 17 years old must apply for a limited learner permit as a part of a graduated licensing process",
+    "permit_age_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/default.aspx",
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": null,
+    "written_quote": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": null,
+    "road_quote": null,
+    "road_url": null,
+    "road_detail": null,
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": null,
+    "holding_quote": null,
+    "holding_url": null,
+    "fees": [],
+    "fee_page_url": null,
+    "documents": [
+      {
+        "item": "Identity and date of birth",
+        "summary": "One document with the full name proving identity and date of birth.",
+        "quote": "One document (with full name) proving identity and date of birth",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/default.aspx"
+      },
+      {
+        "item": "Social Security",
+        "summary": "A Social Security card or another document proving a Social Security number.",
+        "quote": "A Social Security card or one document proving you have a Social Security number",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/default.aspx"
+      },
+      {
+        "item": "North Carolina address",
+        "summary": "One document verifying a physical address in North Carolina. Two are required for a REAL ID.",
+        "quote": "One document verifying physical address in North Carolina (two are required if getting an NC REAL ID)",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/default.aspx"
+      }
+    ],
+    "real_id_summary": "Two address documents are required if getting an NC REAL ID.",
+    "real_id_quote": "One document verifying physical address in North Carolina (two are required if getting an NC REAL ID)",
+    "real_id_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/default.aspx",
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "Teens 15 to 17 must apply for a limited learner permit as part of graduated licensing.",
+    "teen_quote": "Teens 15 to 17 years old must apply for a limited learner permit as a part of a graduated licensing process",
+    "teen_url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/default.aspx",
+    "teen_points": [],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [
+      {
+        "title": "New drivers",
+        "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/default.aspx",
+        "publisher": "North Carolina Division of Motor Vehicles"
+      }
+    ],
+    "gaps": ["This new-driver page states the limited learner permit ages for teens 15 to 17. It does not print the later provisional age, practice hours, or a fee."]
+  }
+]

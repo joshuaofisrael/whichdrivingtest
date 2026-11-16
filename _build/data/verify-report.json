@@ -1,0 +1,20 @@
+{
+  "states": 51,
+  "urls": 304,
+  "pages_with_text": 291,
+  "empty_pages": [
+    "https://www.michigan.gov/sos/all-services/first-time-license-or-id",
+    "https://www.michigan.gov/sos/license-id/real-id",
+    "https://www.michigan.gov/sos",
+    "https://www.michigan.gov/sos/license-id/new-drivers-under-18",
+    "https://www.ilsos.gov/",
+    "https://azdot.gov/mvd",
+    "https://www.michigan.gov/sos/faqs/license-and-id/drivers-under-18",
+    "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/WEDMK/WEDMK.pdf",
+    "https://www.dmv.nh.gov/",
+    "https://www.michigan.gov/sos/faqs/resources/new-michigan-residents",
+    "https://www.tn.gov/safety/driver-services/classd/dlnew.html",
+    "https://dds.drives.ga.gov/_/?link=RoadTest",
+    "https://dmv.alaska.gov/"
+  ]
+}

@@ -1,0 +1,984 @@
+[
+  {
+    "slug": "massachusetts",
+    "name": "Massachusetts",
+    "agency": null,
+    "agency_short": null,
+    "agency_home": null,
+    "permit_age": null,
+    "permit_age_quote": null,
+    "permit_age_url": null,
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": null,
+    "written_quote": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": null,
+    "road_quote": null,
+    "road_url": null,
+    "road_detail": null,
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": null,
+    "holding_quote": null,
+    "holding_url": null,
+    "fees": [],
+    "fee_page_url": null,
+    "documents": [],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": null,
+    "teen_quote": null,
+    "teen_url": null,
+    "teen_points": [],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [],
+    "gaps": [
+      "mass.gov returned HTTP 403 to curl on 16 Nov 2026 for the Registry of Motor Vehicles learner's permit, junior operator, road test, identification, and out-of-state transfer pages.",
+      "Because those official pages did not open, ages, tests, hours, fees, documents, and restrictions were not recorded."
+    ]
+  },
+  {
+    "slug": "tennessee",
+    "name": "Tennessee",
+    "agency": "Tennessee Department of Safety and Homeland Security",
+    "agency_short": "DOS",
+    "agency_home": "https://www.tn.gov/safety/driver-services.html",
+    "permit_age": 15,
+    "permit_age_quote": "You must be 15 years old and pass the standard written exams and vision screening.",
+    "permit_age_url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html",
+    "license_age": 16,
+    "license_age_quote": "To earn the GDL Level 2 - Intermediate Restricted License, drivers must be 16 years old and pass the road skills test.",
+    "license_age_url": "https://www.tn.gov/safety/driver-services/helpful-information/dlinfo.html",
+    "full_license_age": 17,
+    "full_license_age_quote": "To earn the GDL Level 3 - Intermediate Unrestricted License, drivers must be 17 years old and must have held a GDL Level 2 - Intermediate Restricted License for one year.",
+    "full_license_age_url": "https://www.tn.gov/safety/driver-services/helpful-information/dlinfo.html",
+    "written_required": true,
+    "written_quote": "You must be 15 years old and pass the standard written exams and vision screening.",
+    "written_url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html",
+    "written_detail": "A learner-permit applicant must pass the standard written exams and a vision screening.",
+    "road_required": true,
+    "road_quote": "drivers must be 16 years old and pass the road skills test.",
+    "road_url": "https://www.tn.gov/safety/driver-services/helpful-information/dlinfo.html",
+    "road_detail": "The intermediate restricted license requires a road skills test at a Driver Services Center.",
+    "scheduled_url": "https://dl.safety.tn.gov/?Link=NCLRoadTest",
+    "handbook_url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+    "supervised_hours": 50,
+    "supervised_quote": "Must have 50 hours of behind the wheel driving experience including 10 hours of night driving",
+    "supervised_url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html",
+    "holding_period": "180 days",
+    "holding_quote": "Must have held a valid learner permit for a minimum of 180 days",
+    "holding_url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html",
+    "fees": [
+      {
+        "item": "Learner permit under 18",
+        "amount": "$10.50",
+        "quote": "PD-Learner Permit (under 18) $5.00/year +$3.50 1 Year $8.50 $2.00 $10.50",
+        "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html"
+      },
+      {
+        "item": "Learner permit 18 and over",
+        "amount": "$5.50",
+        "quote": "PD-Learner Permit (18 and over) $3.50/year 1 Year $3.50 $2.00 $5.50",
+        "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html"
+      },
+      {
+        "item": "Class D operator license",
+        "amount": "$28.00",
+        "quote": "D-Operator $3.25/year 8 Years $26.00 $2.00 $28.00",
+        "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html"
+      },
+      {
+        "item": "County clerk administrative fee",
+        "amount": "$4.00",
+        "quote": "County Clerk Partners will charge an additional $4.00 administrative fee to cover operational costs",
+        "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html"
+      }
+    ],
+    "fee_page_url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html",
+    "documents": [
+      {
+        "item": "U.S. citizenship or legal presence",
+        "summary": "The applicant presents one proof of U.S. citizenship or legal presence.",
+        "quote": "One (1) Proof of U.S. Citizenship or Legal Presence",
+        "url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html"
+      },
+      {
+        "item": "Social Security number",
+        "summary": "A non-REAL ID applicant may state the Social Security number, which is checked with the Social Security Administration.",
+        "quote": "Non-REAL ID License (No Star): The applicant may verbally provide their Social Security Number.",
+        "url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html"
+      },
+      {
+        "item": "Parent or guardian signature",
+        "summary": "A parent or legal guardian must be present to sign the minor affidavit and show financial responsibility.",
+        "quote": "A parent or legal guardian present to sign a minor/teenage affidavit and financial responsibility form (Insurance Card).",
+        "url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html"
+      },
+      {
+        "item": "School attendance",
+        "summary": "The applicant shows school attendance from a Tennessee school or a signed letter from the previous school.",
+        "quote": "Show proof of school attendance from a current Tennessee school or a letter from the school in your previous state",
+        "url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html"
+      },
+      {
+        "item": "50-hour driving certification",
+        "summary": "A parent, guardian, or driving instructor signs the certification of behind-the-wheel practice.",
+        "quote": "50-Hour Certification form must be signed by your parent, guardian or driving instructor confirming this experience",
+        "url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html"
+      }
+    ],
+    "real_id_summary": "REAL ID is optional in Tennessee. It costs the same as a regular Tennessee driver license or photo ID. A duplicate fee applies when the credential is not in its renewal window.",
+    "real_id_quote": "REAL ID Is optional. It is not required for general identification purposes such as driving, purchasing alcohol or tobacco products, applying for federal benefits, voting, or accessing hospitals, post offices and federal courts.",
+    "real_id_url": "https://www.tn.gov/safety/driver-services/helpful-information/real-id.html",
+    "transfer_summary": "A new resident who holds another state's driver license must get a Tennessee license within 30 days and surrender the out-of-state license. A license expired more than six months requires the vision screening, knowledge test, and road skills test.",
+    "transfer_quote": "must obtain a Tennessee Driver License no later than thirty (30) days after establishing residency.",
+    "transfer_url": "https://www.tn.gov/safety/driver-services/classd/dlnew.html",
+    "teen_summary": "The graduated program starts with a learner permit, then an intermediate restricted license after the permit is held and a road skills test is passed, then an intermediate unrestricted license, and later a regular Class D license.",
+    "teen_quote": "Drivers under 18 years old are required to go through graduated steps of driving experience to gain full, unrestricted Driver License status.",
+    "teen_url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html",
+    "teen_points": [
+      {
+        "text": "The learner permit starts at 15 after the written exams and vision screening.",
+        "quote": "You must be 15 years old and pass the standard written exams and vision screening.",
+        "url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html"
+      },
+      {
+        "text": "A learner-permit holder may not drive between 10 p.m. and 6 a.m.",
+        "quote": "You may not drive between the hours of 10 P.M. and 6 A.M.",
+        "url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html"
+      },
+      {
+        "text": "The intermediate restricted step requires 50 practice hours, including 10 at night.",
+        "quote": "Must have 50 hours of behind the wheel driving experience including 10 hours of night driving",
+        "url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html"
+      },
+      {
+        "text": "With an intermediate restricted license, only one passenger is allowed, and driving is not allowed between 11 p.m. and 6 a.m.",
+        "quote": "you may only have one passenger in the car with you and you may not drive between the hours of 11 p.m. and 6 a.m.",
+        "url": "https://www.tn.gov/safety/driver-services/helpful-information/dlinfo.html"
+      },
+      {
+        "text": "The intermediate unrestricted license is at 17 after one year on the intermediate restricted license.",
+        "quote": "drivers must be 17 years old and must have held a GDL Level 2 - Intermediate Restricted License for one year.",
+        "url": "https://www.tn.gov/safety/driver-services/helpful-information/dlinfo.html"
+      },
+      {
+        "text": "A regular Class D license is available at 18, or at high school graduation or a GED, whichever is sooner.",
+        "quote": "You may obtain a Class D regular driver license when you are 18 years of age, or when you graduate from high school or receive a GED, whichever is sooner.",
+        "url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html"
+      }
+    ],
+    "out_of_state_permit": "A new resident under 18 who holds a learner's permit from another state must meet separate teen graduated-license requirements.",
+    "out_of_state_permit_quote": "New residents under 18 years of age, holding a valid learner's permit from another state must meet separate requirements",
+    "out_of_state_permit_url": "https://www.tn.gov/safety/driver-services/classd/dlnew.html",
+    "curfew": "An intermediate restricted license holder may not drive between 11 p.m. and 6 a.m.",
+    "curfew_quote": "you may not drive between the hours of 11 p.m. and 6 a.m.",
+    "curfew_url": "https://www.tn.gov/safety/driver-services/helpful-information/dlinfo.html",
+    "passengers": "An intermediate restricted license holder may have only one passenger.",
+    "passengers_quote": "you may only have one passenger in the car with you",
+    "passengers_url": "https://www.tn.gov/safety/driver-services/helpful-information/dlinfo.html",
+    "sources": [
+      {
+        "title": "Teen/Graduated Driver License",
+        "url": "https://www.tn.gov/safety/driver-services/classd/teengdl.html",
+        "publisher": "Tennessee Department of Safety and Homeland Security"
+      },
+      {
+        "title": "Types of Issued Licenses",
+        "url": "https://www.tn.gov/safety/driver-services/helpful-information/dlinfo.html",
+        "publisher": "Tennessee Department of Safety and Homeland Security"
+      },
+      {
+        "title": "Driver License Fees",
+        "url": "https://www.tn.gov/safety/driver-services/helpful-information/fees.html",
+        "publisher": "Tennessee Department of Safety and Homeland Security"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://www.tn.gov/safety/driver-services/helpful-information/real-id.html",
+        "publisher": "Tennessee Department of Safety and Homeland Security"
+      },
+      {
+        "title": "New Residents",
+        "url": "https://www.tn.gov/safety/driver-services/classd/dlnew.html",
+        "publisher": "Tennessee Department of Safety and Homeland Security"
+      },
+      {
+        "title": "Driver Services",
+        "url": "https://www.tn.gov/safety/driver-services.html",
+        "publisher": "Tennessee Department of Safety and Homeland Security"
+      }
+    ],
+    "gaps": [
+      "The regular Class D license is available at age 18 or at high school graduation or a GED, whichever is sooner, so 18 is not a single minimum age. The intermediate unrestricted license at 17 is the later unrestricted step recorded as full_license_age.",
+      "The learner-permit night limit is 10 p.m. to 6 a.m. The curfew field quotes the intermediate restricted limit of 11 p.m. to 6 a.m.",
+      "County clerk partners add a $4.00 administrative fee on top of the state totals in the fee table.",
+      "The online road-skills scheduler opened, but the page is a short scheduling shell and does not restate the age rules."
+    ]
+  },
+  {
+    "slug": "indiana",
+    "name": "Indiana",
+    "agency": "Indiana Bureau of Motor Vehicles",
+    "agency_short": "BMV",
+    "agency_home": "https://www.in.gov/bmv/",
+    "permit_age": 15,
+    "permit_age_quote": "You may obtain a learner's permit if you are at least 15 years old and enrolled in an approved behind-the-wheel training course.",
+    "permit_age_url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/",
+    "license_age": 16,
+    "license_age_quote": "Be at least 16 years old with a successful completion of a Driver's Education program",
+    "license_age_url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license",
+    "full_license_age": 21,
+    "full_license_age_quote": "A probationary driver's license expires 30 days following your 21 st birthday.",
+    "full_license_age_url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license",
+    "written_required": true,
+    "written_quote": "pass a vision screening, and pass a knowledge examination.",
+    "written_url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/",
+    "written_detail": "A learner's permit applicant must pass a vision screening and a knowledge examination.",
+    "road_required": true,
+    "road_quote": "You must pass a vision screening test and a driving test (if the driver education provider does not offer a skills test waiver).",
+    "road_url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license",
+    "road_detail": "The probationary license requires a driving test unless the driver-education provider gives a skills-test waiver. A knowledge test is also required if the driver record has points.",
+    "scheduled_url": null,
+    "handbook_url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+    "supervised_hours": 50,
+    "supervised_quote": "complete at least 50 hours of supervised driving practice with a licensed instructor or",
+    "supervised_url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/",
+    "holding_period": "180 days",
+    "holding_quote": "Have held an Indiana learner's permit for 180 days (approximately six months)",
+    "holding_url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license",
+    "fees": [
+      {
+        "item": "Learner's permit",
+        "amount": "$9.00",
+        "quote": "Learner's permit (driver's or motorcycle) $9.00",
+        "url": "https://www.in.gov/bmv/files/Fee_Chart.pdf"
+      },
+      {
+        "item": "Driver's license under 75",
+        "amount": "$17.50",
+        "quote": "Driver's license under 75 $17.50",
+        "url": "https://www.in.gov/bmv/files/Fee_Chart.pdf"
+      },
+      {
+        "item": "Late renewal administrative penalty",
+        "amount": "$6",
+        "quote": "An administrative penalty of $6 will be charged if the license is renewed after that date.",
+        "url": "https://www.in.gov/bmv/fees-taxes/drivers-license-fees"
+      }
+    ],
+    "fee_page_url": "https://www.in.gov/bmv/files/Fee_Chart.pdf",
+    "documents": [
+      {
+        "item": "Identity, Social Security number, lawful status, and residency",
+        "summary": "A learner's permit application requires proof of identity, Social Security number, lawful status, and Indiana residency.",
+        "quote": "present certain documents that prove your: Identity, Social Security number, Lawful status, and Indiana residency (two unique documents)",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      },
+      {
+        "item": "Driver education enrollment under 16",
+        "summary": "An applicant who is at least 15 must show enrollment in an approved behind-the-wheel course.",
+        "quote": "at least 15 years old and enrolled in an approved behind-the-wheel training course.",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      },
+      {
+        "item": "Log of supervised driving",
+        "summary": "The probationary-license application includes a signed log of supervised driving when practice hours apply.",
+        "quote": "present a signed Log of Supervised Driving and proof of successful completion of a driver education course",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license"
+      }
+    ],
+    "real_id_summary": "Indiana issues a Real ID credential when a new applicant proves identity, lawful status, Social Security number, and residency. A compliant card has a star. A non-compliant card is marked not for Real ID purposes.",
+    "real_id_quote": "Indiana requires all new license, permit, or ID card applicants to provide documents that prove identity, lawful status, SSN, and residency. In return the BMV will issue a Real ID compliant credential.",
+    "real_id_url": "https://www.in.gov/bmv/licenses-permits-ids/real-id-overview/",
+    "transfer_summary": "A person who moves to Indiana with a valid out-of-state driver license has 60 days to get an Indiana license and must surrender credentials from other states.",
+    "transfer_quote": "you have 60 days to obtain an Indiana driver's license if you hold a valid driver's license from another state.",
+    "transfer_url": "https://www.in.gov/bmv/licenses-permits-ids/new-indiana-residents",
+    "teen_summary": "A learner's permit is available at 15 with behind-the-wheel enrollment. The first license is probationary after the permit is held and supervised practice is logged.",
+    "teen_quote": "You may obtain a learner's permit if you are at least 15 years old and enrolled in an approved behind-the-wheel training course.",
+    "teen_url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/",
+    "teen_points": [
+      {
+        "text": "Without driver education, a learner's permit is available at 16.",
+        "quote": "You may obtain a learner's permit without enrolling in or completing a driver's education course if you are at least 16 years old",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/"
+      },
+      {
+        "text": "Without driver education, the probationary license age is 16 years and 270 days.",
+        "quote": "Be at least 16 years and 270-days-old (approximately 16 years and nine months) without successfully completing a Driver's Education program",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license"
+      },
+      {
+        "text": "Supervised practice must include at least 10 nighttime hours, unless the permit is daylight only.",
+        "quote": "At least 10 hours of supervised driving practice must be nighttime driving.",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/"
+      },
+      {
+        "text": "For the first 180 days, a probationary driver may not drive between 10 p.m. and 5 a.m.",
+        "quote": "You may not drive between 10 p.m. and 5 a.m. for 180 days after getting your license.",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license"
+      },
+      {
+        "text": "For the first 180 days, passengers are not allowed unless a qualifying adult or spouse is in the front seat, with a family exception.",
+        "quote": "You may not drive with passengers for 180 days after getting your probationary license, unless you are also accompanied in the front seat by a licensed instructor",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "For 180 days after the probationary license, driving is not allowed between 10 p.m. and 5 a.m., with exceptions for work, school, religious events, or a qualifying adult.",
+    "curfew_quote": "You may not drive between 10 p.m. and 5 a.m. for 180 days after getting your license.",
+    "curfew_url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license",
+    "passengers": "For 180 days after the probationary license, the driver may not carry passengers unless a licensed instructor, a licensed driver at least 25, or a spouse at least 21 is in the front seat. The driver's child, stepchild, sibling, step or half sibling, or spouse may ride without that extra adult.",
+    "passengers_quote": "You may not drive with passengers for 180 days after getting your probationary license, unless you are also accompanied in the front seat by a licensed instructor, an individual with a valid driver's license who is at least 25 years of age or a spouse who is at least 21 years of age.",
+    "passengers_url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license",
+    "sources": [
+      {
+        "title": "Learner's Permit",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/",
+        "publisher": "Indiana Bureau of Motor Vehicles"
+      },
+      {
+        "title": "Probationary Driver's License",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/probationary-drivers-license",
+        "publisher": "Indiana Bureau of Motor Vehicles"
+      },
+      {
+        "title": "Driver's License",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/drivers-license/",
+        "publisher": "Indiana Bureau of Motor Vehicles"
+      },
+      {
+        "title": "Real ID Overview",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/real-id-overview/",
+        "publisher": "Indiana Bureau of Motor Vehicles"
+      },
+      {
+        "title": "New Indiana Residents",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/new-indiana-residents",
+        "publisher": "Indiana Bureau of Motor Vehicles"
+      },
+      {
+        "title": "BMV Fee Chart",
+        "url": "https://www.in.gov/bmv/files/Fee_Chart.pdf",
+        "publisher": "Indiana Bureau of Motor Vehicles"
+      },
+      {
+        "title": "Driver's License Fees",
+        "url": "https://www.in.gov/bmv/fees-taxes/drivers-license-fees",
+        "publisher": "Indiana Bureau of Motor Vehicles"
+      },
+      {
+        "title": "Driver's Manual",
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "publisher": "Indiana Bureau of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The youngest learner's permit is 15 only with approved behind-the-wheel enrollment. Without that course, the permit age on the same page is 16.",
+      "The youngest probationary license is 16 only after driver education. Without it, the published age is 16 years and 270 days.",
+      "A knowledge exam does not require an appointment unless the exam must be read aloud, and no separate online road-test scheduler was opened.",
+      "The new-resident page explains out-of-state driver licenses. It does not say another state's learner permit is accepted in place of an Indiana learner's permit.",
+      "The fee chart prints a learner's permit at $9.00 and a driver's license under 75 at $17.50. It does not print a separate probationary-license price."
+    ]
+  },
+  {
+    "slug": "missouri",
+    "name": "Missouri",
+    "agency": "Missouri Department of Revenue",
+    "agency_short": "DOR",
+    "agency_home": "https://dor.mo.gov/driver-license/",
+    "permit_age": 15,
+    "permit_age_quote": "minimum age to apply for a Class F instruction permit? 15 years of age.",
+    "permit_age_url": "https://dor.mo.gov/faq/driver-license/general.html",
+    "license_age": 16,
+    "license_age_quote": "minimum age to apply for an intermediate license? 16 years old.",
+    "license_age_url": "https://dor.mo.gov/faq/driver-license/general.html",
+    "full_license_age": 18,
+    "full_license_age_quote": "At age 18, or within the 30 days immediately preceding his/her 18th birthday, the intermediate license holder may apply for a full driver license.",
+    "full_license_age_url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html",
+    "written_required": true,
+    "written_quote": "You must pass the vision, road sign recognition , and written tests at a Missouri State Highway Patrol driver examination station .",
+    "written_url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html",
+    "written_detail": "The instruction permit requires vision, road sign recognition, and written tests at a Missouri State Highway Patrol examination station.",
+    "road_required": true,
+    "road_quote": "You must pass the driving test at a Missouri State Highway Patrol driver examination station .",
+    "road_url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html",
+    "road_detail": "The intermediate license requires a driving test at a Highway Patrol examination station. If the instruction permit is still valid, the FAQ says the driving test is the remaining test.",
+    "scheduled_url": "https://dor.mo.gov/license-office-locator",
+    "handbook_url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+    "supervised_hours": 40,
+    "supervised_quote": "You must have received 40 hours of driving instruction, including a minimum of 10 hours of nighttime driving instruction between sunset and sunrise",
+    "supervised_url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html",
+    "holding_period": "182 days",
+    "holding_quote": "You must have an instruction permit for a minimum of 182 days (beginning the day after issuance).",
+    "holding_url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html",
+    "fees": [
+      {
+        "item": "Class F instruction permit",
+        "amount": "$10",
+        "quote": "Class F Minimum age: 15 $10",
+        "url": "https://dor.mo.gov/driver-license/resources/license.html"
+      },
+      {
+        "item": "Class F intermediate license",
+        "amount": "$14",
+        "quote": "Intermediate License Class F Minimum age: 16 $14",
+        "url": "https://dor.mo.gov/driver-license/resources/license.html"
+      },
+      {
+        "item": "Class F driver license",
+        "amount": "$16.50",
+        "quote": "Class F Minimum age: 18 $16.50",
+        "url": "https://dor.mo.gov/driver-license/resources/license.html"
+      },
+      {
+        "item": "Class F driver license",
+        "amount": "$33",
+        "quote": "Class F Minimum age: 18 $16.50 $33",
+        "url": "https://dor.mo.gov/driver-license/resources/license.html"
+      }
+    ],
+    "fee_page_url": "https://dor.mo.gov/driver-license/resources/license.html",
+    "documents": [
+      {
+        "item": "Permission signature",
+        "summary": "A qualified person goes to the license office with the applicant and signs a permission statement.",
+        "quote": "A qualified person must accompany you to the license office to sign a permission statement.",
+        "url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html"
+      },
+      {
+        "item": "Identity, lawful status, Social Security number, and residency",
+        "summary": "A new resident with an out-of-state license provides identity, lawful status, Social Security number, and a Missouri residential address.",
+        "quote": "must provide acceptable documents of the following: Proof of Identity; Date of Lawful Status; Proof of Social Security number; and Proof of Missouri residential address.",
+        "url": "https://dor.mo.gov/driver-license/issuance/required-documents-checklist.html"
+      },
+      {
+        "item": "Two residency documents for REAL ID",
+        "summary": "A REAL ID driver license or nondriver license needs two residency documents from two different sources.",
+        "quote": "Applicants for a REAL ID-compliant driver license or nondriver license must submit two acceptable documents from two different sources to verify residency.",
+        "url": "https://dor.mo.gov/driver-license/issuance/id-requirements.html"
+      }
+    ],
+    "real_id_summary": "Missouri offers a REAL ID-compliant driver license or nondriver ID with a star, and a noncompliant card marked not for REAL ID purposes. The transaction and processing fees match the noncompliant credential.",
+    "real_id_quote": "Missouri's REAL ID-compliant driver licenses and nondriver ID cards have a star in the upper right-hand corner.",
+    "real_id_url": "https://dor.mo.gov/driver-license/issuance/real-id/",
+    "transfer_summary": "After establishing residency, a driver applies for a Missouri license. Surrendering a valid out-of-state license, or one expired 184 days or less, can waive the Missouri skills and written tests. Vision and road-sign tests are still required.",
+    "transfer_quote": "You may surrender a valid current driver license (or one that is expired 184 days or less) from another U.S. state to the state of Missouri to waive your Missouri skills and written tests.",
+    "transfer_url": "https://dor.mo.gov/faq/driver-license/general.html",
+    "teen_summary": "First-time drivers ages 15 through 18 complete an instruction-permit period and an intermediate-license period before a full driver license. The intermediate license allows driving alone except for a late-night curfew and passenger limits.",
+    "teen_quote": "Missouri's Graduated Driver License law requires that all first-time drivers between 15 and 18 years old complete a period of driving with a licensed driver (instruction permit), and restricted driving (intermediate license), before getting a full driver license.",
+    "teen_url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html",
+    "teen_points": [
+      {
+        "text": "The Class F instruction permit minimum age is 15.",
+        "quote": "minimum age to apply for a Class F instruction permit? 15 years of age.",
+        "url": "https://dor.mo.gov/faq/driver-license/general.html"
+      },
+      {
+        "text": "The driver must log 40 hours of instruction, including 10 hours at night.",
+        "quote": "You must have received 40 hours of driving instruction, including a minimum of 10 hours of nighttime driving instruction between sunset and sunrise",
+        "url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html"
+      },
+      {
+        "text": "The intermediate license minimum age is 16.",
+        "quote": "minimum age to apply for an intermediate license? 16 years old.",
+        "url": "https://dor.mo.gov/faq/driver-license/general.html"
+      },
+      {
+        "text": "For the first 6 months, no more than one passenger under 19 who is not immediate family.",
+        "quote": "During the first 6 months, you may not operate a motor vehicle with more than one passenger who is under 19 years old and who is not a member of your immediate family",
+        "url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html"
+      },
+      {
+        "text": "Driving alone is not allowed from 1 a.m. to 5 a.m. except for school, a job, an emergency, or with a licensed driver 21 or older.",
+        "quote": "You may not drive alone from 1 a.m. to 5 a.m. except to and from a school activity, job, or for an emergency, unless accompanied by a licensed driver 21 years old or older.",
+        "url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "An intermediate driver may not drive alone from 1 a.m. to 5 a.m. except to or from a school activity or job, for an emergency, or with a licensed driver who is at least 21.",
+    "curfew_quote": "You may not drive alone from 1 a.m. to 5 a.m. except to and from a school activity, job, or for an emergency, unless accompanied by a licensed driver 21 years old or older.",
+    "curfew_url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html",
+    "passengers": "For the first 6 months of an intermediate license, the driver may not carry more than one passenger under 19 who is not immediate family. After that, the limit is three passengers under 19 who are not immediate family.",
+    "passengers_quote": "During the first 6 months, you may not operate a motor vehicle with more than one passenger who is under 19 years old and who is not a member of your immediate family",
+    "passengers_url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html",
+    "sources": [
+      {
+        "title": "Graduated Driver License Law",
+        "url": "https://dor.mo.gov/driver-license/issuance/graduated-driver-license/details.html",
+        "publisher": "Missouri Department of Revenue"
+      },
+      {
+        "title": "Driver License FAQs",
+        "url": "https://dor.mo.gov/faq/driver-license/general.html",
+        "publisher": "Missouri Department of Revenue"
+      },
+      {
+        "title": "Missouri Driver License and Nondriver License",
+        "url": "https://dor.mo.gov/driver-license/resources/license.html",
+        "publisher": "Missouri Department of Revenue"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://dor.mo.gov/driver-license/issuance/real-id/",
+        "publisher": "Missouri Department of Revenue"
+      },
+      {
+        "title": "Document requirements",
+        "url": "https://dor.mo.gov/driver-license/issuance/id-requirements.html",
+        "publisher": "Missouri Department of Revenue"
+      },
+      {
+        "title": "Driver Licensing Checklist",
+        "url": "https://dor.mo.gov/driver-license/issuance/required-documents-checklist.html",
+        "publisher": "Missouri Department of Revenue"
+      },
+      {
+        "title": "Driver Guide",
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "publisher": "Missouri Department of Revenue"
+      }
+    ],
+    "gaps": [
+      "No page opened here states whether another state's instruction permit replaces a Missouri instruction permit.",
+      "The Class F age-18 fee row prints $16.50 and $33. Blank cells drop out of the text, so those amounts were not given separate 3-year and 6-year labels in the quotes. The same row also prints duplicate amounts of $16.50 for 3 years and $25.50 for 6 years.",
+      "The license-office locator opened. The written, sign, vision, and driving tests are given at a Missouri State Highway Patrol examination station, and no online road-test booking page was opened.",
+      "The fee table says applicable written and road test fees are not included in the license prices."
+    ]
+  },
+  {
+    "slug": "maryland",
+    "name": "Maryland",
+    "agency": "Maryland Motor Vehicle Administration",
+    "agency_short": "MVA",
+    "agency_home": "https://mva.maryland.gov/",
+    "permit_age": "15 years and 9 months",
+    "permit_age_quote": "You must be at least 15 years and 9 months old to apply for a Maryland learner's permit.",
+    "permit_age_url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit",
+    "license_age": 16,
+    "license_age_quote": "16 to 18 years old without a high school diploma or equivalent",
+    "license_age_url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license",
+    "full_license_age": 18,
+    "full_license_age_quote": "You can get a full driver's license if you: Are at least 18 years old",
+    "full_license_age_url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/full-license",
+    "written_required": true,
+    "written_quote": "This page explains how to get ready for the knowledge test you must pass to get your Maryland driver's permit.",
+    "written_url": "https://mva.maryland.gov/licenses-ids/prepare-drivers-license-test/knowledge-tests",
+    "written_detail": "A learner's permit requires a knowledge test. The questions come from the Maryland Driver's Manual.",
+    "road_required": true,
+    "road_quote": "you must successfully pass the behind-the-wheel driving test.",
+    "road_url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license",
+    "road_detail": "A provisional license requires a passed behind-the-wheel driving test.",
+    "scheduled_url": "https://mva.maryland.gov/appointments-online-services",
+    "handbook_url": "https://mva.maryland.gov/media/148",
+    "supervised_hours": 60,
+    "supervised_quote": "Complete 60 supervised practice driving hours , including at least 10 nighttime hours",
+    "supervised_url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license",
+    "holding_period": "at least 9 months",
+    "holding_quote": "Hold a learner's permit for at least 9 months",
+    "holding_url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license",
+    "fees": [
+      {
+        "item": "Learner's permit, non-CDL Type I",
+        "amount": "$65",
+        "quote": "Learner's Permit - Non CDL Type I (GLS) $65 For those with no previous license",
+        "url": "https://mva.maryland.gov/licenses-ids/license-id-fees"
+      },
+      {
+        "item": "Learner's permit, non-CDL Type II",
+        "amount": "$45",
+        "quote": "Learner's Permit - Non CDL Type II $45 For currently or previously licensed drivers",
+        "url": "https://mva.maryland.gov/licenses-ids/license-id-fees"
+      },
+      {
+        "item": "New driver's license under 21",
+        "amount": "$11* per year",
+        "quote": "Driver's License New (under 21) $11* per year",
+        "url": "https://mva.maryland.gov/licenses-ids/license-id-fees"
+      },
+      {
+        "item": "New driver's license age 21 and over",
+        "amount": "$88*",
+        "quote": "Driver's License New (21 & over) $88*/$11* per year",
+        "url": "https://mva.maryland.gov/licenses-ids/license-id-fees"
+      }
+    ],
+    "fee_page_url": "https://mva.maryland.gov/licenses-ids/license-id-fees",
+    "documents": [
+      {
+        "item": "Identity",
+        "summary": "Everyone brings proof of identity, such as a birth certificate or U.S. passport.",
+        "quote": "Proof of identity: birth certificate, U.S. passport, Permanent Resident card, Consular Report of Birth Abroad, or Certificate of Naturalization or Citizenship",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit"
+      },
+      {
+        "item": "Social Security number",
+        "summary": "Everyone brings proof of a Social Security number, such as the card, a pay stub, or a tax form.",
+        "quote": "Proof of your Social Security number: official Social Security card, pay stub (with SSN), or tax document (W-2 or 1099 with SSN)",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit"
+      },
+      {
+        "item": "School attendance under 16",
+        "summary": "An applicant under 16 also brings a school attendance form.",
+        "quote": "If you are under 16, you must also bring one of the following school forms",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit"
+      },
+      {
+        "item": "Parent approval under 18",
+        "summary": "A driver under 18 needs a parent, guardian, or co-signer to approve a provisional license.",
+        "quote": "Drivers under 18 need permission from a parent, guardian, or co-signer to have a provisional driver's license.",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": "An out-of-state driver license must be changed to a Maryland license within 60 days of moving. A valid license can be exchanged. A license expired for a longer period requires the knowledge, skills, and vision tests.",
+    "transfer_quote": "An out-of-state driver's license must be updated to a Maryland driver's license within 60 days of moving to Maryland.",
+    "transfer_url": "https://mva.maryland.gov/your-mva-guide/new-maryland-residents/get-maryland-drivers-license-or-id-card",
+    "teen_summary": "Maryland's Rookie Driver program starts with a learner's permit, then a provisional license, then a full license. New drivers hold the permit, complete driver education and supervised practice, and pass a driving test before the provisional license.",
+    "teen_quote": "A learner's permit is the first step in Maryland's Rookie Driver program.",
+    "teen_url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit",
+    "teen_points": [
+      {
+        "text": "The learner's permit minimum age is 15 years and 9 months.",
+        "quote": "You must be at least 15 years and 9 months old to apply for a Maryland learner's permit.",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit"
+      },
+      {
+        "text": "Applicants in the youngest provisional group hold the learner's permit at least 9 months.",
+        "quote": "Hold a learner's permit for at least 9 months",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license"
+      },
+      {
+        "text": "That same group completes 60 supervised hours, including 10 at night, plus driver education.",
+        "quote": "Complete 60 supervised practice driving hours , including at least 10 nighttime hours",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license"
+      },
+      {
+        "text": "A full license requires age 18 and at least 18 months on the provisional license.",
+        "quote": "Are at least 18 years old Have held your provisional license for at least 18 months",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/full-license"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "A provisional driver may not drive between midnight and 5 a.m. unless an exception on the provisional page applies.",
+    "curfew_quote": "You may not drive between midnight and 5 a.m. unless:",
+    "curfew_url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license",
+    "passengers": "For the first 151 days, a provisional driver under 18 may not drive with passengers under 18 unless they are immediate family, unless a qualified supervising driver is in the car.",
+    "passengers_quote": "For the first 151 days, you may not drive with passengers under 18 unless they are your immediate family members, without a qualified supervising driver must be in the car.",
+    "passengers_url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license",
+    "sources": [
+      {
+        "title": "Learner's Permit",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit",
+        "publisher": "Maryland Motor Vehicle Administration"
+      },
+      {
+        "title": "Provisional Driver's License",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/provisional-license",
+        "publisher": "Maryland Motor Vehicle Administration"
+      },
+      {
+        "title": "Full Driver's License",
+        "url": "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/full-license",
+        "publisher": "Maryland Motor Vehicle Administration"
+      },
+      {
+        "title": "License and ID Fees",
+        "url": "https://mva.maryland.gov/licenses-ids/license-id-fees",
+        "publisher": "Maryland Motor Vehicle Administration"
+      },
+      {
+        "title": "Knowledge Tests",
+        "url": "https://mva.maryland.gov/licenses-ids/prepare-drivers-license-test/knowledge-tests",
+        "publisher": "Maryland Motor Vehicle Administration"
+      },
+      {
+        "title": "New residents",
+        "url": "https://mva.maryland.gov/your-mva-guide/new-maryland-residents/get-maryland-drivers-license-or-id-card",
+        "publisher": "Maryland Motor Vehicle Administration"
+      },
+      {
+        "title": "Maryland Driver's Manuals",
+        "url": "https://mva.maryland.gov/licenses-ids/driver-education-safety/maryland-drivers-manuals",
+        "publisher": "Maryland Motor Vehicle Administration"
+      }
+    ],
+    "gaps": [
+      "The provisional page labels the youngest group as 16 to 18 without a high school diploma and requires a learner's permit for at least 9 months. It does not print a single minimum provisional age such as 16 years and 6 months.",
+      "Applicants who are 18 with a diploma, or ages 19 to 24, hold the learner's permit at least 3 months. Applicants 25 or older hold it at least 45 days and log 14 practice hours.",
+      "A full license also requires 18 months on the provisional license with no convictions, so age 18 alone is not enough.",
+      "https://mva.maryland.gov/licenses-ids/real-id returned HTTP 404, so REAL ID was not recorded.",
+      "The new-resident page explains exchanging an out-of-state driver license. It does not say another state's learner permit is accepted in place of a Maryland learner's permit.",
+      "Fees are marked effective September 1, 2025. The under-21 new license is printed as $11 per year, and the age-21 new license is printed as $88 and $11 per year. The page says fees may be prorated.",
+      "The passenger sentence is quoted as published, including the wording about a supervising driver."
+    ]
+  },
+  {
+    "slug": "wisconsin",
+    "name": "Wisconsin",
+    "agency": "Wisconsin Department of Transportation",
+    "agency_short": "WisDOT",
+    "agency_home": "https://wisconsindot.gov/Pages/online-srvcs/external/dmv.aspx",
+    "permit_age": 15,
+    "permit_age_quote": "You are eligible for an instruction permit when you are 15 years old or older.",
+    "permit_age_url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx",
+    "license_age": 16,
+    "license_age_quote": "Are at least 16 years old. Have passed an approved driver education course.",
+    "license_age_url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/drivrlic.aspx",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": true,
+    "written_quote": "Pass the signs, knowledge test and vision screening",
+    "written_url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx",
+    "written_detail": "An instruction permit requires the signs test, the knowledge test, and a vision screening.",
+    "road_required": true,
+    "road_quote": "new drivers who are eligible and have passed the driving skills test",
+    "road_url": "https://wisconsindot.gov/Pages/dmv/teen-driver/teen-hw-aply/teengdl.aspx",
+    "road_detail": "A probationary license for a new driver requires a passed driving skills test.",
+    "scheduled_url": "https://dlguides.wi.gov/",
+    "handbook_url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+    "supervised_hours": 50,
+    "supervised_quote": "Accumulate a minimum of 50 hours of behind-the-wheel driving experience, 10 of which must be driving experience at night.",
+    "supervised_url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx",
+    "holding_period": "at least six months",
+    "holding_quote": "You must hold your instruction permit for at least six (6) months violation free prior to applying for your probationary license.",
+    "holding_url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx",
+    "fees": [
+      {
+        "item": "Instruction permit",
+        "amount": "$35",
+        "quote": "Instruction permit (Class D) (18 months) $35",
+        "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/dmv-fees.aspx"
+      },
+      {
+        "item": "Original probationary license",
+        "amount": "$28",
+        "quote": "Original probationary (Class D) (expires 2 years from next birthday) $28",
+        "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/dmv-fees.aspx"
+      },
+      {
+        "item": "Original regular license",
+        "amount": "$42.50",
+        "quote": "Original regular (Class D) (8 year) $42.50",
+        "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/dmv-fees.aspx"
+      },
+      {
+        "item": "Skills exam",
+        "amount": "$15",
+        "quote": "Skills exam (Class D) - charged for every appointment not canceled 24 hours in advance $15",
+        "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/dmv-fees.aspx"
+      },
+      {
+        "item": "Knowledge and signs tests",
+        "amount": "$0",
+        "quote": "Knowledge and Signs tests $0",
+        "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/dmv-fees.aspx"
+      }
+    ],
+    "fee_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/dmv-fees.aspx",
+    "documents": [
+      {
+        "item": "License application MV3001",
+        "summary": "The instruction-permit application is form MV3001.",
+        "quote": "Complete an application for a license MV3001",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx"
+      },
+      {
+        "item": "Citizenship or legal status, name, identity, and residency",
+        "summary": "The applicant presents proof of citizenship or legal status, name and date of birth, identity, and Wisconsin residency, and provides a Social Security number.",
+        "quote": "Present proof of: Citizenship or legal status in the U.S. Name and date of birth Identity Wisconsin residency Provide your Social Security number",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx"
+      },
+      {
+        "item": "Driver education",
+        "summary": "A probationary license requires proof of an approved driver education course.",
+        "quote": "Present proof of completion of an approved driver-education training course",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx"
+      },
+      {
+        "item": "Sponsor certification of practice hours",
+        "summary": "A parent or adult sponsor certifies the supervised driving hours on the application.",
+        "quote": "Have your parent or adult sponsor certify on the driver application the completion of 50 hours of driving experience (10 at night)",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx"
+      }
+    ],
+    "real_id_summary": "A Wisconsin REAL ID is optional. There is no additional fee to upgrade at renewal. Outside the renewal window, the duplicate-card cost applies.",
+    "real_id_quote": "You are not required to get a REAL ID; it is optional.",
+    "real_id_url": "https://wisconsindot.gov/pages/dmv/license-drvs/how-to-apply/realid.aspx",
+    "transfer_summary": "A new resident applies for a Wisconsin license within 60 days of establishing residence. A commercial license has a shorter deadline.",
+    "transfer_quote": "Within 60 days for a regular license Within 30 days for a Commercial Driver License (CDL)",
+    "transfer_url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/ooslicense.aspx",
+    "teen_summary": "An instruction permit is the first step, and a probationary license follows a driving skills test. Passenger and night limits apply until the graduated restrictions end.",
+    "teen_quote": "Minimum age for issuance is 15 years old.",
+    "teen_url": "https://wisconsindot.gov/Pages/dmv/teen-driver/teen-hw-aply/teengdl.aspx",
+    "teen_points": [
+      {
+        "text": "The instruction permit is available at 15.",
+        "quote": "You are eligible for an instruction permit when you are 15 years old or older.",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx"
+      },
+      {
+        "text": "The permit must be held at least six months without a violation before a probationary license.",
+        "quote": "You must hold your instruction permit for at least six (6) months violation free prior to applying for your probationary license.",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx"
+      },
+      {
+        "text": "Practice is 50 hours, including 10 at night.",
+        "quote": "Accumulate a minimum of 50 hours of behind-the-wheel driving experience, 10 of which must be driving experience at night.",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx"
+      },
+      {
+        "text": "The probationary license minimum age is 16, after driver education.",
+        "quote": "Are at least 16 years old.",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/drivrlic.aspx"
+      },
+      {
+        "text": "Graduated restrictions end after nine months of violation-free driving.",
+        "quote": "After nine months of violation-free driving, GDL restrictions are lifted.",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx"
+      }
+    ],
+    "out_of_state_permit": "A teen moving to Wisconsin may take one road test on a valid out-of-state learner's permit, or one expired less than one year, at age 16, and must show driver education.",
+    "out_of_state_permit_quote": "One road test is allowed on a valid or expired (less than one year) out-of-state learner's permit at the age of 16.",
+    "out_of_state_permit_url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/ooslicense.aspx",
+    "curfew": "From midnight to 5 a.m., a probationary driver may drive alone only between home, school, and work. Other trips need a parent, guardian, or another qualified licensed person in the front seat.",
+    "curfew_quote": "From midnight to 5 a.m., you can drive alone only IF driving between home, school and/or work.",
+    "curfew_url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx",
+    "passengers": "A probationary driver may drive with immediate family and only one other passenger, or with a qualified adult.",
+    "passengers_quote": "you are limited to only one passenger other than your immediate family or a qualified adult.",
+    "passengers_url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/drivrlic.aspx",
+    "sources": [
+      {
+        "title": "Graduated Driver License FAQs",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx",
+        "publisher": "Wisconsin Department of Transportation"
+      },
+      {
+        "title": "Probationary Driver License Requirements",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/drivrlic.aspx",
+        "publisher": "Wisconsin Department of Transportation"
+      },
+      {
+        "title": "Instruction permit, probationary license and regular license",
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/teen-hw-aply/teengdl.aspx",
+        "publisher": "Wisconsin Department of Transportation"
+      },
+      {
+        "title": "DMV fees",
+        "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/dmv-fees.aspx",
+        "publisher": "Wisconsin Department of Transportation"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://wisconsindot.gov/pages/dmv/license-drvs/how-to-apply/realid.aspx",
+        "publisher": "Wisconsin Department of Transportation"
+      },
+      {
+        "title": "Change your out-of-state driver license to Wisconsin's",
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/ooslicense.aspx",
+        "publisher": "Wisconsin Department of Transportation"
+      },
+      {
+        "title": "Wisconsin Motorists' Handbook",
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "publisher": "Wisconsin Department of Transportation"
+      }
+    ],
+    "gaps": [
+      "Graduated passenger and night limits end after nine months of violation-free driving, not at a single published age. The probationary card itself is described as expiring two years from the next birthday, so no separate unrestricted age was recorded.",
+      "Instruction permits issued before July 11, 2021 were logged at 30 hours with 10 at night. The current FAQ requirement is 50 hours with 10 at night.",
+      "Knowledge and signs tests are listed at $0 on the fee page.",
+      "The sponsor must certify 50 hours. The probationary page also says residents under 18 must be enrolled in school or a high school equivalency program and not be a habitual truant, or have graduated."
+    ]
+  },
+  {
+    "slug": "colorado",
+    "name": "Colorado",
+    "agency": null,
+    "agency_short": null,
+    "agency_home": null,
+    "permit_age": null,
+    "permit_age_quote": null,
+    "permit_age_url": null,
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": null,
+    "written_quote": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": null,
+    "road_quote": null,
+    "road_url": null,
+    "road_detail": null,
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": null,
+    "holding_quote": null,
+    "holding_url": null,
+    "fees": [],
+    "fee_page_url": null,
+    "documents": [],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": null,
+    "teen_quote": null,
+    "teen_url": null,
+    "teen_points": [],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [],
+    "gaps": [
+      "dmv.colorado.gov returned HTTP 403, a Cloudflare challenge, to curl on 16 Nov 2026 for the graduated permit page, minor permit, minor license, fee schedule, and new-resident pages.",
+      "www.colorado.gov/dmv also returned HTTP 403.",
+      "Because those official pages did not open, ages, tests, hours, fees, documents, and restrictions were not recorded."
+    ]
+  }
+]

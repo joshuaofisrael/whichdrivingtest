@@ -1,0 +1,45 @@
+{
+  "pages": 343,
+  "html_without_404": 342,
+  "states": 46,
+  "missing_states": [
+    "Massachusetts",
+    "Illinois",
+    "Michigan",
+    "Arizona",
+    "Colorado"
+  ],
+  "topics": {
+    "permit": 45,
+    "written-test": 39,
+    "road-test": 41,
+    "real-id": 42,
+    "fees": 35,
+    "transfer": 32,
+    "teen": 46
+  },
+  "skipped": [
+    {
+      "slug": "arizona",
+      "reason": "not enough confirmed official facts"
+    },
+    {
+      "slug": "colorado",
+      "reason": "not enough confirmed official facts"
+    },
+    {
+      "slug": "illinois",
+      "reason": "not enough confirmed official facts"
+    },
+    {
+      "slug": "massachusetts",
+      "reason": "not enough confirmed official facts"
+    },
+    {
+      "slug": "michigan",
+      "reason": "not enough confirmed official facts"
+    }
+  ],
+  "noindex": true,
+  "checked": "16 Nov 2026"
+}

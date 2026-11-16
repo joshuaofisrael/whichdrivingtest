@@ -1,0 +1,24 @@
+{
+  "checked": "16 Nov 2026",
+  "checked_iso": "2026-11-16",
+  "enforcement": "REAL ID enforcement began on May 7, 2025.",
+  "purposes": ["Accessing certain federal facilities", "Boarding federally regulated commercial aircraft", "Entering nuclear power plants"],
+  "minimum_docs": "At a minimum, you must provide documentation showing: 1) Full Legal Name; 2) Date of Birth; 3) Social Security Number; 4) Two Proofs of Address of Principal Residence; and 5) Lawful Status.",
+  "noncompliant_ok": "REAL ID allows jurisdictions to issue identification cards and driver's licenses that are not in compliance with the requirements of the Act.",
+  "noncompliant_mark": "Those licenses and identification cards, however, must clearly state on their face and in the machine readable zone that the card is not acceptable for official purposes.",
+  "edl_states": "Currently there are only 5 states that issue EDL/EIDs, Michigan, Minnesota, New York, Vermont, and Washington.",
+  "not_border": "REAL ID cards cannot be used for border crossings into Canada, Mexico or other international travel.",
+  "not_cruise": "REAL ID cards cannot be used for international sea cruise travel.",
+  "sources": [
+    {
+      "title": "REAL ID",
+      "url": "https://www.dhs.gov/real-id",
+      "publisher": "U.S. Department of Homeland Security"
+    },
+    {
+      "title": "REAL ID Frequently Asked Questions",
+      "url": "https://www.tsa.gov/real-id/real-id-faqs",
+      "publisher": "Transportation Security Administration"
+    }
+  ]
+}

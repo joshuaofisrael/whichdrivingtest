@@ -1,0 +1,1871 @@
+[
+  {
+    "slug": "minnesota",
+    "name": "Minnesota",
+    "agency": "Minnesota Department of Public Safety",
+    "agency_short": "DPS",
+    "agency_home": "https://dps.mn.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "The department may issue an instruction permit to an applicant who is 15, 16, or 17 years of age and who:",
+    "permit_age_url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05",
+    "license_age": 16,
+    "license_age_quote": "has reached the age of 16 years;",
+    "license_age_url": "https://www.revisor.mn.gov/statutes/2026/cite/171.055",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": true,
+    "written_quote": "has passed a department-administered test of the applicant's knowledge of traffic laws;",
+    "written_url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05",
+    "written_detail": "An applicant who is 15, 16, or 17 must pass a department knowledge test of traffic laws before an instruction permit is issued. A vision test is also required.",
+    "road_required": true,
+    "road_quote": "To take the road test, teen drivers under 18 must spend at least 50 hours behind the wheel supervised by a parent or guardian, including 15 hours at night.",
+    "road_url": "https://dps.mn.gov/divisions/ots/safe-driving-information-and-laws/driving-safety-tips/teen-driving/graduated-dl",
+    "road_detail": "Teen drivers take a road test after the supervised-practice period. The public-safety page describes that test as the step that follows the learner phase.",
+    "scheduled_url": null,
+    "handbook_url": "https://www.lrl.mn.gov/docs/2026/other/261376.pdf",
+    "supervised_hours": 50,
+    "supervised_quote": "at least 50 hours behind the wheel supervised by a parent or guardian, including 15 hours at night.",
+    "supervised_url": "https://dps.mn.gov/divisions/ots/safe-driving-information-and-laws/driving-safety-tips/teen-driving/graduated-dl",
+    "holding_period": "not less than six months",
+    "holding_quote": "not less than six months before qualifying for a driver's license.",
+    "holding_url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05",
+    "fees": [
+      {
+        "item": "Driver and vehicle services technology surcharge",
+        "amount": "$2.25",
+        "quote": "the commissioner must collect a surcharge of $2.25.",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.06"
+      }
+    ],
+    "fee_page_url": "https://www.revisor.mn.gov/statutes/cite/171.06",
+    "documents": [
+      {
+        "item": "Parent, guardian, or other authorized approval",
+        "summary": "A minor's instruction-permit application must be approved by a parent, guardian, foster parent, spouse, or another person the statute lists.",
+        "quote": "has completed the required application, which must be approved by (i) either parent when both reside in the same household as the minor applicant",
+        "url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05"
+      }
+    ],
+    "real_id_summary": "Minnesota statutes list both a REAL ID compliant and a noncompliant instruction permit, and the same choice for a provisional license.",
+    "real_id_quote": "REAL ID Compliant or Noncompliant Instruction Permit",
+    "real_id_url": "https://www.revisor.mn.gov/statutes/cite/171.06",
+    "transfer_summary": "Time already spent holding an instruction permit from another jurisdiction is credited toward Minnesota's permit holding period.",
+    "transfer_quote": "instruction permit from another jurisdiction must be credited with the amount of time that permit has been held.",
+    "transfer_url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05",
+    "teen_summary": "An instruction permit is available at 15, 16, or 17 after driver education steps, vision and knowledge tests, and an approved application. A provisional license is available at 16 after the permit has been held and a supervised driving log is submitted. The first six months of that provisional license limit late-night driving and young passengers.",
+    "teen_quote": "The department may issue an instruction permit to an applicant who is 15, 16, or 17 years of age and who:",
+    "teen_url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05",
+    "teen_points": [
+      {
+        "text": "Instruction permit at 15, 16, or 17 after the knowledge test and an approved application.",
+        "quote": "The department may issue an instruction permit to an applicant who is 15, 16, or 17 years of age and who:",
+        "url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05"
+      },
+      {
+        "text": "Under-18 applicants hold the instruction permit at least six months before a driver's license.",
+        "quote": "not less than six months before qualifying for a driver's license.",
+        "url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05"
+      },
+      {
+        "text": "Provisional license at age 16.",
+        "quote": "has reached the age of 16 years;",
+        "url": "https://www.revisor.mn.gov/statutes/2026/cite/171.055"
+      },
+      {
+        "text": "The public-safety page requires 50 supervised hours, including 15 at night, before the road test, with a lower total if a parent class is completed.",
+        "quote": "at least 50 hours behind the wheel supervised by a parent or guardian, including 15 hours at night.",
+        "url": "https://dps.mn.gov/divisions/ots/safe-driving-information-and-laws/driving-safety-tips/teen-driving/graduated-dl"
+      },
+      {
+        "text": "For the first six months, a provisional driver may not carry more than one passenger under 20 who is not immediate family, unless a parent or guardian is along.",
+        "quote": "more than one passenger under the age of 20 years who is not a member of the holder's immediate family.",
+        "url": "https://www.revisor.mn.gov/statutes/2026/cite/171.055"
+      }
+    ],
+    "out_of_state_permit": "Time on an instruction permit from another jurisdiction counts toward the Minnesota holding period.",
+    "out_of_state_permit_quote": "instruction permit from another jurisdiction must be credited with the amount of time that permit has been held.",
+    "out_of_state_permit_url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05",
+    "curfew": "For the first six months, a provisional license holder may drive between midnight and 5:00 a.m. only in the situations the statute lists, including trips between home and work.",
+    "curfew_quote": "between the hours of midnight and 5:00 a.m. only when the license holder is:",
+    "curfew_url": "https://www.revisor.mn.gov/statutes/2026/cite/171.055",
+    "passengers": "For the first six months, a provisional license holder may not carry more than one passenger under 20 who is not immediate family. The limit does not apply when a parent or guardian is in the vehicle.",
+    "passengers_quote": "more than one passenger under the age of 20 years who is not a member of the holder's immediate family.",
+    "passengers_url": "https://www.revisor.mn.gov/statutes/2026/cite/171.055",
+    "sources": [
+      {
+        "title": "Minnesota Statutes section 171.05, Instruction permit",
+        "url": "https://www.revisor.mn.gov/statutes/2026/cite/171.05",
+        "publisher": "Minnesota Office of the Revisor of Statutes"
+      },
+      {
+        "title": "Minnesota Statutes section 171.055, Provisional license",
+        "url": "https://www.revisor.mn.gov/statutes/2026/cite/171.055",
+        "publisher": "Minnesota Office of the Revisor of Statutes"
+      },
+      {
+        "title": "Minnesota Statutes section 171.06, Fees",
+        "url": "https://www.revisor.mn.gov/statutes/cite/171.06",
+        "publisher": "Minnesota Office of the Revisor of Statutes"
+      },
+      {
+        "title": "Graduated driver's license",
+        "url": "https://dps.mn.gov/divisions/ots/safe-driving-information-and-laws/driving-safety-tips/teen-driving/graduated-dl",
+        "publisher": "Minnesota Department of Public Safety"
+      }
+    ],
+    "gaps": [
+      "The instruction-permit and provisional-license dollar amounts are printed in a statute fee table in separate cells from their labels, so those dollar figures are not inside a continuous six-word sentence.",
+      "No single sentence on the pages that opened states a numbered age at which every provisional restriction ends and an unrestricted license is issued.",
+      "The 2026 driver manual PDF opened, but its text is compressed and was not used for quotes."
+    ]
+  },
+  {
+    "slug": "south-carolina",
+    "name": "South Carolina",
+    "agency": "South Carolina Department of Motor Vehicles",
+    "agency_short": "SCDMV",
+    "agency_home": "https://dmv.sc.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "15 to apply for a regular or motorcycle",
+    "permit_age_url": "https://www.dmv.sc.gov/driver-services/drivers-license/beginner-permits",
+    "license_age": 15.5,
+    "license_age_quote": "If you are at least 15½, but less than 16,",
+    "license_age_url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers",
+    "full_license_age": 17,
+    "full_license_age_quote": "full driving privileges at 17, or after keeping your Conditional or Special Restricted license for one year, as long as you received no traffic offenses and were not at-fault in any collisions.",
+    "full_license_age_url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers",
+    "written_required": true,
+    "written_quote": "It is $2.00 for a knowledge test and $2.50 for the beginner's permit after you pass the knowledge test.",
+    "written_url": "https://www.dmv.sc.gov/driver-services/drivers-license/beginner-permits",
+    "written_detail": "A beginner’s permit requires the vision and knowledge tests. The knowledge test is a separate $2 fee from the permit.",
+    "road_required": true,
+    "road_quote": "have met the above requirements, you are eligible for a Conditional license. You must pass the vision and road test to receive this license.",
+    "road_url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers",
+    "road_detail": "A conditional license for a driver who is at least 15½ and under 16 requires the vision and road tests after the beginner-permit conditions are met.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 40,
+    "supervised_quote": "You have practiced driving with a qualified, licensed individual for at least 40 hours, including ten hours of night driving.",
+    "supervised_url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers",
+    "holding_period": "180 days",
+    "holding_quote": "If you have no driving experience, you must hold the beginner's permit for 180 days, unless you are 18 years of age and older, before taking a road test.",
+    "holding_url": "https://www.dmv.sc.gov/driver-services/drivers-license/beginner-permits",
+    "fees": [
+      {
+        "item": "Knowledge test",
+        "amount": "$2.00",
+        "quote": "It is $2.00 for a knowledge test and $2.50 for the beginner's permit after you pass the knowledge test.",
+        "url": "https://www.dmv.sc.gov/driver-services/drivers-license/beginner-permits"
+      },
+      {
+        "item": "Beginner's permit",
+        "amount": "$2.50",
+        "quote": "It is $2.00 for a knowledge test and $2.50 for the beginner's permit after you pass the knowledge test.",
+        "url": "https://www.dmv.sc.gov/driver-services/drivers-license/beginner-permits"
+      },
+      {
+        "item": "Eight-year driver's license",
+        "amount": "$25",
+        "quote": "valid for eight years.&nbsp;All eight-year licenses are $25.",
+        "url": "https://dmv.sc.gov/driver-services/drivers-license"
+      }
+    ],
+    "fee_page_url": "https://dmv.sc.gov/fees",
+    "documents": [
+      {
+        "item": "Identity, Social Security number, and address",
+        "summary": "A first beginner’s permit requires a Social Security number, proof of identity and citizenship, and proof of the current physical South Carolina address. REAL ID needs two proofs of address.",
+        "quote": "When you're getting a South Carolina beginner's permit, driver's license, or identification card for the first time, you must provide your social security number and present",
+        "url": "https://dmv.sc.gov/driver-services/drivers-license"
+      }
+    ],
+    "real_id_summary": "Applicants may choose a REAL ID license marked with a star or a standard license marked Not for Federal Identification.",
+    "real_id_quote": "When applying for a South Carolina license, you may choose if you'd like to purchase a license that is a REAL ID with a star",
+    "real_id_url": "https://dmv.sc.gov/driver-services/drivers-license",
+    "transfer_summary": "An unexpired out-of-state beginner’s permit may be used to practice in South Carolina. After a permanent move, it may be exchanged for a South Carolina beginner’s permit.",
+    "transfer_quote": "You may practice driving with your unexpired out-of-state beginner's permit in South Carolina.",
+    "transfer_url": "https://www.dmv.sc.gov/driver-services/drivers-license/beginner-permits",
+    "teen_summary": "The graduated program is for ages 15 to 17. A beginner’s permit starts at 15. A conditional license is available at 15½ after the permit period, practice hours, driver education, and the road test. Full privileges are described at 17, or after one year on a conditional or special restricted license with no traffic offenses and no at-fault collisions.",
+    "teen_quote": "The graduated driver's license program is designed for people 15 to 17.",
+    "teen_url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers",
+    "teen_points": [
+      {
+        "text": "Beginner’s permit application starts at 15.",
+        "quote": "15 to apply for a regular or motorcycle",
+        "url": "https://www.dmv.sc.gov/driver-services/drivers-license/beginner-permits"
+      },
+      {
+        "text": "Hold a beginner’s permit 180 days before a road test when the applicant has no driving experience, with a shorter period stated elsewhere for people 18 or older.",
+        "quote": "If you have no driving experience, you must hold the beginner's permit for 180 days, unless you are 18 years of age and older, before taking a road test.",
+        "url": "https://www.dmv.sc.gov/driver-services/drivers-license/beginner-permits"
+      },
+      {
+        "text": "Conditional license at 15½ and under 16 after the listed requirements and the vision and road tests.",
+        "quote": "If you are at least 15½, but less than 16,",
+        "url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers"
+      },
+      {
+        "text": "Forty hours of practice, including ten at night, for 15- and 16-year-old first licenses.",
+        "quote": "You have practiced driving with a qualified, licensed individual for at least 40 hours, including ten hours of night driving.",
+        "url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers"
+      },
+      {
+        "text": "Full driving privileges at 17, or after one clean year on the conditional or special restricted license.",
+        "quote": "full driving privileges at 17, or after keeping your Conditional or Special Restricted license for one year, as long as you received no traffic offenses and were not at-fault in any collisions.",
+        "url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers"
+      }
+    ],
+    "out_of_state_permit": "An unexpired out-of-state beginner’s permit may be used for practice driving in South Carolina.",
+    "out_of_state_permit_quote": "You may practice driving with your unexpired out-of-state beginner's permit in South Carolina.",
+    "out_of_state_permit_url": "https://www.dmv.sc.gov/driver-services/drivers-license/beginner-permits",
+    "curfew": "Conditional and special restricted licenses may be used alone from 6 a.m. to 6 p.m., or until 8 p.m. during daylight saving time. A licensed driver who is at least 21 is required from that evening hour until midnight.",
+    "curfew_quote": "You may drive alone from 6 a.m. to 6 p.m. (8 p.m. during daylight savings time).",
+    "curfew_url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers",
+    "passengers": "A conditional or special restricted driver cannot have more than two passengers under 21 unless a licensed adult who is at least 21 is in the car, with an exception for family members or students traveling to and from school.",
+    "passengers_quote": "You cannot have more than two passengers under 21 in the car unless you are with a licensed adult who is at least 21.",
+    "passengers_url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers",
+    "sources": [
+      {
+        "title": "Beginner's Permit",
+        "url": "https://www.dmv.sc.gov/driver-services/drivers-license/beginner-permits",
+        "publisher": "South Carolina Department of Motor Vehicles"
+      },
+      {
+        "title": "Teenage Drivers",
+        "url": "https://dmv.sc.gov/driver-services/drivers-license/teenage-drivers",
+        "publisher": "South Carolina Department of Motor Vehicles"
+      },
+      {
+        "title": "Driver's License",
+        "url": "https://dmv.sc.gov/driver-services/drivers-license",
+        "publisher": "South Carolina Department of Motor Vehicles"
+      },
+      {
+        "title": "Fees",
+        "url": "https://dmv.sc.gov/fees",
+        "publisher": "South Carolina Department of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The sentence that states the age-15 beginner’s permit minimum is split by formatting tags, so the stored quote is the continuous piece that contains the age.",
+      "A beginner’s-permit page also says people under 18 hold the permit at least 180 days and people 18 or older hold it at least 30 days. That second sentence is split by tags and was not stored.",
+      "The fees table prints a $2.50 beginner’s permit line in separate cells from a sentence, so the narrative fee sentence was used instead."
+    ]
+  },
+  {
+    "slug": "alabama",
+    "name": "Alabama",
+    "agency": "Alabama Law Enforcement Agency",
+    "agency_short": "ALEA",
+    "agency_home": "https://www.alea.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "Fifteen-year-old applicants must have acceptable proof of school enrollment or graduation",
+    "permit_age_url": "https://www.alea.gov/dps/document-requirements-and-fees",
+    "license_age": 16,
+    "license_age_quote": "Must be age 16 or older. Those who are under age 18 must have a Stage I license for at least 6 months before applying for a Stage II license.",
+    "license_age_url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+    "full_license_age": 17,
+    "full_license_age_quote": "Must be age 17 or older. Those who are age 17 must have a Stage II license for at least six months before applying for Stage III license.",
+    "full_license_age_url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+    "written_required": true,
+    "written_quote": "Must complete the written examination and receive a passing grade.",
+    "written_url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+    "written_detail": "Stage I requires a passing written examination based on the Alabama Driver Manual. The published exam fee is $5.",
+    "road_required": true,
+    "road_quote": "Must complete road skills examination with a passing grade.",
+    "road_url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+    "road_detail": "Stage II, the restricted license, requires a passing road skills examination. Appointments for that exam can be scheduled online at select locations.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 50,
+    "supervised_quote": "verifying that the applicant has COMPLETED a minimum of 50 hours of behind-the-wheel practice.",
+    "supervised_url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+    "holding_period": "at least 6 months",
+    "holding_quote": "Those who are under age 18 must have a Stage I license for at least 6 months before applying for a Stage II license.",
+    "holding_url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+    "fees": [
+      {
+        "item": "Stage I learner license",
+        "amount": "$36.25",
+        "quote": "Stage I license fee is $36.25.",
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license"
+      },
+      {
+        "item": "Stage II restricted license",
+        "amount": "$36.25",
+        "quote": "Stage II license fee is $36.25.",
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license"
+      },
+      {
+        "item": "Stage III restriction-free duplicate after Stage II",
+        "amount": "$31.25",
+        "quote": "Stage III license fee is $31.25 for those who present a Stage II license and receive a restriction free duplicate.",
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license"
+      }
+    ],
+    "fee_page_url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+    "documents": [
+      {
+        "item": "School enrollment or graduation for 15-year-old applicants",
+        "summary": "Fifteen-year-old applicants must show acceptable proof of school enrollment or graduation.",
+        "quote": "Fifteen-year-old applicants must have acceptable proof of school enrollment or graduation",
+        "url": "https://www.alea.gov/dps/document-requirements-and-fees"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "Alabama’s graduated license has three stages. Fifteen-year-old applicants are the Stage I learner group and must pass a written exam. Stage II is a restricted license at 16 after at least six months on Stage I for drivers under 18, plus a road skills exam. Stage III is at 17 after at least six months on Stage II.",
+    "teen_quote": "Must be age 16 or older. Those who are under age 18 must have a Stage I license for at least 6 months before applying for a Stage II license.",
+    "teen_url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+    "teen_points": [
+      {
+        "text": "Fifteen-year-old applicants must prove school enrollment or graduation.",
+        "quote": "Fifteen-year-old applicants must have acceptable proof of school enrollment or graduation",
+        "url": "https://www.alea.gov/dps/document-requirements-and-fees"
+      },
+      {
+        "text": "Stage I requires a passing written examination.",
+        "quote": "Must complete the written examination and receive a passing grade.",
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license"
+      },
+      {
+        "text": "Stage II at 16 after six months on Stage I if the applicant is under 18.",
+        "quote": "Must be age 16 or older. Those who are under age 18 must have a Stage I license for at least 6 months before applying for a Stage II license.",
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license"
+      },
+      {
+        "text": "Fifty hours of behind-the-wheel practice, or a state-approved driver education completion form.",
+        "quote": "verifying that the applicant has COMPLETED a minimum of 50 hours of behind-the-wheel practice.",
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license"
+      },
+      {
+        "text": "Stage III at 17 after six months on Stage II.",
+        "quote": "Must be age 17 or older. Those who are age 17 must have a Stage II license for at least six months before applying for Stage III license.",
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "A Stage II driver must not drive from midnight to 6 a.m. unless accompanied by a parent or legal guardian, or by a licensed driver age 21 or older with consent, or while traveling for specified school, work, religious, or emergency reasons.",
+    "curfew_quote": "Must not drive during the hours of midnight to 6 a.m. unless accompanied by a parent or legal guardian, accompanied by a licensed driver who is age 21 or older with parent or legal guardian’s consent, going to or from an event sponsored by school or religious organization, going to or from place of employment or driving for the purpose of a medical, fire or law- enforcement related emergency.",
+    "curfew_url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+    "passengers": "A Stage II driver must not have more than one passenger other than parents, legal guardians, or family members.",
+    "passengers_quote": "Must not have more than one passenger in the vehicle other than parents, legal guardians or family members.",
+    "passengers_url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+    "sources": [
+      {
+        "title": "Graduated Driver License",
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+        "publisher": "Alabama Law Enforcement Agency"
+      },
+      {
+        "title": "Document Requirements And Fees",
+        "url": "https://www.alea.gov/dps/document-requirements-and-fees",
+        "publisher": "Alabama Law Enforcement Agency"
+      },
+      {
+        "title": "Driver License Information",
+        "url": "https://www.alea.gov/dps/driver-license/driver-license-information",
+        "publisher": "Alabama Law Enforcement Agency"
+      }
+    ],
+    "gaps": [
+      "The Stage I line 'Must be age 15 or older.' is only five words, so the permit age is supported by the fifteen-year-old applicant document rule on the same agency site.",
+      "The $5 exam fee line is six words including the amount. County fees may be higher; the page says license fees may be slightly higher where local legislation allows it.",
+      "No REAL ID or out-of-state learner-permit rule was quoted from a page that opened with a continuous sentence.",
+      "The driver-manual PDF opened, but its text is compressed and was not used for quotes."
+    ]
+  },
+  {
+    "slug": "louisiana",
+    "name": "Louisiana",
+    "agency": "Louisiana Office of Motor Vehicles",
+    "agency_short": "OMV",
+    "agency_home": "https://expresslane.la.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "You must be at least fifteen before a learner’s permit can be issued.",
+    "permit_age_url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/",
+    "license_age": 16,
+    "license_age_quote": "age of 16 when they may apply for an intermediate license.",
+    "license_age_url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/permits/",
+    "full_license_age": 17,
+    "full_license_age_quote": "at least 17 years of age and you must pass the vision, knowledge (written) test and road skills test to be issued a full license.",
+    "full_license_age_url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/",
+    "written_required": true,
+    "written_quote": "An 80% is the minimum passing score for the knowledge test.",
+    "written_url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/",
+    "written_detail": "The knowledge test is given by the driver education provider. The minimum passing score is 80 percent. A vision test is also given before a learner’s permit.",
+    "road_required": true,
+    "road_quote": "All road skills tests must be performed at a driving school.",
+    "road_url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/permits/",
+    "road_detail": "Knowledge and skills tests are administered by the driver education provider, and every road skills test must be performed at a driving school.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": "a minimum of 180 days",
+    "holding_quote": "A learner’s permit must be held for a minimum of 180 days, unless the applicant is 17 years of age or older.",
+    "holding_url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/",
+    "fees": [
+      {
+        "item": "Basic Class E license until age 69",
+        "amount": "$32.25",
+        "quote": "$32.25 – the basic license fee until age 69",
+        "url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/"
+      },
+      {
+        "item": "Class E license at age 70 and older",
+        "amount": "$18.75",
+        "quote": "$18.75 – the license fee for applicants age 70 and older",
+        "url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/"
+      }
+    ],
+    "fee_page_url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/",
+    "documents": [
+      {
+        "item": "Driver education",
+        "summary": "Applicants 14 years and 9 months through 17 take a 30-hour classroom and 8-hour behind-the-wheel course. Applicants 18 and older take a shorter pre-licensing course or the longer driver education course.",
+        "quote": "The Driver Education course offered for those applicants 14 years and 9 months to 17 years of age includes 30 hours of classroom and 8 hours of behind-the-wheel instruction.",
+        "url": "https://expresslane.la.gov/omv/drivers/driver-s-education-information/student-parent-information/"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "A learner’s permit can be issued at 15 after a temporary instructional permit and the required tests. At 15, the permit is held at least 180 days and until age 16 before an intermediate license. A full license requires age 17 plus vision, knowledge, and road skills tests. Applicants 17 or older do not have the 180-day learner holding rule.",
+    "teen_quote": "You must be at least fifteen before a learner’s permit can be issued.",
+    "teen_url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/",
+    "teen_points": [
+      {
+        "text": "Learner’s permit minimum age is 15.",
+        "quote": "You must be at least fifteen before a learner’s permit can be issued.",
+        "url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/"
+      },
+      {
+        "text": "Hold the learner’s permit at least 180 days unless the applicant is 17 or older.",
+        "quote": "A learner’s permit must be held for a minimum of 180 days, unless the applicant is 17 years of age or older.",
+        "url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/"
+      },
+      {
+        "text": "At 15, the permit is held until age 16 before an intermediate license.",
+        "quote": "age of 16 when they may apply for an intermediate license.",
+        "url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/permits/"
+      },
+      {
+        "text": "A learner’s permit holder at 15 may drive with a licensed parent, guardian, adult at least 21, or licensed sibling at least 18.",
+        "quote": "The applicant is authorized to drive with a licensed parent, guardian, or adult at least 21 years of age, or a licensed sibling at least 18 years of age or older.",
+        "url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/permits/"
+      },
+      {
+        "text": "Full license at 17 after vision, knowledge, and road skills tests.",
+        "quote": "at least 17 years of age and you must pass the vision, knowledge (written) test and road skills test to be issued a full license.",
+        "url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "The student information page says an intermediate driver may drive from 11 p.m. until 5 a.m. with a licensed family member 18 or older or anyone over 21, and that the license otherwise reverts to a learner’s permit.",
+    "curfew_quote": "Able to drive at any time with a family member 18 years or older with a license or anyone over the age of 21 with a valid license from 11 p.m. until 5 a.m. (License reverts to Learners Permit)",
+    "curfew_url": "https://expresslane.la.gov/omv/drivers/driver-s-education-information/student-parent-information/",
+    "passengers": "The student information page says an intermediate driver may drive with one sibling passenger from 6 p.m. until 11 p.m.",
+    "passengers_quote": "Able to drive anywhere with one sibling passenger from 6 p.m. until 11 p.m.",
+    "passengers_url": "https://expresslane.la.gov/omv/drivers/driver-s-education-information/student-parent-information/",
+    "sources": [
+      {
+        "title": "New Licenses",
+        "url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/",
+        "publisher": "Louisiana Office of Motor Vehicles"
+      },
+      {
+        "title": "Permits",
+        "url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/permits/",
+        "publisher": "Louisiana Office of Motor Vehicles"
+      },
+      {
+        "title": "Student/Parent Information",
+        "url": "https://expresslane.la.gov/omv/drivers/driver-s-education-information/student-parent-information/",
+        "publisher": "Louisiana Office of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The graduated-license chart PDF states 50 supervised hours with 15 at night, but that PDF text is compressed and was not used.",
+      "A dedicated REAL ID page URL that was tried did not open.",
+      "No out-of-state learner-permit rule was found on the pages that opened."
+    ]
+  },
+  {
+    "slug": "kentucky",
+    "name": "Kentucky",
+    "agency": "Kentucky Transportation Cabinet",
+    "agency_short": "KYTC",
+    "agency_home": "https://drive.ky.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "Applicants must be at least 15 years old to take the written and vision tests with the Kentucky State Police.",
+    "permit_age_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "license_age": 16,
+    "license_age_quote": "Hold your permit for at least 180 days and be at least 16 years old before applying for an intermediate license.",
+    "license_age_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "full_license_age": 17,
+    "full_license_age_quote": "Hold your intermediate license for at least 180 days and be at least 17 years old before applying for a full unrestricted license.",
+    "full_license_age_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "written_required": true,
+    "written_quote": "Applicants must be at least 15 years old to take the written and vision tests with the Kentucky State Police.",
+    "written_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "written_detail": "The permit step is the written and vision tests at the Kentucky State Police. A failed written test can be retaken the next available day.",
+    "road_required": true,
+    "road_quote": "After holding the permit for at least 180 days and reaching age 16, schedule a road skills test appointment with the Kentucky State Police.",
+    "road_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "road_detail": "The intermediate license follows a road skills test with the Kentucky State Police. A failed road test requires a seven-day wait.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 60,
+    "supervised_quote": "Complete at least 60 hours of supervised driving practice, including 10 hours completed at night.",
+    "supervised_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "holding_period": "at least 180 days",
+    "holding_quote": "Hold your permit for at least 180 days and be at least 16 years old before applying for an intermediate license.",
+    "holding_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "fees": [
+      {
+        "item": "Learner permit",
+        "amount": "$15.00",
+        "quote": "A permit is $15.00 ($18.00 REAL ID).",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      },
+      {
+        "item": "Learner permit, REAL ID",
+        "amount": "$18.00",
+        "quote": "A permit is $15.00 ($18.00 REAL ID).",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      },
+      {
+        "item": "Intermediate license",
+        "amount": "$15.00",
+        "quote": "An Intermediate License is $15.00 ($18.00 REAL ID).",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      },
+      {
+        "item": "Intermediate license, REAL ID",
+        "amount": "$18.00",
+        "quote": "An Intermediate License is $15.00 ($18.00 REAL ID).",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      },
+      {
+        "item": "Four-year driver's license",
+        "amount": "$21.50",
+        "quote": "A 4-year driver's license is $21.50 ($24.00 REAL ID).",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      },
+      {
+        "item": "Four-year driver's license, REAL ID",
+        "amount": "$24.00",
+        "quote": "A 4-year driver's license is $21.50 ($24.00 REAL ID).",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      }
+    ],
+    "fee_page_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "documents": [
+      {
+        "item": "Kentucky residency",
+        "summary": "One proof of Kentucky residency is required, or two proofs for a REAL ID.",
+        "quote": "One proof of Kentucky residency (two for a REAL ID).",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      }
+    ],
+    "real_id_summary": "A learner permit is $15.00, or $18.00 if it is a REAL ID. A four-year license is $21.50, or $24.00 for REAL ID. REAL ID needs two proofs of residency.",
+    "real_id_quote": "A permit is $15.00 ($18.00 REAL ID).",
+    "real_id_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "Applicants take written and vision tests at 15 for a learner permit. They complete 60 supervised hours, including 10 at night, hold the permit 180 days, and apply for an intermediate license at 16 after a road skills test. A full unrestricted license is at 17 after 180 days on the intermediate license.",
+    "teen_quote": "Hold your permit for at least 180 days and be at least 16 years old before applying for an intermediate license.",
+    "teen_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "teen_points": [
+      {
+        "text": "Written and vision tests at age 15.",
+        "quote": "Applicants must be at least 15 years old to take the written and vision tests with the Kentucky State Police.",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      },
+      {
+        "text": "Sixty hours of practice, including 10 at night, with a licensed driver age 21 or older in the front seat.",
+        "quote": "Complete at least 60 hours of supervised driving practice, including 10 hours completed at night.",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      },
+      {
+        "text": "Intermediate license at 16 after 180 days on the permit.",
+        "quote": "Hold your permit for at least 180 days and be at least 16 years old before applying for an intermediate license.",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      },
+      {
+        "text": "Road skills test with the Kentucky State Police.",
+        "quote": "After holding the permit for at least 180 days and reaching age 16, schedule a road skills test appointment with the Kentucky State Police.",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      },
+      {
+        "text": "Full unrestricted license at 17 after 180 days on the intermediate license.",
+        "quote": "Hold your intermediate license for at least 180 days and be at least 17 years old before applying for a full unrestricted license.",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": "While practicing on the permit, a licensed driver age 21 or older must be in the front passenger seat.",
+    "passengers_quote": "A licensed driver age 21 or older must be seated in the front passenger seat at all times.",
+    "passengers_url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+    "sources": [
+      {
+        "title": "Graduated Driver Licensing Program",
+        "url": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx",
+        "publisher": "Kentucky Transportation Cabinet DRIVE"
+      }
+    ],
+    "gaps": [
+      "The graduated-licensing page that opened does not state a nighttime driving curfew for the intermediate license.",
+      "The 2023 Kentucky State Police driver manual still says a permit test age of 16. The current DRIVE page and the instruction-permit statute describe age 15. The manual PDF was not used because its text is not a continuous substring of the download.",
+      "No out-of-state permit exchange rule was quoted from this page."
+    ]
+  },
+  {
+    "slug": "oregon",
+    "name": "Oregon",
+    "agency": "Oregon Driver and Motor Vehicle Services",
+    "agency_short": "DMV",
+    "agency_home": "https://www.oregon.gov/odot/dmv/pages/index.aspx",
+    "permit_age": 15,
+    "permit_age_quote": "Must be at least 15 years of age; and",
+    "permit_age_url": "https://www.oregon.gov/odot/dmv/pages/online_quick_tips/driver_information.aspx",
+    "license_age": 16,
+    "license_age_quote": "Be 16 or 17 years old;",
+    "license_age_url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx",
+    "full_license_age": 18,
+    "full_license_age_quote": "until you are 18 or you have had your provisional license for 1&#160;year",
+    "full_license_age_url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx",
+    "written_required": null,
+    "written_quote": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": true,
+    "road_quote": "The Drive Test fee at DMV is $45​.",
+    "road_url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx",
+    "road_detail": "A drive test is part of getting a provisional license unless a listed waiver applies, including surrendering a license from another state or completing an approved driver education course.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 100,
+    "supervised_quote": "Complete&#160;100 hours&#160;supervised driving experience, or 50 hours&#160;if you have taken and passed an&#160;approved Driver Ed course",
+    "supervised_url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx",
+    "holding_period": null,
+    "holding_quote": null,
+    "holding_url": null,
+    "fees": [
+      {
+        "item": "REAL ID Class C instruction permit",
+        "amount": "$60.00",
+        "quote": "REAL&#160; ID Class C Instruction permit&#160;&#160;$60.00",
+        "url": "https://www.oregon.gov/odot/dmv/pages/online_quick_tips/driver_information.aspx"
+      },
+      {
+        "item": "DMV drive test",
+        "amount": "$45",
+        "quote": "The Drive Test fee at DMV is $45​.",
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx"
+      },
+      {
+        "item": "Class C knowledge test",
+        "amount": "$7",
+        "quote": "The fee is $7&#160;each time you take the test.",
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/permit.aspx"
+      }
+    ],
+    "fee_page_url": "https://www.oregon.gov/odot/dmv/pages/online_quick_tips/driver_information.aspx",
+    "documents": [],
+    "real_id_summary": "REAL ID is optional and adds $30 to the regular issuance fee for an original, renewal, or replacement license, permit, or ID card. A REAL ID Class C instruction permit is listed at $60.00.",
+    "real_id_quote": "The REAL ID option costs $30 in addition to regular issuance fees every time you apply for an original, renewal or replacement driver’s license, permit or ID card.",
+    "real_id_url": "https://www.oregon.gov/odot/dmv/pages/online_quick_tips/driver_information.aspx",
+    "transfer_summary": "An instruction permit from Oregon, another state, or the District of Columbia counts toward the six-month permit requirement for a driver under 18. A license issued by another state, surrendered when applying, removes the permit-time and supervised-hour requirements.",
+    "transfer_quote": "Have had an instruction permit from Oregon, another state, or the District of Columbia, for at least six months.",
+    "transfer_url": "https://www.oregon.gov/odot/dmv/pages/online_quick_tips/driver_information.aspx",
+    "teen_summary": "Drivers 15, 16, and 17 get a provisional instruction permit after the knowledge and vision tests. A provisional driver license is for ages 16 and 17 after six months on a permit and either 100 supervised hours or 50 hours with an approved driver education course. Passenger and night limits last until age 18 or one year on the provisional license, whichever comes first.",
+    "teen_quote": "Drivers&#160;15,&#160;16,&#160;and&#160;17&#160;years old get a permit called a Provisional Instruction Permit.",
+    "teen_url": "https://www.oregon.gov/odot/dmv/teen/pages/permit.aspx",
+    "teen_points": [
+      {
+        "text": "Provisional instruction permit for ages 15, 16, and 17.",
+        "quote": "Drivers&#160;15,&#160;16,&#160;and&#160;17&#160;years old get a permit called a Provisional Instruction Permit.",
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/permit.aspx"
+      },
+      {
+        "text": "Class C instruction permit minimum age is 15.",
+        "quote": "Must be at least 15 years of age; and",
+        "url": "https://www.oregon.gov/odot/dmv/pages/online_quick_tips/driver_information.aspx"
+      },
+      {
+        "text": "Provisional license at 16 or 17 after six months on an instruction permit.",
+        "quote": "Be 16 or 17 years old;",
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx"
+      },
+      {
+        "text": "One hundred supervised hours, or 50 with an approved driver education course.",
+        "quote": "Complete&#160;100 hours&#160;supervised driving experience, or 50 hours&#160;if you have taken and passed an&#160;approved Driver Ed course",
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx"
+      },
+      {
+        "text": "For the first six months, no passenger under 20 who is not immediate family, and no driving between midnight and 5:00 a.m. except listed trips.",
+        "quote": "You cannot drive with a passenger under age 20 who is not a member of your immediate family*; and",
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx"
+      }
+    ],
+    "out_of_state_permit": "An instruction permit from another state or the District of Columbia counts toward the six months required before a provisional license.",
+    "out_of_state_permit_quote": "Have had an instruction permit from Oregon, another state, or the District of Columbia, for at least six months.",
+    "out_of_state_permit_url": "https://www.oregon.gov/odot/dmv/pages/online_quick_tips/driver_information.aspx",
+    "curfew": "For the first six months of a provisional license, the driver cannot drive between midnight and 5:00 a.m. except for listed trips such as home and work, home and a school event, employment, or when accompanied by a licensed driver who is at least 25.",
+    "curfew_quote": "You cannot drive between midnight and 5&#58;00 AM unless you are&#58;",
+    "curfew_url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx",
+    "passengers": "For the first six months, a provisional driver cannot drive with a passenger under 20 who is not immediate family. For the second six months, the limit is three such passengers. The limits do not apply with a parent, stepparent, legal guardian, or a course instructor.",
+    "passengers_quote": "You cannot drive with a passenger under age 20 who is not a member of your immediate family*; and",
+    "passengers_url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx",
+    "sources": [
+      {
+        "title": "Get an Instruction Permit - Under 18",
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/permit.aspx",
+        "publisher": "Oregon Department of Transportation"
+      },
+      {
+        "title": "Get a Driver License - Under 18",
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx",
+        "publisher": "Oregon Department of Transportation"
+      },
+      {
+        "title": "Driver Information",
+        "url": "https://www.oregon.gov/odot/dmv/pages/online_quick_tips/driver_information.aspx",
+        "publisher": "Oregon Department of Transportation"
+      }
+    ],
+    "gaps": [
+      "Some fee lines on the driver-information page use nonbreaking-space characters between the product name and the amount.",
+      "The drive-test fee sentence includes a zero-width character after $45.",
+      "The DMV home page URL was not separately confirmed in this pass; the teen and driver-information pages opened."
+    ]
+  },
+  {
+    "slug": "oklahoma",
+    "name": "Oklahoma",
+    "agency": "Service Oklahoma",
+    "agency_short": "Service Oklahoma",
+    "agency_home": "https://oklahoma.gov/service.html",
+    "permit_age": 15,
+    "permit_age_quote": "Must be at least fifteen (15) years of age to apply",
+    "permit_age_url": "https://oklahoma.gov/service/all-pages/learner-permit.html",
+    "license_age": 16,
+    "license_age_quote": "Must have held a Learner Permit for 180 days and be at least 16 years old",
+    "license_age_url": "https://oklahoma.gov/service/all-pages/intermediate-license.html",
+    "full_license_age": 16.5,
+    "full_license_age_quote": "AT LEAST 16 1/2 YEARS OLD",
+    "full_license_age_url": "https://oklahoma.gov/service/popular-services/teen-driving.html",
+    "written_required": true,
+    "written_quote": "You must pass the Oklahoma Written Exam.",
+    "written_url": "https://oklahoma.gov/service/all-pages/learner-permit.html",
+    "written_detail": "The learner-permit page says a 15-year-old must be enrolled in approved driver education and pass the written exam. At 16 or older, driver education is optional and the written exam is still required unless a completion document waives it.",
+    "road_required": true,
+    "road_quote": "An Intermediate License is what you receive after holding a Learner Permit and passing the drive test.",
+    "road_url": "https://oklahoma.gov/service/all-pages/intermediate-license.html",
+    "road_detail": "The intermediate license is issued after the learner permit and a passed drive test.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 50,
+    "supervised_quote": "Service Oklahoma will require the parent to verify that the permit holder has completed fifty (50) hours of driving including a minimum of ten (10) hours of driving at night",
+    "supervised_url": "https://oklahoma.gov/service/all-pages/learner-permit.html",
+    "holding_period": "180 days",
+    "holding_quote": "You must have previously held a learner permit for 180 days",
+    "holding_url": "https://oklahoma.gov/service/all-pages/intermediate-license.html",
+    "fees": [
+      {
+        "item": "Career Tech testing center test",
+        "amount": "$25.00",
+        "quote": "There is a $25.00 fee associated with tests taken at",
+        "url": "https://oklahoma.gov/service/all-pages/learner-permit.html"
+      }
+    ],
+    "fee_page_url": "https://oklahoma.gov/service/all-pages/learner-permit.html",
+    "documents": [
+      {
+        "item": "Parent-taught or approved driver education at 15",
+        "summary": "Parent-taught driver education applicants must be at least 15, and the driving portion starts only after a learner permit is issued.",
+        "quote": "Must be at least fifteen (15) years of age to apply",
+        "url": "https://oklahoma.gov/service/all-pages/learner-permit.html"
+      }
+    ],
+    "real_id_summary": "Learner permits, intermediate licenses, and unrestricted licenses are not automatically REAL ID cards. A REAL ID indicator can be added at issuance if the required documents are brought.",
+    "real_id_quote": "While Learner Permits, Intermediate Licenses, and Unrestricted Licenses are not inherently REAL IDs, a REAL ID indicator can be added to them at the time they are issued.",
+    "real_id_url": "https://oklahoma.gov/service/popular-services/teen-driving.html",
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "The learner-permit page has a 15-year-old step that requires approved driver education and the written exam, and a parent-taught rule that the student must be at least 15 to apply. With driver education, an intermediate license requires 180 days on the learner permit and age 16. Without driver education, that step is age 16 and a half. The teen page labels the unrestricted license at least 16 and a half.",
+    "teen_quote": "AT LEAST 16 1/2 YEARS OLD",
+    "teen_url": "https://oklahoma.gov/service/popular-services/teen-driving.html",
+    "teen_points": [
+      {
+        "text": "Parent-taught students must be at least 15 to apply.",
+        "quote": "Must be at least fifteen (15) years of age to apply",
+        "url": "https://oklahoma.gov/service/all-pages/learner-permit.html"
+      },
+      {
+        "text": "At 16 or older, driver education is optional.",
+        "quote": "if you are 16 years or older.",
+        "url": "https://oklahoma.gov/service/all-pages/learner-permit.html"
+      },
+      {
+        "text": "With driver education, intermediate license after 180 days and at age 16.",
+        "quote": "Must have held a Learner Permit for 180 days and be at least 16 years old",
+        "url": "https://oklahoma.gov/service/all-pages/intermediate-license.html"
+      },
+      {
+        "text": "Without driver education, the intermediate step is at 16 and a half after 180 days.",
+        "quote": "Must have held a Learner Permit for 180 days and be at least 16 1/2 years old",
+        "url": "https://oklahoma.gov/service/all-pages/intermediate-license.html"
+      },
+      {
+        "text": "Fifty hours of driving, including 10 at night, verified by the parent.",
+        "quote": "Service Oklahoma will require the parent to verify that the permit holder has completed fifty (50) hours of driving including a minimum of ten (10) hours of driving at night",
+        "url": "https://oklahoma.gov/service/all-pages/learner-permit.html"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": "The intermediate-license page says any passenger is allowed if a licensed driver at least 21 is sitting in the front seat.",
+    "passengers_quote": "any passenger if accompanied by a licensed driver at least 21 years old sitting in the front seat",
+    "passengers_url": "https://oklahoma.gov/service/all-pages/intermediate-license.html",
+    "sources": [
+      {
+        "title": "Apply for a Learner Permit",
+        "url": "https://oklahoma.gov/service/all-pages/learner-permit.html",
+        "publisher": "Service Oklahoma"
+      },
+      {
+        "title": "Intermediate License",
+        "url": "https://oklahoma.gov/service/all-pages/intermediate-license.html",
+        "publisher": "Service Oklahoma"
+      },
+      {
+        "title": "Teen Driving",
+        "url": "https://oklahoma.gov/service/popular-services/teen-driving.html",
+        "publisher": "Service Oklahoma"
+      }
+    ],
+    "gaps": [
+      "The $42.50 learner-permit issuance fee and the $25 intermediate-license fee are printed, but each amount sits inside a bold tag that breaks the sentence, so those amounts were not stored.",
+      "The 15-year-old learner block on the permit page is split by formatting tags. The age-15 quote used here is the parent-taught student requirement on the same page.",
+      "Night driving limits for the intermediate license were not captured as a continuous sentence on the pages that opened.",
+      "The transfer section points to another page that was not opened."
+    ]
+  },
+  {
+    "slug": "montana",
+    "name": "Montana",
+    "agency": "Montana Department of Justice, Motor Vehicle Division",
+    "agency_short": "MVD",
+    "agency_home": null,
+    "permit_age": 14.5,
+    "permit_age_quote": "any person who is at least 14&#8201;1/2 years of age and who has successfully completed or is successfully participating in a traffic education course",
+    "permit_age_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0060/0610-0050-0010-0060.html",
+    "license_age": 15,
+    "license_age_quote": "under 15 years of age unless the person is at least 13 years of age and, because of individual hardship, to be determined by the department, needs a restricted license;",
+    "license_age_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0050/0610-0050-0010-0050.html",
+    "full_license_age": 18,
+    "full_license_age_quote": "until the person is 18 years of age, whichever occurs first:",
+    "full_license_age_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0330/0610-0050-0010-0330.html",
+    "written_required": true,
+    "written_quote": "after the applicant has successfully passed the knowledge test and the vision examination",
+    "written_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0060/0610-0050-0010-0060.html",
+    "written_detail": "A learner license under the general rule is issued after the knowledge test and the vision examination.",
+    "road_required": true,
+    "road_quote": "has passed a road test or a skills test, as provided in",
+    "road_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html",
+    "road_detail": "A driver's license for a person under 18 requires a passed road test or skills test, along with the learner-license holding period.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 50,
+    "supervised_quote": "the person has had at least 50 hours of driving experience, 10 of which were at night",
+    "supervised_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html",
+    "holding_period": "not less than 6 months",
+    "holding_quote": "has held a learner license or traffic education permit for a period of not less than 6 months;",
+    "holding_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html",
+    "fees": [],
+    "fee_page_url": null,
+    "documents": [
+      {
+        "item": "Parent or guardian driving certification",
+        "summary": "A minor's license application needs written certification of supervised driving from a parent, legal guardian, or another responsible adult when no parent or guardian is available.",
+        "quote": "presents written certification from the person's parent or legal guardian, or if none is available, a responsible adult with knowledge of the person's driving experience",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": "A person under 18 who has been licensed in another state for at least six months and surrenders that license does not have to meet the Montana minor prerequisites in subsections (1)(a) through (1)(c).",
+    "transfer_quote": "do not apply to a person under 18 years of age who has been licensed in another state for at least 6 months and surrenders a valid driver's license from that state.",
+    "transfer_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html",
+    "teen_summary": "A learner license is available at 14 and a half for a student in an approved traffic education course. The department may not issue a license to someone under 15 except a hardship restricted license at 13. A minor's driver's license requires at least six months on a learner license or traffic education permit, a road or skills test, and 50 hours of driving with 10 at night, or 75 hours with 15 at night after an alternative course. First-year restrictions last one year or until age 18, whichever comes first.",
+    "teen_quote": "any person who is at least 14&#8201;1/2 years of age and who has successfully completed or is successfully participating in a traffic education course",
+    "teen_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0060/0610-0050-0010-0060.html",
+    "teen_points": [
+      {
+        "text": "Traffic-education learner license at 14 and a half.",
+        "quote": "any person who is at least 14&#8201;1/2 years of age and who has successfully completed or is successfully participating in a traffic education course",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0060/0610-0050-0010-0060.html"
+      },
+      {
+        "text": "No license under 15 except a hardship restricted license at 13.",
+        "quote": "under 15 years of age unless the person is at least 13 years of age and, because of individual hardship, to be determined by the department, needs a restricted license;",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0050/0610-0050-0010-0050.html"
+      },
+      {
+        "text": "Hold a learner license or traffic education permit at least six months.",
+        "quote": "has held a learner license or traffic education permit for a period of not less than 6 months;",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html"
+      },
+      {
+        "text": "Fifty hours of driving, 10 at night, after traditional traffic education.",
+        "quote": "the person has had at least 50 hours of driving experience, 10 of which were at night",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html"
+      },
+      {
+        "text": "Night restriction from 11 p.m. to 5 a.m. during the first year, with listed exceptions.",
+        "quote": "may not operate a motor vehicle between the hours of 11 p.m. and 5 a.m. unless the restricted licensee is:",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0330/0610-0050-0010-0330.html"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "During the first-year restriction, a restricted licensee may not drive between 11 p.m. and 5 a.m. unless accompanied by a licensed driver who is 18 or older or in the other situations the statute lists.",
+    "curfew_quote": "may not operate a motor vehicle between the hours of 11 p.m. and 5 a.m. unless the restricted licensee is:",
+    "curfew_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0330/0610-0050-0010-0330.html",
+    "passengers": "For the first six months of the one-year restriction, a restricted licensee may not drive with more than one passenger under 18 unless supervised by a licensed driver who is at least 18 or the extra passengers are family members.",
+    "passengers_quote": "a restricted licensee may not operate a motor vehicle with more than one passenger who is under 18 years of age unless:",
+    "passengers_url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0330/0610-0050-0010-0330.html",
+    "sources": [
+      {
+        "title": "Montana Code Annotated 2025, 61-5-106, Learner licenses",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0060/0610-0050-0010-0060.html",
+        "publisher": "Montana Legislature"
+      },
+      {
+        "title": "Montana Code Annotated 2025, 61-5-105, Who may not be licensed",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0050/0610-0050-0010-0050.html",
+        "publisher": "Montana Legislature"
+      },
+      {
+        "title": "Montana Code Annotated 2025, 61-5-132, Prerequisites for a minor",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0320/0610-0050-0010-0320.html",
+        "publisher": "Montana Legislature"
+      },
+      {
+        "title": "Montana Code Annotated 2025, 61-5-133, First year restrictions",
+        "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0050/part_0010/section_0330/0610-0050-0010-0330.html",
+        "publisher": "Montana Legislature"
+      },
+      {
+        "title": "Driver Education",
+        "url": "https://opi.mt.gov/Families-Students/Family-Student-Support/Driver-Education/",
+        "publisher": "Montana Office of Public Instruction"
+      }
+    ],
+    "gaps": [
+      "The Department of Justice website returned a Cloudflare block, so Motor Vehicle Division pages and fee schedules did not open.",
+      "The learner-license age in statute uses a numeric character reference, 14&#8201;1/2, which is stored as it appears in the page source.",
+      "The Office of Public Instruction page also discusses learner licenses at age 14.5, but the age facts above are taken from the 2025 Montana Code Annotated.",
+      "No fee amount was printed in a continuous sentence on the pages that opened.",
+      "An out-of-state learner permit, as distinct from an out-of-state license, is not addressed in the sections that opened."
+    ]
+  },
+  {
+    "slug": "rhode-island",
+    "name": "Rhode Island",
+    "agency": "Rhode Island Division of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": null,
+    "permit_age": 16,
+    "permit_age_quote": "Any person who is at least sixteen (16) years of age but less than eighteen (18) years",
+    "permit_age_url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm",
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": 17,
+    "full_license_age_quote": "A person who is at least seventeen (17) years old but less than eighteen (18) years",
+    "full_license_age_url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm",
+    "written_required": null,
+    "written_quote": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": true,
+    "road_quote": "Passes a road test administered by the division of motor vehicles and shall also meet",
+    "road_url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm",
+    "road_detail": "A limited provisional license requires a road test administered by the Division of Motor Vehicles.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 50,
+    "supervised_quote": "a minimum of fifty (50) hours\n            of experience with ten (10) of those at night",
+    "supervised_url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm",
+    "holding_period": "at least six (6) months",
+    "holding_quote": "issued by the division of motor vehicles for\n            at least six (6) months;",
+    "holding_url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm",
+    "fees": [
+      {
+        "item": "Limited instruction permit or limited provisional license",
+        "amount": "$10.00",
+        "quote": "The fee for a limited instruction permit or a limited provisional license is ten\n            dollars ($10.00).",
+        "url": "https://webserver.rilegislature.gov/statutes/TITLE31/31-10/31-10-6.3.htm"
+      }
+    ],
+    "fee_page_url": "https://webserver.rilegislature.gov/statutes/TITLE31/31-10/31-10-6.3.htm",
+    "documents": [],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "A limited instruction permit is available from age 16 until 18 after driver training and a written exam. A limited provisional license follows at least six months on that permit, a clean six-month record, a road test, and 50 hours of practice with 10 at night. A full operator’s license can be requested at 17 after 12 months on the limited provisional license.",
+    "teen_quote": "Any person who is at least sixteen (16) years of age but less than eighteen (18) years",
+    "teen_url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm",
+    "teen_points": [
+      {
+        "text": "Limited instruction permit from age 16 until 18.",
+        "quote": "Any person who is at least sixteen (16) years of age but less than eighteen (18) years",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm"
+      },
+      {
+        "text": "Provisional license after at least six months on the limited instruction permit.",
+        "quote": "issued by the division of motor vehicles for\n            at least six (6) months;",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm"
+      },
+      {
+        "text": "Fifty hours of practice, including 10 at night.",
+        "quote": "a minimum of fifty (50) hours\n            of experience with ten (10) of those at night",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm"
+      },
+      {
+        "text": "Full operator’s license at 17 after 12 months on the limited provisional license.",
+        "quote": "A person who is at least seventeen (17) years old but less than eighteen (18) years",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "A limited provisional license holder may drive without supervision from 5:00 a.m. to 1:00 a.m., and also when driving to or from work or listed volunteer emergency duties. Supervised driving is allowed at any time.",
+    "curfew_quote": "From 5:00 a.m. to 1:00 a.m.;",
+    "curfew_url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm",
+    "passengers": "During the first 12 months of a limited provisional license, no more than one passenger younger than 21 is allowed, except immediate family or household members.",
+    "passengers_quote": "one passenger younger than twenty-one (21) years of age is allowed in the vehicle.",
+    "passengers_url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm",
+    "sources": [
+      {
+        "title": "Rhode Island General Laws § 31-10-6, Graduated licensing",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-10/31-10-6.htm",
+        "publisher": "Rhode Island General Assembly"
+      },
+      {
+        "title": "Rhode Island General Laws § 31-10-6.3, Duration and fee",
+        "url": "https://webserver.rilegislature.gov/statutes/TITLE31/31-10/31-10-6.3.htm",
+        "publisher": "Rhode Island General Assembly"
+      }
+    ],
+    "gaps": [
+      "The Division of Motor Vehicles website returned HTTP 403, so current DMV fee tables, REAL ID instructions, and scheduling pages did not open.",
+      "The statute does not publish a separate numbered minimum age for the limited provisional license. It requires six months on a limited instruction permit that itself starts at 16.",
+      "The statutory fee sentence breaks across a line, so the stored quote keeps that line break. A DMV surcharge above the $10 statutory fee could not be confirmed because the fee table did not open.",
+      "The curfew quote is the unsupervised-hours clause. The surrounding statute adds work and volunteer-service exceptions."
+    ]
+  },
+  {
+    "slug": "delaware",
+    "name": "Delaware",
+    "agency": "Delaware Division of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://delaware.gov/guides/driving-and-transportation/",
+    "permit_age": 16,
+    "permit_age_quote": "any person who is at least 16 years old but less than 18 years old",
+    "permit_age_url": "https://delcode.delaware.gov/title21/c027/sc01/",
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": 17,
+    "full_license_age_quote": "at least 17 years old but less than 18 years old, or who is at least 17 years old but less than 22 years old",
+    "full_license_age_url": "https://delcode.delaware.gov/title21/c027/sc01/",
+    "written_required": true,
+    "written_quote": "Passed a written test and road skills test administered by the Division or administered by a driver education teacher.",
+    "written_url": "https://delcode.delaware.gov/title21/c027/sc01/",
+    "written_detail": "A Level 1 Learner’s Permit requires a passed written test and a passed road skills test, given by the Division or by a driver education teacher, plus driver education and a sponsor’s signature.",
+    "road_required": true,
+    "road_quote": "Passed a written test and road skills test administered by the Division or administered by a driver education teacher.",
+    "road_url": "https://delcode.delaware.gov/title21/c027/sc01/",
+    "road_detail": "The road skills test is required before the Level 1 Learner’s Permit is issued, not as a later step after months on that permit.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 50,
+    "supervised_quote": "the permit holder has completed 50 hours of driving time, which shall include 10 hours of nighttime driving.",
+    "supervised_url": "https://delcode.delaware.gov/title21/c027/sc01/",
+    "holding_period": "12-month driving experience",
+    "holding_quote": "If the permit holder completes the 12-month driving experience and the sponsor does not withdraw their endorsement, the Division will notify the permit holder by mail that the permit holder is eligible for a Class D license.",
+    "holding_url": "https://delcode.delaware.gov/title21/c027/sc01/",
+    "fees": [],
+    "fee_page_url": null,
+    "documents": [
+      {
+        "item": "Driver education and sponsor signature",
+        "summary": "A person 16 or 17 needs an approved Delaware driver education course, or a certified out-of-state transcript, and an application signed by a sponsor.",
+        "quote": "Successfully completed a course in driver education in a public or private high school in this State, which has been approved by the Department of Education",
+        "url": "https://delcode.delaware.gov/title21/c027/sc01/"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "A Level 1 Learner’s Permit is for a person at least 16 and under 18 who has finished approved driver education and passed written and road skills tests. The first six months are supervised. After a parent certifies 50 hours, including 10 at night, unsupervised driving is allowed from 6:00 a.m. to 10:00 p.m. A Class D license follows 12 months of driving experience. The Class D qualifications section addresses applicants at least 17 and under 18.",
+    "teen_quote": "any person who is at least 16 years old but less than 18 years old",
+    "teen_url": "https://delcode.delaware.gov/title21/c027/sc01/",
+    "teen_points": [
+      {
+        "text": "Level 1 Learner’s Permit from age 16 until 18.",
+        "quote": "any person who is at least 16 years old but less than 18 years old",
+        "url": "https://delcode.delaware.gov/title21/c027/sc01/"
+      },
+      {
+        "text": "Written and road skills tests are required before the permit.",
+        "quote": "Passed a written test and road skills test administered by the Division or administered by a driver education teacher.",
+        "url": "https://delcode.delaware.gov/title21/c027/sc01/"
+      },
+      {
+        "text": "First six months are supervised driving.",
+        "quote": "For the first 6 months after issuance, the permit holder may only drive supervised.",
+        "url": "https://delcode.delaware.gov/title21/c027/sc01/"
+      },
+      {
+        "text": "Fifty hours, including 10 at night, are certified before unsupervised driving.",
+        "quote": "the permit holder has completed 50 hours of driving time, which shall include 10 hours of nighttime driving.",
+        "url": "https://delcode.delaware.gov/title21/c027/sc01/"
+      },
+      {
+        "text": "Class D eligibility is described for a person at least 17 and under 18.",
+        "quote": "at least 17 years old but less than 18 years old, or who is at least 17 years old but less than 22 years old",
+        "url": "https://delcode.delaware.gov/title21/c027/sc01/"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "After the first six months, the permit holder may drive unsupervised between 6:00 a.m. and 10:00 p.m.",
+    "curfew_quote": "the permit holder may drive unsupervised between the hours of 6:00 a.m. and 10:00 p.m.",
+    "curfew_url": "https://delcode.delaware.gov/title21/c027/sc01/",
+    "passengers": "When supervision is required, no person other than the supervising driver may sit in the front seat.",
+    "passengers_quote": "No person other than the supervising driver can be in the front seat.",
+    "passengers_url": "https://delcode.delaware.gov/title21/c027/sc01/",
+    "sources": [
+      {
+        "title": "Delaware Code Title 21, Chapter 27",
+        "url": "https://delcode.delaware.gov/title21/c027/sc01/",
+        "publisher": "State of Delaware"
+      }
+    ],
+    "gaps": [
+      "The Division of Motor Vehicles website rejected automated requests, so the current fee schedule and REAL ID instructions did not open. The code says the applicant pays the fee required by law and does not print a dollar amount in the sections used here.",
+      "Delaware does not publish a separate intermediate-license age. The Level 1 Learner’s Permit is the graduated credential, and Class D eligibility is described at 17.",
+      "An adult practice-permit waiting period of 10 days appears on the state services guide, but that guide’s request was rejected.",
+      "No rule on accepting another state’s learner permit was found in the chapter text that was used."
+    ]
+  },
+  {
+    "slug": "south-dakota",
+    "name": "South Dakota",
+    "agency": "South Dakota Department of Public Safety",
+    "agency_short": "DPS",
+    "agency_home": "https://dps.sd.gov/",
+    "permit_age": 14,
+    "permit_age_quote": "To be eligible to get your instruction permit, you must be 14 years of age.",
+    "permit_age_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "license_age": 14,
+    "license_age_quote": "You must be 14 years old and have met the conditions of an Instruction Permit (see above).",
+    "license_age_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "full_license_age": 16,
+    "full_license_age_quote": "Be at least 16 years old",
+    "full_license_age_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "written_required": true,
+    "written_quote": "You will then need to take a knowledge test or have successfully completed a state-approved driver education course* to get your permit.",
+    "written_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "written_detail": "An instruction permit requires a knowledge test unless the applicant presents a state-approved driver education certificate. The page says that certificate can waive testing for one year from course completion.",
+    "road_required": true,
+    "road_quote": "You must pass a drive test at a driver exam station",
+    "road_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "road_detail": "Moving from an instruction permit to a restricted minor’s permit requires a drive test unless a state-approved driver education course waives it.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 50,
+    "supervised_quote": "You must have a minimum of 50 hours of parent/guardian supervised driving (including 10 hours at night and 10 hours in inclement weather) to upgrade to a Restricted Permit.",
+    "supervised_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "holding_period": "275 days, or 180 days with driver education",
+    "holding_quote": "The permit must be held for 275 days if you",
+    "holding_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "fees": [],
+    "fee_page_url": null,
+    "documents": [],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "An instruction permit is available at 14 after a knowledge test, unless driver education waives that test. It is held 275 days, or 180 days after approved driver education, with 50 supervised hours including 10 at night and 10 in bad weather. A restricted minor’s permit is also available at 14 after those conditions. Anyone under 18 holds the restricted permit six months before a full operator’s license, and that license requires age 16.",
+    "teen_quote": "To be eligible to get your instruction permit, you must be 14 years of age.",
+    "teen_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "teen_points": [
+      {
+        "text": "Instruction permit at 14.",
+        "quote": "To be eligible to get your instruction permit, you must be 14 years of age.",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      },
+      {
+        "text": "Fifty supervised hours, including 10 at night and 10 in inclement weather.",
+        "quote": "You must have a minimum of 50 hours of parent/guardian supervised driving (including 10 hours at night and 10 hours in inclement weather) to upgrade to a Restricted Permit.",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      },
+      {
+        "text": "Restricted minor’s permit at 14 after the instruction-permit conditions.",
+        "quote": "You must be 14 years old and have met the conditions of an Instruction Permit (see above).",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      },
+      {
+        "text": "Operator’s license requires age 16.",
+        "quote": "Be at least 16 years old",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "On a restricted permit, the driver may drive alone, with parent or guardian permission, from 6 a.m. to 10 p.m. Between 10 p.m. and 6 a.m., a parent or legal guardian must sit beside the driver except for the exceptions the page lists.",
+    "curfew_quote": "You may drive alone (with a parent/guardian&#39;s permission) between the hours of 6AM to 10PM.",
+    "curfew_url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [
+      {
+        "title": "Teen drivers knowledge article",
+        "url": "https://www.sd.gov/kb_view.do?sysparm_article=KB0043735",
+        "publisher": "South Dakota Department of Public Safety"
+      }
+    ],
+    "gaps": [
+      "The operator’s license age is stated in the list item 'Be at least 16 years old.'",
+      "The 275-day holding sentence is cut by a formatting tag after the word you, so only the opening clause was stored.",
+      "No dollar fee was printed in a continuous sentence on this knowledge article.",
+      "The passenger sentence continues after a formatting tag, so the stored quote stops at the word passengers.",
+      "No REAL ID or out-of-state permit rule was quoted from this article."
+    ]
+  },
+  {
+    "slug": "north-dakota",
+    "name": "North Dakota",
+    "agency": "North Dakota Department of Transportation",
+    "agency_short": "NDDOT",
+    "agency_home": "https://www.dot.nd.gov/",
+    "permit_age": 14,
+    "permit_age_quote": "If starting at age 14: Must hold the permit for at least 12 months.",
+    "permit_age_url": "https://www.visionzero.nd.gov/reaching-zero/road-users/young-drivers",
+    "license_age": 15,
+    "license_age_quote": "restricted license at the age of 15.",
+    "license_age_url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": true,
+    "written_quote": "Pass vision and written knowledge tests at a NDDOT licensing facility.",
+    "written_url": "https://www.visionzero.nd.gov/reaching-zero/road-users/young-drivers",
+    "written_detail": "The Vision Zero page says an age-14 instruction permit requires vision and written knowledge tests at an NDDOT licensing office. The application page also requires the Rules of the Road knowledge test and a vision screening.",
+    "road_required": true,
+    "road_quote": "Must successfully complete a road test through the state to become fully licensed.",
+    "road_url": "https://www.dot.nd.gov/driver/how-apply-learners-permit",
+    "road_detail": "The ages 14-15 licensing steps on the application page require a state road test to become fully licensed.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 50,
+    "supervised_quote": "Complete and document 50 hours of supervised driving in a log, including night and varied road conditions.",
+    "supervised_url": "https://www.visionzero.nd.gov/reaching-zero/road-users/young-drivers",
+    "holding_period": "at least 12 months if starting at 14",
+    "holding_quote": "If starting at age 14: Must hold the permit for at least 12 months.",
+    "holding_url": "https://www.visionzero.nd.gov/reaching-zero/road-users/young-drivers",
+    "fees": [
+      {
+        "item": "Knowledge test",
+        "amount": "$5",
+        "quote": "Knowledge Test:&nbsp;$5 per attempt (one attempt allowed per day)",
+        "url": "https://www.dot.nd.gov/driver/how-apply-learners-permit"
+      }
+    ],
+    "fee_page_url": "https://www.dot.nd.gov/driver/how-apply-learners-permit",
+    "documents": [
+      {
+        "item": "Identity and address",
+        "summary": "A learner’s permit application requires proof of identity and address.",
+        "quote": "In order to obtain a ND Learner's Permit, you must provide proof of identity and address.",
+        "url": "https://www.dot.nd.gov/driver/how-apply-learners-permit"
+      },
+      {
+        "item": "Sponsor signature under 18",
+        "summary": "Applicants under 18 need a sponsor’s signature for approval and financial liability.",
+        "quote": "If you are under the age of 18, you will need a sponsor's signature for approval and financial liability before a learner's permit will be issued to you.",
+        "url": "https://www.dot.nd.gov/driver/how-apply-learners-permit"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": "A parent or guardian must sign for a minor under 18 to be issued a permit or license. The minimum driving age for someone licensed in another state is 16.",
+    "transfer_quote": "You may not drive in North Dakota if you are under 16, even if you are licensed in another state.",
+    "transfer_url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements",
+    "teen_summary": "Vision Zero describes an instruction permit that can start at age 14, held at least 12 months, with 50 supervised hours. Starting at 15, the hold is at least six months or until age 16, whichever is longer. A restricted license is available at 15. The application page says ages 14 and 15 also need driver education and a road test to become fully licensed.",
+    "teen_quote": "If starting at age 14: Must hold the permit for at least 12 months.",
+    "teen_url": "https://www.visionzero.nd.gov/reaching-zero/road-users/young-drivers",
+    "teen_points": [
+      {
+        "text": "A permit started at 14 is held at least 12 months.",
+        "quote": "If starting at age 14: Must hold the permit for at least 12 months.",
+        "url": "https://www.visionzero.nd.gov/reaching-zero/road-users/young-drivers"
+      },
+      {
+        "text": "A permit started at 15 is held at least six months or until age 16, whichever is longer.",
+        "quote": "If starting at age 15: Must hold for at least 6 months or until reaching age 16 (whichever is longer).",
+        "url": "https://www.visionzero.nd.gov/reaching-zero/road-users/young-drivers"
+      },
+      {
+        "text": "Vision and written tests are required.",
+        "quote": "Pass vision and written knowledge tests at a NDDOT licensing facility.",
+        "url": "https://www.visionzero.nd.gov/reaching-zero/road-users/young-drivers"
+      },
+      {
+        "text": "Fifty hours of supervised driving, including night and varied conditions.",
+        "quote": "Complete and document 50 hours of supervised driving in a log, including night and varied road conditions.",
+        "url": "https://www.visionzero.nd.gov/reaching-zero/road-users/young-drivers"
+      },
+      {
+        "text": "A restricted license is available at age 15.",
+        "quote": "restricted license at the age of 15.",
+        "url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [
+      {
+        "title": "Young Drivers",
+        "url": "https://www.visionzero.nd.gov/reaching-zero/road-users/young-drivers",
+        "publisher": "North Dakota Vision Zero"
+      },
+      {
+        "title": "How to Apply for a Learner's Permit",
+        "url": "https://www.dot.nd.gov/driver/how-apply-learners-permit",
+        "publisher": "North Dakota Department of Transportation"
+      },
+      {
+        "title": "Driver License Requirements",
+        "url": "https://www.dot.nd.gov/driver/driver-education/driver-license-requirements",
+        "publisher": "North Dakota Department of Transportation"
+      }
+    ],
+    "gaps": [
+      "Vision Zero labels a full unrestricted license at age 16 in a short heading. The longer sentence on that page does not repeat the number 16, so full_license_age was left empty.",
+      "The permit fee line is 'Permit: $15' and the road-test line is 'Road Test: $5'. Neither line has six words, so only the knowledge-test fee was stored.",
+      "The requirements page inserts nonbreaking spaces in the minimum-driving-age sentence. The stored out-of-state sentence is the continuous clause that follows.",
+      "Night and passenger limits for the restricted license were not captured as continuous sentences on the pages that opened."
+    ]
+  },
+  {
+    "slug": "alaska",
+    "name": "Alaska",
+    "agency": "Alaska Division of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://dmv.alaska.gov/",
+    "permit_age": 14,
+    "permit_age_quote": "When you turn 14, you are eligible for an instruction permit to begin to practice how to drive.",
+    "permit_age_url": "https://dmv.alaska.gov/credential-services/instruction-permit/",
+    "license_age": 16,
+    "license_age_quote": "You must be at least 16 years old or older.",
+    "license_age_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "full_license_age": 18,
+    "full_license_age_quote": "If you're 18 or older, you're eligible to apply for your first Alaska Driver License.",
+    "full_license_age_url": "https://dmv.alaska.gov/credential-services/your-first-alaska-drivers-license/",
+    "written_required": null,
+    "written_quote": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": true,
+    "road_quote": "To obtain your provisional license, you are required to complete a road test.",
+    "road_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "road_detail": "A provisional license at 16 or 17 requires a passed non-commercial road test.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": "a minimum of six (6) months",
+    "holding_quote": "You must have held a learner's permit for a minimum of six (6) months",
+    "holding_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "fees": [],
+    "fee_page_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "documents": [
+      {
+        "item": "Parental consent",
+        "summary": "Parental consent is required on every driving credential application for anyone under 18.",
+        "quote": "Please note Parental Consent is required on every driving credential application for anyone under the age of 18.",
+        "url": "https://dmv.alaska.gov/credential-services/provisional-license/"
+      }
+    ],
+    "real_id_summary": "Starting May 7, 2025, Alaska residents need a REAL ID-compliant license or ID, or another approved identification, for federal buildings, nuclear plants, and commercial flights. Getting a REAL ID is optional.",
+    "real_id_quote": "Beginning on May 7th, 2025, residents of Alaska will be required to show a REAL ID-compliant license/ID, or another form of approved identification, to access federal buildings, enter nuclear power plants, and board commercial flights.",
+    "real_id_url": "https://dmv.alaska.gov/credential-services/your-first-alaska-drivers-license/",
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "An instruction permit is available at 14. A provisional license is for ages 16 and 17 after at least six months on a learner’s permit and a road test, with no traffic conviction or suspension in the prior six months. At 18, a person may apply for a first driver license. Provisional restrictions include a passenger limit and a 1:00 a.m. to 5:00 a.m. limit.",
+    "teen_quote": "When you turn 14, you are eligible for an instruction permit to begin to practice how to drive.",
+    "teen_url": "https://dmv.alaska.gov/credential-services/instruction-permit/",
+    "teen_points": [
+      {
+        "text": "Instruction permit at 14.",
+        "quote": "When you turn 14, you are eligible for an instruction permit to begin to practice how to drive.",
+        "url": "https://dmv.alaska.gov/credential-services/instruction-permit/"
+      },
+      {
+        "text": "Practice with a licensed driver who is at least 21 and has one year of experience.",
+        "quote": "While you are practicing to drive you must be accompanied by a licensed driver at least 21 years old with at least one year of driving experience",
+        "url": "https://dmv.alaska.gov/credential-services/instruction-permit/"
+      },
+      {
+        "text": "Provisional license at 16 after six months on the learner permit.",
+        "quote": "You must be at least 16 years old or older.",
+        "url": "https://dmv.alaska.gov/credential-services/provisional-license/"
+      },
+      {
+        "text": "No passengers under 21 except siblings.",
+        "quote": "You may not carry passengers under the age of 21, except siblings.",
+        "url": "https://dmv.alaska.gov/credential-services/provisional-license/"
+      },
+      {
+        "text": "No driving between 1:00 a.m. and 5:00 a.m. unless an exception applies.",
+        "quote": "You may not drive between 1:00 &amp; 5:00 a.m.",
+        "url": "https://dmv.alaska.gov/credential-services/provisional-license/"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "A provisional license holder may not drive between 1:00 a.m. and 5:00 a.m. unless accompanied by a licensed driver who is at least 21, or when driving to or from work.",
+    "curfew_quote": "You may not drive between 1:00 &amp; 5:00 a.m.",
+    "curfew_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "passengers": "A provisional license holder may not carry passengers under 21, except siblings.",
+    "passengers_quote": "You may not carry passengers under the age of 21, except siblings.",
+    "passengers_url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+    "sources": [
+      {
+        "title": "Instruction Permit",
+        "url": "https://dmv.alaska.gov/credential-services/instruction-permit/",
+        "publisher": "Alaska Division of Motor Vehicles"
+      },
+      {
+        "title": "Provisional License",
+        "url": "https://dmv.alaska.gov/credential-services/provisional-license/",
+        "publisher": "Alaska Division of Motor Vehicles"
+      },
+      {
+        "title": "Your First Alaska Driver's License",
+        "url": "https://dmv.alaska.gov/credential-services/your-first-alaska-drivers-license/",
+        "publisher": "Alaska Division of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The instruction-permit page says 'Pay $15' and the fee table shows $15 in a separate cell. Neither presentation is a six-word sentence containing the amount, so no fee was stored.",
+      "The parental consent form mentions 40 hours of driving experience, including inclement weather, but that form PDF was not used as a quote source.",
+      "The written-test step is a short list item and may be dropped by the six-word check.",
+      "No out-of-state learner-permit rule was quoted."
+    ]
+  },
+  {
+    "slug": "vermont",
+    "name": "Vermont",
+    "agency": "Vermont Department of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://dmv.vermont.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "You must be at least 15 years old to take the test.",
+    "permit_age_url": "https://dmv.vermont.gov/licenses/new/learners-permit",
+    "license_age": 16,
+    "license_age_quote": "Drivers aged 16–17 with a clean record and a Learner’s Permit for at least one year.",
+    "license_age_url": "https://dmv.vermont.gov/licenses",
+    "full_license_age": 18,
+    "full_license_age_quote": "An individual must be 18 years of age to obtain a Driver's License, and must have not had any recalls, suspensions or revocations during the previous six-month period.",
+    "full_license_age_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws",
+    "written_required": true,
+    "written_quote": "If you fail a knowledge test you must wait at least one day before retaking the test.",
+    "written_url": "https://dmv.vermont.gov/licenses/new/learners-permit",
+    "written_detail": "The learner permit test is online. The permit is issued after the test is passed and the fees are paid. A parent or guardian must sign for ages 15, 16, and 17.",
+    "road_required": true,
+    "road_quote": "you will need to hold your learner permit for a year prior to taking the road test.",
+    "road_url": "https://dmv.vermont.gov/licenses/new/learners-permit",
+    "road_detail": "The permit page says the graduated license law requires the learner permit to be held for a year before the road test.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 40,
+    "supervised_quote": "forty hours of practice behind the wheel, with at least ten hours being nighttime driving",
+    "supervised_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws",
+    "holding_period": "at least one (1) year",
+    "holding_quote": "An individual must possess a Learner's Permit for at least one (1) year prior to obtaining a Junior Driver's License.",
+    "holding_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws",
+    "fees": [
+      {
+        "item": "Learner's permit, duplicate, or renewal",
+        "amount": "$24.00",
+        "quote": "An applicant shall pay $24.00 to the Commissioner for each learner’s permit or a duplicate",
+        "url": "https://legislature.vermont.gov/statutes/section/23/009/00617"
+      }
+    ],
+    "fee_page_url": "https://legislature.vermont.gov/statutes/section/23/009/00617",
+    "documents": [
+      {
+        "item": "Parent or guardian permission",
+        "summary": "Ages 15, 16, and 17 need a parent or legal guardian to sign the application before the test, unless the minor is emancipated.",
+        "quote": "If you are 15, 16, or 17 years old, you need your parent's or legal guardian's permission (unless you are an emancipated minor).",
+        "url": "https://dmv.vermont.gov/licenses/new/learners-permit"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "A learner’s permit test is available at 15. A junior driver’s license is for ages 16 and 17 after at least one year on the learner’s permit, a clean record, and 40 more practice hours with 10 at night. A driver’s license requires age 18 and a clean record for the previous six months. Passenger limits apply during the first months of the junior license.",
+    "teen_quote": "You must be at least 15 years old to take the test.",
+    "teen_url": "https://dmv.vermont.gov/licenses/new/learners-permit",
+    "teen_points": [
+      {
+        "text": "Learner’s permit test at age 15.",
+        "quote": "You must be at least 15 years old to take the test.",
+        "url": "https://dmv.vermont.gov/licenses/new/learners-permit"
+      },
+      {
+        "text": "Hold the learner’s permit at least one year before a junior license.",
+        "quote": "An individual must possess a Learner's Permit for at least one (1) year prior to obtaining a Junior Driver's License.",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws"
+      },
+      {
+        "text": "Forty additional practice hours, including 10 at night.",
+        "quote": "forty hours of practice behind the wheel, with at least ten hours being nighttime driving",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws"
+      },
+      {
+        "text": "Junior license eligibility is ages 16–17 with a clean record.",
+        "quote": "Drivers aged 16–17 with a clean record and a Learner’s Permit for at least one year.",
+        "url": "https://dmv.vermont.gov/licenses"
+      },
+      {
+        "text": "A driver’s license requires age 18.",
+        "quote": "An individual must be 18 years of age to obtain a Driver's License, and must have not had any recalls, suspensions or revocations during the previous six-month period.",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": "During the first three months of a junior license, the driver may drive alone or with a listed supervising person. With that person in the vehicle there is no passenger-count limit other than the number of safety belts. Immediate family members may be transported during the second three months. After six months there is no passenger restriction.",
+    "passengers_quote": "During the first three months of operation under a Junior Driver's License, the individual is restricted to driving alone, or with one of the individuals indicated above.",
+    "passengers_url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws",
+    "sources": [
+      {
+        "title": "Learner's Permit",
+        "url": "https://dmv.vermont.gov/licenses/new/learners-permit",
+        "publisher": "Vermont Department of Motor Vehicles"
+      },
+      {
+        "title": "Graduated License Laws",
+        "url": "https://dmv.vermont.gov/licenses/types-of-licenses-ids/junior-drivers-license/graduated-license-laws",
+        "publisher": "Vermont Department of Motor Vehicles"
+      },
+      {
+        "title": "Licenses",
+        "url": "https://dmv.vermont.gov/licenses",
+        "publisher": "Vermont Department of Motor Vehicles"
+      },
+      {
+        "title": "23 V.S.A. § 617, Learner's permit",
+        "url": "https://legislature.vermont.gov/statutes/section/23/009/00617",
+        "publisher": "Vermont General Assembly"
+      }
+    ],
+    "gaps": [
+      "No nighttime driving curfew for the junior license was stated on the graduated-license page that opened.",
+      "No REAL ID sentence was captured from the license pages that opened.",
+      "The learner-permit fee in statute is $24.00. A separate DMV fee schedule page was not needed because the statute prints the amount in a sentence."
+    ]
+  },
+  {
+    "slug": "wyoming",
+    "name": "Wyoming",
+    "agency": "Wyoming Department of Transportation",
+    "agency_short": "WYDOT",
+    "agency_home": "https://www.dot.state.wy.us/",
+    "permit_age": 15,
+    "permit_age_quote": "15-16 years of age, but it can be issued to anyone above that age who is learning how to drive.",
+    "permit_age_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "license_age": 16,
+    "license_age_quote": "drivers aged 16 to&nbsp;operate a non-commercial",
+    "license_age_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/classification-guide.html",
+    "full_license_age": 17,
+    "full_license_age_quote": "or until you turn 17 years of age.",
+    "full_license_age_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "written_required": null,
+    "written_quote": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": true,
+    "road_quote": "You are required to pass a driving skills test, a vision screening, and the application must be signed by a parent/guardian.",
+    "road_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "road_detail": "An intermediate permit requires a driving skills test and a vision screening, and a parent or guardian must sign the application.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": 50,
+    "supervised_quote": "You have completed 50 actual driving hours behind the wheel of a vehicle, including 10 hours of night driving.",
+    "supervised_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "holding_period": "at least 10 days",
+    "holding_quote": "it must be held for at least 10 days before you may apply for full driving privileges.",
+    "holding_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "fees": [],
+    "fee_page_url": null,
+    "documents": [],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": "An intermediate-permit applicant surrenders a current Wyoming or out-of-state driver permit.",
+    "transfer_quote": "surrender your current Wyoming or out-of-state driver permit",
+    "transfer_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "teen_summary": "A regular learner’s permit is generally issued at 15 or 16, and it can also be issued to an older beginner. An intermediate permit, called an I2C in Wyoming law, is described for drivers aged 16, after at least 10 days on a learner’s permit and 50 hours including 10 at night. It is held six months or until age 17. Driving on that permit is limited to 5 a.m. to 11 p.m. and to one non-family passenger under 18.",
+    "teen_quote": "15-16 years of age, but it can be issued to anyone above that age who is learning how to drive.",
+    "teen_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "teen_points": [
+      {
+        "text": "Regular learner’s permit generally at 15 or 16.",
+        "quote": "15-16 years of age, but it can be issued to anyone above that age who is learning how to drive.",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html"
+      },
+      {
+        "text": "Hold the learner’s permit at least 10 days before an intermediate permit.",
+        "quote": "it must be held for at least 10 days before you may apply for full driving privileges.",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html"
+      },
+      {
+        "text": "Fifty driving hours, including 10 at night.",
+        "quote": "You have completed 50 actual driving hours behind the wheel of a vehicle, including 10 hours of night driving.",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html"
+      },
+      {
+        "text": "Intermediate permit driving hours are 5 a.m. to 11 p.m.",
+        "quote": "You can only legally drive between the hours of 5 a.m. and 11 p.m.",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html"
+      },
+      {
+        "text": "No more than one passenger under 18 who is not immediate family.",
+        "quote": "You are not allowed to drive with more than one passenger under the age of 18 years who is not a member of your immediate family;",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html"
+      }
+    ],
+    "out_of_state_permit": "The intermediate-permit application includes surrender of an out-of-state driver permit.",
+    "out_of_state_permit_quote": "surrender your current Wyoming or out-of-state driver permit",
+    "out_of_state_permit_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "curfew": "An intermediate permit holder may legally drive only between 5 a.m. and 11 p.m., unless the restrictions do not apply because a licensed adult with full privileges is in the front seat.",
+    "curfew_quote": "You can only legally drive between the hours of 5 a.m. and 11 p.m.",
+    "curfew_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "passengers": "An intermediate permit holder may not drive with more than one passenger under 18 who is not an immediate family member.",
+    "passengers_quote": "You are not allowed to drive with more than one passenger under the age of 18 years who is not a member of your immediate family;",
+    "passengers_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "sources": [
+      {
+        "title": "Learner Permits",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+        "publisher": "Wyoming Department of Transportation"
+      },
+      {
+        "title": "Classification Guide",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/classification-guide.html",
+        "publisher": "Wyoming Department of Transportation"
+      }
+    ],
+    "gaps": [
+      "The classification-guide age line uses a nonbreaking space, so the license-age quote keeps that code.",
+      "A fees page URL that was tried returned 404, so no dollar amount was stored.",
+      "The Real ID mention is only the instruction to present Real ID documents. A separate explanation of the star card did not open.",
+      "The driver manual PDF says an instruction permit may be obtained at 15 and full privileges at 17, or at 16 and a half with driver education. That PDF text is compressed and was not used."
+    ]
+  },
+  {
+    "slug": "district-of-columbia",
+    "name": "District of Columbia",
+    "agency": "District of Columbia Department of Motor Vehicles",
+    "agency_short": "DC DMV",
+    "agency_home": "https://dmv.dc.gov/",
+    "permit_age": 16,
+    "permit_age_quote": "To get a DC DMV REAL ID learner permit you must be at least 16 years old, and you will have to take and pass a knowledge test and meet eligibility requirements.",
+    "permit_age_url": "https://dmv.dc.gov/service/obtain-real-id-learner-permit",
+    "license_age": null,
+    "license_age_quote": null,
+    "license_age_url": null,
+    "full_license_age": 17,
+    "full_license_age_quote": "You must be at least 17 years old.",
+    "full_license_age_url": "https://dmv.dc.gov/service/provisional-license",
+    "written_required": true,
+    "written_quote": "To get a DC DMV REAL ID learner permit you must be at least 16 years old, and you will have to take and pass a knowledge test and meet eligibility requirements.",
+    "written_url": "https://dmv.dc.gov/service/obtain-real-id-learner-permit",
+    "written_detail": "A REAL ID learner permit requires a knowledge test. A failed test can be retaken on the fourth calendar day. A vision screening is also required on the learner-permit overview page.",
+    "road_required": true,
+    "road_quote": "Intermediate phase, in which you earn a provisional license after you complete the permit phase and pass the road skills test.",
+    "road_url": "https://dmv.dc.gov/service/graduated-license-program",
+    "road_detail": "The GRAD program’s intermediate phase is a provisional license after the permit phase and a passed road skills test.",
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": "at least 6 months",
+    "holding_quote": "You must have held a valid provisional license for at least 6 months.",
+    "holding_url": "https://dmv.dc.gov/service/provisional-license",
+    "fees": [
+      {
+        "item": "Driver license fee for online conversion from a provisional license",
+        "amount": "$47",
+        "quote": "eligible customers will be able to submit the required documentation online and pay the $47 driver license fee.",
+        "url": "https://dmv.dc.gov/service/provisional-license"
+      }
+    ],
+    "fee_page_url": "https://dmv.dc.gov/service/provisional-license",
+    "documents": [
+      {
+        "item": "Proof of identity, two residency documents, and Social Security number",
+        "summary": "A REAL ID learner permit requires proof of identity and age, two District residency documents, proof of a Social Security number, and parental approval at 16 or 17.",
+        "quote": "You must also bring the documents that prove you are eligible for a DC DMV learner permit.",
+        "url": "https://dmv.dc.gov/service/obtain-real-id-learner-permit"
+      },
+      {
+        "item": "Night-driving certification before a full license with conditions",
+        "summary": "Online conversion requires a signed form certifying at least 10 hours of night practice with a driver who is 21 or older and holds a full license.",
+        "quote": "You must provide a signed form certifying that you have practiced night driving skills for at least 10 hours, accompanied by a driver who is 21 years old or older and who has a valid full driver license.",
+        "url": "https://dmv.dc.gov/service/provisional-license"
+      }
+    ],
+    "real_id_summary": "DC DMV offers a REAL ID learner permit and a Limited Purpose learner permit. The REAL ID permit requires a Social Security number. The Limited Purpose permit is for a person who cannot get a Social Security number and who has lived in the District at least six months.",
+    "real_id_quote": "To get a DC DMV REAL ID learner permit you must be at least 16 years old, and you will have to take and pass a knowledge test and meet eligibility requirements.",
+    "real_id_url": "https://dmv.dc.gov/service/obtain-real-id-learner-permit",
+    "transfer_summary": "A person with a valid learner permit from another state or jurisdiction must visit a service center and take the knowledge test to start a DC learner permit.",
+    "transfer_quote": "If you have a valid learner permit from another state or jurisdiction you will need to visit a DC DMV service center and take the knowledge test to begin the process of obtaining a DC DMV learner permit.",
+    "transfer_url": "https://dmv.dc.gov/service/obtain-real-id-learner-permit",
+    "teen_summary": "A learner permit starts at 16 and, on the REAL ID page, allows driving from 6:00 a.m. to 9:00 p.m. Drivers under 21 are enrolled in the GRAD program, which moves from a learner permit to a provisional license after a road skills test and then to a full license. Online conversion to a full license with conditions requires age 17, six months on a provisional license, and 10 hours of night practice. Hour and passenger limits for a full license end at 18, and GRAD itself ends at 21.",
+    "teen_quote": "are between 16 and 21 years old",
+    "teen_url": "https://dmv.dc.gov/service/graduated-license-program",
+    "teen_points": [
+      {
+        "text": "REAL ID learner permit at age 16 after a knowledge test.",
+        "quote": "To get a DC DMV REAL ID learner permit you must be at least 16 years old, and you will have to take and pass a knowledge test and meet eligibility requirements.",
+        "url": "https://dmv.dc.gov/service/obtain-real-id-learner-permit"
+      },
+      {
+        "text": "Learner-permit driving is limited to 6:00 a.m. to 9:00 p.m.",
+        "quote": "A DC DMV learner permit entitles you to drive between the hours of 6:00 am and 9:00 pm.",
+        "url": "https://dmv.dc.gov/service/obtain-real-id-learner-permit"
+      },
+      {
+        "text": "GRAD covers ages 16 through 21, from learner permit to provisional license to a full license.",
+        "quote": "are between 16 and 21 years old",
+        "url": "https://dmv.dc.gov/service/graduated-license-program"
+      },
+      {
+        "text": "A provisional license follows the permit phase and a road skills test.",
+        "quote": "Intermediate phase, in which you earn a provisional license after you complete the permit phase and pass the road skills test.",
+        "url": "https://dmv.dc.gov/service/graduated-license-program"
+      },
+      {
+        "text": "A full license with conditions can be requested online at age 17 after six months on a provisional license.",
+        "quote": "You must be at least 17 years old.",
+        "url": "https://dmv.dc.gov/service/provisional-license"
+      }
+    ],
+    "out_of_state_permit": "A valid learner permit from another state or jurisdiction does not transfer by itself. The applicant takes the DC knowledge test at a service center.",
+    "out_of_state_permit_quote": "If you have a valid learner permit from another state or jurisdiction you will need to visit a DC DMV service center and take the knowledge test to begin the process of obtaining a DC DMV learner permit.",
+    "out_of_state_permit_url": "https://dmv.dc.gov/service/obtain-real-id-learner-permit",
+    "curfew": "A learner permit allows driving from 6:00 a.m. to 9:00 p.m. A provisional license has later evening hours that change by season and by day of the week. Full-license drivers have no driving-hour restriction once they turn 18.",
+    "curfew_quote": "A DC DMV learner permit entitles you to drive between the hours of 6:00 am and 9:00 pm.",
+    "curfew_url": "https://dmv.dc.gov/service/obtain-real-id-learner-permit",
+    "passengers": "The GRAD page says there are no passenger restrictions for full-license drivers once they turn 18.",
+    "passengers_quote": "There are no driving hours or passenger restrictions for full license drivers once you turn 18 years old.",
+    "passengers_url": "https://dmv.dc.gov/service/graduated-license-program",
+    "sources": [
+      {
+        "title": "Obtain a REAL ID Learner Permit",
+        "url": "https://dmv.dc.gov/service/obtain-real-id-learner-permit",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "Learner Permits and Provisional Licenses",
+        "url": "https://dmv.dc.gov/service/learner-permits-and-provisional-licenses",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "GRAD License Program",
+        "url": "https://dmv.dc.gov/service/graduated-license-program",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      },
+      {
+        "title": "Provisional License",
+        "url": "https://dmv.dc.gov/service/provisional-license",
+        "publisher": "District of Columbia Department of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The provisional-license page that opened explains online conversion to a full license at 17. It does not print a separate minimum age for first receiving the provisional license, so license_age is empty.",
+      "The DMV fees book page that opened did not print learner-permit dollar amounts in the text that was retrieved. The $47 figure is the online conversion fee on the provisional-license page.",
+      "Supervised daytime practice hours for the learner stage were not stated as a number on the pages that opened. Ten night hours are required before the online full-license conversion.",
+      "The Georgetown service center closure notice on these pages is operational and was not treated as a licensing rule."
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "slug": "georgia",
+    "name": "Georgia",
+    "agency": "Georgia Department of Driver Services",
+    "agency_short": "DDS",
+    "agency_home": "https://dds.georgia.gov/",
+    "permit_age": "You must be at least 15 years of age.",
+    "permit_age_quote": "You must be at least 15 years of age.",
+    "permit_age_url": "https://dds.georgia.gov/introduction-0",
+    "license_age": "You must be at least 16 years of age.",
+    "license_age_quote": "You must be at least 16 years of age.",
+    "license_age_url": "https://dds.georgia.gov/introduction-0",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": "You must pass a vision exam and a knowledge exam.",
+    "written_quote": "You must pass a vision exam and a knowledge exam.",
+    "written_url": "https://dds.georgia.gov/introduction-0",
+    "written_detail": "You must pass a vision exam and a knowledge exam.",
+    "road_required": "You must pass a vision exam and road skills test.",
+    "road_quote": "You must pass a vision exam and road skills test.",
+    "road_url": "https://dds.georgia.gov/introduction-0",
+    "road_detail": "You must pass a vision exam and road skills test.",
+    "scheduled_url": null,
+    "handbook_url": "https://dds.georgia.gov/introduction-0",
+    "supervised_hours": "You must have completed a minimum of 40 hours of supervised driving experience, 6 hours of which must be at night.",
+    "supervised_quote": "You must have completed a minimum of 40 hours of supervised driving experience, 6 hours of which must be at night.",
+    "supervised_url": "https://dds.georgia.gov/introduction-0",
+    "holding_period": "You must have held an Instructional Permit (Class CP) for a minimum of one year and a day.",
+    "holding_quote": "You must have held an Instructional Permit (Class CP) for a minimum of one year and a day.",
+    "holding_url": "https://dds.georgia.gov/introduction-0",
+    "fees": [
+      {
+        "item": "Class CP instructional permit",
+        "amount": "$10.00",
+        "quote": "Class CP permit fee – $10.00",
+        "url": "https://dds.georgia.gov/introduction-0"
+      },
+      {
+        "item": "Class D provisional license",
+        "amount": "$10.00",
+        "quote": "Class D license fee – $10.00",
+        "url": "https://dds.georgia.gov/introduction-0"
+      }
+    ],
+    "fee_page_url": "https://dds.georgia.gov/introduction-0",
+    "documents": [
+      {
+        "item": "School enrollment",
+        "summary": "Under 18, bring a notarized Certificate of School Enrollment signed within the last 30 days, or a high school diploma or GED.",
+        "quote": "If you are under 18 years of age, you must present a notarized Certificate of School Enrollment (DS-1) form from your school signed within the last 30 days",
+        "url": "https://dds.georgia.gov/introduction-0"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": "If you are new to Georgia, you must surrender any out of state driver's license, permit, or ID card.",
+    "transfer_quote": "If you are new to Georgia, you must surrender any out of state driver's license/permit/ID card.",
+    "transfer_url": "https://dds.georgia.gov/introduction-0",
+    "teen_summary": "Georgia's graduated path starts with an instructional permit at 15 and a provisional license at 16 after the permit is held one year and a day.",
+    "teen_quote": "You must have held an Instructional Permit (Class CP) for a minimum of one year and a day.",
+    "teen_url": "https://dds.georgia.gov/introduction-0",
+    "teen_points": [
+      {
+        "text": "No driving between the hours of 12:00 a.m. and 5:00 a.m. No exceptions.",
+        "quote": "No driving between the hours of 12:00 a.m. and 5:00 a.m. No exceptions.",
+        "url": "https://dds.georgia.gov/introduction-0"
+      }
+    ],
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": "No driving between the hours of 12:00 a.m. and 5:00 a.m. No exceptions.",
+    "curfew_quote": "No driving between the hours of 12:00 a.m. and 5:00 a.m. No exceptions.",
+    "curfew_url": "https://dds.georgia.gov/introduction-0",
+    "passengers": "During the first six months after issuance, no driving with passengers who are not members of the driver's immediate family.",
+    "passengers_quote": "During the first six months after issuance, no driving with passengers who are not members of the driver's immediate family",
+    "passengers_url": "https://dds.georgia.gov/introduction-0",
+    "sources": [
+      {
+        "title": "40 Hour Parent/Teen Driving Guide introduction",
+        "url": "https://dds.georgia.gov/introduction-0",
+        "publisher": "Georgia Department of Driver Services"
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "agency": "Washington State Department of Licensing",
+    "agency_short": "DOL",
+    "agency_home": "https://dol.wa.gov/",
+    "permit_age": "If you want to get your license before you turn 18, you must complete an approved driver training course. You can apply for a permit as soon as you turn 15.",
+    "permit_age_quote": "If you want to get your license before you turn 18, you must complete an approved driver training course. You can apply for a permit as soon as you turn 15.",
+    "permit_age_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+    "license_age": "If you choose not to enroll in a driver training course, you can't get your license until you turn 18. You must also wait until you're 15 and a half to get your permit.",
+    "license_age_quote": "If you choose not to enroll in a driver training course, you can't get your license until you turn 18. You must also wait until you're 15 and a half to get your permit.",
+    "license_age_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": "Take and pass a knowledge test in person at an approved testing location.",
+    "written_quote": "Take and pass a knowledge test in person at an approved testing location.",
+    "written_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+    "written_detail": "Take and pass a knowledge test in person at an approved testing location. Fees for testing can vary depending on where you take the test.",
+    "road_required": null,
+    "road_quote": null,
+    "road_url": null,
+    "road_detail": null,
+    "scheduled_url": null,
+    "handbook_url": null,
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": null,
+    "holding_quote": null,
+    "holding_url": null,
+    "fees": [
+      {
+        "item": "Learner permit",
+        "amount": "$35",
+        "quote": "Pay your $35 permit fee.",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit"
+      }
+    ],
+    "fee_page_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+    "documents": [
+      {
+        "item": "Identity and parent connection",
+        "summary": "Under 18, bring a parent or guardian and documents showing that connection, such as a birth certificate, adoption records, or school records.",
+        "quote": "If you're under 18, bring your parent or guardian and documents showing parental or guardian connection like a birth certificate, adoption records, or school records.",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": "A permit from another state cannot be traded for a Washington permit. DOL explains the two options on the learner permit page.",
+    "transfer_quote": "If you are moving to Washington and already have a permit from another state, there is no way to trade it in for a Washington permit.",
+    "transfer_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+    "teen_summary": "Under 18, a learner permit comes first. A license before 18 requires an approved driver training course. Without that course, the license waits until 18.",
+    "teen_quote": "If you are under 18, you must get a learner permit before you can get your driver license.",
+    "teen_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+    "teen_points": [
+      {
+        "text": "To practice, drive with a licensed driver who has at least 5 years of driving experience.",
+        "quote": "Drive with a licensed driver with at least 5 years of driving experience",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit"
+      }
+    ],
+    "out_of_state_permit": "There is no way to trade an out of state permit for a Washington permit.",
+    "out_of_state_permit_quote": "If you are moving to Washington and already have a permit from another state, there is no way to trade it in for a Washington permit.",
+    "out_of_state_permit_url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [
+      {
+        "title": "Get your learner permit",
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/get-your-first-license-or-permit/get-your-learner-permit",
+        "publisher": "Washington State Department of Licensing"
+      }
+    ],
+    "gaps": ["A Department of Licensing road test requirement was not on the learner permit page, so no road test fact is listed."]
+  }
+]

@@ -1,0 +1,1 @@
+exclude: [README.md, _build, _research, deploy.sh, indexnow.sh, .gitignore]
