@@ -1,0 +1,983 @@
+[
+  {
+    "slug": "connecticut",
+    "name": "Connecticut",
+    "agency": "Connecticut Department of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://portal.ct.gov/dmv",
+    "permit_age": 16,
+    "permit_age_quote": "Residents aged 16 and older can apply for a learner's permit",
+    "permit_age_url": "https://portal.ct.gov/dmv/licenses-permits-ids/get-learners-permit",
+    "license_age": 16,
+    "license_age_quote": "The legal age is 16 years old for both a learner's permit and a driver's license.",
+    "license_age_url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license",
+    "full_license_age": 18,
+    "full_license_age_quote": "Until the driver’s eighteenth birthday , they may not drive between hours of 11 p.m.",
+    "full_license_age_url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license/driver-restrictions-teens",
+    "written_required": true,
+    "written_quote": "Pass a vision test and a 25-question written knowledge test to get your permit.",
+    "written_url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license",
+    "written_detail": "A 16- or 17-year-old must pass a vision screening and a 25-question knowledge test before the learner’s permit is issued.",
+    "road_required": true,
+    "road_quote": "you’re ready to take a road test—or “driving test.”",
+    "road_url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license",
+    "road_detail": "After the required training and permit-holding time, the applicant takes a DMV road test, also called a driving test.",
+    "scheduled_url": "https://portal.ct.gov/dmv/resources/make-change-appointment",
+    "handbook_url": "https://portal.ct.gov/dmv/licenses-permits-ids/ct-drivers-manuals",
+    "supervised_hours": "40 hours",
+    "supervised_quote": "40 hours of practice driving behind-the-wheel may be given by any combination",
+    "supervised_url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license",
+    "holding_period": "120 days with school training, or 180 days with home training",
+    "holding_quote": "hold your permit for at least 120 days (if completed commercial or secondary training) or 180 days",
+    "holding_url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license",
+    "fees": [
+      {
+        "item": "License examination fee",
+        "amount": "$40",
+        "quote": "customers will pay a $40 examination fee",
+        "url": "https://portal.ct.gov/dmv/resources/dmv-fees"
+      },
+      {
+        "item": "Class D learner’s permit",
+        "amount": "$19",
+        "quote": "License exam fee $40 Learner's permit (class D) $19",
+        "url": "https://portal.ct.gov/dmv/resources/dmv-fees"
+      },
+      {
+        "item": "New non-commercial driver’s license",
+        "amount": "$84",
+        "quote": "The fee for a new driver’s license is $84",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/upgrade-learners-permit"
+      }
+    ],
+    "fee_page_url": "https://portal.ct.gov/dmv/resources/dmv-fees",
+    "documents": [
+      {
+        "item": "Identity document",
+        "summary": "Most REAL ID applicants need a U.S. passport or U.S. birth certificate.",
+        "quote": "In most cases, you need: A U.S. passport or U.S. birth certificate",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/get-real-id"
+      },
+      {
+        "item": "Social Security card",
+        "summary": "A Social Security card can still be used to verify identity for a REAL ID.",
+        "quote": "A Social security card (if lost, you can request a replacement",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/get-real-id"
+      },
+      {
+        "item": "Connecticut address proof",
+        "summary": "Two pieces of mail from different sources, dated within 90 days, show Connecticut residency.",
+        "quote": "Two pieces of mail from two different sources dated within 90 days",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/get-real-id"
+      },
+      {
+        "item": "Application form R-229",
+        "summary": "Bring the completed non-commercial learner’s permit and license application to the appointment.",
+        "quote": "Bring a completed Application for Non-Commercial Learner’s Permit and/or Driver’s License (Form R-229)",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license"
+      }
+    ],
+    "real_id_summary": "A Connecticut REAL ID is a verified license or ID marked with a gold star and accepted for domestic flights and certain federal buildings.",
+    "real_id_quote": "A REAL ID is verified by a gold star in the top right corner of your license or ID card.",
+    "real_id_url": "https://portal.ct.gov/dmv/licenses-permits-ids/get-real-id",
+    "transfer_summary": "New residents have 90 days to transfer a current out-of-state license. The published transfer fees are a $40 application fee and an $84 license fee.",
+    "transfer_quote": "Once you establish residency, you have 90 days to transfer your out-of-state license to Connecticut.",
+    "transfer_url": "https://portal.ct.gov/dmv/licenses-permits-ids/transfer-out-of-state-license",
+    "teen_summary": "Teens may get a learner’s permit at 16, practice 40 hours, and hold it 120 or 180 days before the road test. For the first year of licensure, passenger limits tighten, and a nighttime driving limit lasts until the 18th birthday.",
+    "teen_points": [
+      {
+        "text": "The minimum age for both a learner’s permit and a driver’s license is 16.",
+        "quote": "The legal age is 16 years old for both a learner's permit and a driver's license.",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license"
+      },
+      {
+        "text": "Home-trained teens hold the permit 180 days; commercial or secondary-school training shortens that to 120 days.",
+        "quote": "hold your permit for at least 120 days (if completed commercial or secondary training) or 180 days",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license"
+      },
+      {
+        "text": "Newly licensed 16- and 17-year-olds may not drive from 11 p.m. to 5 a.m. except for work, school, religious activity, or medical necessity.",
+        "quote": "Until the driver’s eighteenth birthday , they may not drive between hours of 11 p.m. – 5 a.m.",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license/driver-restrictions-teens"
+      },
+      {
+        "text": "For the first six months, passengers are limited to a parent, guardian, instructor, or another qualified trainer.",
+        "quote": "In the first six months a newly licensed driver may not have any passengers in the vehicle except for",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license/driver-restrictions-teens"
+      }
+    ],
+    "teen_url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license",
+    "out_of_state_permit": "A nonresident who is at least 16 may drive in Connecticut with an out-of-state learner’s permit, but that permit cannot be transferred into a Connecticut permit.",
+    "out_of_state_permit_quote": "If you are at least age 16 and are not a resident of this state, you may drive here with your out-of-state permit",
+    "out_of_state_permit_url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license",
+    "curfew": "11 p.m. to 5 a.m. until the 18th birthday, with listed exceptions",
+    "curfew_quote": "Until the driver’s eighteenth birthday , they may not drive between hours of 11 p.m. – 5 a.m.",
+    "curfew_url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license/driver-restrictions-teens",
+    "passengers": "First six months: only a parent, legal guardian, driving instructor, or qualified trainer",
+    "passengers_quote": "In the first six months a newly licensed driver may not have any passengers in the vehicle except for",
+    "passengers_url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license/driver-restrictions-teens",
+    "sources": [
+      {
+        "title": "Get a learner’s permit",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/get-learners-permit",
+        "publisher": "Connecticut Department of Motor Vehicles"
+      },
+      {
+        "title": "Get a driver’s license for a teenager",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license",
+        "publisher": "Connecticut Department of Motor Vehicles"
+      },
+      {
+        "title": "Driving restrictions for 16- and 17-year-olds",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license/driver-restrictions-teens",
+        "publisher": "Connecticut Department of Motor Vehicles"
+      },
+      {
+        "title": "DMV fees",
+        "url": "https://portal.ct.gov/dmv/resources/dmv-fees",
+        "publisher": "Connecticut Department of Motor Vehicles"
+      },
+      {
+        "title": "Get a REAL ID",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/get-real-id",
+        "publisher": "Connecticut Department of Motor Vehicles"
+      },
+      {
+        "title": "Transfer your out-of-state license",
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/transfer-out-of-state-license",
+        "publisher": "Connecticut Department of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The passenger rule changes again in the second six months to allow immediate family; the quote records only the first six months."
+    ]
+  },
+  {
+    "slug": "utah",
+    "name": "Utah",
+    "agency": "Utah Driver License Division",
+    "agency_short": "DLD",
+    "agency_home": "https://dld.utah.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "To apply for a learner permit, you must be at least 15 years of age.",
+    "permit_age_url": "https://dld.utah.gov/learner-permit/",
+    "license_age": 16,
+    "license_age_quote": "To apply for a regular Class D license, you must be at least 16 years of age.",
+    "license_age_url": "https://dld.utah.gov/regular-original/",
+    "full_license_age": 18,
+    "full_license_age_quote": "Licensed Drivers 16-17 Years of Age Nighttime Driving Restrictions No driving between the hours of midnight and 5 am",
+    "full_license_age_url": "https://dld.utah.gov/teen-driver-restrictions/",
+    "written_required": true,
+    "written_quote": "Required to pass a 50-question closed-book test.",
+    "written_url": "https://dld.utah.gov/learner-permit/",
+    "written_detail": "First-time applicants pass a 50-question closed-book knowledge test at the Driver License Division to get the learner permit.",
+    "road_required": true,
+    "road_quote": "In Utah, before you can be licensed for the first time, you must pass a driving skills test.",
+    "road_url": "https://dld.utah.gov/driving-test/",
+    "road_detail": "A first Utah license requires a driving skills test at the division, a high school, or an approved third-party tester.",
+    "scheduled_url": "https://dld.utah.gov/learner-permit/",
+    "handbook_url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+    "supervised_hours": "40 hours, including 10 after sunset",
+    "supervised_quote": "Practice Driving Hours Required : 40 (10 after sunset)",
+    "supervised_url": "https://dld.utah.gov/learner-permit/",
+    "holding_period": "Six months for ages 15 through 17",
+    "holding_quote": "Have held your learner permit for at least six months if you are between 15 and 17 years of age.",
+    "holding_url": "https://dld.utah.gov/driver-ed-15-18/",
+    "fees": [
+      {
+        "item": "Original learner permit, age 20 and under",
+        "amount": "$19.00",
+        "quote": "Original Provisional Driver License (age 20 and under) Document Fee Learner Permit $19.00",
+        "url": "https://dld.utah.gov/fees/"
+      },
+      {
+        "item": "Original provisional Class D license, 5-year",
+        "amount": "$39.00",
+        "quote": "Regular Driver License (Class D with 5-year expiration) $39.00",
+        "url": "https://dld.utah.gov/fees/"
+      },
+      {
+        "item": "Original Class D license, adult and minor",
+        "amount": "$52.00 adult or $39.00 minor",
+        "quote": "Pay the non-refundable fee of - Adult $52.00 - Minor $39.00.",
+        "url": "https://dld.utah.gov/regular-original/"
+      }
+    ],
+    "fee_page_url": "https://dld.utah.gov/fees/",
+    "documents": [
+      {
+        "item": "Birth certificate",
+        "summary": "One identity option is a certified birth certificate from the state vital-records office.",
+        "quote": "A certified copy of a birth certificate filed with the State Office of Vital Statistics or equivalent agency in your state of birth.",
+        "url": "https://dld.utah.gov/required-documents-for-us-citizen/"
+      },
+      {
+        "item": "Social Security card",
+        "summary": "A signed Social Security card is one accepted proof of the Social Security number.",
+        "quote": "Social security card issued by the U.S.",
+        "url": "https://dld.utah.gov/required-documents-for-us-citizen/"
+      },
+      {
+        "item": "Utah address",
+        "summary": "Two documents showing name and address, dated within 90 days, prove a Utah address.",
+        "quote": "Two of the following displaying your name/address and dated within 90 days",
+        "url": "https://dld.utah.gov/required-documents-for-us-citizen/"
+      }
+    ],
+    "real_id_summary": "Utah describes a REAL ID credential as a driver license or ID with a gold star in the upper right corner. The division’s site points readers to the Department of Public Safety notice.",
+    "real_id_quote": "A REAL ID-compliant Utah driver’s license or identification card will feature a gold star in the upper right-hand corner.",
+    "real_id_url": "https://dps.utah.gov/news/updated-real-id-information-april-15-2025/",
+    "transfer_summary": "A valid license from another state or country can prove driving privilege. A U.S. state license must be surrendered, and the applicant takes a 25-question open-book test.",
+    "transfer_quote": "A valid license from another state/country is accepted as proof of a driving privilege; U.S. state license must be surrendered upon application.",
+    "transfer_url": "https://dld.utah.gov/regular-original/",
+    "teen_summary": "A learner permit is available at 15. Applicants ages 15 to 17 hold it six months, complete driver education and 40 practice hours, and can be licensed at 16. Night and passenger limits apply to licensed drivers ages 16 and 17.",
+    "teen_points": [
+      {
+        "text": "Practice driving is 40 hours, with 10 of those hours after sunset.",
+        "quote": "Practice Driving Hours Required : 40 (10 after sunset)",
+        "url": "https://dld.utah.gov/learner-permit/"
+      },
+      {
+        "text": "Ages 15 to 17 must hold the learner permit at least six months before applying for a license.",
+        "quote": "Have held your learner permit for at least six months if you are between 15 and 17 years of age.",
+        "url": "https://dld.utah.gov/driver-ed-15-18/"
+      },
+      {
+        "text": "Licensed 16- and 17-year-olds may not drive from midnight to 5 a.m. unless an exception applies.",
+        "quote": "No driving between the hours of midnight and 5 am unless accompanied by a licensed driver",
+        "url": "https://dld.utah.gov/teen-driver-restrictions/"
+      },
+      {
+        "text": "For six months or until age 18, non-immediate-family passengers are not allowed unless a licensed adult 21 or older is in the front seat.",
+        "quote": "For the first six months or until age 18, you cannot drive with non-immediate family members",
+        "url": "https://dld.utah.gov/teen-driver-restrictions/"
+      }
+    ],
+    "teen_url": "https://dld.utah.gov/teen-driver-restrictions/",
+    "out_of_state_permit": "An out-of-state learner permit can count toward Utah’s six-month holding period.",
+    "out_of_state_permit_quote": "We will accept your out-of-state learner permit to count towards the 6-month holding period requirement.",
+    "out_of_state_permit_url": "https://dld.utah.gov/learner-permit/",
+    "curfew": "Midnight to 5 a.m. for licensed drivers ages 16 and 17, with listed exceptions",
+    "curfew_quote": "No driving between the hours of midnight and 5 am unless accompanied by a licensed driver",
+    "curfew_url": "https://dld.utah.gov/teen-driver-restrictions/",
+    "passengers": "First six months or until 18: no non-immediate family unless a licensed driver 21 or older is in the front seat",
+    "passengers_quote": "For the first six months or until age 18, you cannot drive with non-immediate family members",
+    "passengers_url": "https://dld.utah.gov/teen-driver-restrictions/",
+    "sources": [
+      {
+        "title": "Learner permit",
+        "url": "https://dld.utah.gov/learner-permit/",
+        "publisher": "Utah Driver License Division"
+      },
+      {
+        "title": "Driver education, ages 15–18",
+        "url": "https://dld.utah.gov/driver-ed-15-18/",
+        "publisher": "Utah Driver License Division"
+      },
+      {
+        "title": "Regular driver license, original",
+        "url": "https://dld.utah.gov/regular-original/",
+        "publisher": "Utah Driver License Division"
+      },
+      {
+        "title": "Teen driver restrictions",
+        "url": "https://dld.utah.gov/teen-driver-restrictions/",
+        "publisher": "Utah Driver License Division"
+      },
+      {
+        "title": "Fees",
+        "url": "https://dld.utah.gov/fees/",
+        "publisher": "Utah Driver License Division"
+      },
+      {
+        "title": "Required documents for U.S. citizens",
+        "url": "https://dld.utah.gov/required-documents-for-us-citizen/",
+        "publisher": "Utah Driver License Division"
+      },
+      {
+        "title": "Updated REAL ID information",
+        "url": "https://dps.utah.gov/news/updated-real-id-information-april-15-2025/",
+        "publisher": "Utah Department of Public Safety"
+      }
+    ],
+    "gaps": [
+      "The learner-permit page also says a 15-year-old must hold the permit six months and until age 16. The six-month quote used here is the ages 15–17 rule on the driver-education page.",
+      "An under-21 out-of-state transfer URL indexed in search returned HTTP 404 when downloaded, so transfer details are taken from the regular original-license page."
+    ]
+  },
+  {
+    "slug": "iowa",
+    "name": "Iowa",
+    "agency": "Iowa Department of Transportation",
+    "agency_short": "Iowa DOT",
+    "agency_home": "https://iowadot.gov/dmv-services",
+    "permit_age": 14,
+    "permit_age_quote": "Be at least 14 years old.",
+    "permit_age_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/instruction-permit-under-age-18",
+    "license_age": 16,
+    "license_age_quote": "Be at least 16 years old.",
+    "license_age_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license",
+    "full_license_age": 17,
+    "full_license_age_quote": "How Do I Get a Full License? Available at age 17.",
+    "full_license_age_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/full-license",
+    "written_required": true,
+    "written_quote": "Pass the knowledge and vision test.",
+    "written_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/instruction-permit-under-age-18",
+    "written_detail": "An instruction permit requires a knowledge test and a vision test. The knowledge test can be taken at a DMV, a county treasurer, at home with a parent proctor, or at some schools.",
+    "road_required": null,
+    "road_quote": "Complete a drive test at the DMV if your driver’s education instructor requests it, or if you completed the Parent-Taught Driver’s Education Program.",
+    "road_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license",
+    "road_detail": "A drive test is required when the driver-education instructor requests it or when the applicant completed parent-taught driver education. It is not described as required for every intermediate applicant.",
+    "scheduled_url": "https://iowadot.gov/drivers-licenses-ids/schedule-appointment",
+    "handbook_url": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/drivers-manual",
+    "supervised_hours": "10 hours while holding the intermediate license, including 2 at night",
+    "supervised_quote": "Complete 10 hours of supervised driving while holding your intermediate license.",
+    "supervised_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/full-license",
+    "holding_period": "12 months of instruction permit before an intermediate license",
+    "holding_quote": "Have a valid instruction permit (or instruction permit and special minor’s restricted license ) for a total of 12 months.",
+    "holding_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license",
+    "fees": [
+      {
+        "item": "Class C operator license",
+        "amount": "$4 per year",
+        "quote": "Operator - Class C $4/year See expiration date chart",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/fees"
+      },
+      {
+        "item": "Class C instruction permit",
+        "amount": "$6 for 4 years",
+        "quote": "Instruction Permit - Class C $6 4 years",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/fees"
+      }
+    ],
+    "fee_page_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/fees",
+    "documents": [
+      {
+        "item": "Identity, residency, and Social Security",
+        "summary": "An instruction-permit applicant brings a primary identity document, proof of residency, and proof of Social Security number, plus parental consent if under 18.",
+        "quote": "Provide a primary form of identification, proof of residency, and proof of Social Security number.",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/instruction-permit-under-age-18"
+      },
+      {
+        "item": "REAL ID identity document",
+        "summary": "REAL ID requires one document proving date of birth, identity, and lawful status, such as a passport or certified birth certificate.",
+        "quote": "Bring ONE document that provides proof of your date of birth, identity and lawful status like a valid passport or certified birth certificate.",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/real-id"
+      }
+    ],
+    "real_id_summary": "Iowa does not charge extra for a REAL ID gold star. Starting May 7, 2025, a REAL ID is required for domestic commercial flights and certain federal facilities.",
+    "real_id_quote": "It does not cost more to get a card with a REAL ID star",
+    "real_id_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/real-id",
+    "transfer_summary": "A person with a valid license from a U.S. state, territory, or Canada may not need Iowa’s knowledge test. A driving test may also be waived for those licenses. A minor’s out-of-state instruction permit alone still requires the Iowa knowledge test.",
+    "transfer_quote": "or Canada, you may not need to take the knowledge test.",
+    "transfer_url": "https://iowadot.gov/drivers-licenses-ids/new-iowa",
+    "teen_summary": "Iowa’s graduated system starts with an instruction permit at 14, an intermediate license at 16 after 12 months, and a full license at 17 after another 12 months. Unsupervised intermediate driving is limited to 5 a.m. to 12:30 a.m., and a parent may accept or waive a six-month passenger limit.",
+    "teen_points": [
+      {
+        "text": "The instruction permit is available at 14 after knowledge and vision tests and parental consent.",
+        "quote": "Be at least 14 years old.",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/instruction-permit-under-age-18"
+      },
+      {
+        "text": "An intermediate license requires 12 months with a valid instruction permit, driver education, and a clean record for six months.",
+        "quote": "Have a valid instruction permit (or instruction permit and special minor’s restricted license ) for a total of 12 months.",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license"
+      },
+      {
+        "text": "A full license is available at age 17.",
+        "quote": "How Do I Get a Full License? Available at age 17.",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/full-license"
+      },
+      {
+        "text": "Without a waiver, the first six months of an intermediate license allow no more than one unrelated minor passenger when driving unsupervised.",
+        "quote": "for the first six months you have your intermediate license, you cannot carry more than one minor passenger that is not a relative when driving without adult supervision.",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license"
+      },
+      {
+        "text": "The intermediate license must be held at least 12 consecutive months immediately before a full license.",
+        "quote": "Keep your intermediate license for at least 12 consecutive months immediately before applying for a full license.",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/full-license"
+      }
+    ],
+    "teen_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id",
+    "out_of_state_permit": "A minor who brings only an out-of-state instruction permit must pass Iowa’s knowledge test. Time on that permit can count in some graduated-license paths.",
+    "out_of_state_permit_quote": "If you have an out of state instruction permit only, you will need to pass the Iowa knowledge test.",
+    "out_of_state_permit_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/minor-moving-iowa",
+    "curfew": "Unsupervised intermediate driving only from 5 a.m. to 12:30 a.m.",
+    "curfew_quote": "Drive without adult supervision between 5 a.m.",
+    "curfew_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license",
+    "passengers": "If accepted, no more than one unrelated minor passenger during the first six months of unsupervised intermediate driving",
+    "passengers_quote": "for the first six months you have your intermediate license, you cannot carry more than one minor passenger that is not a relative when driving without adult supervision.",
+    "passengers_url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license",
+    "sources": [
+      {
+        "title": "Instruction permit under 18",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/instruction-permit-under-age-18",
+        "publisher": "Iowa Department of Transportation"
+      },
+      {
+        "title": "Intermediate license",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license",
+        "publisher": "Iowa Department of Transportation"
+      },
+      {
+        "title": "Full license",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/full-license",
+        "publisher": "Iowa Department of Transportation"
+      },
+      {
+        "title": "Driver’s license fees",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/fees",
+        "publisher": "Iowa Department of Transportation"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/real-id",
+        "publisher": "Iowa Department of Transportation"
+      },
+      {
+        "title": "New to Iowa",
+        "url": "https://iowadot.gov/drivers-licenses-ids/new-iowa",
+        "publisher": "Iowa Department of Transportation"
+      },
+      {
+        "title": "Minor moving to Iowa",
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/minor-moving-iowa",
+        "publisher": "Iowa Department of Transportation"
+      }
+    ],
+    "gaps": [
+      "The under-18 instruction-permit page does not state a practice-hour total before the intermediate license. The 10-hour figure applies while the intermediate license is held, before a full license.",
+      "A drive test is conditional, so road_required is null rather than a yes-or-no for every teen.",
+      "The full-license page’s night-hour sentence is separate from the 10-hour sentence: “At least two of those hours must be between sunset and sunrise.”"
+    ]
+  },
+  {
+    "slug": "nevada",
+    "name": "Nevada",
+    "agency": "Nevada Department of Motor Vehicles",
+    "agency_short": "DMV",
+    "agency_home": "https://dmv.nv.gov/",
+    "permit_age": 15.5,
+    "permit_age_quote": "Nevada residents can apply for an instruction permit at age 15½.",
+    "permit_age_url": "https://dmv.nv.gov/dlipteens.htm",
+    "license_age": 16,
+    "license_age_quote": "Be at least 16 years old",
+    "license_age_url": "https://dmv.nv.gov/roadtestteens.htm",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": true,
+    "written_quote": "After passing the written test, you’ll get an instruction permit",
+    "written_url": "https://dmv.nv.gov/dlipteens.htm",
+    "written_detail": "Teens pass a written test to receive the instruction permit. Under 18, they also submit school-attendance certification.",
+    "road_required": true,
+    "road_quote": "Once you’ve completed driver education and practiced with your instruction permit, you’re ready for the road test.",
+    "road_url": "https://dmv.nv.gov/roadtestteens.htm",
+    "road_detail": "The road test comes after driver education, 50 supervised hours, and at least six months on the instruction permit, and the applicant must be 16.",
+    "scheduled_url": "https://dmv.nv.gov/dlipteens.htm",
+    "handbook_url": "https://dmv.nv.gov/dlhandbook.htm",
+    "supervised_hours": "50 hours, including 10 at night",
+    "supervised_quote": "You must complete at least 50 hours of supervised driving, including 10 hours at night.",
+    "supervised_url": "https://dmv.nv.gov/driveeduteens.htm",
+    "holding_period": "At least 6 months",
+    "holding_quote": "Hold a valid instruction permit for 6+ months",
+    "holding_url": "https://dmv.nv.gov/roadtestteens.htm",
+    "fees": [
+      {
+        "item": "Teen instruction-permit licensing and testing",
+        "amount": "$22.50 licensing fee and $25 testing fee",
+        "quote": "Fees $22.50 – Licensing Fee $25 – Testing fee",
+        "url": "https://dmv.nv.gov/dlipteens.htm"
+      },
+      {
+        "item": "Knowledge or skills retest",
+        "amount": "$10",
+        "quote": "$10 – Retest fee (for each retake)",
+        "url": "https://dmv.nv.gov/dlipteens.htm"
+      },
+      {
+        "item": "Teen license issuance",
+        "amount": "$22.50",
+        "quote": "Return to the DMV to process your license Fee: $22.50",
+        "url": "https://dmv.nv.gov/getdlteens.htm"
+      }
+    ],
+    "fee_page_url": "https://dmv.nv.gov/dlipteens.htm",
+    "documents": [
+      {
+        "item": "Identity",
+        "summary": "Unless the teen already has a Nevada ID, the application needs proof of identity, such as a certified U.S. birth certificate, plus attendance and residency documents.",
+        "quote": "Proof of Identity (e.g., Certified U.S. Birth Certificate)",
+        "url": "https://dmv.nv.gov/dlipteens.htm"
+      },
+      {
+        "item": "REAL ID set",
+        "summary": "A REAL ID needs identity, name-change proof if any, one Social Security document, and two Nevada residential-address documents.",
+        "quote": "Proof of identity (one document) And Proof of all name changes (if applicable) And Proof of Social Security Number (one document) And Two Proofs of Nevada Residential Address",
+        "url": "https://dmv.nv.gov/realid.htm"
+      }
+    ],
+    "real_id_summary": "Nevada REAL ID is a version of the driver license or ID, marked with a gold star, that meets federal standards for domestic flights and secure federal facilities.",
+    "real_id_quote": "A REAL ID is not a separate card; it is simply a version of your state-issued driver's license or ID that meets federal security standards.",
+    "real_id_url": "https://dmv.nv.gov/realid.htm",
+    "transfer_summary": "New residents must switch an out-of-state license to a Nevada license within 30 days and surrender the old license or ID.",
+    "transfer_quote": "You must switch your out-of-state license to a Nevada one within 30 days of moving.",
+    "transfer_url": "https://dmv.nv.gov/faqs.htm",
+    "teen_summary": "Nevada teens can get an instruction permit at 15½, complete driver education and 50 supervised hours, and test for a license at 16 after holding the permit six months. The license then has a six-month passenger limit and a 10 p.m. to 5 a.m. driving curfew.",
+    "teen_points": [
+      {
+        "text": "The instruction permit is available at age 15½ after the written and vision tests.",
+        "quote": "Nevada residents can apply for an instruction permit at age 15½.",
+        "url": "https://dmv.nv.gov/dlipteens.htm"
+      },
+      {
+        "text": "The road test requires age 16, six months on the permit, and 50 supervised hours.",
+        "quote": "Hold a valid instruction permit for 6+ months",
+        "url": "https://dmv.nv.gov/roadtestteens.htm"
+      },
+      {
+        "text": "Supervised practice is 50 hours, including 10 at night, with a licensed driver who is 21 or older.",
+        "quote": "You must complete at least 50 hours of supervised driving, including 10 hours at night.",
+        "url": "https://dmv.nv.gov/driveeduteens.htm"
+      },
+      {
+        "text": "For the first six months, the new license does not allow passengers under 18 except immediate family.",
+        "quote": "For the first 6 months: No passengers under 18 (except immediate family)",
+        "url": "https://dmv.nv.gov/getdlteens.htm"
+      }
+    ],
+    "teen_url": "https://dmv.nv.gov/nvdlteens.htm",
+    "out_of_state_permit": "Nevada honors valid instruction permits from other U.S. states and foreign countries. Drivers under 18 must follow Nevada teen restrictions while driving in the state.",
+    "out_of_state_permit_quote": "Nevada honors valid licenses and instruction permits from other U.S. states and foreign countries.",
+    "out_of_state_permit_url": "https://dmv.nv.gov/faqs.htm",
+    "curfew": "No driving from 10 p.m. to 5 a.m., except travel to or from school or work",
+    "curfew_quote": "No driving between 10 p.m. and 5 a.m.",
+    "curfew_url": "https://dmv.nv.gov/getdlteens.htm",
+    "passengers": "First 6 months: no passengers under 18 except immediate family",
+    "passengers_quote": "For the first 6 months: No passengers under 18 (except immediate family)",
+    "passengers_url": "https://dmv.nv.gov/getdlteens.htm",
+    "sources": [
+      {
+        "title": "Teen instruction permit",
+        "url": "https://dmv.nv.gov/dlipteens.htm",
+        "publisher": "Nevada Department of Motor Vehicles"
+      },
+      {
+        "title": "Teen road test",
+        "url": "https://dmv.nv.gov/roadtestteens.htm",
+        "publisher": "Nevada Department of Motor Vehicles"
+      },
+      {
+        "title": "Get your teen license",
+        "url": "https://dmv.nv.gov/getdlteens.htm",
+        "publisher": "Nevada Department of Motor Vehicles"
+      },
+      {
+        "title": "Teen driver education",
+        "url": "https://dmv.nv.gov/driveeduteens.htm",
+        "publisher": "Nevada Department of Motor Vehicles"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://dmv.nv.gov/realid.htm",
+        "publisher": "Nevada Department of Motor Vehicles"
+      },
+      {
+        "title": "Frequently asked questions",
+        "url": "https://dmv.nv.gov/faqs.htm",
+        "publisher": "Nevada Department of Motor Vehicles"
+      }
+    ],
+    "gaps": [
+      "The teen license page states the 10 p.m. curfew and the six-month passenger limit but does not state an age when every restriction ends, so full_license_age is null."
+    ]
+  },
+  {
+    "slug": "arkansas",
+    "name": "Arkansas",
+    "agency": "Arkansas Department of Finance and Administration, Office of Driver Services",
+    "agency_short": "DFA",
+    "agency_home": "https://www.dfa.arkansas.gov/office/driver-services/",
+    "permit_age": 14,
+    "permit_age_quote": "Learner’s license is for ages 14-15.",
+    "permit_age_url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/learners-and-intermediate-license/",
+    "license_age": 16,
+    "license_age_quote": "Intermediate license is for ages 16-17.",
+    "license_age_url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/learners-and-intermediate-license/",
+    "full_license_age": 18,
+    "full_license_age_quote": "At 18 years-of-age teens are eligible to apply for a regular, unrestricted, driver’s license",
+    "full_license_age_url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/learners-and-intermediate-license/",
+    "written_required": null,
+    "written_quote": null,
+    "written_url": null,
+    "written_detail": null,
+    "road_required": null,
+    "road_quote": null,
+    "road_url": null,
+    "road_detail": null,
+    "scheduled_url": "https://airsdsmvpub.dfa.arkansas.gov/mydmv/?link=ScheduleAppointment",
+    "handbook_url": null,
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": "No serious violations or at-fault crashes in the previous 6 months before an intermediate license",
+    "holding_quote": "Eligibility for an intermediate license is contingent on no serious traffic violations or at fault accidents during the previous 6 months.",
+    "holding_url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/learners-and-intermediate-license/",
+    "fees": [
+      {
+        "item": "REAL ID with a new eight-year term",
+        "amount": "$40",
+        "quote": "The cost is $40 to establish a full eight years until expiration.",
+        "url": "https://www.dfa.arkansas.gov/news/reminder-real-id-available-at-all-revenue-offices/"
+      },
+      {
+        "item": "REAL ID keeping the current expiration",
+        "amount": "ten dollars",
+        "quote": "The cost to obtain a REAL ID is ten dollars if the existing expiration date on a regular license is transferred to a REAL ID.",
+        "url": "https://www.dfa.arkansas.gov/news/reminder-real-id-available-at-all-revenue-offices/"
+      }
+    ],
+    "fee_page_url": "https://www.dfa.arkansas.gov/news/reminder-real-id-available-at-all-revenue-offices/",
+    "documents": [
+      {
+        "item": "New license identity set",
+        "summary": "A new driver license or state ID requires proof of legal presence, proof of identity, and a Social Security card, plus a vision exam and photo.",
+        "quote": "You will need to bring your proof of legal presence, proof of identity, and your social security card.",
+        "url": "https://www.dfa.arkansas.gov/do-you-have-what-you-need/"
+      },
+      {
+        "item": "REAL ID residency",
+        "summary": "REAL ID residency requires two qualifying documents, such as a utility bill, recent paycheck, bank statement, tax return, or insurance policy.",
+        "quote": "Proof of Residency Examples of qualifying documents (two must be provided)",
+        "url": "https://www.dfa.arkansas.gov/real-id/"
+      }
+    ],
+    "real_id_summary": "REAL ID is available at Arkansas revenue offices. DFA says it costs ten dollars when the current expiration carries over, or $40 for a full eight-year term, and requires legal presence, identity, a Social Security card, and two residency documents.",
+    "real_id_quote": "A Social Security Card must be provided.",
+    "real_id_url": "https://www.dfa.arkansas.gov/real-id/",
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "DFA’s graduated system uses a learner’s license at 14 or 15 with a licensed adult age 21 or older, an intermediate license at 16 or 17, and a regular unrestricted license at 18 if the prior year is clean. Night driving, phones, and passengers are limited, but the fetched pages do not give the hours or passenger count.",
+    "teen_points": [
+      {
+        "text": "The learner’s license is for ages 14 and 15 and requires a licensed driver age 21 or older in the vehicle.",
+        "quote": "Learner’s license is for ages 14-15.",
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/learners-and-intermediate-license/"
+      },
+      {
+        "text": "The intermediate license is for ages 16 and 17.",
+        "quote": "Intermediate license is for ages 16-17.",
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/learners-and-intermediate-license/"
+      },
+      {
+        "text": "At 18, a teen may apply for a regular unrestricted license if the previous year of driving is clean.",
+        "quote": "At 18 years-of-age teens are eligible to apply for a regular, unrestricted, driver’s license",
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/learners-and-intermediate-license/"
+      },
+      {
+        "text": "The graduated program limits nighttime driving, cell-phone use, and the number of passengers.",
+        "quote": "The GDL programs limits nighttime driving, restricts cell phone use and limits the number of passengers",
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/"
+      }
+    ],
+    "teen_url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/",
+    "out_of_state_permit": null,
+    "out_of_state_permit_quote": null,
+    "out_of_state_permit_url": null,
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [
+      {
+        "title": "Learner’s and intermediate license",
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/learners-and-intermediate-license/",
+        "publisher": "Arkansas Department of Finance and Administration"
+      },
+      {
+        "title": "Graduated licenses",
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/licenses-ids-permits/graduated-licenses/",
+        "publisher": "Arkansas Department of Finance and Administration"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://www.dfa.arkansas.gov/real-id/",
+        "publisher": "Arkansas Department of Finance and Administration"
+      },
+      {
+        "title": "REAL ID fee reminder",
+        "url": "https://www.dfa.arkansas.gov/news/reminder-real-id-available-at-all-revenue-offices/",
+        "publisher": "Arkansas Department of Finance and Administration"
+      },
+      {
+        "title": "Do you have what you need?",
+        "url": "https://www.dfa.arkansas.gov/do-you-have-what-you-need/",
+        "publisher": "Arkansas Department of Finance and Administration"
+      }
+    ],
+    "gaps": [
+      "Graduated-license fees are printed only as “Prorated,” with no dollar amount, so they are not listed.",
+      "The DFA learner and graduated-license pages do not state the knowledge-test or skills-test requirement. The linked Arkansas State Police driver-examination page returned HTTP 403.",
+      "No supervised-hour total, numeric passenger limit, or clock-time curfew was found on the fetched DFA pages. The pages say nighttime driving and passenger numbers are limited.",
+      "No out-of-state learner-permit rule or out-of-state license transfer steps were found on the fetched DFA pages.",
+      "No driver-handbook URL on dfa.arkansas.gov was opened successfully."
+    ]
+  },
+  {
+    "slug": "mississippi",
+    "name": "Mississippi",
+    "agency": "Mississippi Department of Public Safety, Driver Service Bureau",
+    "agency_short": "DPS",
+    "agency_home": "https://www.driverservicebureau.dps.ms.gov/",
+    "permit_age": 15,
+    "permit_age_quote": "you must be at least 15 years old and be able to provide proof of being enrolled in school.",
+    "permit_age_url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit",
+    "license_age": 16,
+    "license_age_quote": "the minimum age to receive a driver's license is 16 years old.",
+    "license_age_url": "https://www.driverservicebureau.dps.ms.gov/Drivers/ClassR",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": true,
+    "written_quote": "All knowledge exams must be taken in person.",
+    "written_url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit",
+    "written_detail": "Every applicant passes a knowledge exam in person, and an eye exam, before the learner’s permit is issued.",
+    "road_required": false,
+    "road_quote": "A signed Waiver of Road Testing Affidavit",
+    "road_url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit",
+    "road_detail": "For a Class R license after the permit period, the bureau asks for a signed waiver of road testing rather than describing a DMV road test. Applicants 17 and older are not required to present that waiver.",
+    "scheduled_url": "https://www.dps.ms.gov/appointment",
+    "handbook_url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+    "supervised_hours": null,
+    "supervised_quote": null,
+    "supervised_url": null,
+    "holding_period": "12 months, unless the applicant is 17 or older",
+    "holding_quote": "You must hold the permit for at least twelve (12) months before you will be allowed to obtain your driver’s license.",
+    "holding_url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit",
+    "fees": [
+      {
+        "item": "Regular learner’s permit",
+        "amount": "$7.00 for 2 years",
+        "quote": "Regular Learner’s Permit (valid for 2 years - $7.00)",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit"
+      },
+      {
+        "item": "Class R driver license",
+        "amount": "$24 for 4 years",
+        "quote": "Driver's License (Class R) - ($24 for a 4 year license)",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit"
+      },
+      {
+        "item": "Class R driver license, alternate term",
+        "amount": "$24.00 for 4 years or $47.00 for 8 years",
+        "quote": "New Driver's License (4 year license - $24.00 / 8 year license - $47.00)",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/ClassR"
+      }
+    ],
+    "fee_page_url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit",
+    "documents": [
+      {
+        "item": "Birth certificate",
+        "summary": "Applicants bring an original birth certificate or another acceptable original identity document. Photocopies are not accepted.",
+        "quote": "Original Birth Certificate or any acceptable document (No Photocopies Accepted)",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit"
+      },
+      {
+        "item": "Social Security number",
+        "summary": "The permit application needs a Social Security card or an official government letter that shows all nine digits.",
+        "quote": "SSN Card or an official government correspondence displaying full 9 digits",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit"
+      },
+      {
+        "item": "Residency",
+        "summary": "The same application list asks for two proofs of residency.",
+        "quote": "Two proofs of Residency Legal Documents are required",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit"
+      }
+    ],
+    "real_id_summary": null,
+    "real_id_quote": null,
+    "real_id_url": null,
+    "transfer_summary": "A new resident whose out-of-state license is expired must take the knowledge exam. A valid out-of-state learner’s permit can receive credit toward the 12-month holding period.",
+    "transfer_quote": "Any new Mississippi resident with an expired out of state license is required to take the knowledge exam.",
+    "transfer_url": "https://www.driverservicebureau.dps.ms.gov/Drivers/ClassR",
+    "teen_summary": "A regular learner’s permit is available at 15 with proof of school enrollment. The Class R license is available at 16 after 12 months on the permit, or at 17 without that wait. The under-17 path uses a road-test waiver affidavit instead of a DMV road test.",
+    "teen_points": [
+      {
+        "text": "The learner’s permit requires age 15 and proof of school enrollment.",
+        "quote": "you must be at least 15 years old and be able to provide proof of being enrolled in school.",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit"
+      },
+      {
+        "text": "The permit must be held 12 months before a Class R license, unless the applicant is already 17.",
+        "quote": "You must hold the permit for at least twelve (12) months before you will be allowed to obtain your driver’s license.",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit"
+      },
+      {
+        "text": "Applicants 17 and older may get the permit and the license on the same day.",
+        "quote": "may obtain both the learner’s permit and driver’s license on the same day.",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit"
+      },
+      {
+        "text": "The Class R step for a permit holder uses a signed waiver of road testing.",
+        "quote": "A signed Waiver of Road Testing Affidavit",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit"
+      }
+    ],
+    "teen_url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit",
+    "out_of_state_permit": "A valid out-of-state learner’s permit is credited toward Mississippi’s 12-month holding period.",
+    "out_of_state_permit_quote": "Applicants with a valid out-of-state Learner’s Permit will be given credit for the months they held toward the required 12-month period before receiving a driver’s license.",
+    "out_of_state_permit_url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit",
+    "curfew": null,
+    "curfew_quote": null,
+    "curfew_url": null,
+    "passengers": null,
+    "passengers_quote": null,
+    "passengers_url": null,
+    "sources": [
+      {
+        "title": "Regular learner’s permit",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit",
+        "publisher": "Mississippi Department of Public Safety Driver Service Bureau"
+      },
+      {
+        "title": "Regular driver license, Class R",
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/ClassR",
+        "publisher": "Mississippi Department of Public Safety Driver Service Bureau"
+      }
+    ],
+    "gaps": [
+      "No REAL ID page on driverservicebureau.dps.ms.gov or dps.ms.gov opened successfully (the guessed URLs returned 404).",
+      "The HTML permit and Class R pages do not state a supervised-hour total, passenger limit, or nighttime curfew. Those details may be in the driver manual PDF, which was not used because the required HTML substring check does not apply cleanly to the compressed PDF.",
+      "Mississippi’s pages describe one regular Class R license rather than a separate intermediate and unrestricted license, so full_license_age is null. Age 17 is an alternate way to reach that same license sooner.",
+      "The Class R page and the learner-permit page both print a 4-year license amount. One says $24 and the other says $24.00, with an 8-year amount of $47.00 only on the Class R page."
+    ]
+  },
+  {
+    "slug": "kansas",
+    "name": "Kansas",
+    "agency": "Kansas Department of Revenue, Division of Vehicles",
+    "agency_short": "KDOR",
+    "agency_home": "https://www.ksrevenue.gov/dovindex.html",
+    "permit_age": 14,
+    "permit_age_quote": "Age: Minimum 14 years old Testing required: Vision.",
+    "permit_age_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "license_age": 15,
+    "license_age_quote": "Age: Minimum 15 years old but less than 16",
+    "license_age_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "full_license_age": null,
+    "full_license_age_quote": null,
+    "full_license_age_url": null,
+    "written_required": true,
+    "written_quote": "Testing required: Vision. Written - or certificate of completion from driver education.",
+    "written_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "written_detail": "An instruction permit requires a vision test and a written test, unless the applicant brings a driver-education completion certificate.",
+    "road_required": null,
+    "road_quote": "Testing required: Vision. Written and Drive - or certificate of completion from driver education.",
+    "road_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "road_detail": "The age-15 restricted license lists only a vision test. Less-restricted privileges at 16 require a written test and a drive test, or a driver-education completion certificate.",
+    "scheduled_url": "https://www.ksrevenue.gov/DOVAppointmentInfo/",
+    "handbook_url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+    "supervised_hours": "25 hours at age 15; 50 hours before age 16",
+    "supervised_quote": "at 15 must have at least 25 hours; must provide 50 prior to 16 to move to lesser restrictions",
+    "supervised_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "holding_period": "1 year before a restricted license",
+    "holding_quote": "Time required to be held: 1 year to advance to restricted license",
+    "holding_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "fees": [
+      {
+        "item": "Photo fee when a new license is made",
+        "amount": "$8",
+        "quote": "There is an $8 photo fee.",
+        "url": "https://www.ksrevenue.gov/dovteenfaq.html"
+      }
+    ],
+    "fee_page_url": "https://www.ksrevenue.gov/pdf/dmvlicfees.pdf",
+    "documents": [
+      {
+        "item": "Lawful presence",
+        "summary": "REAL ID lawful-presence documents include a state birth certificate or an unexpired U.S. passport.",
+        "quote": "State Issued Birth Certificate Unexpired U.S. Passport",
+        "url": "https://www.ksrevenue.gov/dovrealid.html"
+      },
+      {
+        "item": "Kansas address",
+        "summary": "Two proofs of a current Kansas residential address, dated within the last year, are required for REAL ID.",
+        "quote": "Two proofs of current Kansas residential address (must be dated within the last year",
+        "url": "https://www.ksrevenue.gov/dovrealid.html"
+      }
+    ],
+    "real_id_summary": "A Kansas REAL ID has a gold star in the upper right corner. It is required starting May 7, 2025, for adults flying within the United States or entering federal facilities that check identification.",
+    "real_id_quote": "REAL ID Compliant — credential has a gold star in the upper right corner.",
+    "real_id_url": "https://www.ksrevenue.gov/dovrealid.html",
+    "transfer_summary": null,
+    "transfer_quote": null,
+    "transfer_url": null,
+    "teen_summary": "Kansas issues an instruction permit at 14, a restricted license at 15 after one year, and less-restricted privileges at 16 with 50 practice hours. Age-16 driving is generally limited to 5 a.m. to 9 p.m., with destination exceptions. Two official pages do not agree on when driving becomes fully unrestricted.",
+    "teen_points": [
+      {
+        "text": "The instruction permit minimum age is 14, with a vision test and a written test or driver-education certificate.",
+        "quote": "Age: Minimum 14 years old Testing required: Vision.",
+        "url": "https://www.ksrevenue.gov/dovgdl.html"
+      },
+      {
+        "text": "A restricted license is for someone at least 15 and under 16 who has held a state-issued permit for one year and completed driver education and 25 practice hours.",
+        "quote": "Age: Minimum 15 years old but less than 16",
+        "url": "https://www.ksrevenue.gov/dovgdl.html"
+      },
+      {
+        "text": "At 15 the passenger rule bars non-sibling minor passengers. At 16 the limit is one non-sibling passenger under 18.",
+        "quote": "Passenger restriction: May not transport any non-sibling minor passengers",
+        "url": "https://www.ksrevenue.gov/dovgdl.html"
+      },
+      {
+        "text": "Less-restricted driving at 16 is allowed from 5 a.m. to 9 p.m., plus trips to work, school activities, or religious services, and any time with an adult 21 or older.",
+        "quote": "Driving restrictions: Anywhere from 5am to 9pm",
+        "url": "https://www.ksrevenue.gov/dovgdl.html"
+      }
+    ],
+    "teen_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "out_of_state_permit": "Another state’s instruction permit is not accepted in place of a Kansas instruction permit. The permit used for the one-year requirement must be issued in Kansas.",
+    "out_of_state_permit_quote": "No, the law states that the instruction permit be issued in Kansas",
+    "out_of_state_permit_url": "https://www.ksrevenue.gov/dovteenfaq.html",
+    "curfew": "Age-16 less-restricted driving: 5 a.m. to 9 p.m., with work, school, religious, and adult-supervised exceptions",
+    "curfew_quote": "Driving restrictions: Anywhere from 5am to 9pm",
+    "curfew_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "passengers": "Age 15: no non-sibling minor passengers. Age 16: no more than one non-sibling passenger under 18",
+    "passengers_quote": "Passenger restriction: May not transport any non-sibling minor passengers",
+    "passengers_url": "https://www.ksrevenue.gov/dovgdl.html",
+    "sources": [
+      {
+        "title": "Graduated driver license requirements",
+        "url": "https://www.ksrevenue.gov/dovgdl.html",
+        "publisher": "Kansas Department of Revenue, Division of Vehicles"
+      },
+      {
+        "title": "Teen driving FAQ",
+        "url": "https://www.ksrevenue.gov/dovteenfaq.html",
+        "publisher": "Kansas Department of Revenue, Division of Vehicles"
+      },
+      {
+        "title": "REAL ID",
+        "url": "https://www.ksrevenue.gov/dovrealid.html",
+        "publisher": "Kansas Department of Revenue, Division of Vehicles"
+      },
+      {
+        "title": "Credential fee chart",
+        "url": "https://www.ksrevenue.gov/pdf/dmvlicfees.pdf",
+        "publisher": "Kansas Department of Revenue, Division of Vehicles"
+      }
+    ],
+    "gaps": [
+      "Full-license age is null because two official pages disagree. The teen FAQ asks how to get an unrestricted license at age 16 and says restrictions continue until 17 if the 50-hour affidavit is missing (https://www.ksrevenue.gov/dovteenfaq.html). The graduated-license page says restrictions on the age-16 privileges end after six months or at 17, whichever comes first, and lists a non-restricted license at a minimum age of 17 (https://www.ksrevenue.gov/dovgdl.html).",
+      "The official credential fee chart is a PDF. Dollar amounts in that compressed file did not pass the HTML tag-stripped substring check, so they are not listed. The HTML teen FAQ does print an $8 photo fee.",
+      "The FAQ, not the graduated-license table, is the page that states 10 of the 50 practice hours must be at night. Quote: at least 50 hours of practice driving, with at least 10 practice hours at night",
+      "No HTML page opened here stated the steps for transferring a valid adult out-of-state license, so transfer fields are null.",
+      "Age-16 passenger quote, recorded here because the passengers field uses the age-15 sentence: Passenger restriction: No more than one non-sibling passenger under the age of 18"
+    ]
+  }
+]
