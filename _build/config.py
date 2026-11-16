@@ -7,10 +7,15 @@ SITE = "Which Driving Test"
 DOMAIN = "https://whichdrivingtest.com"
 CONTACT = "joshuaofisrael@gmail.com"
 
-NOINDEX = True
+# Launch build. False drops the noindex meta. True keeps every page out of search.
+NOINDEX = False
 
-# Empty until launch. Do not invent a Cloudflare token.
-CF_BEACON_TOKEN = ""
+# Public Cloudflare Web Analytics beacon token. Written into pages only when NOINDEX is False.
+CF_BEACON_TOKEN = "eac63f2b5dbc4539a2d95249baab6472"
+
+# Owner fills a GA4 measurement id (G-XXXXXXXXXX) before ./deploy.sh --launch can pass.
+# Leave this empty until then. Do not invent an id.
+GA4_ID = ""
 
 # First verification day for v1. Do not bump on a rebuild that does not change facts.
 PUBLISHED = "2026-11-16"

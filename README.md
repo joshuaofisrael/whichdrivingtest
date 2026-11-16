@@ -4,7 +4,7 @@ Driving test and license rules for every US state and the District of Columbia, 
 
 This is not a government site and it is not legal advice. A fee, age, or document is included only when the official page states it.
 
-v1 (16 Nov 2026): 363 HTML pages, 48 state guides. Ohio's learner permit age is 15 years and six months. Massachusetts, Illinois, and Colorado have no guide yet because the official site blocked or timed out before a quote could be checked. Arizona's guide cites Arizona Revised Statutes because the MVD site did not open. `NOINDEX` is still true. The CNAME file is `whichdrivingtest.com`.
+v1 (16 Nov 2026): 363 HTML pages, 48 state guides. Ohio's learner permit age is 15 years and six months. Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted. Arizona's guide cites Arizona Revised Statutes because the MVD site did not open. `NOINDEX` is false for the launch build. The CNAME file is `whichdrivingtest.com`. The exact launch command is in `LAUNCH-NOTES.md`.
 
 ## Build
 
@@ -14,9 +14,11 @@ python3 _build/build.py
 python3 _build/check.py
 ```
 
-`./deploy.sh` runs those three steps. It does not commit.
+`./deploy.sh` runs those three steps, then the legal gate. It does not commit.
 
-`NOINDEX` in `_build/config.py` is the single launch flag. Leave it `True` until whichdrivingtest.com is live. Set it to `False` and rebuild to drop the noindex meta. The CNAME file and root-relative paths are written either way. `datePublished` is the `PUBLISHED` constant, not the build clock.
+`./deploy.sh --launch` is the launch command. It fails until `GA4_ID` in `_build/config.py` is a `G-` measurement id, and it fails if any page lacks the Cloudflare Web Analytics beacon or the GA4 loader. See `LAUNCH-NOTES.md`.
+
+`NOINDEX` in `_build/config.py` is the single launch flag. It is `False` for this launch build, which drops the noindex meta and writes the Cloudflare beacon. The CNAME file and root-relative paths are written either way. `datePublished` is the `PUBLISHED` constant, not the build clock. Google Analytics 4 loads only after the visitor accepts the consent banner.
 
 IndexNow: `./indexnow.sh` refuses to ping while `NOINDEX` is true.
 

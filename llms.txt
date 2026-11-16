@@ -3,10 +3,10 @@
 > Which Driving Test (whichdrivingtest.com) explains driving test and license rules for every US state and the District of Columbia. Facts come from official state licensing pages. Checked 16 Nov 2026. Not a government site. Not legal advice.
 
 ## Guides
-- [How to use these driving test guides](https://whichdrivingtest.com/guides/how-to-use/)
-- [REAL ID rules for state driver licenses](https://whichdrivingtest.com/guides/real-id/)
-- [Learner permit age by state](https://whichdrivingtest.com/guides/learner-permit-ages/)
-- [Teen driver licensing by state](https://whichdrivingtest.com/guides/teen-licensing/)
+- [Which driving test guide to use](https://whichdrivingtest.com/guides/how-to-use/)
+- [Which REAL ID card should I get](https://whichdrivingtest.com/guides/real-id/)
+- [Which learner permit age applies](https://whichdrivingtest.com/guides/learner-permit-ages/)
+- [Which teen license rules apply](https://whichdrivingtest.com/guides/teen-licensing/)
 
 ## States
 - [Alabama](https://whichdrivingtest.com/alabama/). Learner permit age published: Fifteen-year-old applicants must have acceptable proof of school enrollment or graduation.
@@ -42,7 +42,7 @@
   - [Fees](https://whichdrivingtest.com/california/fees/)
   - [License transfer](https://whichdrivingtest.com/california/transfer/)
   - [Teen licensing](https://whichdrivingtest.com/california/teen/)
-- Colorado: guide not published. Official figures were not confirmed.
+- Colorado: not yet covered because the official site could not be quoted.
 - [Connecticut](https://whichdrivingtest.com/connecticut/). Learner permit age published: Residents aged 16 and older can apply for a learner's permit.
   - [Learner permit](https://whichdrivingtest.com/connecticut/permit/)
   - [Written test](https://whichdrivingtest.com/connecticut/written-test/)
@@ -96,7 +96,7 @@
   - [Fees](https://whichdrivingtest.com/idaho/fees/)
   - [License transfer](https://whichdrivingtest.com/idaho/transfer/)
   - [Teen licensing](https://whichdrivingtest.com/idaho/teen/)
-- Illinois: guide not published. Official figures were not confirmed.
+- Illinois: not yet covered because the official site could not be quoted.
 - [Indiana](https://whichdrivingtest.com/indiana/). Learner permit age published: You may obtain a learner's permit if you are at least 15 years old and enrolled in an approved behind-the-wheel training course..
   - [Learner permit](https://whichdrivingtest.com/indiana/permit/)
   - [Written test](https://whichdrivingtest.com/indiana/written-test/)
@@ -147,7 +147,7 @@
   - [Fees](https://whichdrivingtest.com/maryland/fees/)
   - [License transfer](https://whichdrivingtest.com/maryland/transfer/)
   - [Teen licensing](https://whichdrivingtest.com/maryland/teen/)
-- Massachusetts: guide not published. Official figures were not confirmed.
+- Massachusetts: not yet covered because the official site could not be quoted.
 - [Michigan](https://whichdrivingtest.com/michigan/). Learner permit age published: Teens must be at least age 14 years and 9 months to obtain a Level 1 License..
   - [Learner permit](https://whichdrivingtest.com/michigan/permit/)
   - [Written test](https://whichdrivingtest.com/michigan/written-test/)
@@ -360,7 +360,7 @@
   - [Teen licensing](https://whichdrivingtest.com/wyoming/teen/)
 
 ## Other pages
-- [All state driving test and DMV guides](https://whichdrivingtest.com/states/)
+- [Which state driving test to pick](https://whichdrivingtest.com/states/)
 - [About Which Driving Test](https://whichdrivingtest.com/about/)
 - [Sources and methods](https://whichdrivingtest.com/methodology/)
 - [Image policy](https://whichdrivingtest.com/image-policy/)
