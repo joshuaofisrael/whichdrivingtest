@@ -4,7 +4,7 @@ Driving test and license rules for every US state and the District of Columbia, 
 
 This is not a government site and it is not legal advice. A fee, age, or document is included only when the official page states it.
 
-v1 (16 Nov 2026): 362 HTML pages, 48 state guides. Massachusetts, Illinois, and Colorado have no guide yet because the official site blocked or timed out before a quote could be checked. Arizona's guide cites Arizona Revised Statutes because the MVD site did not open. `NOINDEX` is still true. The CNAME file is `whichdrivingtest.com`.
+v1 (16 Nov 2026): 363 HTML pages, 48 state guides. Ohio's learner permit age is 15 years and six months. Massachusetts, Illinois, and Colorado have no guide yet because the official site blocked or timed out before a quote could be checked. Arizona's guide cites Arizona Revised Statutes because the MVD site did not open. `NOINDEX` is still true. The CNAME file is `whichdrivingtest.com`.
 
 ## Build
 
