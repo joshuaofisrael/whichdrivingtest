@@ -60,6 +60,7 @@ SOURCED_GUIDES = {
     "guides/real-id/index.html",
     "guides/learner-permit-ages/index.html",
     "guides/teen-licensing/index.html",
+    "guides/permit-holding-period/index.html",
 }
 KW = {
     1: r"\b(fraud\w*|scam\w*|corrupt(ion|ly)?|embezzl\w*|arrested|indicted|charged with|convicted|lawsuits?|sued|suing|misconduct|abus(e|ed|ive)|dishonest\w*|cover[ -]?up|criminal|bribe\w*|negligen\w*|cheat(s|ed|ing)?|rip[ -]?off)\b",

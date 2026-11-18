@@ -182,7 +182,7 @@ def write_sitemap(pages):
             continue
         lines.append("  <url>")
         lines.append(f"    <loc>{public_url(item['path'])}</loc>")
-        lines.append(f"    <lastmod>{PUBLISHED}</lastmod>")
+        lines.append(f"    <lastmod>{item.get('lastmod') or PUBLISHED}</lastmod>")
         lines.append("  </url>")
     lines.append("</urlset>")
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as fh:

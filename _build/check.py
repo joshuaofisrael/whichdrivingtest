@@ -10,7 +10,7 @@ import sys
 from urllib.parse import urlparse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from config import CF_BEACON_TOKEN, DOMAIN, GA4_ID, INDEXNOW_KEY, NOINDEX, PUBLISHED
+from config import CF_BEACON_TOKEN, DOMAIN, GA4_ID, INDEXNOW_KEY, LASTMOD_OVERRIDES, NOINDEX, PUBLISHED
 from geo import BY_SLUG
 
 ROOT = os.environ.get("WDT_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -151,6 +151,7 @@ def main():
             "guides/real-id/index.html",
             "guides/learner-permit-ages/index.html",
             "guides/teen-licensing/index.html",
+            "guides/permit-holding-period/index.html",
         ) or (top in BY_SLUG and rel.endswith("/index.html") and rel.count("/") == 1)
         if key_faq and '"@type": "FAQPage"' not in text:
             issue(f"no-faq-schema {rel}")
@@ -242,12 +243,15 @@ def main():
             issue("404-in-sitemap")
         blocks = re.findall(r"<url>(.*?)</url>", sm, flags=re.S)
         for block in blocks:
-            if "<lastmod>" not in block:
+            loc_m = re.search(r"<loc>(.*?)</loc>", block)
+            lm_m = re.search(r"<lastmod>(.*?)</lastmod>", block)
+            if not lm_m:
                 issue("sitemap-no-lastmod")
-                break
-            if f"<lastmod>{PUBLISHED}</lastmod>" not in block:
-                issue("sitemap-lastmod")
-                break
+                continue
+            rel_loc = loc_m.group(1)[len(DOMAIN) :].lstrip("/") if loc_m else ""
+            expected = LASTMOD_OVERRIDES.get(rel_loc, PUBLISHED)
+            if lm_m.group(1) != expected:
+                issue(f"sitemap-lastmod {rel_loc or '(home)'}")
         locs = re.findall(r"<loc>(.*?)</loc>", sm)
         llms = open(os.path.join(ROOT, "llms.txt"), encoding="utf-8").read() if os.path.isfile(os.path.join(ROOT, "llms.txt")) else ""
         for loc in locs:

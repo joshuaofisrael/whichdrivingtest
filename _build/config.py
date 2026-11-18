@@ -22,3 +22,12 @@ PUBLISHED = "2026-11-16"
 CHECKED_LABEL = "16 Nov 2026"
 
 INDEXNOW_KEY = "c4e1a9b27d6f48e0a3c5b81d09e7f246"
+
+# Per-page lastmod/datePublished overrides for a page published or materially
+# changed after PUBLISHED. Keys are the page's root-relative path exactly as
+# returned by content.py (trailing slash kept). Every other page keeps PUBLISHED.
+# Do not backdate or manufacture freshness here; add an entry only the day a
+# page is actually new or actually changed.
+LASTMOD_OVERRIDES = {
+    "guides/permit-holding-period/": "2026-11-18",
+}

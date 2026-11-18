@@ -115,13 +115,14 @@ def breadcrumb_schema(items):
     return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": elements}
 
 
-def article_schema(headline, path, about=None):
+def article_schema(headline, path, about=None, published=None):
+    stamp = published or PUBLISHED
     obj = {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": headline,
-        "datePublished": PUBLISHED,
-        "dateModified": PUBLISHED,
+        "datePublished": stamp,
+        "dateModified": stamp,
         "author": {"@type": "Organization", "name": SITE, "url": DOMAIN + "/"},
         "publisher": {
             "@type": "Organization",

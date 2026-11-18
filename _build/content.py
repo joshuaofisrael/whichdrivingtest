@@ -4,6 +4,7 @@ import json
 import os
 import re
 
+from config import LASTMOD_OVERRIDES
 from geo import BORDERS, BY_SLUG, EDL_SLUGS, REGIONS, RELATED, STATES, in_place, name_of, region_groups
 from render import (
     BANNER,
@@ -232,6 +233,8 @@ def related_for(st, topics, published, skip=None):
         links.append(("/guides/real-id/", "Federal REAL ID rule"))
     if skip in (None, "permit"):
         links.append(("/guides/learner-permit-ages/", "Permit ages by state"))
+    if skip in (None, "permit", "teen"):
+        links.append(("/guides/permit-holding-period/", "Permit holding periods by state"))
     if skip in (None, "teen"):
         links.append(("/guides/teen-licensing/", "Teen licensing by state"))
     links.append(("/states/", "All states"))
@@ -308,8 +311,8 @@ def frame(h1, crumbs, inner, faqs, sources, links, legal=False):
     return "".join(parts)
 
 
-def pack(path, title, description, nav, body, schemas):
-    return {
+def pack(path, title, description, nav, body, schemas, lastmod=None):
+    item = {
         "path": path,
         "title": clean_title(title),
         "description": clean_desc(description),
@@ -317,10 +320,13 @@ def pack(path, title, description, nav, body, schemas):
         "body": body,
         "schemas": schemas,
     }
+    if lastmod:
+        item["lastmod"] = lastmod
+    return item
 
 
-def content_schemas(h1, path, crumbs, faqs, about=None):
-    schemas = [breadcrumb_schema(crumbs), article_schema(h1, path, about)]
+def content_schemas(h1, path, crumbs, faqs, about=None, published=None):
+    schemas = [breadcrumb_schema(crumbs), article_schema(h1, path, about, published=published)]
     if faqs:
         schemas.append(faq_schema(faqs))
     return schemas
@@ -848,6 +854,7 @@ def home_page(states):
 <li><a href="/guides/how-to-use/">How to use these guides</a></li>
 <li><a href="/guides/real-id/">REAL ID, the federal rule</a></li>
 <li><a href="/guides/learner-permit-ages/">Learner permit ages by state</a></li>
+<li><a href="/guides/permit-holding-period/">Learner permit holding periods by state</a></li>
 <li><a href="/guides/teen-licensing/">Teen licensing by state</a></li>
 </ul>
 {faq_block(faqs)}
@@ -1050,7 +1057,12 @@ def guide_ages(states):
         inner,
         faqs,
         collect_sources(states, ["permit_age_url", "license_age_url"]),
-        [("/states/", "All states"), ("/guides/teen-licensing/", "Teen licensing by state"), ("/", "Home")],
+        [
+            ("/guides/permit-holding-period/", "Permit holding periods by state"),
+            ("/states/", "All states"),
+            ("/guides/teen-licensing/", "Teen licensing by state"),
+            ("/", "Home"),
+        ],
     )
     return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, faqs, "Learner permit ages"))
 
@@ -1094,9 +1106,82 @@ def guide_teen(states):
         inner,
         faqs,
         collect_sources(states, ["supervised_url", "curfew_url", "passengers_url", "teen_url"]),
-        [("/guides/learner-permit-ages/", "Permit ages by state"), ("/states/", "All states"), ("/", "Home")],
+        [
+            ("/guides/learner-permit-ages/", "Permit ages by state"),
+            ("/guides/permit-holding-period/", "Permit holding periods by state"),
+            ("/states/", "All states"),
+            ("/", "Home"),
+        ],
     )
     return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, faqs, "Teen driver licensing"))
+
+
+def guide_holding(states):
+    h1 = "Learner permit holding period by state"
+    title = "Which permit holding period applies"
+    description = "Which permit holding period applies before a road test or license, from each state's own page."
+    path = "guides/permit-holding-period/"
+    crumbs = [("Home", "/"), ("Guides", "/guides/"), ("Permit holding period", "/" + path)]
+    rows = []
+    for st in sorted(states, key=lambda s: s["name"]):
+        cell = esc(st["holding_period"]) if st.get("holding_period") else esc(missing())
+        href = f"/{st['slug']}/permit/" if st.get("_topics", {}).get("permit") else f"/{st['slug']}/"
+        rows.append(f"<tr><td>{internal(href, st['name'])}</td><td>{cell}</td></tr>")
+    inner = (
+        "<p>A learner permit age is not the same question as how long you must hold that permit before the next step. "
+        "Most states will not let someone take the road test or move to the next license stage until the permit has "
+        'been held for a minimum stretch of time. That figure is on the <a href="/guides/learner-permit-ages/">permit '
+        "ages table</a> only when the state names it separately from the age. This table lists the holding period on "
+        "its own, only when the state's own licensing page publishes it.</p>"
+        + missing_html(states)
+        + '<div class="tablewrap"><table class="list"><thead><tr><th>State</th>'
+        "<th>Holding period before a road test or the next license stage</th></tr></thead>"
+        f"<tbody>{''.join(rows)}</tbody></table></div>"
+        f"<p>Checked {esc(CHECKED_LABEL)}. A state can also require a clean driving record or completed practice "
+        "hours during that period, even where this table shows a plain length of time. Open the state's own permit "
+        "guide for the full condition and the official link.</p>"
+    )
+    faqs = [
+        (
+            "What is a learner permit holding period?",
+            "It is the minimum stretch of time a state requires someone to hold a learner permit before taking the "
+            "road test or moving to the next license stage. It is a different figure from the minimum age to get "
+            "the permit in the first place.",
+        ),
+        (
+            "Does the holding period end automatically once the time passes?",
+            "Not on its own. Most states still require a road test, a clean driving record, or completed practice "
+            "hours during that period. Read the state's own permit guide for the full condition before you plan "
+            "around a date.",
+        ),
+        (
+            "Why does a state on this table say the holding period was not clearly published?",
+            "The official page we opened did not state a figure we could confirm. Check that state's licensing "
+            "agency directly before you plan around a specific date.",
+        ),
+    ]
+    body = frame(
+        h1,
+        crumbs,
+        inner,
+        faqs,
+        collect_sources(states, ["holding_url", "permit_age_url"]),
+        [
+            ("/guides/learner-permit-ages/", "Permit ages by state"),
+            ("/guides/teen-licensing/", "Teen licensing by state"),
+            ("/states/", "All states"),
+            ("/", "Home"),
+        ],
+    )
+    return pack(
+        path,
+        title,
+        description,
+        None,
+        body,
+        content_schemas(h1, path, crumbs, faqs, "Learner permit holding period", published=LASTMOD_OVERRIDES.get(path)),
+        lastmod=LASTMOD_OVERRIDES.get(path),
+    )
 
 
 def guides_index(states):
@@ -1110,6 +1195,7 @@ def guides_index(states):
 <li><a href="/guides/how-to-use/">How to use these guides</a></li>
 <li><a href="/guides/real-id/">REAL ID, the federal rule</a></li>
 <li><a href="/guides/learner-permit-ages/">Learner permit ages by state</a></li>
+<li><a href="/guides/permit-holding-period/">Learner permit holding periods by state</a></li>
 <li><a href="/guides/teen-licensing/">Teen licensing by state</a></li>
 </ul>
 <p>State pages are the place to confirm a figure. These guides compare them or explain the federal REAL ID rule.</p>
@@ -1412,6 +1498,7 @@ def all_pages(states):
         guide_realid(),
         guide_ages(published_states),
         guide_teen(published_states),
+        guide_holding(published_states),
     ]
     pages.extend(static_pages(published_states))
     pages.append(not_found_page())
