@@ -923,7 +923,7 @@ def home_page(states):
         (
             "Which state driving test should I pick?",
             "Pick the state that will issue the permit or license. For a move, that is the new state. Then confirm the figure on the official agency page. "
-            "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted.",
+            + uncovered_phrase([name for _slug, name in UNCOVERED_STATES]),
         ),
     ]
     inner = f"""
@@ -1008,7 +1008,8 @@ def states_index(states):
         ),
         (
             "Why are some states missing?",
-            "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted. No ages or fees are shown for them.",
+            uncovered_phrase([name for _slug, name in UNCOVERED_STATES])
+            + " No ages or fees are shown for them.",
         ),
     ]
     body = frame(h1, crumbs, inner_core, faqs, [], [("/guides/how-to-use/", "How to use these guides"), ("/guides/learner-permit-ages/", "Permit ages by state"), ("/", "Home")])
@@ -1047,7 +1048,7 @@ def guide_how(states):
             "Email the address on the contact page with the page address and a link to the official agency page that shows the current rule.",
         ),
         (
-            "Why are Massachusetts, Illinois, and Colorado missing?",
+            "Why are Massachusetts, Illinois, Colorado, and New York missing?",
             "Those states are not yet covered because the official sites could not be quoted. No ages or fees are shown for them.",
         ),
     ]
