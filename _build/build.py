@@ -11,8 +11,8 @@ import shutil
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from config import CHECKED_LABEL, DOMAIN, INDEXNOW_KEY, NOINDEX, PUBLISHED, SITE
-from content import all_pages
+from config import ADSENSE_ADS_TXT, CHECKED_LABEL, DOMAIN, INDEXNOW_KEY, NOINDEX, PUBLISHED, SITE
+from content import all_pages, uncovered_phrase
 from geo import STATES
 from render import page, picker_html
 
@@ -207,7 +207,7 @@ def write_llms(pages, states):
     for slug, name, _region in sorted(STATES, key=lambda s: s[1]):
         st = by_slug.get(slug)
         if not st:
-            if name in {"Massachusetts", "Illinois", "Colorado"}:
+            if name in {"Massachusetts", "Illinois", "Colorado", "New York"}:
                 lines.append(f"- {name}: not yet covered because the official site could not be quoted.")
             else:
                 lines.append(f"- {name}: guide not published. Official figures were not confirmed.")
@@ -245,11 +245,10 @@ def write_indexnow():
         fh.write(INDEXNOW_KEY)
 
 
-def uncovered_sentence(names):
-    wanted = {"Massachusetts", "Illinois", "Colorado"}
-    if wanted.issubset(set(names)):
-        return "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted."
-    return ""
+def write_ads_txt():
+    path = os.path.join(ROOT, "ads.txt")
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(ADSENSE_ADS_TXT.strip() + "\n")
 
 
 def main():
@@ -257,7 +256,7 @@ def main():
     pages, report, published = all_pages(states)
     clean_output()
     picker = picker_html(published)
-    note = uncovered_sentence(report["missing_states"])
+    note = uncovered_phrase(report["missing_states"])
     for item in pages:
         html = page(
             item["title"],
@@ -277,6 +276,7 @@ def main():
     write_robots()
     write_llms(pages, [st for st in states if st["slug"] in published])
     write_indexnow()
+    write_ads_txt()
     with open(os.path.join(ROOT, "CNAME"), "w", encoding="utf-8") as fh:
         fh.write("whichdrivingtest.com\n")
     report_path = os.path.join(HERE, "data", "build-report.json")

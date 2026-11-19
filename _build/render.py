@@ -6,7 +6,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from config import CF_BEACON_TOKEN, CHECKED_LABEL, DOMAIN, GA4_ID, NOINDEX, PUBLISHED, SITE
+from config import ADSENSE_PUB, CF_BEACON_TOKEN, CHECKED_LABEL, DOMAIN, GA4_ID, NOINDEX, PUBLISHED, SITE
 from geo import REGIONS, region_groups
 
 BANNER = (
@@ -229,6 +229,18 @@ def byline():
     return f'<p class="byline">By {esc(SITE)}. Last checked {esc(CHECKED_LABEL)}.</p>'
 
 
+def adsense_html():
+    """AdSense account verification only. No ad units are placed on the page."""
+    if NOINDEX or not ADSENSE_PUB:
+        return ""
+    pub = esc(ADSENSE_PUB)
+    return (
+        f'<meta name="google-adsense-account" content="{pub}">\n'
+        f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={pub}" '
+        'crossorigin="anonymous"></script>'
+    )
+
+
 def analytics_html():
     """Launch-only analytics. GA4 is consent-gated. The Cloudflare beacon is not."""
     if NOINDEX:
@@ -295,6 +307,7 @@ def page(title, description, path, body, schemas, nav=None, picker="", uncovered
 <meta name="theme-color" content="#0b3954">
 <meta property="og:type" content="{og_type}"><meta property="og:site_name" content="{esc(SITE)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canon)}"><meta property="og:image" content="{DOMAIN}/og.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css?v=2">{schema_html}
+{adsense_html()}
 {analytics_html()}
 </head><body><a class="skip" href="#main">Skip to content</a>
 <header class="site"><div class="wrap"><a class="brand" href="/">{LOGO}<span>{esc(SITE)}</span></a><nav class="main" aria-label="Main">{''.join(nav_html)}</nav>{picker}</div></header>

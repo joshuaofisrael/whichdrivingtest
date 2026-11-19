@@ -10,7 +10,7 @@ import sys
 from urllib.parse import urlparse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from config import CF_BEACON_TOKEN, DOMAIN, GA4_ID, INDEXNOW_KEY, LASTMOD_OVERRIDES, NOINDEX, PUBLISHED
+from config import ADSENSE_ADS_TXT, ADSENSE_PUB, CF_BEACON_TOKEN, DOMAIN, GA4_ID, INDEXNOW_KEY, LASTMOD_OVERRIDES, NOINDEX, PUBLISHED
 from geo import BY_SLUG
 
 ROOT = os.environ.get("WDT_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -21,10 +21,12 @@ ANALYTICS_HOSTS = {
     "www.googletagmanager.com",
     "www.google-analytics.com",
     "region1.google-analytics.com",
+    "pagead2.googlesyndication.com",
 }
 BEACON_SRC = "https://static.cloudflareinsights.com/beacon.min.js"
 GA4_LOADER = "https://www.googletagmanager.com/gtag/js"
-UNCOVERED = "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted."
+UNCOVERED = "Massachusetts, Illinois, Colorado, and New York are not yet covered because the official sites could not be quoted."
+# Order matches content.UNCOVERED_STATES so footer text stays stable across builds.
 FOOTER_HREFS = (
     "/about/",
     "/contact/",
@@ -270,6 +272,17 @@ def main():
     key_path = os.path.join(ROOT, INDEXNOW_KEY + ".txt")
     if not os.path.isfile(key_path) or open(key_path, encoding="utf-8").read().strip() != INDEXNOW_KEY:
         issue("indexnow-key")
+    ads_path = os.path.join(ROOT, "ads.txt")
+    if not ADSENSE_PUB:
+        issue("adsense-pub-empty")
+    elif not os.path.isfile(ads_path) or open(ads_path, encoding="utf-8").read().strip() != ADSENSE_ADS_TXT.strip():
+        issue("ads-txt")
+    else:
+        sample = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
+        if f'name="google-adsense-account" content="{ADSENSE_PUB}"' not in sample:
+            issue("adsense-meta")
+        if f"adsbygoogle.js?client={ADSENSE_PUB}" not in sample:
+            issue("adsense-script")
     print("files", len(files), "issues", BAD)
     sys.exit(1 if BAD else 0)
 

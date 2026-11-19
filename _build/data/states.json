@@ -5467,6 +5467,11 @@
     "agency_short": "WYDOT",
     "sources": [
       {
+        "title": "Driver License",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license.html",
+        "publisher": "Wyoming Department of Transportation"
+      },
+      {
         "title": "Learner Permits",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
         "publisher": "Wyoming Department of Transportation"
@@ -5499,8 +5504,8 @@
     "holding_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
     "real_id_summary": null,
     "real_id_url": null,
-    "transfer_summary": "An intermediate-permit applicant surrenders a current Wyoming or out-of-state driver permit.",
-    "transfer_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
+    "transfer_summary": "A new Wyoming resident applies for a Wyoming driver license in person. WYDOT says you have one year from the time you establish residency to be issued a Wyoming driver license, unless your current license is from Georgia, Massachusetts, Michigan, Tennessee, or Wisconsin, or is a commercial driver license, in which case you must apply once you have established residency in Wyoming.",
+    "transfer_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license.html",
     "teen_summary": "15-16 years of age, but it can be issued to anyone above that age who is learning how to drive.",
     "teen_url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html",
     "out_of_state_permit": "The intermediate-permit application includes surrender of an out-of-state driver permit.",
@@ -5531,6 +5536,20 @@
       {
         "text": "No more than one passenger under 18 who is not immediate family.",
         "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license/learner-permits.html"
+      }
+    ],
+    "transfer_points": [
+      {
+        "heading": "What happens at the exam station",
+        "label": "First Wyoming license",
+        "text": "You apply in person at a local driver exam station. You can start the process on oneWYO. You will be asked to surrender your out-of-state issued driver license when you apply for the Wyoming license, present the required document requirements, be photographed, and complete a vision screening evaluation.",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license.html"
+      },
+      {
+        "heading": "Vision or medical follow-up",
+        "label": "Vision screening",
+        "text": "If you have any medical or vision problems, you may be asked to have your doctor complete a Medical and/or a Vision Evaluation form before you can be issued a driver license.",
+        "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license.html"
       }
     ]
   }
