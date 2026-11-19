@@ -29,6 +29,7 @@ from render import (
 )
 
 FED_PATH = os.path.join(os.path.dirname(__file__), "data", "federal.json")
+PERMIT_Q_PATH = os.path.join(os.path.dirname(__file__), "data", "permit_test_questions.json")
 
 TOPIC_META = [
     ("permit", "Learner permit"),
@@ -253,8 +254,10 @@ def related_for(st, topics, published, skip=None):
         links.append(("/guides/real-id/", "Federal REAL ID rule"))
     if skip in (None, "permit"):
         links.append(("/guides/learner-permit-ages/", "Permit ages by state"))
-    if skip in (None, "permit", "teen"):
+    if skip in (None, "permit", "teen", "written-test"):
         links.append(("/guides/permit-holding-period/", "Permit holding periods by state"))
+    if skip in (None, "written-test", "permit"):
+        links.append(("/guides/permit-test-questions-by-state/", "Permit test questions by state"))
     if skip in (None, "teen"):
         links.append(("/guides/teen-licensing/", "Teen licensing by state"))
     links.append(("/states/", "All states"))
@@ -944,6 +947,7 @@ def home_page(states):
 <li><a href="/guides/real-id/">REAL ID, the federal rule</a></li>
 <li><a href="/guides/learner-permit-ages/">Learner permit ages by state</a></li>
 <li><a href="/guides/permit-holding-period/">Learner permit holding periods by state</a></li>
+<li><a href="/guides/permit-test-questions-by-state/">Permit test questions and passing scores by state</a></li>
 <li><a href="/guides/teen-licensing/">Teen licensing by state</a></li>
 </ul>
 {faq_block(faqs)}
@@ -1149,6 +1153,7 @@ def guide_ages(states):
         collect_sources(states, ["permit_age_url", "license_age_url"]),
         [
             ("/guides/permit-holding-period/", "Permit holding periods by state"),
+            ("/guides/permit-test-questions-by-state/", "Permit test questions by state"),
             ("/states/", "All states"),
             ("/guides/teen-licensing/", "Teen licensing by state"),
             ("/", "Home"),
@@ -1199,6 +1204,7 @@ def guide_teen(states):
         [
             ("/guides/learner-permit-ages/", "Permit ages by state"),
             ("/guides/permit-holding-period/", "Permit holding periods by state"),
+            ("/guides/permit-test-questions-by-state/", "Permit test questions by state"),
             ("/states/", "All states"),
             ("/", "Home"),
         ],
@@ -1258,6 +1264,7 @@ def guide_holding(states):
         collect_sources(states, ["holding_url", "permit_age_url"]),
         [
             ("/guides/learner-permit-ages/", "Permit ages by state"),
+            ("/guides/permit-test-questions-by-state/", "Permit test questions by state"),
             ("/guides/teen-licensing/", "Teen licensing by state"),
             ("/states/", "All states"),
             ("/", "Home"),
@@ -1274,6 +1281,122 @@ def guide_holding(states):
     )
 
 
+def load_permit_questions():
+    with open(PERMIT_Q_PATH, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def guide_questions(states):
+    h1 = "Permit test questions and passing scores by state"
+    title = "How many permit test questions by state?"
+    description = "How many questions are on each state's permit test, and what score passes, only when the agency publishes it."
+    path = "guides/permit-test-questions-by-state/"
+    crumbs = [("Home", "/"), ("Guides", "/guides/"), ("Permit test questions", "/" + path)]
+    stamp = LASTMOD_OVERRIDES.get(path)
+    by_slug = {st["slug"]: st for st in states}
+    data = load_permit_questions()
+    named = sum(1 for row in data if not str(row.get("questions", "")).startswith("Not"))
+    scored = sum(1 for row in data if not str(row.get("pass_score", "")).startswith("Not"))
+    rows = []
+    sources = []
+    for row in data:
+        slug = row["slug"]
+        st = by_slug.get(slug)
+        if st and st.get("_topics", {}).get("written-test"):
+            href = f"/{slug}/written-test/"
+        elif row.get("published"):
+            href = f"/{slug}/"
+        else:
+            href = None
+        name_cell = internal(href, row["name"]) if href else esc(row["name"])
+        q = esc(row.get("questions") or missing())
+        p = esc(row.get("pass_score") or missing())
+        checked = esc(label_for_iso(row["checked"]) if row.get("checked") else CHECKED_LABEL)
+        rows.append(f"<tr><td>{name_cell}</td><td>{q}</td><td>{p}</td><td>{checked}</td></tr>")
+        if row.get("url"):
+            sources.append(
+                {
+                    "title": f"{row['name']} knowledge test page",
+                    "url": row["url"],
+                    "publisher": row.get("agency") or "State licensing agency",
+                }
+            )
+    mid = next_reads_block(
+        [
+            ("/guides/learner-permit-ages/", "Permit ages by state", None),
+            ("/guides/permit-holding-period/", "Permit holding periods by state", None),
+            ("/guides/teen-licensing/", "Teen licensing by state", None),
+            ("/states/", "Browse every state hub", None),
+        ],
+        "Related guides",
+    )
+    compare = (
+        '<aside class="compare" aria-label="Check a state written test">'
+        "<h2>Check a state written test</h2>"
+        "<p>Open a state hub, then its written test page when that guide is published.</p>"
+        '<p class="note"><a href="/states/">All states</a> · '
+        '<a href="/guides/learner-permit-ages/">Permit ages</a> · '
+        '<a href="/guides/permit-holding-period/">Holding periods</a></p>'
+        "</aside>"
+    )
+    inner = (
+        "<p>Searchers often ask how many questions are on the permit test and what score passes. "
+        "Most state licensing pages say only that you must pass a knowledge or written exam. "
+        f"This table lists a question count only when an official page states one ({named} states so far) "
+        f"and a passing score only when the same rule is printed ({scored} states so far). "
+        "A cell that says the figure was not clearly published is not a guess and it is not zero.</p>"
+        + missing_html(states)
+        + '<div class="tablewrap"><table class="list"><thead><tr>'
+        "<th>State</th><th>Questions</th><th>Passing score</th><th>Last verified</th>"
+        f"</tr></thead><tbody>{''.join(rows)}</tbody></table></div>"
+        + mid
+        + compare
+        + "<p>Where a state publishes a figure, open that state's written test page "
+        "(linked from the state name when available) or the official link in Sources before you schedule. "
+        "Handbooks and third party practice sites are not used as sources here.</p>"
+    )
+    faqs = [
+        (
+            "Why do so many rows say the figure was not clearly published?",
+            "The official pages we opened did not state a question count or a passing score we could confirm. "
+            "That is common. Check the state's own knowledge test page before you plan around a number.",
+        ),
+        (
+            "Is the permit test the same as the license knowledge test?",
+            "Often the knowledge exam for a learner permit uses the same material as a first license exam, "
+            "but some states publish different rules for teens, adults, or previously licensed drivers. "
+            "Read the state's own page for the path you are on.",
+        ),
+        (
+            "Do you copy practice tests from DMV handbooks?",
+            "No. This site does not republish handbook practice questions. It only records counts and passing "
+            "scores when the licensing agency states them.",
+        ),
+    ]
+    body = frame(
+        h1,
+        crumbs,
+        inner,
+        faqs,
+        sources,
+        [
+            ("/guides/learner-permit-ages/", "Permit ages by state"),
+            ("/guides/permit-holding-period/", "Permit holding periods by state"),
+            ("/guides/teen-licensing/", "Teen licensing by state"),
+            ("/states/", "All states"),
+        ],
+    )
+    return pack(
+        path,
+        title,
+        description,
+        None,
+        body,
+        content_schemas(h1, path, crumbs, faqs, "Permit test questions by state", published=stamp),
+        lastmod=stamp,
+    )
+
+
 def guides_index(states):
     h1 = "Driving test guides"
     title = "Which driving test guide to read"
@@ -1286,6 +1409,7 @@ def guides_index(states):
 <li><a href="/guides/real-id/">REAL ID, the federal rule</a></li>
 <li><a href="/guides/learner-permit-ages/">Learner permit ages by state</a></li>
 <li><a href="/guides/permit-holding-period/">Learner permit holding periods by state</a></li>
+<li><a href="/guides/permit-test-questions-by-state/">Permit test questions and passing scores by state</a></li>
 <li><a href="/guides/teen-licensing/">Teen licensing by state</a></li>
 </ul>
 <p>State pages are the place to confirm a figure. These guides compare them or explain the federal REAL ID rule.</p>
@@ -1611,6 +1735,7 @@ def all_pages(states):
         guide_ages(published_states),
         guide_teen(published_states),
         guide_holding(published_states),
+        guide_questions(published_states),
     ]
     pages.extend(static_pages(published_states))
     pages.append(not_found_page())
