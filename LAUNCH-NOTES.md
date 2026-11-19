@@ -2,7 +2,7 @@
 
 `NOINDEX` in `_build/config.py` is `False`. The launch build writes root-relative paths, keeps `CNAME` as `whichdrivingtest.com`, and rewrites `sitemap.xml` (with `lastmod`), `robots.txt`, `llms.txt`, and the IndexNow key file.
 
-Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted. That sentence is in the footer of every page. No ages or fees are shown for those states.
+Massachusetts, Illinois, Colorado, and New York are not yet covered because the official sites could not be quoted. That sentence is in the footer of every page. No ages or fees are shown for those states. Do not re-run `verify_quotes.py` as a side effect of deploy unless you mean to; the 18 Nov verify pass emptied New York in `states.json` when DMV URLs returned no text.
 
 ## Commands
 

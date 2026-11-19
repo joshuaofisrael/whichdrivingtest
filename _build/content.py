@@ -82,22 +82,42 @@ def which_title(name, tail):
     return clean_title(text)
 
 
-def missing_html(published_states):
-    have = {st["slug"] for st in published_states}
-    named = (
-        ("massachusetts", "Massachusetts"),
-        ("illinois", "Illinois"),
-        ("colorado", "Colorado"),
-    )
-    missing = [name for slug, name in named if slug not in have]
-    if not missing:
-        return ""
-    if len(missing) == 3:
-        text = "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted."
-    elif len(missing) == 2:
-        text = f"{missing[0]} and {missing[1]} are not yet covered because the official sites could not be quoted."
+UNCOVERED_STATES = (
+    ("massachusetts", "Massachusetts"),
+    ("illinois", "Illinois"),
+    ("colorado", "Colorado"),
+    ("new-york", "New York"),
+)
+
+
+def uncovered_names(published_or_missing):
+    """Accept published state dicts or a missing-name list; always order by UNCOVERED_STATES."""
+    if not published_or_missing:
+        have = set()
+        missing_set = {name for _slug, name in UNCOVERED_STATES}
+    elif isinstance(published_or_missing[0], dict):
+        have = {st["slug"] for st in published_or_missing}
+        missing_set = {name for slug, name in UNCOVERED_STATES if slug not in have}
     else:
-        text = f"{missing[0]} is not yet covered because the official site could not be quoted."
+        missing_set = set(published_or_missing)
+    return [name for _slug, name in UNCOVERED_STATES if name in missing_set]
+
+
+def uncovered_phrase(published_or_missing):
+    names = uncovered_names(published_or_missing)
+    if not names:
+        return ""
+    if len(names) == 1:
+        return f"{names[0]} is not yet covered because the official site could not be quoted."
+    if len(names) == 2:
+        return f"{names[0]} and {names[1]} are not yet covered because the official sites could not be quoted."
+    return f"{', '.join(names[:-1])}, and {names[-1]} are not yet covered because the official sites could not be quoted."
+
+
+def missing_html(published_states):
+    text = uncovered_phrase(uncovered_names(published_states))
+    if not text:
+        return ""
     return f'<p class="note">{esc(text)}</p>'
 
 
@@ -694,6 +714,47 @@ def fees_page(st, topics, published):
     return pack(path, which_title(name, "license fee to pay"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} license fees"))
 
 
+def compare_box(st, published, topic="transfer"):
+    """Lookup-page box that sends readers to a nearby state hub."""
+    _heading, slugs = nearby(st["slug"], published)
+    items = []
+    for slug in slugs[:4]:
+        label = published.get(slug) or name_of(slug)
+        items.append(f'<li><a href="/{esc(slug)}/">{esc(label)} overview</a></li>')
+    if not items:
+        return ""
+    return (
+        '<aside class="compare" aria-label="Check another state">'
+        "<h2>Check another state</h2>"
+        "<p>Open a neighboring state hub, then use its transfer guide if that state publishes one.</p>"
+        f"<ul>{''.join(items)}</ul>"
+        f'<p class="note"><a href="/states/">All states</a> · '
+        f'<a href="/{esc(st["slug"])}/">{esc(st["name"])} overview</a></p>'
+        "</aside>"
+    )
+
+
+def next_reads_block(links, heading="Keep reading"):
+    """Mid-article next-read list. Thumbnails are added when a page image exists."""
+    if not links:
+        return ""
+    items = []
+    for href, label, thumb in links:
+        thumb_html = ""
+        if thumb:
+            thumb_html = (
+                f'<a class="next-thumb" href="/image-policy/">'
+                f'<img src="{esc(thumb)}" width="120" height="68" alt="" loading="lazy"></a>'
+            )
+        items.append(
+            f'<li class="next-read">{thumb_html}<a href="{esc(href)}">{esc(label)}</a></li>'
+        )
+    return (
+        f'<aside class="next-reads" aria-label="{esc(heading)}">'
+        f"<h2>{esc(heading)}</h2><ul>{''.join(items)}</ul></aside>"
+    )
+
+
 def transfer_page(st, topics, published):
     name = st["name"]
     place = in_place(name)
@@ -701,14 +762,33 @@ def transfer_page(st, topics, published):
     h1 = f"{name} license transfer rules"
     description = f"Moving a driver license to {place}, from the official agency page."
     crumbs = [("Home", "/"), (name, f"/{st['slug']}/"), ("Transfer", "/" + path)]
+    stamp = LASTMOD_OVERRIDES.get(path)
     inner = [
         sentence(st.get("transfer_summary"), st.get("transfer_url"), "Transfer rules"),
         "<p>If this summary does not say whether a knowledge test or a road test is waived, the pages we checked did not make that clear. Read the official page before you skip a test.</p>",
         buttons(st),
     ]
+    for point in st.get("transfer_points") or []:
+        label = point.get("label") or "Transfer rules"
+        if point.get("heading"):
+            inner.append(f"<h2>{esc(point['heading'])}</h2>")
+        inner.append(sentence(point.get("text"), point.get("url") or st.get("transfer_url"), label))
     if st.get("out_of_state_permit"):
         inner.append("<h2>Learner permit from another state</h2>")
         inner.append(sentence(st["out_of_state_permit"], st.get("out_of_state_permit_url"), "Permit from another state"))
+    mid_links = []
+    if topics.get("permit"):
+        mid_links.append((f"/{st['slug']}/permit/", f"{name} learner permit", None))
+    if topics.get("written-test"):
+        mid_links.append((f"/{st['slug']}/written-test/", f"{name} written test", None))
+    if topics.get("road-test"):
+        mid_links.append((f"/{st['slug']}/road-test/", f"{name} road test", None))
+    if topics.get("teen"):
+        mid_links.append((f"/{st['slug']}/teen/", f"{name} teen licensing", None))
+    mid_links.append(("/guides/learner-permit-ages/", "Permit ages by state", None))
+    mid_links.append(("/guides/permit-holding-period/", "Permit holding periods by state", None))
+    inner.append(next_reads_block(mid_links[:4], "Related pages while you plan the move"))
+    inner.append(compare_box(st, published, "transfer"))
     faqs = [
         (
             f"How do I transfer a license to {place}?",
@@ -724,8 +804,17 @@ def transfer_page(st, topics, published):
             or f"That point was not clearly published on the {short_of(st)} pages checked {CHECKED_LABEL}.",
         ),
     ]
-    body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "transfer"))
-    return pack(path, which_title(name, "license to transfer"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} license transfer"))
+    related = related_for(st, topics, published, "transfer")
+    body = frame(h1, crumbs, "".join(x for x in inner if x), faqs, sources_for(st), related)
+    return pack(
+        path,
+        which_title(name, "license to transfer"),
+        description,
+        None,
+        body,
+        content_schemas(h1, path, crumbs, faqs, f"{name} license transfer", published=stamp),
+        lastmod=stamp,
+    )
 
 
 def teen_page(st, topics, published):
@@ -1207,7 +1296,7 @@ def guides_index(states):
         ),
         (
             "Which states are not covered yet?",
-            "Massachusetts, Illinois, and Colorado are not yet covered because the official sites could not be quoted.",
+            "Massachusetts, Illinois, Colorado, and New York are not yet covered because the official sites could not be quoted.",
         ),
     ]
     body = frame(
@@ -1221,12 +1310,34 @@ def guides_index(states):
     return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, faqs, "Driving test guides"))
 
 
+def label_for_iso(iso):
+    """Turn YYYY-MM-DD into the site's short checked label, e.g. 19 Nov 2026."""
+    months = (
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+    )
+    year, month, day = iso.split("-")
+    return f"{int(day)} {months[int(month) - 1]} {year}"
+
+
 def legal_page(path, nav, h1, title, description, inner, legal=True):
     crumbs = [("Home", "/"), (h1, "/" + path)]
-    lead = f"<p>Last updated {esc(CHECKED_LABEL)}.</p>" if legal else ""
+    stamp = LASTMOD_OVERRIDES.get(path)
+    checked = label_for_iso(stamp) if stamp else CHECKED_LABEL
+    lead = f"<p>Last updated {esc(checked)}.</p>" if legal else ""
     body = frame(h1, crumbs, lead + inner, [], [], [], legal=legal)
-    schemas = [breadcrumb_schema(crumbs), article_schema(h1, path, h1)]
-    return pack(path, title, description, nav, body, schemas)
+    schemas = [breadcrumb_schema(crumbs), article_schema(h1, path, h1, published=stamp)]
+    return pack(path, title, description, nav, body, schemas, lastmod=stamp)
 
 
 def static_pages(published_states):
@@ -1363,7 +1474,7 @@ def static_pages(published_states):
 <h2>Email</h2>
 <p>If you email the address on the <a href="/contact/">contact page</a>, we use your message and your address to reply. We do not sell that information. We keep it only as long as needed to handle the message.</p>
 <h2>Advertising</h2>
-<p>The site shows no ads today. If we add ads later, for example through Google AdSense, third party vendors including Google may use cookies to serve ads based on prior visits. You would be able to opt out of personalized advertising at <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">Google Ads Settings</a> and <a href="https://www.aboutads.info/choices/" rel="nofollow noopener" target="_blank">aboutads.info/choices</a>. Where the law requires it, we will ask for consent before advertising cookies are set. We will update this policy before any ads go live.</p>
+<p>Which Driving Test uses a Google AdSense account meta tag and the AdSense loader script so the publisher account can be verified. The site does not place ad units on pages today, so you should not see display ads while you read. If ads are approved and shown later, third party vendors including Google may use cookies to serve ads based on prior visits. You can opt out of personalized advertising at <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">Google Ads Settings</a> and <a href="https://www.aboutads.info/choices/" rel="nofollow noopener" target="_blank">aboutads.info/choices</a>. Where the law requires it, we will ask for consent before advertising cookies are set. See the <a href="/ad-disclosure/">advertising disclosure</a>.</p>
 <h2 id="cookies">Cookies</h2>
 <p>Which Driving Test stores your analytics choice in local storage in this browser so the banner does not ask on every page. That choice is not an account. Cloudflare Web Analytics does not set a cookie. Google Analytics 4 may set cookies only after you accept. The site still works if you reject, or if your browser blocks cookies.</p>
 <h2>Hosting</h2>
@@ -1385,8 +1496,8 @@ def static_pages(published_states):
             "Advertising and affiliate disclosure",
             "Advertising disclosure for Which Driving Test. No ads and no DMV filing affiliates today.",
             """
-<p>Which Driving Test is free to read. Today the site shows no ads and has no affiliate links. We do not take payment from insurance sellers or from businesses that charge to file a license application.</p>
-<p>If ads are added later, they will be labeled and kept separate from the guides. An advertiser will not be presented as the state agency, and advertisers will not edit the rules we cite. If affiliate links are added, we will say so, and a commission would not raise the price you pay the agency.</p>
+<p>Which Driving Test is free to read. The pages load the Google AdSense account script for publisher verification. No ad units are placed on the guides today, and the site has no affiliate links. We do not take payment from insurance sellers or from businesses that charge to file a license application.</p>
+<p>If ads are approved and shown later, they will be labeled and kept separate from the guides. An advertiser will not be presented as the state agency, and advertisers will not edit the rules we cite. If affiliate links are added, we will say so, and a commission would not raise the price you pay the agency.</p>
 <h2>Editorial independence</h2>
 <p>No state agency and no driving school pays for a mention or for a change to a figure. Questions: use the <a href="/contact/">contact page</a>.</p>
 """,

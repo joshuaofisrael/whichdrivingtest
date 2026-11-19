@@ -23,6 +23,10 @@ CHECKED_LABEL = "16 Nov 2026"
 
 INDEXNOW_KEY = "c4e1a9b27d6f48e0a3c5b81d09e7f246"
 
+# Google AdSense publisher id. Head script + meta only; no ad units until approved.
+ADSENSE_PUB = "ca-pub-5681559774142917"
+ADSENSE_ADS_TXT = "google.com, pub-5681559774142917, DIRECT, f08c47fec0942fa0"
+
 # Per-page lastmod/datePublished overrides for a page published or materially
 # changed after PUBLISHED. Keys are the page's root-relative path exactly as
 # returned by content.py (trailing slash kept). Every other page keeps PUBLISHED.
@@ -30,4 +34,7 @@ INDEXNOW_KEY = "c4e1a9b27d6f48e0a3c5b81d09e7f246"
 # page is actually new or actually changed.
 LASTMOD_OVERRIDES = {
     "guides/permit-holding-period/": "2026-11-18",
+    "wyoming/transfer/": "2026-11-19",
+    "privacy/": "2026-11-19",
+    "ad-disclosure/": "2026-11-19",
 }
