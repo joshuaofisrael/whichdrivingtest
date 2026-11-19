@@ -37,4 +37,5 @@ LASTMOD_OVERRIDES = {
     "wyoming/transfer/": "2026-11-19",
     "privacy/": "2026-11-19",
     "ad-disclosure/": "2026-11-19",
+    "guides/permit-test-questions-by-state/": "2026-11-19",
 }
