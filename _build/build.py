@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import ADSENSE_ADS_TXT, CHECKED_LABEL, DOMAIN, INDEXNOW_KEY, NOINDEX, PUBLISHED, SITE
 from content import all_pages, uncovered_phrase
 from geo import STATES
-from render import page, picker_html
+from render import page, picker_html, _is_thin
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.environ.get("WDT_ROOT") or os.path.dirname(HERE)
@@ -178,7 +178,7 @@ Sitemap: https://whichdrivingtest.com/sitemap.xml
 def write_sitemap(pages):
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for item in pages:
-        if item["path"] == "404.html":
+        if item["path"] == "404.html" or _is_thin(item["path"]):
             continue
         lines.append("  <url>")
         lines.append(f"    <loc>{public_url(item['path'])}</loc>")

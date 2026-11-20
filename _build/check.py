@@ -13,9 +13,27 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import ADSENSE_ADS_TXT, ADSENSE_PUB, CF_BEACON_TOKEN, DOMAIN, GA4_ID, INDEXNOW_KEY, LASTMOD_OVERRIDES, NOINDEX, PUBLISHED
 from geo import BY_SLUG
 
+# Paths in _build/thin-noindex.txt are intentionally noindex (AdSense low-value-content fix, 20 Nov 2026).
+import os as _os
+_THIN = set()
+try:
+    with open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "thin-noindex.txt"), encoding="utf-8") as _fh:
+        _THIN = {l.strip().strip("/") for l in _fh if l.strip() and not l.startswith("#")}
+except FileNotFoundError:
+    pass
+
+
+def _thin_rel(rel):
+    r = str(rel).replace("\\", "/")
+    if r.endswith("index.html"):
+        r = r[: -len("index.html")]
+    return r.strip("/") in _THIN
+
+
+
 ROOT = os.environ.get("WDT_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEGAL = {"terms", "privacy", "disclaimer", "copyright", "ad-disclosure"}
-LEGAL_HOSTS = {"google.com", "www.google.com", "aboutads.info", "www.aboutads.info"}
+LEGAL_HOSTS = {"adssettings.google.com", "policies.google.com", "google.com", "www.google.com", "aboutads.info", "www.aboutads.info"}
 ANALYTICS_HOSTS = {
     "static.cloudflareinsights.com",
     "www.googletagmanager.com",
@@ -119,7 +137,7 @@ def main():
             if 'content="noindex, follow"' not in text:
                 issue(f"missing-noindex {rel}")
         else:
-            if "noindex" in text:
+            if "noindex" in text and not _thin_rel(rel):
                 issue(f"stray-noindex {rel}")
         details = len(re.findall(r"<details\b", text))
         faq_qs = 0

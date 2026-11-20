@@ -286,9 +286,24 @@ def consent_banner():
     )
 
 
+# AdSense low-value-content fix (20 Nov 2026): paths listed in _build/thin-noindex.txt
+# get noindex,follow and stay out of the sitemap until they have real unique substance.
+_THIN_NOINDEX = set()
+try:
+    import os as _os
+    with open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "thin-noindex.txt"), encoding="utf-8") as _fh:
+        _THIN_NOINDEX = {l.strip().strip("/") for l in _fh if l.strip() and not l.startswith("#")}
+except FileNotFoundError:
+    pass
+
+
+def _is_thin(path):
+    return str(path).strip("/") in _THIN_NOINDEX
+
+
 def page(title, description, path, body, schemas, nav=None, picker="", uncovered=""):
     canon = canonical(path)
-    robots = "noindex, follow" if (NOINDEX or path == "404.html") else "index, follow"
+    robots = "noindex, follow" if (NOINDEX or path == "404.html" or _is_thin(path)) else "index, follow"
     og_type = "website" if path in ("", "/", "404.html", "contact/") else "article"
     nav_html = []
     for key, href, label in NAV:
