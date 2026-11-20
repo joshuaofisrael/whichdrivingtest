@@ -37,4 +37,16 @@ LASTMOD_OVERRIDES = {
     "wyoming/transfer/": "2026-11-19",
     "privacy/": "2026-11-19",
     "ad-disclosure/": "2026-11-19",
+    # Alabama permit refresh and road-test upgrade, 20 Nov 2026.
+    "alabama/": "2026-11-20",
+    "alabama/permit/": "2026-11-20",
+    "alabama/road-test/": "2026-11-20",
+    "alabama/teen/": "2026-11-20",
+    "alabama/written-test/": "2026-11-20",
+    "alabama/fees/": "2026-11-20",
+    "alabama/real-id/": "2026-11-20",
+    "guides/learner-permit-ages/": "2026-11-20",
+    "guides/teen-licensing/": "2026-11-20",
+    "": "2026-11-20",
+    "states/": "2026-11-20",
 }

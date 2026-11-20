@@ -161,7 +161,7 @@ def faq_block(faqs):
     return "".join(chunks)
 
 
-def sources_block(sources):
+def sources_block(sources, checked=None):
     seen = []
     for src in sources:
         url = (src or {}).get("url")
@@ -184,7 +184,7 @@ def sources_block(sources):
         items.append(f"<li>{ext(src['url'], label)}</li>")
     return (
         f'<section class="sources"><h2>Sources</h2>'
-        f"<p>Checked {esc(CHECKED_LABEL)}. These are the official pages used for the figures on this page.</p>"
+        f"<p>Checked {esc(checked or CHECKED_LABEL)}. These are the official pages used for the figures on this page.</p>"
         f"<ul>{''.join(items)}</ul></section>"
     )
 
@@ -225,8 +225,8 @@ def picker_html(published):
     )
 
 
-def byline():
-    return f'<p class="byline">By {esc(SITE)}. Last checked {esc(CHECKED_LABEL)}.</p>'
+def byline(checked=None):
+    return f'<p class="byline">By {esc(SITE)}. Last checked {esc(checked or CHECKED_LABEL)}.</p>'
 
 
 def adsense_html():

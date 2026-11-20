@@ -3,7 +3,6 @@
 # Remove a path from this list once the page has real, unique substance.
 alabama/fees
 alabama/real-id
-alabama/road-test
 alabama/written-test
 alaska/permit
 alaska/real-id
