@@ -313,22 +313,36 @@ def buttons(st):
     return '<p class="btnrow">' + "".join(links) + "</p>"
 
 
-def frame(h1, crumbs, inner, faqs, sources, links, legal=False):
+def frame(h1, crumbs, inner, faqs, sources, links, legal=False, checked=None):
     parts = [crumbs_html(crumbs), '<article class="prose wide">', f"<h1>{esc(h1)}</h1>"]
     if not legal:
-        parts.append(byline())
+        parts.append(byline(checked))
     parts.append(BANNER)
     parts.append(inner)
     if faqs:
         parts.append(faq_block(faqs))
     if sources:
-        parts.append(sources_block(sources))
+        parts.append(sources_block(sources, checked))
     if links:
         parts.append(related_block(links))
     if legal:
         parts.append(LEGAL_LINE)
     parts.append("</article>")
     return "".join(parts)
+
+
+def finish(path, title, description, nav, body, h1, crumbs, faqs, about):
+    """Attach a real lastmod only when this path is in LASTMOD_OVERRIDES."""
+    stamp = LASTMOD_OVERRIDES.get(path)
+    return pack(
+        path,
+        title,
+        description,
+        nav,
+        body,
+        content_schemas(h1, path, crumbs, faqs, about, published=stamp),
+        lastmod=stamp,
+    )
 
 
 def pack(path, title, description, nav, body, schemas, lastmod=None):
@@ -475,6 +489,13 @@ def state_page(st, topics, published):
     rows.append(("Fees", fee_cell))
     inner = [
         f"<p>This is a short guide to the driving test and license rules in {esc(place)}. It is written from {esc(agency)} pages opened on {esc(CHECKED_LABEL)}.</p>",
+    ]
+    if st["slug"] == "alabama":
+        inner.append(
+            "<p>The learner permit age, the practice-hour line, and the document list were rechecked on 20 Nov 2026. "
+            "Other lines on this page still reflect the 16 Nov 2026 check.</p>"
+        )
+    inner.extend([
         '<div class="answer"><p><strong>Quick answer</strong></p><ul>' + "".join(quick) + "</ul></div>",
         buttons(st),
         "<h2>At a glance</h2>",
@@ -482,7 +503,7 @@ def state_page(st, topics, published):
         "<p>A line that says the point was not clearly published is not a zero and not a waiver. The agency page controls.</p>",
         "<h2>Documents</h2>",
         doc_list(st),
-    ]
+    ])
     if topics.get("transfer") or st.get("transfer_summary"):
         inner.append("<h2>License from another state</h2>")
         inner.append(sentence(st.get("transfer_summary"), st.get("transfer_url"), "Transfer rules"))
@@ -504,7 +525,183 @@ def state_page(st, topics, published):
         inner.append("<h2>Guides for this state</h2><ul>" + "".join(topic_bits) + "</ul>")
     faqs = state_faqs(st)
     body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published))
-    return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, faqs, name))
+    return finish(path, title, description, None, body, h1, crumbs, faqs, name)
+
+
+ALEA_GDL = "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license"
+ALEA_DOCS = "https://www.alea.gov/dps/document-requirements-and-fees"
+ALEA_MANUAL = "https://www.alea.gov/sites/default/files/Updated%20ALEA%20Driver%27s%20Manual%2012-5-24.pdf"
+
+
+def alabama_permit_parts(st):
+    """Stage I facts rechecked on the ALEA graduated-license and document pages, 20 Nov 2026."""
+    return [
+        "<p>In Alabama, a Stage I learner permit starts at age 15. "
+        f"{ext(ALEA_GDL, 'ALEA graduated license page')} says the applicant must be age 15 or older. "
+        "The old wording on this page, about school papers for a fifteen-year-old, is the motor-driven cycle list, not the permit age.</p>",
+        '<div class="answer"><p><strong>Quick answer</strong></p><ul>'
+        "<li><strong>Minimum age:</strong> 15.</li>"
+        "<li><strong>Who must ride along:</strong> a parent, legal guardian, or licensed driver age 21 or older in the front seat, or a licensed or certified instructor in the front seat.</li>"
+        "<li><strong>Before Stage II, if under 18:</strong> at least 6 months on Stage I.</li>"
+        "<li><strong>Practice:</strong> 50 hours behind the wheel, or a State Department of Education driver education completion form.</li>"
+        "<li><strong>Fees on the same page:</strong> $5 exam fee and $36.25 for the Stage I license. No checks.</li>"
+        "</ul></div>",
+        buttons(st),
+        "<h2>Who sits in the front seat</h2>",
+        "<p>A Stage I license lets a teen drive only with a parent, legal guardian, or a licensed driver who is age 21 or older in the front seat. "
+        "A licensed or certified driving instructor in that same seat also qualifies. "
+        f"{ext(ALEA_GDL, 'Stage I supervision')}</p>",
+        next_reads_block(
+            [
+                ("/alabama/teen/", "Alabama teen licensing", None),
+                ("/guides/learner-permit-ages/", "Permit ages by state", None),
+                ("/guides/permit-holding-period/", "Permit holding periods by state", None),
+                ("/alabama/written-test/", "Alabama written test", None),
+            ],
+            "Read next while you plan Stage I",
+        ),
+        "<h2>Six months, then the restricted license</h2>",
+        "<p>Applicants under 18 must hold the Stage I license for at least 6 months before a Stage II license. "
+        "Stage II also needs a parent, grandparent, or legal guardian's permission to drive without supervision, and a passing road skills exam. "
+        f'The <a href="/guides/permit-holding-period/">holding-period table</a> compares that wait with other states. '
+        f'{ext(ALEA_GDL, "Six-month Stage I rule")}</p>',
+        "<h2>Fifty hours, or driver education</h2>",
+        "<p>ALEA wants a verification form, signed by a parent, grandparent, legal guardian, or certified driving instructor, "
+        "saying the applicant completed a minimum of 50 hours of behind-the-wheel practice. "
+        "The alternative is a completion form from the State Department of Education for an approved driver education course. "
+        f'Night limits and the passenger cap are on the <a href="/alabama/teen/">teen licensing page</a>, not on the permit itself. '
+        f"{ext(ALEA_GDL, 'Practice hours')}</p>",
+        "<h2>What a 15-year-old brings</h2>",
+        "<p>The document page separates a learner license at age 15 from a license at 16 or older. At 15, ALEA lists a certified U.S. birth certificate from the Bureau of Vital Statistics, and it says no photocopies. "
+        "Also a Social Security card, acceptable proof of school enrollment or graduation, and two proofs of principal residence. "
+        f'The <a href="/alabama/fees/">fee page</a> has the dollar amounts: a $5 testing fee and $36.25 for the license. ALEA does not accept checks. '
+        f"{ext(ALEA_DOCS, 'Learner license at age 15')}</p>",
+        "<h2>The written exam comes first</h2>",
+        "<p>Stage I requires a passing grade on the written examination. ALEA says that exam is based on the Alabama Driver Manual. "
+        f'The <a href="/alabama/written-test/">written test page</a> is the short version. The November 2024 manual is the booklet the questions come from. '
+        f"{ext(ALEA_MANUAL, 'Alabama Driver Manual, November 2024')}</p>",
+        "<h2>What to check next</h2>",
+        "<ol><li>Open the graduated license page and confirm age 15 and the six-month wait still match.</li>"
+        "<li>Confirm whether you will log 50 hours or bring the driver education form.</li>"
+        "<li>Use the document list for a 15-year-old, not the motor-driven cycle list.</li></ol>",
+        next_reads_block(
+            [
+                ("/alabama/road-test/", "Alabama road test", None),
+                ("/guides/teen-licensing/", "Teen licensing by state", None),
+                ("/florida/permit/", "Florida learner permit", None),
+                ("/georgia/permit/", "Georgia learner permit", None),
+            ],
+            "After the permit",
+        ),
+        compare_box(
+            st,
+            {"florida": "Florida", "georgia": "Georgia", "mississippi": "Mississippi", "tennessee": "Tennessee", "alabama": "Alabama"},
+            topic="learner permit",
+            blurb="Same question, next door: open the learner permit page for a neighboring state.",
+            link_suffix="permit/",
+        ),
+    ]
+
+
+def alabama_permit_faqs():
+    return [
+        (
+            "How old must I be for a learner permit in Alabama?",
+            "ALEA says a Stage I learner permit requires the applicant to be age 15 or older.",
+        ),
+        (
+            "How long do I hold an Alabama learner permit?",
+            "Applicants under 18 must hold the Stage I license for at least 6 months before applying for a Stage II license.",
+        ),
+        (
+            "How many supervised hours does Alabama publish?",
+            "A signed form must verify a minimum of 50 hours of behind-the-wheel practice, unless the applicant submits a State Department of Education completion form for an approved driver education course.",
+        ),
+    ]
+
+
+def alabama_road_parts(st, published):
+    """Road-test facts from the November 2024 manual and the graduated-license page, checked 20 Nov 2026."""
+    return [
+        "<p>Alabama does not publish a list of automatic road-test fails in the current driver manual. "
+        "The November 2024 Alabama Driver Manual tells you who may come, what the examiner checks on the car, and what papers to bring. "
+        "It does not name mistakes that end the drive on the spot. "
+        f"{ext(ALEA_MANUAL, 'Road test section, November 2024 manual')}</p>",
+        '<div class="answer"><p><strong>Quick answer</strong></p><ul>'
+        "<li><strong>Automatic-fail list:</strong> not in the November 2024 manual's road-test section.</li>"
+        "<li><strong>Who takes it:</strong> Stage II, and anyone 18 or older applying straight for a Stage III license.</li>"
+        "<li><strong>A 16-year-old:</strong> must be accompanied by a parent or guardian.</li>"
+        "<li><strong>The car:</strong> safe operating condition, brake lights, both turn signals, and a horn. Bring insurance and registration.</li>"
+        "<li><strong>Booking:</strong> online up to two weeks ahead at select locations. Walk-ins are welcome at all testing sites. No single public booking URL was on the page.</li>"
+        "</ul></div>",
+        buttons(st),
+        "<h2>What the examiner does before you drive</h2>",
+        "<p>A driver license examiner gives the road skills test. Before it starts, the examiner inspects the vehicle for safe operating condition and for brake lights, left and right turn signals, and a horn. "
+        "The applicant must present proof of insurance and vehicle registration. "
+        "A rental vehicle may be used only if the applicant's name is on the rental agreement as an additional driver. "
+        "If a vision restriction requires corrective lenses, the manual says those lenses must be worn for the road test. "
+        f"{ext(ALEA_MANUAL, 'Vehicle check')}</p>",
+        next_reads_block(
+            [
+                ("/alabama/permit/", "Alabama learner permit", None),
+                ("/alabama/teen/", "Alabama teen licensing", None),
+                ("/guides/permit-holding-period/", "Permit holding periods by state", None),
+                ("/alabama/written-test/", "Alabama written test", None),
+            ],
+            "Read next before you book",
+        ),
+        "<h2>Stage II, and the path that skips it</h2>",
+        "<p>Under 18, Stage II is the restricted license. It requires a passing road skills exam, and the exam is based on the driver manual. "
+        "Those applicants also need at least 6 months on a <a href=\"/alabama/permit/\">Stage I learner permit</a>. "
+        "At 17, Stage III waits until the restricted license has been held at least six months. "
+        "People age 18 and older may apply immediately for a Stage III license, and ALEA still requires a passing score on the road skills exam. "
+        f"{ext(ALEA_GDL, 'Who must pass the road skills exam')}</p>",
+        "<h2>Appointments and walk-ins</h2>",
+        "<p>ALEA says Stage II road-skill appointments can be scheduled online up to two weeks in advance, at select locations, and that walk-ins are welcome at all testing sites. "
+        "The page does not print one statewide booking link, so this guide does not invent one. Start at the ALEA home page linked above. "
+        f"{ext(ALEA_GDL, 'Scheduling note')}</p>",
+        "<h2>Why this page does not list fail-on-the-spot mistakes</h2>",
+        "<p>ALEA still hosts a separate PDF whose first line is \"June 2016 Edition\". "
+        "In that file the words \"Causes for immediate failure and termination of the road test\" appear. "
+        f"{ext('https://www.alea.gov/sites/default/files/inline-files/driverlicensemanual.pdf', 'June 2016 driver manual')} "
+        "The November 2024 road-test section does not use that heading, and it does not list those mistakes. This page follows the newer booklet. "
+        "If a later manual adds a critical-error list, that list belongs here only after it is quoted from the new file. "
+        f"Compare the wait before this exam on the <a href=\"/guides/permit-holding-period/\">holding-period guide</a>, "
+        f"and the practice hours on the <a href=\"/guides/teen-licensing/\">teen licensing guide</a>.</p>",
+        next_reads_block(
+            [
+                ("/guides/teen-licensing/", "Teen licensing by state", None),
+                ("/florida/road-test/", "Florida road test", None),
+                ("/georgia/road-test/", "Georgia road test", None),
+                ("/tennessee/road-test/", "Tennessee road test", None),
+            ],
+            "Keep reading",
+        ),
+        compare_box(
+            st,
+            published,
+            topic="road test",
+            blurb="Check the road test page for a neighboring state. Those pages say what each agency published, not a shared fail list.",
+            link_suffix="road-test/",
+        ),
+    ]
+
+
+def alabama_road_faqs():
+    return [
+        (
+            "Does Alabama publish automatic road test fails?",
+            "Not in the road-test section of the November 2024 Alabama Driver Manual. That section covers the vehicle inspection, a parent or guardian for a 16-year-old, insurance, and registration.",
+        ),
+        (
+            "What should I bring to the Alabama road test?",
+            "Proof of insurance and vehicle registration. The examiner checks brake lights, both turn signals, and the horn. A 16-year-old must bring a parent or guardian. Wear corrective lenses if your license restriction requires them. A rental car is allowed only when your name is on the agreement as an additional driver.",
+        ),
+        (
+            "How do I schedule the Alabama road test?",
+            "ALEA says Stage II appointments can be scheduled online up to two weeks ahead at select locations, and walk-ins are welcome at all testing sites. A single public booking URL was not on the page checked 20 Nov 2026.",
+        ),
+    ]
 
 
 def permit_page(st, topics, published):
@@ -514,6 +711,24 @@ def permit_page(st, topics, published):
     h1 = f"{name} learner permit requirements"
     description = f"{name} learner permit age, practice hours, and the official application page."
     crumbs = [("Home", "/"), (name, f"/{st['slug']}/"), ("Learner permit", "/" + path)]
+    if st["slug"] == "alabama":
+        checked = label_for_iso(LASTMOD_OVERRIDES[path])
+        inner = alabama_permit_parts(st)
+        faqs = alabama_permit_faqs()
+        title = clean_title("How old for an Alabama learner permit? 15")
+        description = clean_desc(
+            "Alabama learner permit: age 15, 50 practice hours or driver education, and a $36.25 Stage I fee."
+        )
+        body = frame(
+            h1,
+            crumbs,
+            "".join(inner),
+            faqs,
+            sources_for(st),
+            related_for(st, topics, published, "permit"),
+            checked=checked,
+        )
+        return finish(path, title, description, None, body, h1, crumbs, faqs, f"{name} learner permit")
     inner = [
         sentence(
             f"In {place}, {agency_of(st)} publishes {st['permit_age']} as the minimum age for a learner permit.",
@@ -559,7 +774,7 @@ def permit_page(st, topics, published):
         ),
     ]
     body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "permit"))
-    return pack(path, which_title(name, "learner permit to get"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} learner permit"))
+    return finish(path, which_title(name, "learner permit to get"), description, None, body, h1, crumbs, faqs, f"{name} learner permit")
 
 
 def written_page(st, topics, published):
@@ -600,8 +815,9 @@ def written_page(st, topics, published):
             else "A handbook link was not confirmed on the pages we checked. Start at the agency home page.",
         ),
     ]
-    body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "written-test"))
-    return pack(path, which_title(name, "written test to take"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} written test"))
+    checked = label_for_iso(LASTMOD_OVERRIDES[path]) if st["slug"] == "alabama" and path in LASTMOD_OVERRIDES else None
+    body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "written-test"), checked=checked)
+    return finish(path, which_title(name, "written test to take"), description, None, body, h1, crumbs, faqs, f"{name} written test")
 
 
 def road_page(st, topics, published):
@@ -611,6 +827,31 @@ def road_page(st, topics, published):
     h1 = f"{name} road test requirements"
     description = f"{name} road test: what the agency requires, what to bring, and how to schedule."
     crumbs = [("Home", "/"), (name, f"/{st['slug']}/"), ("Road test", "/" + path)]
+    if st["slug"] == "alabama":
+        checked = label_for_iso(LASTMOD_OVERRIDES[path])
+        inner = alabama_road_parts(st, published)
+        faqs = alabama_road_faqs()
+        title = clean_title("Does Alabama list automatic road test fails?")
+        description = clean_desc(
+            "Alabama's November 2024 driver manual does not list automatic road test fails. Here is what it does require."
+        )
+        sources = sources_for(st) + [
+            {
+                "title": "Alabama Driver Manual, June 2016 edition",
+                "url": "https://www.alea.gov/sites/default/files/inline-files/driverlicensemanual.pdf",
+                "publisher": "Alabama Law Enforcement Agency",
+            }
+        ]
+        body = frame(
+            h1,
+            crumbs,
+            "".join(x for x in inner if x),
+            faqs,
+            sources,
+            related_for(st, topics, published, "road-test"),
+            checked=checked,
+        )
+        return finish(path, title, description, None, body, h1, crumbs, faqs, f"{name} road test")
     inner = [
         sentence(st.get("road_required"), st.get("road_url"), "Road test"),
         '<div class="answer"><p><strong>Quick answer</strong></p><p>'
@@ -644,7 +885,7 @@ def road_page(st, topics, published):
         ),
     ]
     body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "road-test"))
-    return pack(path, which_title(name, "road test to schedule"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} road test"))
+    return finish(path, which_title(name, "road test to schedule"), description, None, body, h1, crumbs, faqs, f"{name} road test")
 
 
 def realid_page(st, topics, published):
@@ -684,7 +925,7 @@ def realid_page(st, topics, published):
         ),
     ]
     body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "real-id"))
-    return pack(path, which_title(name, "REAL ID to request"), description, "realid", body, content_schemas(h1, path, crumbs, faqs, f"{name} REAL ID"))
+    return finish(path, which_title(name, "REAL ID to request"), description, "realid", body, h1, crumbs, faqs, f"{name} REAL ID")
 
 
 def fees_page(st, topics, published):
@@ -710,23 +951,31 @@ def fees_page(st, topics, published):
             f"Pay {short_of(st)} on the official site. This guide does not sell filing help.",
         ),
     ]
-    body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "fees"))
-    return pack(path, which_title(name, "license fee to pay"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} license fees"))
+    checked = label_for_iso(LASTMOD_OVERRIDES[path]) if st["slug"] == "alabama" and path in LASTMOD_OVERRIDES else None
+    body = frame(h1, crumbs, "".join(inner), faqs, sources_for(st), related_for(st, topics, published, "fees"), checked=checked)
+    return finish(path, which_title(name, "license fee to pay"), description, None, body, h1, crumbs, faqs, f"{name} license fees")
 
 
-def compare_box(st, published, topic="transfer"):
-    """Lookup-page box that sends readers to a nearby state hub."""
+def compare_box(st, published, topic="transfer", blurb=None, link_suffix=""):
+    """Lookup-page box that sends readers to a nearby state."""
     _heading, slugs = nearby(st["slug"], published)
     items = []
     for slug in slugs[:4]:
         label = published.get(slug) or name_of(slug)
-        items.append(f'<li><a href="/{esc(slug)}/">{esc(label)} overview</a></li>')
+        if link_suffix:
+            href = f"/{slug}/{link_suffix}"
+            link_label = f"{label} {topic}"
+        else:
+            href = f"/{slug}/"
+            link_label = f"{label} overview"
+        items.append(f'<li><a href="{esc(href)}">{esc(link_label)}</a></li>')
     if not items:
         return ""
+    text = blurb or "Open a neighboring state hub, then use its transfer guide if that state publishes one."
     return (
         '<aside class="compare" aria-label="Check another state">'
         "<h2>Check another state</h2>"
-        "<p>Open a neighboring state hub, then use its transfer guide if that state publishes one.</p>"
+        f"<p>{esc(text)}</p>"
         f"<ul>{''.join(items)}</ul>"
         f'<p class="note"><a href="/states/">All states</a> · '
         f'<a href="/{esc(st["slug"])}/">{esc(st["name"])} overview</a></p>'
@@ -839,6 +1088,13 @@ def teen_page(st, topics, published):
         bits.append(f"<li><strong>Passengers:</strong> {shown(st['passengers'])}</li>")
     inner = [
         f"<p>Teen licensing in {esc(place)} is the graduated path published by {esc(agency_of(st))}. Adult applicants can have different rules.</p>",
+    ]
+    if st["slug"] == "alabama":
+        inner.append(
+            "<p>These Stage I and Stage II lines were rechecked on 20 Nov 2026 against the ALEA graduated license page. "
+            "Stage II also says the driver must not use any handheld communication device while driving.</p>"
+        )
+    inner.extend([
         sentence(st.get("teen_summary"), st.get("teen_url") or st.get("supervised_url"), "Teen rules"),
         '<div class="answer"><p><strong>Quick answer</strong></p><ul>' + "".join(bits) + "</ul></div>" if bits else "",
         buttons(st),
@@ -854,7 +1110,7 @@ def teen_page(st, topics, published):
         "<h2>Holding period and full license</h2>",
         sentence(st.get("holding_period"), st.get("holding_url"), "Holding period") or "",
         sentence(st.get("full_license_age"), st.get("full_license_age_url"), "Full license age") or "",
-    ]
+    ])
     for point in st.get("teen_points") or []:
         inner.append(sentence(point.get("text"), point.get("url"), "Teen rules"))
     faqs = [
@@ -871,8 +1127,9 @@ def teen_page(st, topics, published):
             st.get("passengers") or "A passenger limit was not clearly published on the pages we checked.",
         ),
     ]
-    body = frame(h1, crumbs, "".join(x for x in inner if x), faqs, sources_for(st), related_for(st, topics, published, "teen"))
-    return pack(path, which_title(name, "teen license to get"), description, None, body, content_schemas(h1, path, crumbs, faqs, f"{name} teen licensing"))
+    checked = label_for_iso(LASTMOD_OVERRIDES[path]) if st["slug"] == "alabama" and path in LASTMOD_OVERRIDES else None
+    body = frame(h1, crumbs, "".join(x for x in inner if x), faqs, sources_for(st), related_for(st, topics, published, "teen"), checked=checked)
+    return finish(path, which_title(name, "teen license to get"), description, None, body, h1, crumbs, faqs, f"{name} teen licensing")
 
 
 TOPIC_BUILDERS = {
@@ -971,7 +1228,7 @@ def home_page(states):
         },
         faq_schema(faqs),
     ]
-    return pack("", title, description, "home", inner, schemas)
+    return pack("", title, description, "home", inner, schemas, lastmod=LASTMOD_OVERRIDES.get(""))
 
 
 def states_index(states):
@@ -1013,7 +1270,7 @@ def states_index(states):
         ),
     ]
     body = frame(h1, crumbs, inner_core, faqs, [], [("/guides/how-to-use/", "How to use these guides"), ("/guides/learner-permit-ages/", "Permit ages by state"), ("/", "Home")])
-    return pack(path, title, description, "states", body, content_schemas(h1, path, crumbs, faqs, "US state driving tests"))
+    return finish(path, title, description, "states", body, h1, crumbs, faqs, "US state driving tests")
 
 
 def guide_how(states):
@@ -1129,7 +1386,7 @@ def guide_ages(states):
         "A cell that says the age was not clearly published is not a guess and it is not zero.</p>"
         + '<div class="tablewrap"><table class="list"><thead><tr><th>State</th><th>Learner permit</th><th>First license</th></tr></thead>'
         f"<tbody>{''.join(rows)}</tbody></table></div>"
-        f"<p>Checked {esc(CHECKED_LABEL)}. Open the state guide for the official link.</p>"
+        f"<p>Checked 16 Nov 2026, except Alabama's learner permit age, which was rechecked on 20 Nov 2026. Open the state guide for the official link.</p>"
     )
     faqs = [
         (
@@ -1154,7 +1411,7 @@ def guide_ages(states):
             ("/", "Home"),
         ],
     )
-    return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, faqs, "Learner permit ages"))
+    return finish(path, title, description, None, body, h1, crumbs, faqs, "Learner permit ages")
 
 
 def guide_teen(states):
@@ -1178,7 +1435,7 @@ def guide_teen(states):
         + "<p>Graduated licensing rules for teens differ by state. This table shows practice hours, night rules, and passenger limits only when the state agency publishes them.</p>"
         + '<div class="tablewrap"><table class="list"><thead><tr><th>State</th><th>Practice hours</th><th>Night rule</th><th>Passengers</th></tr></thead>'
         f"<tbody>{''.join(rows)}</tbody></table></div>"
-        f"<p>Checked {esc(CHECKED_LABEL)}. Adult applicants should use the state overview, not this teen table.</p>"
+        f"<p>Checked 16 Nov 2026, except Alabama's practice-hour cell, which was rechecked on 20 Nov 2026. Adult applicants should use the state overview, not this teen table.</p>"
     )
     faqs = [
         (
@@ -1203,7 +1460,7 @@ def guide_teen(states):
             ("/", "Home"),
         ],
     )
-    return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, faqs, "Teen driver licensing"))
+    return finish(path, title, description, None, body, h1, crumbs, faqs, "Teen driver licensing")
 
 
 def guide_holding(states):
