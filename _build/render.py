@@ -1,5 +1,6 @@
 """HTML shell, schema, and small components. Paths are root-relative."""
 
+import re
 import html
 import json
 import os
@@ -327,6 +328,16 @@ def page(title, description, path, body, schemas, nav=None, picker="", uncovered
     footer_links = " | ".join(footer_bits)
     schema_html = "".join(jsonld(s) for s in schemas)
     uncovered_html = f'<p class="uncovered">{esc(uncovered)}</p>' if uncovered else ""
+    if path not in ("", "/", "404.html") and not path.startswith(("privacy", "terms", "disclaimer", "contact", "about", "image-policy", "ad-disclosure")) and not re.search(r"<h1[^>]*>.*?</h1>\s*<figure", body, re.S):
+        kind = "transfer" if "/transfer" in path or path.endswith("transfer/") else "guide"
+        src = "/assets/images/moving-boxes-car-trunk.png" if kind == "transfer" else "/assets/images/learner-driver-wheel.png"
+        alt = "Open car trunk packed with moving boxes outside a house, illustrative only" if kind == "transfer" else "Learner driver's hands on a steering wheel, illustrative only"
+        hero = (
+            f'<figure class="article-thumb"><a href="/image-policy/">'
+            f'<img src="{src}" width="1280" height="720" alt="{esc(alt)}" loading="eager" decoding="async"></a>'
+            f'<figcaption>AI-generated image. <a href="/image-policy/">Image policy</a>.</figcaption></figure>'
+        )
+        body = re.sub(r"(<h1[^>]*>.*?</h1>)", r"\1\n" + hero, body, count=1, flags=re.S)
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title><meta name="description" content="{esc(description)}"><link rel="canonical" href="{esc(canon)}">
