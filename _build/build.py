@@ -248,7 +248,7 @@ def write_indexnow():
 def write_ads_txt():
     path = os.path.join(ROOT, "ads.txt")
     with open(path, "w", encoding="utf-8") as fh:
-        fh.write(ADSENSE_ADS_TXT.strip() + "\n")
+        fh.write("")  # AdSense detached 21 Nov 2026 until the account is approved (see seo-central/site-seo-rules.md). Do not re-add.
 
 
 def main():

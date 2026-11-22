@@ -291,16 +291,12 @@ def main():
     if not os.path.isfile(key_path) or open(key_path, encoding="utf-8").read().strip() != INDEXNOW_KEY:
         issue("indexnow-key")
     ads_path = os.path.join(ROOT, "ads.txt")
-    if not ADSENSE_PUB:
-        issue("adsense-pub-empty")
-    elif not os.path.isfile(ads_path) or open(ads_path, encoding="utf-8").read().strip() != ADSENSE_ADS_TXT.strip():
-        issue("ads-txt")
-    else:
-        sample = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
-        if f'name="google-adsense-account" content="{ADSENSE_PUB}"' not in sample:
-            issue("adsense-meta")
-        if f"adsbygoogle.js?client={ADSENSE_PUB}" not in sample:
-            issue("adsense-script")
+    # AdSense detached 21 Nov 2026 until the account is approved (see seo-central/site-seo-rules.md). Do not re-add.
+    if os.path.isfile(ads_path) and "pub-5681559774142917" in open(ads_path, encoding="utf-8").read():
+        issue("ads-txt-still-has-adsense")
+    sample = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
+    if "google-adsense-account" in sample or "adsbygoogle.js" in sample:
+        issue("adsense-tag-present")
     print("files", len(files), "issues", BAD)
     sys.exit(1 if BAD else 0)
 

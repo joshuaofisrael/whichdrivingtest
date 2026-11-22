@@ -231,6 +231,7 @@ def byline(checked=None):
 
 def adsense_html():
     """AdSense account verification only. No ad units are placed on the page."""
+    return ""  # AdSense detached 21 Nov 2026 until the account is approved (see seo-central/site-seo-rules.md). Do not re-add.
     if NOINDEX or not ADSENSE_PUB:
         return ""
     pub = esc(ADSENSE_PUB)
