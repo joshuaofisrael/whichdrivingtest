@@ -49,4 +49,5 @@ LASTMOD_OVERRIDES = {
     "guides/teen-licensing/": "2026-11-20",
     "": "2026-11-20",
     "states/": "2026-11-20",
+    "guides/permit-test-questions-by-state/": "2026-11-19",
 }
