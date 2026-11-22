@@ -1206,6 +1206,7 @@ def home_page(states):
 <li><a href="/guides/permit-holding-period/">Learner permit holding periods by state</a></li>
 <li><a href="/guides/permit-test-questions-by-state/">Permit test questions and passing scores by state</a></li>
 <li><a href="/guides/teen-licensing/">Teen licensing by state</a></li>
+<li><a href="/guides/road-test-automatic-fails/">Road test mistakes that end the test</a></li>
 </ul>
 {faq_block(faqs)}
 """
@@ -1676,6 +1677,168 @@ def guide_questions(states):
         lastmod=stamp,
     )
 
+def automatic_fails_photo():
+    """News-photo thumbnail when the bank file is in the repo."""
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    rel = "assets/images/learner-driver-wheel.png"
+    dest = os.path.join(root, rel)
+    if os.path.isfile(dest):
+        return "/" + rel
+    return ""
+
+
+def guide_fails(states):
+    """States whose own handbook or scoring page lists road-test mistakes that fail the test."""
+    h1 = "Road test mistakes that end the test"
+    title = "Which road test mistakes fail you immediately"
+    description = "Which road test mistakes cause an immediate fail, only where a state handbook or scoring page lists them."
+    path = "guides/road-test-automatic-fails/"
+    crumbs = [("Home", "/"), ("Guides", "/guides/"), ("Road test fails", "/" + path)]
+    checked = label_for_iso(LASTMOD_OVERRIDES[path])
+    ca = "https://www.dmv.ca.gov/portal/handbook/driving-test-criteria/driving-performance-evaluation-dpe-scoring-criteria/"
+    idaho = "https://itd.idaho.gov/guide/taking-the-drivers-test/"
+    oregon = "https://www.oregon.gov/odot/Forms/DMV/41.pdf"
+    ri_manual = "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/manuals/Driver_Manual_FINAL.pdf"
+    ri_check = "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/forms/checklist/roadtest_checklist-Final.pdf"
+    nm = "https://www.mvd.newmexico.gov/chapter-11-road-and-written-test-requirements/"
+    photo = automatic_fails_photo()
+    photo_html = ""
+    if photo:
+        photo_html = (
+            '<figure class="guide-photo">'
+            f'<a href="/image-policy/"><img src="{esc(photo)}" width="1200" height="675" '
+            'alt="Hands of a learner driver on a steering wheel with a handbook on the passenger seat"></a>'
+            '<figcaption>AI-generated image. <a href="/image-policy/">Image policy</a>.</figcaption>'
+            "</figure>"
+        )
+    inner = f"""
+{photo_html}
+<p>A road test does not use one national list of mistakes that end it. On 20 Nov 2026 we opened official handbooks and scoring pages and kept a state only when that page itself names the errors. Five states did. They do not even use the same verb. Idaho, Oregon, Rhode Island, and New Mexico say the drive stops. California scores the same kind of mistake as a failure and does not say the examiner ends the drive at that moment.</p>
+<div class="answer"><p><strong>Quick answer</strong></p>
+<p>If the handbook does not list it, it is not in the table. California calls them critical driving errors and a test failure. Idaho says a critical driving error is an automatic fail and the skills test ends immediately. Oregon's applicant pamphlet is headed "Grounds for Immediate Failure." Rhode Island's driver manual, marked rev. 08/2015 and still the PDF on the DMV site, lists four reasons for immediate failure. New Mexico's road-test chapter tells the examiner to disqualify the driver and discontinue the test.</p></div>
+<div class="tablewrap"><table class="list"><thead><tr><th>State</th><th>What the official page calls it</th><th>Says the drive stops then</th><th>Last verified</th></tr></thead><tbody>
+<tr><td><a href="/california/road-test/">California</a></td><td>Critical driving error. The scoring page says the error would result in a driving test failure.</td><td>Not in those words</td><td>20 Nov 2026</td></tr>
+<tr><td><a href="/idaho/road-test/">Idaho</a></td><td>Critical driving error. More than 12 errors also fails, and five errors of the same skill count as one critical error.</td><td>Yes. The skills test ends immediately.</td><td>20 Nov 2026</td></tr>
+<tr><td><a href="/oregon/">Oregon</a></td><td>Grounds for immediate failure, on drive-test form 735-41. Oregon has no separate road-test page on this site.</td><td>Yes. The form uses that heading.</td><td>20 Nov 2026. File last modified 25 Jun 2026.</td></tr>
+<tr><td><a href="/rhode-island/road-test/">Rhode Island</a></td><td>Reasons for immediate failure, in the driver manual marked rev. 08/2015.</td><td>Yes.</td><td>20 Nov 2026. The PDF is still the manual file on dmv.ri.gov.</td></tr>
+<tr><td><a href="/new-mexico/road-test/">New Mexico</a></td><td>Disqualify and discontinue. Chapter 11, Section C, revised 10 Sep 2021. The chapter header also shows 01/02/2009.</td><td>Yes. Discontinue the test immediately.</td><td>20 Nov 2026</td></tr>
+</tbody></table></div>
+<p>Alabama is the contrast, not a sixth row. The <a href="/alabama/road-test/">Alabama road test page</a> follows the November 2024 driver manual, and that road-test section does not list these mistakes. A June 2016 file still on the agency site uses the heading. Other states are absent because this pass did not open a list for them. Absence is not a finding that the state has no rule.</p>
+""" + next_reads_block(
+        [
+            ("/alabama/road-test/", "Alabama road test", photo or None),
+            ("/california/road-test/", "California road test", photo or None),
+            ("/idaho/road-test/", "Idaho road test", photo or None),
+            ("/guides/permit-holding-period/", "Permit holding periods by state", photo or None),
+        ],
+        "Read a state page next",
+    ) + f"""
+<h2>California scores the error. It does not say the car stops</h2>
+<p>The DMV driving-test criteria call these critical driving errors. The page says the criteria judge an action or inaction that would result in a driving test failure. It does not say the examiner ends the route the moment one happens. {ext(ca, "California DPE scoring criteria")}</p>
+<p>The categories are intervention by the examiner, including three tries at backing, or a verbal "Stop"; striking a vehicle, object, bicyclist, pedestrian, or animal, or driving over the curb or onto the sidewalk; disobeying a sign or signal; disobeying safety personnel or a safety vehicle; a dangerous maneuver; speed; leaving wipers, the defroster, or headlights off when weather or darkness requires them; and a lane violation.</p>
+<p>Two thresholds are more specific than the category name. At a stop sign, a flashing red light, or a right turn on red, going through, or going faster than a brisk walking speed of 4 mph, is the sign-and-signal error. Speed is 10 mph over the limit, or 10 mph under it when the road and the people around you do not call for the lower speed. The <a href="/california/written-test/">California written test</a> is a different exam. The <a href="/california/road-test/">road test page</a> is the state summary.</p>
+<h2>Idaho ends the test, and it counts repeats</h2>
+<p>Idaho's skills-test page is blunt. A critical driving error is a skill performed or not performed that may result in an incident, injury, or death. If one occurs anywhere on the route, it is an automatic fail and the skills test ends immediately. Separately, you fail with more than 12 errors. Five errors of the same skill are themselves a critical driving error. {ext(idaho, "Idaho skills test page")}</p>
+<ul>
+<li>Dangerous action</li>
+<li>Disobeys an emergency or safety vehicle</li>
+<li>Disobeys police or safety personnel</li>
+<li>Disobeys a traffic sign or signal</li>
+<li>Drives up onto the curb or sidewalk</li>
+<li>Habitual violation, meaning five of the same skill</li>
+<li>Intervention by the examiner, or disobeying the examiner</li>
+<li>Lane violation</li>
+<li>Passenger interference</li>
+<li>Speed, written on the page as more than 10 mph, or an unsafe speed</li>
+<li>Street curb parking more than 18 inches out</li>
+<li>Strikes an object</li>
+</ul>
+<p>The <a href="/idaho/road-test/">Idaho road test page</a> and the <a href="/idaho/written-test/">written test page</a> are the shorter state guides. Practice hours and night rules, which are not the same question, are on the <a href="/guides/teen-licensing/">teen licensing table</a>.</p>
+<h2>Oregon hands you the fail list before you drive</h2>
+<p>Form 735-41 is the pamphlet for the person taking the test, not an internal memo. Its section is titled Grounds for Immediate Failure. The copy on oregon.gov was last modified 25 Jun 2026. We opened it 20 Nov 2026. {ext(oregon, "Oregon form 735-41")}</p>
+<ul>
+<li>A collision with any property damage or personal injury.</li>
+<li>Refusing any maneuver that is part of the test.</li>
+<li>A dangerous action: another driver prevents the collision, the examiner has to help physically or orally, the car drives or backs over a curb or sidewalk, or stalling or other improper driving creates a serious traffic hazard.</li>
+<li>Passing a car stopped at a crosswalk for a pedestrian, or passing a school bus with red lights flashing. A turn from or into the wrong lane when traffic makes that dangerous. Running a red light or a stop sign, or having to be stopped from running one.</li>
+<li>After a short distance, or once the drive is done, it is apparent the applicant is dangerously inexperienced or cannot operate the vehicle's equipment.</li>
+</ul>
+<p>This site has an <a href="/oregon/">Oregon overview</a> and no Oregon road-test page, because the agency pages we had quoted did not support one. The pamphlet above is the fail list. It is not a full road-test guide.</p>
+<h2>Rhode Island's manual is old, and the checklist is longer</h2>
+<p>The driver manual PDF is marked rev. 08/2015. It is still the file at the DMV manual address, and the operator-manuals page still points readers at the PDF. We are not treating it as a 2026 rewrite. {ext(ri_manual, "Rhode Island driver manual")}</p>
+<p>Under "reasons for immediate failure of a driving test" the manual lists four:</p>
+<ul>
+<li>Leaving the designated roadway: sidewalk, leaving the laned roadway or the lane of travel, or driving in a safety zone.</li>
+<li>Any moving violation.</li>
+<li>Lack of cooperation with the license examiner.</li>
+<li>Collision or contact with any other object.</li>
+</ul>
+<p>The separate road-test checklist, opened the same day, adds grounds the manual's four lines do not name: equipment failure or erratic operation, a dangerously inexperienced driver, dangerous actions, and a rolling stop. It also says a failure waits at least 30 days. {ext(ri_check, "Rhode Island road test checklist")} The <a href="/rhode-island/road-test/">Rhode Island road test page</a> is the state summary. How long the permit is held before that test is on the <a href="/guides/permit-holding-period/">holding-period table</a>.</p>
+<h2>New Mexico writes the stop rule to the examiner</h2>
+<p>Chapter 11 is the Motor Vehicle Division's road-test requirements, and Section C is written to the examiner. The section we used was revised 10 Sep 2021. The chapter page also prints 01/02/2009 at the top, so both dates stay on this row. {ext(nm, "New Mexico Chapter 11")}</p>
+<p>The section says to disqualify the driver and discontinue the test immediately if any of these happen: the applicant cannot do the pre-trip equipment check, including mirrors, the parking brake, horn, wipers, lamps, flashers, or signals; the applicant does not know how to start the vehicle; the seat belt is not connected before the vehicle is put in gear; the applicant is dangerously inexperienced; a crash involves property damage or injury; a dangerous driving error, including a near crash avoided only because other drivers took evasive action, the examiner having to grab the wheel or pull the emergency brake, or driving or stalling somewhere dangerous such as a sidewalk, a railroad track, or an intersection; passing on a blind curve, the crest of a grade, or in a no-passing zone; a turn from the wrong lane when traffic makes it dangerous; speeding by 15 miles or more over the posted limit; running a red light or a stop sign; refusing a required maneuver; or offering the examiner payment. The <a href="/new-mexico/road-test/">New Mexico road test page</a> is the shorter guide.</p>
+<h2>What to do with a state that is not here</h2>
+<p>Open that state's road test page, then the handbook linked there. If the handbook does not name the mistake, do not borrow Idaho's list or California's 4 mph rule and apply it. Ages and the wait before the test are on the <a href="/guides/learner-permit-ages/">permit age table</a>. They are a different question from how the drive is scored.</p>
+"""
+    inner += next_reads_block(
+        [
+            ("/rhode-island/road-test/", "Rhode Island road test", None),
+            ("/new-mexico/road-test/", "New Mexico road test", None),
+            ("/guides/teen-licensing/", "Teen licensing by state", None),
+            ("/guides/learner-permit-ages/", "Permit ages by state", None),
+        ],
+        "Keep reading",
+    )
+    inner += """
+<aside class="compare" aria-label="Check another state">
+<h2>Check another state</h2>
+<p>These are the road test pages for states in the table. Oregon's fail list is the form linked above, not a road-test guide on this site.</p>
+<ul>
+<li><a href="/california/road-test/">California road test</a></li>
+<li><a href="/idaho/road-test/">Idaho road test</a></li>
+<li><a href="/rhode-island/road-test/">Rhode Island road test</a></li>
+<li><a href="/new-mexico/road-test/">New Mexico road test</a></li>
+</ul>
+<p class="note"><a href="/oregon/">Oregon overview</a> · <a href="/alabama/road-test/">Alabama road test</a> · <a href="/states/">All states</a></p>
+</aside>
+"""
+    inner += missing_html(states)
+    faqs = [
+        (
+            "Does every state end the road test for the same mistake?",
+            "No. The five states in the table published lists, and the lists are not copies of each other. California does not say the drive stops the moment the error happens. Idaho does.",
+        ),
+        (
+            "Why is my state missing from the table?",
+            "This pass did not open a handbook or scoring page for that state that listed the mistakes. That is not a finding that the state has no such rule. Use the state road test page and the official handbook.",
+        ),
+        (
+            "Does Alabama publish automatic road test fails?",
+            "Not in the road-test section of the November 2024 Alabama Driver Manual. An older PDF on the same site still uses the heading Causes for immediate failure. The Alabama road test page follows the newer manual.",
+        ),
+    ]
+    sources = [
+        {"title": "California DPE scoring criteria", "url": ca, "publisher": "California Department of Motor Vehicles"},
+        {"title": "Taking the Driver's Test", "url": idaho, "publisher": "Idaho Transportation Department"},
+        {"title": "Drive test pamphlet, form 735-41", "url": oregon, "publisher": "Oregon Driver and Motor Vehicle Services"},
+        {"title": "Rhode Island driver manual, rev. 08/2015", "url": ri_manual, "publisher": "Rhode Island Division of Motor Vehicles"},
+        {"title": "Rhode Island road test checklist", "url": ri_check, "publisher": "Rhode Island Division of Motor Vehicles"},
+        {"title": "Chapter 11, road and written test requirements", "url": nm, "publisher": "New Mexico Motor Vehicle Division"},
+        {
+            "title": "Alabama Driver Manual, November 2024",
+            "url": ALEA_MANUAL,
+            "publisher": "Alabama Law Enforcement Agency",
+        },
+    ]
+    body = frame(h1, crumbs, inner, faqs, sources, [
+        ("/guides/learner-permit-ages/", "Permit ages by state"),
+        ("/guides/permit-holding-period/", "Permit holding periods by state"),
+        ("/guides/teen-licensing/", "Teen licensing by state"),
+        ("/states/", "All states"),
+    ], checked=checked)
+    return finish(path, title, description, None, body, h1, crumbs, faqs, "Road test automatic fails")
+
+
 
 def guides_index(states):
     h1 = "Driving test guides"
@@ -1691,6 +1854,7 @@ def guides_index(states):
 <li><a href="/guides/permit-holding-period/">Learner permit holding periods by state</a></li>
 <li><a href="/guides/permit-test-questions-by-state/">Permit test questions and passing scores by state</a></li>
 <li><a href="/guides/teen-licensing/">Teen licensing by state</a></li>
+<li><a href="/guides/road-test-automatic-fails/">Road test mistakes that end the test</a></li>
 </ul>
 <p>State pages are the place to confirm a figure. These guides compare them or explain the federal REAL ID rule.</p>
 """ + missing_html(states)
@@ -2017,6 +2181,7 @@ def all_pages(states):
         guide_teen(published_states),
         guide_holding(published_states),
         guide_questions(published_states),
+        guide_fails(published_states),
     ]
     pages.extend(static_pages(published_states))
     pages.append(not_found_page())

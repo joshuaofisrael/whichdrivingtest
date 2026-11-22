@@ -47,6 +47,7 @@ LASTMOD_OVERRIDES = {
     "alabama/real-id/": "2026-11-20",
     "guides/learner-permit-ages/": "2026-11-20",
     "guides/teen-licensing/": "2026-11-20",
+    "guides/road-test-automatic-fails/": "2026-11-20",
     "": "2026-11-20",
     "states/": "2026-11-20",
     "guides/permit-test-questions-by-state/": "2026-11-19",
