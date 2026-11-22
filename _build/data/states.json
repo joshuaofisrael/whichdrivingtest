@@ -193,7 +193,7 @@
         "url": "https://dmv.alaska.gov/credential-services/instruction-permit/"
       },
       {
-        "text": "Practice with a licensed driver who is at least 21 and has one year of experience.",
+        "text": "Practice with a licensed driver who is at least 21, has one year of experience in that type of vehicle, and sits in the passenger seat. The instruction permit is valid for two years and may be renewed once. The permit page prints a fee.",
         "url": "https://dmv.alaska.gov/credential-services/instruction-permit/"
       },
       {
@@ -205,7 +205,19 @@
         "url": "https://dmv.alaska.gov/credential-services/provisional-license/"
       },
       {
-        "text": "No driving between 1:00 a.m. and 5:00 a.m. unless an exception applies.",
+        "text": "No driving between 1:00 a.m. and 5:00 a.m. unless a licensed driver who is at least 21 is with you, or the trip is to or from work or within the scope of employment, by the most direct route.",
+        "url": "https://dmv.alaska.gov/credential-services/provisional-license/"
+      },
+      {
+        "text": "A provisional license also requires no traffic conviction and no suspension or revocation in the previous six months.",
+        "url": "https://dmv.alaska.gov/credential-services/provisional-license/"
+      },
+      {
+        "text": "The provisional page still does not state a number of practice hours. Rechecked 21 Nov 2026.",
+        "url": "https://dmv.alaska.gov/credential-services/instruction-permit/"
+      },
+      {
+        "text": "Violating a provisional restriction is an infraction. The provisional page prints a penalty and 2 points.",
         "url": "https://dmv.alaska.gov/credential-services/provisional-license/"
       }
     ]
@@ -3875,7 +3887,7 @@
     "holding_url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
     "real_id_summary": "Beginning May 7, 2025, a REAL ID-compliant driver license or identification card is required to board a domestic flight or enter certain federal facilities, unless the traveler uses another accepted document such as a passport.",
     "real_id_url": "https://www.bmv.ohio.gov/dl-real-id.aspx",
-    "transfer_summary": "An unexpired out-of-state non-commercial license can be exchanged at age 16 or older. If the out-of-state license is expired, or the person is a first-time driver, the testing process is required. The new-resident page does not say a current out-of-state license holder skips the knowledge or road test.",
+    "transfer_summary": "Ohio treats you as a resident once you take a job, sign a lease, buy a home, or enroll children in school. Within 30 days of establishing residency you are responsible for transferring an out-of-state driver license or ID card, and the vehicle title and registration. At 16 or older, an unexpired out-of-state non-commercial license can be exchanged, and the exchange includes a vision screening. If the out-of-state license is expired, or you are a first-time driver, you must complete the testing process. The page does not say a current out-of-state license holder skips the knowledge or road test.",
     "transfer_url": "https://www.bmv.ohio.gov/new-to-ohio.aspx",
     "teen_summary": null,
     "teen_url": "https://www.bmv.ohio.gov/dl-gdl.aspx",
@@ -4739,6 +4751,14 @@
         "text": "No driving from midnight to 5 a.m. except work, school, or an emergency.",
         "url": "https://www.dps.texas.gov/section/driver-license/texas-provisional-license-teen"
       }
+    ],
+    "transfer_points": [
+      {
+        "heading": "The 90 day clock",
+        "label": "Texas Driver Handbook",
+        "text": "The moving-to-Texas page does not state a number of days. The Texas Driver Handbook, DL-7, revised January 2026, does: new residents who are exchanging a valid out-of-state license have 90 days to establish residency in order to get a Texas driver license. The same web page still says a valid license from another U.S. state, a U.S. territory, or Canada is surrendered and the knowledge and skills exams are not required.",
+        "url": "https://www.dps.texas.gov/internetforms/getForm.ashx?id=DL-7.pdf"
+      }
     ]
   },
   {
@@ -5266,7 +5286,7 @@
     "holding_url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Webapps/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf",
     "real_id_summary": "West Virginia lets applicants choose a license that is not for federal identification or a REAL ID card marked with a gold star for federal identification use.",
     "real_id_url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Webapps/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf",
-    "transfer_summary": "New residents who want to drive in WV must apply for a WV driver's license within 30 days",
+    "transfer_summary": "After you establish West Virginia residency, the Driver's Licensing Handbook says you must apply for a West Virginia driver license within 30 days if you want to drive there.",
     "transfer_url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Webapps/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf",
     "teen_summary": null,
     "teen_url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Webapps/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf",
@@ -5335,6 +5355,26 @@
       },
       {
         "text": "be at least 17 years old, and have successfully completed all requirements",
+        "url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Webapps/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      }
+    ],
+    "transfer_points": [
+      {
+        "heading": "A valid out-of-state license",
+        "label": "Licensing handbook",
+        "text": "A valid license that has not expired can be transferred. The handbook still requires a vision screening, a short alcohol awareness course, surrender of the out-of-state license, and the same identity documents a first-time applicant brings. A motorcycle endorsement can transfer for an added fee. The new-resident section does not print that fee, so it is not guessed here.",
+        "url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Webapps/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      },
+      {
+        "heading": "Expired, missing, or suspended licenses",
+        "label": "Licensing handbook",
+        "text": "If the out-of-state license has expired, the handbook says you take the examinations required of a first-time applicant. If you cannot hand over the old license, a certified driving record from the prior state is what the handbook requires in order to waive testing. A license that is suspended or revoked in another state blocks a West Virginia license until there is a clearance from the Problem Driver Point System. The handbook says it is illegal to drive in West Virginia on a suspended or revoked license from any state.",
+        "url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Webapps/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
+      },
+      {
+        "heading": "A later address change",
+        "label": "Licensing handbook",
+        "text": "If you later change your address inside West Virginia, the handbook says you must tell the DMV in writing within 20 days. That clock is not the 30 days to get the license after you move in.",
         "url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Webapps/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf"
       }
     ]

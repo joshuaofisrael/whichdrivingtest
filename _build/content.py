@@ -498,6 +498,16 @@ def state_page(st, topics, published):
             "<p>The learner permit age, the practice-hour line, and the document list were rechecked on 20 Nov 2026. "
             "Other lines on this page still reflect the 16 Nov 2026 check.</p>"
         )
+    if st["slug"] == "ohio":
+        inner.append(
+            "<p>The new-resident deadline and the exchange steps were rechecked on 21 Nov 2026. "
+            "Other lines on this page still reflect the 16 Nov 2026 check.</p>"
+        )
+    if st["slug"] == "west-virginia":
+        inner.append(
+            "<p>The new-resident deadline in the licensing handbook was rechecked on 21 Nov 2026. "
+            "Other lines on this page still reflect the 16 Nov 2026 check.</p>"
+        )
     inner.extend([
         '<div class="answer"><p><strong>Quick answer</strong></p><ul>' + "".join(quick) + "</ul></div>",
         buttons(st),
@@ -1015,6 +1025,7 @@ def transfer_page(st, topics, published):
     description = f"Moving a driver license to {place}, from the official agency page."
     crumbs = [("Home", "/"), (name, f"/{st['slug']}/"), ("Transfer", "/" + path)]
     stamp = LASTMOD_OVERRIDES.get(path)
+    checked = label_for_iso(stamp) if stamp == "2026-11-21" else None
     inner = [
         sentence(st.get("transfer_summary"), st.get("transfer_url"), "Transfer rules"),
         "<p>If this summary does not say whether a knowledge test or a road test is waived, the pages we checked did not make that clear. Read the official page before you skip a test.</p>",
@@ -1057,7 +1068,9 @@ def transfer_page(st, topics, published):
         ),
     ]
     related = related_for(st, topics, published, "transfer")
-    body = frame(h1, crumbs, "".join(x for x in inner if x), faqs, sources_for(st), related)
+    if stamp == "2026-11-21":
+        related = [("/guides/license-transfer-deadlines/", "License transfer deadlines by state")] + related
+    body = frame(h1, crumbs, "".join(x for x in inner if x), faqs, sources_for(st), related, checked=checked)
     return pack(
         path,
         which_title(name, "license to transfer"),
@@ -1097,6 +1110,36 @@ def teen_page(st, topics, published):
             "<p>These Stage I and Stage II lines were rechecked on 20 Nov 2026 against the ALEA graduated license page. "
             "Stage II also says the driver must not use any handheld communication device while driving.</p>"
         )
+    if st["slug"] == "alaska":
+        inner.append(
+            "<p>These lines were opened again on 21 Nov 2026. The instruction permit still starts at 14, "
+            "and the permit is valid for two years with one renewal. The permit page prints a fee. "
+            "It still does not publish a practice-hour total. The provisional license still requires six months "
+            "on the permit, a road test, and no traffic conviction or suspension in the previous six months. "
+            "The night rule has two exceptions: a licensed driver who is at least 21 is with you, or the trip "
+            "is for work and uses the most direct route. Breaking a provisional restriction is an infraction. "
+            "That page prints a penalty and 2 points.</p>"
+        )
+        inner.append(
+            next_reads_block(
+                [
+                    (f"/{st['slug']}/permit/", f"{name} learner permit", None),
+                    ("/guides/teen-licensing/", "Teen licensing by state", None),
+                    ("/guides/permit-holding-period/", "Permit holding periods by state", None),
+                    ("/guides/license-transfer-deadlines/", "License transfer deadlines by state", None),
+                ],
+                "Related pages",
+            )
+        )
+        inner.append(
+            compare_box(
+                st,
+                published,
+                "teen",
+                blurb="Alaska still does not print a practice-hour total. Open a neighbor and read the hours that state does publish.",
+                link_suffix="teen",
+            )
+        )
     inner.extend([
         sentence(st.get("teen_summary"), st.get("teen_url") or st.get("supervised_url"), "Teen rules"),
         '<div class="answer"><p><strong>Quick answer</strong></p><ul>' + "".join(bits) + "</ul></div>" if bits else "",
@@ -1130,8 +1173,13 @@ def teen_page(st, topics, published):
             st.get("passengers") or "A passenger limit was not clearly published on the pages we checked.",
         ),
     ]
-    checked = label_for_iso(LASTMOD_OVERRIDES[path]) if st["slug"] == "alabama" and path in LASTMOD_OVERRIDES else None
-    body = frame(h1, crumbs, "".join(x for x in inner if x), faqs, sources_for(st), related_for(st, topics, published, "teen"), checked=checked)
+    checked = None
+    if path in LASTMOD_OVERRIDES and (st["slug"] == "alabama" or LASTMOD_OVERRIDES[path] == "2026-11-21"):
+        checked = label_for_iso(LASTMOD_OVERRIDES[path])
+    related = related_for(st, topics, published, "teen")
+    if st["slug"] == "alaska":
+        related = [("/guides/license-transfer-deadlines/", "License transfer deadlines by state")] + related
+    body = frame(h1, crumbs, "".join(x for x in inner if x), faqs, sources_for(st), related, checked=checked)
     return finish(path, which_title(name, "teen license to get"), description, None, body, h1, crumbs, faqs, f"{name} teen licensing")
 
 
@@ -1207,6 +1255,7 @@ def home_page(states):
 <li><a href="/guides/permit-test-questions-by-state/">Permit test questions and passing scores by state</a></li>
 <li><a href="/guides/teen-licensing/">Teen licensing by state</a></li>
 <li><a href="/guides/road-test-automatic-fails/">Road test mistakes that end the test</a></li>
+<li><a href="/guides/license-transfer-deadlines/">License transfer deadlines by state</a></li>
 </ul>
 {faq_block(faqs)}
 """
@@ -1840,6 +1889,160 @@ def guide_fails(states):
 
 
 
+def transfer_photo():
+    """News-photo thumbnail. Present only when the bank file has been copied in."""
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    rel = "assets/images/moving-boxes-car-trunk.png"
+    dest = os.path.join(root, rel)
+    bank = "/workspace/image-bank/which/moving-boxes-car-trunk.png"
+    if os.path.isfile(bank) and not os.path.isfile(dest):
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        import shutil
+
+        shutil.copyfile(bank, dest)
+    if os.path.isfile(dest):
+        return "/" + rel
+    return ""
+
+
+def guide_deadlines(states):
+    h1 = "How many days after a move must you switch your license?"
+    title = "How many days to switch a license after you move?"
+    description = "How many days after you move to switch a driver license, from each state page, checked 21 Nov 2026."
+    path = "guides/license-transfer-deadlines/"
+    crumbs = [("Home", "/"), ("Guides", "/guides/"), ("Transfer deadlines", "/" + path)]
+    with open(os.path.join(os.path.dirname(__file__), "data", "transfer-deadlines.json"), encoding="utf-8") as fh:
+        known = json.load(fh)
+    photo = transfer_photo()
+    rows = []
+    sources = []
+    counted = {"30": 0, "60": 0, "90": 0, "365": 0}
+    for st in sorted(states, key=lambda s: s["name"]):
+        slug = st["slug"]
+        topics = st.get("_topics") or {}
+        href = f"/{slug}/transfer/" if topics.get("transfer") else f"/{slug}/"
+        row = known.get(slug)
+        if not row:
+            if topics.get("transfer"):
+                note = "This site's transfer guide does not state a number of days, and that agency page was not re-opened on 21 Nov 2026."
+                url = st.get("transfer_url") or ""
+            else:
+                note = "No transfer guide is published for this state, and a day count was not confirmed on an official page on 21 Nov 2026."
+                url = ""
+            row = {
+                "sort": None,
+                "deadline": "Not clearly published",
+                "note": note,
+                "url": url,
+                "source": st.get("agency") or "State licensing agency",
+                "checked": "Not re-opened",
+            }
+        sort = row.get("sort")
+        if sort in (30, 60, 90, 365) and row.get("checked") == "21 Nov 2026":
+            counted[str(sort)] += 1
+        days_attr = "" if sort is None else str(sort)
+        source_html = esc(row.get("source") or "Official page")
+        if row.get("url"):
+            source_html = ext(row["url"], row.get("source") or "Official page")
+            if row.get("checked") == "21 Nov 2026":
+                sources.append(
+                    {
+                        "title": row.get("source") or f"{st['name']} official page",
+                        "url": row["url"],
+                        "publisher": st.get("agency") or "State licensing agency",
+                    }
+                )
+        rows.append(
+            f'<tr data-state="{esc(st["name"])}" data-name="{esc(st["name"].lower())}" data-days="{esc(days_attr)}">'
+            f"<td>{internal(href, st['name'])}</td>"
+            f"<td>{esc(row.get('deadline') or missing())}</td>"
+            f"<td>{esc(row.get('note') or '')} {source_html}</td>"
+            f"<td>{esc(row.get('checked') or '')}</td></tr>"
+        )
+    thumb = photo or None
+    reads = [
+        ("/guides/permit-holding-period/", "Permit holding periods by state", thumb),
+        ("/guides/learner-permit-ages/", "Permit ages by state", thumb),
+        ("/guides/teen-licensing/", "Teen licensing by state", thumb),
+        ("/guides/real-id/", "REAL ID, the federal rule", thumb),
+    ]
+    photo_html = ""
+    if photo:
+        photo_html = (
+            '<figure class="guide-photo">'
+            f'<a href="/image-policy/"><img src="{esc(photo)}" width="1200" height="675" '
+            'alt="Cardboard moving boxes in an open car trunk in daylight"></a>'
+            '<figcaption>AI-generated image. <a href="/image-policy/">Image policy</a>.</figcaption>'
+            "</figure>"
+        )
+    inner = (
+        photo_html
+        + "<p>People want one number of days. The states do not share one. "
+        "Pages opened on 21 Nov 2026 showed "
+        f"{counted['30']} states on a 30 day clock, {counted['60']} on 60 days, "
+        f"and {counted['90']} on 90 days. Tennessee is an extra 30 day row, kept from 16 Nov 2026, "
+        "because that agency site did not open today. Wyoming prints one year, with a short list of exceptions. "
+        "A neighbor is often a different number. Maine is 30 days. Connecticut is 90. "
+        "Ohio is 30. Indiana is 60. Virginia is 60. West Virginia is 30.</p>"
+        + "<p>A deadline cell is included only when the official page states it. "
+        "A cell that says the deadline was not clearly published is not a guess that you may wait. "
+        "Tennessee's 30 days is kept from this site's transfer guide, last checked 16 Nov 2026, "
+        "because the agency site did not open today. "
+        'The <a href="/guides/permit-holding-period/">permit holding period</a> is a different clock. '
+        "That one is how long a learner permit must be held before a road test. "
+        'Teen night rules and passenger limits are on the <a href="/guides/teen-licensing/">teen licensing table</a>. '
+        'The <a href="/guides/real-id/">REAL ID guide</a> is the federal card rule, not a move deadline.</p>'
+        + next_reads_block(reads, "Read next")
+        + missing_html(states)
+        + '<label for="state-filter">Filter states</label>'
+        '<input id="state-filter" class="filter" type="search" placeholder="Type a state name" autocomplete="off">'
+        + '<div class="tablewrap"><table class="list sortable"><thead><tr>'
+        '<th><button type="button" data-sort="data-name" aria-sort="ascending">State</button></th>'
+        '<th><button type="button" data-sort="data-days" aria-sort="none">Deadline</button></th>'
+        "<th>What the official page says</th><th>Checked</th>"
+        f"</tr></thead><tbody>{''.join(rows)}</tbody></table></div>"
+        + "<p>Column buttons sort the table. Blank deadlines stay at the bottom when you sort by days. "
+        "A commercial license is often shorter. Where the same page states that shorter clock, it is in the note, "
+        "and the sort number stays the ordinary license.</p>"
+        + '<aside class="compare" aria-label="Check another state">'
+        "<h2>Check another deadline</h2>"
+        "<p>These four transfer guides are the spread: 30 days, 60 days, 90 days, and one year.</p>"
+        "<ul>"
+        '<li><a href="/florida/transfer/">Florida transfer, 30 days</a></li>'
+        '<li><a href="/virginia/transfer/">Virginia transfer, 60 days</a></li>'
+        '<li><a href="/connecticut/transfer/">Connecticut transfer, 90 days</a></li>'
+        '<li><a href="/wyoming/transfer/">Wyoming transfer, one year</a></li>'
+        "</ul>"
+        '<p class="note"><a href="/states/">All states</a> · <a href="/guides/">All guides</a></p>'
+        "</aside>"
+    )
+    faqs = [
+        (
+            "Is the number of days the same in every state?",
+            "No. Pages opened on 21 Nov 2026 showed 30, 60, and 90 day clocks, plus one year in Wyoming. A blank cell means that page did not state a number.",
+        ),
+        (
+            "Does a commercial license use the same deadline?",
+            "Often no. Alaska, Maryland, Virginia, and Wisconsin print a shorter commercial clock on the same page as the ordinary license. The note on that row is the place to read it.",
+        ),
+        (
+            "What does Wyoming's one year rule actually say?",
+            "You have one year after you establish residency, unless the license you already hold is from Georgia, Massachusetts, Michigan, Tennessee, or Wisconsin, or it is a commercial license. Those exceptions apply as soon as residency is established.",
+        ),
+        (
+            "Why is a state missing from the table?",
+            "Massachusetts, Illinois, Colorado, and New York are not in the table because the official sites could not be quoted. A published state with a blank deadline had no day count on the page that was opened.",
+        ),
+    ]
+    body = frame(h1, crumbs, inner, faqs, sources, reads, checked="21 Nov 2026")
+    schemas = content_schemas(h1, path, crumbs, faqs, "New resident license transfer deadlines", published="2026-11-21")
+    if photo:
+        for schema in schemas:
+            if schema.get("@type") == "Article":
+                schema["image"] = DOMAIN + photo
+    return pack(path, title, description, None, body, schemas, lastmod="2026-11-21")
+
+
 def guides_index(states):
     h1 = "Driving test guides"
     title = "Which driving test guide to read"
@@ -1855,6 +2058,7 @@ def guides_index(states):
 <li><a href="/guides/permit-test-questions-by-state/">Permit test questions and passing scores by state</a></li>
 <li><a href="/guides/teen-licensing/">Teen licensing by state</a></li>
 <li><a href="/guides/road-test-automatic-fails/">Road test mistakes that end the test</a></li>
+<li><a href="/guides/license-transfer-deadlines/">License transfer deadlines by state</a></li>
 </ul>
 <p>State pages are the place to confirm a figure. These guides compare them or explain the federal REAL ID rule.</p>
 """ + missing_html(states)
@@ -1868,6 +2072,7 @@ def guides_index(states):
             "Massachusetts, Illinois, Colorado, and New York are not yet covered because the official sites could not be quoted.",
         ),
     ]
+    stamp = LASTMOD_OVERRIDES.get(path)
     body = frame(
         h1,
         crumbs,
@@ -1875,8 +2080,17 @@ def guides_index(states):
         faqs,
         [],
         [("/states/", "All states"), ("/methodology/", "Sources and methods"), ("/", "Home")],
+        checked=label_for_iso(stamp) if stamp else None,
     )
-    return pack(path, title, description, None, body, content_schemas(h1, path, crumbs, faqs, "Driving test guides"))
+    return pack(
+        path,
+        title,
+        description,
+        None,
+        body,
+        content_schemas(h1, path, crumbs, faqs, "Driving test guides", published=stamp),
+        lastmod=stamp,
+    )
 
 
 def label_for_iso(iso):
@@ -2182,6 +2396,7 @@ def all_pages(states):
         guide_holding(published_states),
         guide_questions(published_states),
         guide_fails(published_states),
+        guide_deadlines(published_states),
     ]
     pages.extend(static_pages(published_states))
     pages.append(not_found_page())

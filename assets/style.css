@@ -46,5 +46,11 @@ footer.site{background:var(--navy);color:#eef3f6;padding:1.5rem 0;margin-top:2re
 .consent button{font:inherit;font-weight:800;border-radius:8px;padding:.45rem .85rem;cursor:pointer;border:2px solid var(--navy);background:#fff;color:var(--navy)}
 #consent-accept{background:var(--sun)}
 .prose img{max-width:8rem;height:auto;border-radius:8px}
+.guide-photo{margin:0 0 1rem}
+.guide-photo a{display:block}
+.guide-photo img{max-width:100%;width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:8px}
+.guide-photo figcaption{font-size:.9rem;color:var(--muted);margin-top:.35rem}
+table.sortable th button{font:inherit;font-weight:700;color:inherit;background:transparent;border:0;padding:0;cursor:pointer;text-align:left}
+table.sortable th button:hover,table.sortable th button:focus-visible{text-decoration:underline}
 @media (max-width:700px){.consent{left:1rem;right:1rem;max-width:none}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
