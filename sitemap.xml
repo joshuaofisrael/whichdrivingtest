@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://whichdrivingtest.com/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://whichdrivingtest.com/states/</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://whichdrivingtest.com/guides/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://whichdrivingtest.com/guides/how-to-use/</loc>
@@ -39,6 +39,10 @@
   <url>
     <loc>https://whichdrivingtest.com/guides/road-test-automatic-fails/</loc>
     <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://whichdrivingtest.com/guides/license-transfer-deadlines/</loc>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://whichdrivingtest.com/about/</loc>
@@ -98,7 +102,7 @@
   </url>
   <url>
     <loc>https://whichdrivingtest.com/alaska/teen/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://whichdrivingtest.com/arizona/</loc>
@@ -846,7 +850,7 @@
   </url>
   <url>
     <loc>https://whichdrivingtest.com/ohio/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://whichdrivingtest.com/ohio/permit/</loc>
@@ -866,7 +870,7 @@
   </url>
   <url>
     <loc>https://whichdrivingtest.com/ohio/transfer/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://whichdrivingtest.com/ohio/teen/</loc>
@@ -1026,7 +1030,7 @@
   </url>
   <url>
     <loc>https://whichdrivingtest.com/texas/transfer/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://whichdrivingtest.com/texas/teen/</loc>
@@ -1150,7 +1154,7 @@
   </url>
   <url>
     <loc>https://whichdrivingtest.com/west-virginia/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://whichdrivingtest.com/west-virginia/permit/</loc>
@@ -1159,6 +1163,10 @@
   <url>
     <loc>https://whichdrivingtest.com/west-virginia/real-id/</loc>
     <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://whichdrivingtest.com/west-virginia/transfer/</loc>
+    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://whichdrivingtest.com/west-virginia/teen/</loc>

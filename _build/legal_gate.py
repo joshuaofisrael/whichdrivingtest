@@ -63,6 +63,7 @@ SOURCED_GUIDES = {
     "guides/permit-holding-period/index.html",
     "guides/permit-test-questions-by-state/index.html",
     "guides/road-test-automatic-fails/index.html",
+    "guides/license-transfer-deadlines/index.html",
 }
 KW = {
     1: r"\b(fraud\w*|scam\w*|corrupt(ion|ly)?|embezzl\w*|arrested|indicted|charged with|convicted|lawsuits?|sued|suing|misconduct|abus(e|ed|ive)|dishonest\w*|cover[ -]?up|criminal|bribe\w*|negligen\w*|cheat(s|ed|ing)?|rip[ -]?off)\b",

@@ -48,7 +48,16 @@ LASTMOD_OVERRIDES = {
     "guides/learner-permit-ages/": "2026-11-20",
     "guides/teen-licensing/": "2026-11-20",
     "guides/road-test-automatic-fails/": "2026-11-20",
-    "": "2026-11-20",
-    "states/": "2026-11-20",
     "guides/permit-test-questions-by-state/": "2026-11-19",
+    "": "2026-11-21",
+    "states/": "2026-11-20",
+    # License-transfer deadline check, 21 Nov 2026.
+    "guides/": "2026-11-21",
+    "guides/license-transfer-deadlines/": "2026-11-21",
+    "alaska/teen/": "2026-11-21",
+    "ohio/": "2026-11-21",
+    "ohio/transfer/": "2026-11-21",
+    "texas/transfer/": "2026-11-21",
+    "west-virginia/": "2026-11-21",
+    "west-virginia/transfer/": "2026-11-21",
 }

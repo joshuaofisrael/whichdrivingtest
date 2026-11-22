@@ -1,0 +1,218 @@
+{
+  "alabama": {
+    "sort": 30,
+    "deadline": "30 days",
+    "note": "ALEA says a person with a valid license from the previous state may drive without an Alabama license for 30 days after becoming a resident. Full-time students with a valid home-state license are listed separately.",
+    "url": "https://www.alea.gov/dps/driver-license/driver-license-information",
+    "source": "ALEA driver license information",
+    "checked": "21 Nov 2026"
+  },
+  "alaska": {
+    "sort": 90,
+    "deadline": "90 days",
+    "note": "The DMV FAQ says you may drive in Alaska for up to 90 days on a valid out-of-state license, and that you need an Alaska license at that time. A commercial license is 30 days after you become a resident.",
+    "url": "https://dmv.alaska.gov/general-information/frequently-asked-questions/",
+    "source": "Alaska DMV frequently asked questions",
+    "checked": "21 Nov 2026"
+  },
+  "arizona": {
+    "sort": null,
+    "deadline": "Not clearly published",
+    "note": "The ADOT 'New to Arizona' page opened on 21 Nov 2026 explains residency and what to bring. It does not state a number of days to get the license. Vehicle registration is described as 'as soon as you become an Arizona resident.'",
+    "url": "https://azdot.gov/mvd/services/driver-license-ID/new-to-arizona",
+    "source": "ADOT New to Arizona",
+    "checked": "21 Nov 2026"
+  },
+  "california": {
+    "sort": null,
+    "deadline": "Not clearly published",
+    "note": "Section 1 of the current California Driver's Handbook, and the driver license page, were opened on 21 Nov 2026. Neither states a number of days for a new resident to apply. An older handbook PDF is not used here.",
+    "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/the-california-driver-license/",
+    "source": "California Driver's Handbook, section 1",
+    "checked": "21 Nov 2026"
+  },
+  "connecticut": {
+    "sort": 90,
+    "deadline": "90 days",
+    "note": "Once you establish residency, Connecticut gives you 90 days to transfer an out-of-state license. The same page also uses 90 days for vehicle registration. That is a separate clock.",
+    "url": "https://portal.ct.gov/dmv/licenses-permits-ids/transfer-out-of-state-license",
+    "source": "Connecticut DMV, transfer an out-of-state license",
+    "checked": "21 Nov 2026"
+  },
+  "florida": {
+    "sort": 30,
+    "deadline": "30 days",
+    "note": "A new Florida resident must get a Florida driver license within 30 days of establishing residency to drive on Florida roads. The same page uses 10 days for titling a vehicle, which is not the license clock.",
+    "url": "https://www.flhsmv.gov/new-resident/",
+    "source": "FLHSMV new resident",
+    "checked": "21 Nov 2026"
+  },
+  "georgia": {
+    "sort": 30,
+    "deadline": "30 days",
+    "note": "You must apply for a Georgia driver license within 30 days of becoming a Georgia resident. A learner permit from another state still has to meet Georgia learner-permit rules.",
+    "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/new-georgia-residents-and-out-state/how",
+    "source": "Georgia DDS, transfer an out-of-state license",
+    "checked": "21 Nov 2026"
+  },
+  "idaho": {
+    "sort": 30,
+    "deadline": "30 days",
+    "note": "You must get an Idaho driver license or ID within 30 days of moving, whether the out-of-state credential has expired or not. Vehicle title and registration use the same 30 days.",
+    "url": "https://itd.idaho.gov/guide/new-to-idaho/",
+    "source": "Idaho Transportation Department, new to Idaho",
+    "checked": "21 Nov 2026"
+  },
+  "indiana": {
+    "sort": 60,
+    "deadline": "60 days",
+    "note": "If you move to Indiana with a valid driver license from another state, the BMV says you have 60 days to get an Indiana license. Someone without a valid out-of-state license follows the learner-permit path instead.",
+    "url": "https://www.in.gov/bmv/licenses-permits-ids/new-indiana-residents",
+    "source": "Indiana BMV, new residents",
+    "checked": "21 Nov 2026"
+  },
+  "iowa": {
+    "sort": null,
+    "deadline": "Not clearly published",
+    "note": "The 'New to Iowa' page opened on 21 Nov 2026 uses 30 days for the card to arrive in the mail and for a vehicle purchase. It does not state a number of days after you move to switch the license.",
+    "url": "https://iowadot.gov/drivers-licenses-ids/new-iowa",
+    "source": "Iowa DOT, new to Iowa",
+    "checked": "21 Nov 2026"
+  },
+  "louisiana": {
+    "sort": null,
+    "deadline": "Not clearly published",
+    "note": "The Office of Motor Vehicles new-license page opened on 21 Nov 2026 does not state a number of days for a new resident to switch a license.",
+    "url": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/new-licenses/",
+    "source": "Louisiana OMV, new licenses",
+    "checked": "21 Nov 2026"
+  },
+  "maine": {
+    "sort": 30,
+    "deadline": "30 days",
+    "note": "You must get a Maine license within 30 days of becoming a resident. A separate '30 days' on the same page is the age of a certified driving record, not the move deadline.",
+    "url": "https://www.maine.gov/sos/bmv/driver-licenses-and-ids/i-moved-to-from-a-different-state",
+    "source": "Maine BMV, moved to or from another state",
+    "checked": "21 Nov 2026"
+  },
+  "maryland": {
+    "sort": 60,
+    "deadline": "60 days",
+    "note": "An out-of-state driver license must be updated to a Maryland license within 60 days of moving. A commercial license must be transferred within 30 days.",
+    "url": "https://mva.maryland.gov/your-mva-guide/new-maryland-residents/get-maryland-drivers-license-or-id-card",
+    "source": "Maryland MVA, new residents",
+    "checked": "21 Nov 2026"
+  },
+  "nebraska": {
+    "sort": 30,
+    "deadline": "30 days",
+    "note": "Any new resident with a valid license from another state must get a Nebraska license within 30 days.",
+    "url": "https://dmv.nebraska.gov/dl/new-nebraska-resident-drivers-licensing",
+    "source": "Nebraska DMV, new residents",
+    "checked": "21 Nov 2026"
+  },
+  "nevada": {
+    "sort": 30,
+    "deadline": "30 days",
+    "note": "The DMV FAQ says new residents must switch an out-of-state license to a Nevada license within 30 days of moving. A second line on the same page says within 30 days of establishing residency.",
+    "url": "https://dmv.nv.gov/faqs.htm",
+    "source": "Nevada DMV FAQ",
+    "checked": "21 Nov 2026"
+  },
+  "new-jersey": {
+    "sort": 60,
+    "deadline": "60 days",
+    "note": "You must transfer an out-of-state license within 60 days of the move, or before the current license expires, whichever comes first. Vehicle title and registration use the same 60 days outside a public-health emergency.",
+    "url": "https://www.nj.gov/mvc/drivertopics/movetonj.htm",
+    "source": "New Jersey MVC, moving to New Jersey",
+    "checked": "21 Nov 2026"
+  },
+  "new-mexico": {
+    "sort": null,
+    "deadline": "Not clearly published",
+    "note": "The MVD driver-license page opened on 21 Nov 2026 says a current out-of-state license waives the written test, and that a license expired a year or more does not. It does not state a number of days after you move to apply.",
+    "url": "https://www.mvd.newmexico.gov/nm-drivers-licenses-ids/drivers-license/",
+    "source": "New Mexico MVD, driver license",
+    "checked": "21 Nov 2026"
+  },
+  "north-carolina": {
+    "sort": 60,
+    "deadline": "60 days",
+    "note": "Within 60 days of establishing a permanent residence, if you will drive, you must get a North Carolina driver license. The same page uses a separate, usually 30 day, clock for vehicle registration.",
+    "url": "https://www.ncdot.gov/dmv/help/moving/Pages/new-residents.aspx",
+    "source": "NCDOT, new residents",
+    "checked": "21 Nov 2026"
+  },
+  "ohio": {
+    "sort": 30,
+    "deadline": "30 days",
+    "note": "You are an Ohio resident once you take a job, sign a lease, buy a home, or enroll children in school. Within 30 days you transfer the out-of-state license or ID, the title, and the registration. An unexpired non-commercial license can be exchanged at 16 or older, with a vision screening. An expired license, or a first-time driver, must complete the testing process.",
+    "url": "https://www.bmv.ohio.gov/new-to-ohio.aspx",
+    "source": "Ohio BMV, new to Ohio",
+    "checked": "21 Nov 2026"
+  },
+  "pennsylvania": {
+    "sort": 60,
+    "deadline": "60 days",
+    "note": "Pub 95 says a person with a valid license from another state or Canada must get a Pennsylvania license within 60 days after moving and surrender the out-of-state license. That sentence does not say the knowledge or road test is waived.",
+    "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+    "source": "PennDOT Pub 95 driver manual",
+    "checked": "21 Nov 2026"
+  },
+  "tennessee": {
+    "sort": 30,
+    "deadline": "30 days",
+    "note": "The Tennessee transfer guide says a new resident who holds another state's license must get a Tennessee license within 30 days. That line was checked 16 Nov 2026. The agency site did not open on 21 Nov 2026, so this row was not re-verified today.",
+    "url": "https://www.tn.gov/safety/driver-services/classd/dlnew.html",
+    "source": "Tennessee Department of Safety, new residents",
+    "checked": "16 Nov 2026"
+  },
+  "texas": {
+    "sort": 90,
+    "deadline": "90 days",
+    "note": "The Texas Driver Handbook, DL-7, revised January 2026, says new residents exchanging a valid out-of-state license have 90 days to establish residency and get a Texas license. The moving-to-Texas web page opened the same day does not state a day count. That web page does say a valid U.S. or Canadian license is surrendered and the knowledge and skills exams are not required.",
+    "url": "https://www.dps.texas.gov/internetforms/getForm.ashx?id=DL-7.pdf",
+    "source": "Texas Driver Handbook DL-7, revised January 2026",
+    "checked": "21 Nov 2026"
+  },
+  "virginia": {
+    "sort": 60,
+    "deadline": "60 days",
+    "note": "When you move to Virginia you have 60 days to get a Virginia driver license to drive there legally. A commercial license must be converted within 30 days. Titling a vehicle is a separate 30 day clock.",
+    "url": "https://www.dmv.virginia.gov/moving/new-virginia",
+    "source": "Virginia DMV, new to Virginia",
+    "checked": "21 Nov 2026"
+  },
+  "washington": {
+    "sort": null,
+    "deadline": "Not clearly published",
+    "note": "The Department of Licensing testing page opened on 21 Nov 2026 uses '30 days' for how recent a driving record must be. It does not state a number of days after you move to get a Washington license.",
+    "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test",
+    "source": "Washington DOL, do I need to take a test",
+    "checked": "21 Nov 2026"
+  },
+  "west-virginia": {
+    "sort": 30,
+    "deadline": "30 days",
+    "note": "After you establish residency, the licensing handbook says you must apply within 30 days if you want to drive. A valid unexpired out-of-state license can be transferred after a vision screening, a short alcohol awareness course, and surrender of the old license. An expired license means the first-time examinations. A later address change inside the state is 20 days, which is a different clock.",
+    "url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Webapps/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf",
+    "source": "West Virginia Driver's Licensing Handbook",
+    "checked": "21 Nov 2026"
+  },
+  "wisconsin": {
+    "sort": 60,
+    "deadline": "60 days",
+    "note": "After you establish residence, a regular license is 60 days and a commercial license is 30 days.",
+    "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/ooslicense.aspx",
+    "source": "Wisconsin DOT, out-of-state license",
+    "checked": "21 Nov 2026"
+  },
+  "wyoming": {
+    "sort": 365,
+    "deadline": "1 year",
+    "note": "You have one year from the time you establish residency to be issued a Wyoming license, unless the license you hold is from Georgia, Massachusetts, Michigan, Tennessee, or Wisconsin, or it is a commercial license. In those cases you apply once residency is established.",
+    "url": "https://www.dot.state.wy.us/home/driver_license_records/driver-license.html",
+    "source": "Wyoming DOT driver license",
+    "checked": "21 Nov 2026"
+  }
+}

@@ -174,6 +174,7 @@ def main():
             "guides/permit-holding-period/index.html",
             "guides/permit-test-questions-by-state/index.html",
             "guides/road-test-automatic-fails/index.html",
+            "guides/license-transfer-deadlines/index.html",
         ) or (top in BY_SLUG and rel.endswith("/index.html") and rel.count("/") == 1)
         if key_faq and '"@type": "FAQPage"' not in text:
             issue(f"no-faq-schema {rel}")

@@ -192,8 +192,19 @@ def sources_block(sources, checked=None):
 def related_block(links):
     if not links:
         return ""
-    items = "".join(f"<li>{internal(href, label)}</li>" for href, label in links)
-    return f'<aside class="related"><h2>Related guides</h2><ul>{items}</ul></aside>'
+    items = []
+    for link in links:
+        href, label = link[0], link[1]
+        thumb = link[2] if len(link) > 2 else None
+        if thumb:
+            thumb_html = (
+                f'<a class="next-thumb" href="/image-policy/">'
+                f'<img src="{esc(thumb)}" width="120" height="68" alt="" loading="lazy"></a>'
+            )
+            items.append(f'<li class="next-read">{thumb_html}{internal(href, label)}</li>')
+        else:
+            items.append(f"<li>{internal(href, label)}</li>")
+    return f'<aside class="related"><h2>Related guides</h2><ul>{"".join(items)}</ul></aside>'
 
 
 def facts_table(rows):

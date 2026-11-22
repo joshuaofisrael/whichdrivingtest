@@ -51,5 +51,4 @@ vermont/fees
 vermont/written-test
 west-virginia/fees
 west-virginia/road-test
-west-virginia/transfer
 west-virginia/written-test
