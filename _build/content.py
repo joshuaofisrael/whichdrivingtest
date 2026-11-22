@@ -1000,13 +1000,20 @@ def next_reads_block(links, heading="Keep reading"):
     """Mid-article next-read list. Thumbnails are added when a page image exists."""
     if not links:
         return ""
+    fallbacks = [
+        "/assets/images/learner-driver-wheel.png",
+        "/assets/images/moving-boxes-car-trunk.png",
+        "/assets/images/permit-test-questions-by-state.jpg",
+    ]
     items = []
-    for href, label, thumb in links:
+    for i, (href, label, thumb) in enumerate(links):
         thumb_html = ""
-        if thumb:
+        src = thumb or fallbacks[i % len(fallbacks)]
+        if src:
             thumb_html = (
                 f'<a class="next-thumb" href="/image-policy/">'
-                f'<img src="{esc(thumb)}" width="120" height="68" alt="" loading="lazy"></a>'
+                f'<img src="{esc(src)}" width="120" height="68" alt="" loading="lazy"></a>'
+                f'<span class="img-credit"><a href="/image-policy/">Image policy</a></span>'
             )
         items.append(
             f'<li class="next-read">{thumb_html}<a href="{esc(href)}">{esc(label)}</a></li>'
